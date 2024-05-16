@@ -3,7 +3,13 @@
   "importer": "javascript",
   "imported": true,
   "uuid": "8dcc8914-bd4b-42dc-8d4c-2c4db98de753",
-  "files": [],
+  "files": [
+    ".js"
+  ],
   "subMetas": {},
-  "userData": {}
+  "userData": {
+    "isPlugin": true,
+    "loadPluginInWeb": true,
+    "loadPluginInEditor": true
+  }
 }
