@@ -10,7 +10,7 @@
       "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts": {
-      "time": 1715793398411.5369,
+      "time": 1715849816967.795,
       "uuid": "aa56c93b-3412-48f6-b7e7-04f207946720"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs.meta": {
@@ -31,7 +31,7 @@
       "uuid": "8dcc8914-bd4b-42dc-8d4c-2c4db98de753"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/firebase.js.meta": {
-      "time": 1715792250411.524
+      "time": 1715840264054.4373
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/test.tsx.meta": {
       "time": 1715664103911.5205
@@ -47,21 +47,21 @@
       "time": 1715664839809.198
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scene": {
-      "time": 1715833535269.4885,
+      "time": 1716112234342.2932,
       "uuid": "d1e81e9d-ab3a-407d-931f-acb9135b2694"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.ts.meta": {
       "time": 1715664850201.2185
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.ts": {
-      "time": 1715834154793.9182,
+      "time": 1716113126330.959,
       "uuid": "f8e14817-73d6-4f34-aac7-7cc175cf1c4f"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/multiRoom.prefab.meta": {
       "time": 1715665038852.8542
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/multiRoom.prefab": {
-      "time": 1715665221998.2788,
+      "time": 1716113129208.1047,
       "uuid": "e97af634-9c44-4bfc-a4b9-b740944b1e6a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Game.scene.meta": {
@@ -84,6 +84,13 @@
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Image/game-bg.png": {
       "time": 1715832775264.4075,
       "uuid": "4f0c74f0-2507-4837-a3ad-ff7063ea15aa"
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiRoom.ts.meta": {
+      "time": 1715849816968.621
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiRoom.ts": {
+      "time": 1715849917590.4768,
+      "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
     }
   },
   "missing": {

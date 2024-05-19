@@ -44,11 +44,11 @@
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "e97af634-9c44-4bfc-a4b9-b740944b1e6a"
+        "e97af634-9c44-4bfc-a4b9-b740944b1e6a",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941"
       ],
       "dependScripts": [
-        "f8e14817-73d6-4f34-aac7-7cc175cf1c4f",
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+        "f8e14817-73d6-4f34-aac7-7cc175cf1c4f"
       ]
     },
     "versionCode": 0
@@ -67,7 +67,7 @@
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
       ],
       "dependScripts": [
-        "f8e14817-73d6-4f34-aac7-7cc175cf1c4f"
+        "47837149-e547-4500-8f1c-895cdb0fb1df"
       ]
     },
     "versionCode": 0
@@ -115,6 +115,11 @@
         "4f0c74f0-2507-4837-a3ad-ff7063ea15aa@6c48a"
       ]
     },
+    "versionCode": 0
+  },
+  "47837149-e547-4500-8f1c-895cdb0fb1df": {
+    "url": "db://assets/Scripts/MultiRoom.ts",
+    "value": {},
     "versionCode": 0
   }
 }

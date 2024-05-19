@@ -6,7 +6,17 @@
         "asyncFunctions": true
       },
       "name": "BoomBoom Frontier",
-      "md5Cache": false
+      "md5Cache": false,
+      "scenes": [
+        {
+          "url": "db://assets/Scenes/Menu.scene",
+          "uuid": "ab2dfc6f-bc35-40ac-96f3-d85479c4cacd"
+        },
+        {
+          "url": "db://assets/Scenes/MultiSelect.scene",
+          "uuid": "d1e81e9d-ab3a-407d-931f-acb9135b2694"
+        }
+      ]
     },
     "taskOptionsMap": {
       "1715664182885": {

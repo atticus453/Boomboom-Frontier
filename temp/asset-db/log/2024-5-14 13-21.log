@@ -1,1451 +1,0 @@
-2024-5-14 13:21:40-log: Cannot access game frame or container.
-2024-5-14 13:21:40-debug: asset-db:require-engine-code (687ms)
-2024-5-14 13:21:40-log: meshopt wasm decoder initialized
-2024-5-14 13:21:40-log: [box2d]:box2d wasm lib loaded.
-2024-5-14 13:21:40-log: [bullet]:bullet wasm lib loaded.
-2024-5-14 13:21:41-log: Cocos Creator v3.8.2
-2024-5-14 13:21:41-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:21.33MB, end 105.73MB, increase: 84.40MB
-2024-5-14 13:21:41-debug: [Assets Memory track]: asset-db-plugin-register: programming start:106.33MB, end 107.82MB, increase: 1.49MB
-2024-5-14 13:21:43-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:108.35MB, end 233.59MB, increase: 125.24MB
-2024-5-14 13:21:43-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:107.87MB, end 236.44MB, increase: 128.57MB
-2024-5-14 13:21:43-debug: [Assets Memory track]: asset-db-plugin-enable: project start:107.99MB, end 236.44MB, increase: 128.46MB
-2024-5-14 13:21:43-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:105.74MB, end 236.44MB, increase: 130.71MB
-2024-5-14 13:21:43-debug: run package(process) handler(enable) start
-2024-5-14 13:21:43-debug: run package(reference-image) handler(enable) start
-2024-5-14 13:21:43-debug: run package(reference-image) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(engine-extends) handler(enable) start
-2024-5-14 13:21:43-debug: run package(engine-extends) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(adsense-h5g-plugin) handler(enable) start
-2024-5-14 13:21:43-debug: run package(adsense-h5g-plugin) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(reflection-probe) handler(enable) start
-2024-5-14 13:21:43-debug: run package(alipay-mini-game) handler(enable) start
-2024-5-14 13:21:43-debug: run package(android) handler(enable) start
-2024-5-14 13:21:43-debug: run package(android) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(bytedance-mini-game) handler(enable) start
-2024-5-14 13:21:43-debug: run package(bytedance-mini-game) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(certificate) handler(enable) start
-2024-5-14 13:21:43-debug: run package(certificate) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(channel-upload-tools) handler(enable) start
-2024-5-14 13:21:43-debug: run package(channel-upload-tools) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(fb-instant-games) handler(enable) start
-2024-5-14 13:21:43-debug: run package(fb-instant-games) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(huawei-agc) handler(enable) start
-2024-5-14 13:21:43-debug: run package(huawei-agc) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(huawei-quick-game) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(huawei-quick-game) handler(enable) start
-2024-5-14 13:21:43-debug: run package(ios) handler(enable) start
-2024-5-14 13:21:43-debug: run package(ios) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(linux) handler(enable) start
-2024-5-14 13:21:43-debug: run package(linux) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(mac) handler(enable) start
-2024-5-14 13:21:43-debug: run package(mac) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(native) handler(enable) start
-2024-5-14 13:21:43-debug: run package(native) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(ohos) handler(enable) start
-2024-5-14 13:21:43-debug: run package(ohos) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(openharmony) handler(enable) start
-2024-5-14 13:21:43-debug: run package(openharmony) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(oppo-mini-game) handler(enable) start
-2024-5-14 13:21:43-debug: run package(oppo-mini-game) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(runtime-dev-tools) handler(enable) start
-2024-5-14 13:21:43-debug: run package(runtime-dev-tools) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(taobao-creative-app) handler(enable) start
-2024-5-14 13:21:43-debug: run package(taobao-creative-app) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(process) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(taobao-mini-game) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(vivo-mini-game) handler(enable) start
-2024-5-14 13:21:43-debug: run package(vivo-mini-game) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(web-desktop) handler(enable) start
-2024-5-14 13:21:43-debug: run package(web-desktop) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(web-mobile) handler(enable) start
-2024-5-14 13:21:43-debug: run package(web-mobile) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(wechatgame) handler(enable) start
-2024-5-14 13:21:43-debug: run package(wechatgame) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(wechatprogram) handler(enable) start
-2024-5-14 13:21:43-debug: run package(wechatprogram) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(windows) handler(enable) start
-2024-5-14 13:21:43-debug: run package(windows) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(xiaomi-quick-game) handler(enable) start
-2024-5-14 13:21:43-debug: run package(taobao-mini-game) handler(enable) start
-2024-5-14 13:21:43-debug: run package(cocos-service) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(cocos-service) handler(enable) start
-2024-5-14 13:21:43-debug: run package(im-plugin) handler(enable) start
-2024-5-14 13:21:43-debug: run package(im-plugin) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(fix-device) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(fix-device) handler(enable) start
-2024-5-14 13:21:43-debug: run package(placeholder) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(placeholder) handler(enable) start
-2024-5-14 13:21:43-debug: run package(alipay-mini-game) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(xiaomi-quick-game) handler(enable) success!
-2024-5-14 13:21:43-debug: run package(reflection-probe) handler(enable) success!
-2024-5-14 13:21:43-debug: asset-db:worker-init: initPlugin (2253ms)
-2024-5-14 13:21:43-debug: [Assets Memory track]: asset-db:worker-init start:21.33MB, end 235.55MB, increase: 214.22MB
-2024-5-14 13:21:43-debug: Run asset db hook programming:beforePreStart success!
-2024-5-14 13:21:43-debug: Run asset db hook engine-extends:beforePreStart ...
-2024-5-14 13:21:43-debug: Run asset db hook engine-extends:beforePreStart success!
-2024-5-14 13:21:43-debug: Run asset db hook programming:beforePreStart ...
-2024-5-14 13:21:43-debug: asset-db:worker-init (3857ms)
-2024-5-14 13:21:43-debug: asset-db-hook-programming-beforePreStart (292ms)
-2024-5-14 13:21:43-debug: asset-db-hook-engine-extends-beforePreStart (292ms)
-2024-5-14 13:21:43-debug: Preimport db internal success
-2024-5-14 13:21:43-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:21:43-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenesbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:21:43-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scriptsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:21:43-debug: Preimport db assets success
-2024-5-14 13:21:43-debug: starting packer-driver...
-2024-5-14 13:21:43-debug: Run asset db hook programming:afterPreStart ...
-2024-5-14 13:21:43-debug: initialize scripting environment...
-2024-5-14 13:21:43-debug: Set detail map pack:///resolution-detail-map.json: {}
-2024-5-14 13:21:43-debug: Run asset db hook engine-extends:afterPreStart success!
-2024-5-14 13:21:43-debug: Start up the 'internal' database...
-2024-5-14 13:21:43-debug: Run asset db hook programming:afterPreStart success!
-2024-5-14 13:21:43-debug: [Assets Memory track]: asset-db:worker-init: preStart start:235.55MB, end 251.75MB, increase: 16.20MB
-2024-5-14 13:21:43-debug: Run asset db hook engine-extends:afterPreStart ...
-2024-5-14 13:21:43-debug: asset-db-hook-programming-afterPreStart (168ms)
-2024-5-14 13:21:43-debug: asset-db:worker-effect-data-processing (24ms)
-2024-5-14 13:21:43-debug: asset-db-hook-engine-extends-afterPreStart (24ms)
-2024-5-14 13:21:43-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:252.73MB, end 254.94MB, increase: 2.21MB
-2024-5-14 13:21:43-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/test.tsxbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:21:43-debug: Start up the 'assets' database...
-2024-5-14 13:21:43-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/firebase.jsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:21:43-debug: asset-db:worker-startup-database[internal] (245ms)
-2024-5-14 13:21:43-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:253.66MB, end 255.02MB, increase: 1.36MB
-2024-5-14 13:21:43-debug: [Assets Memory track]: asset-db:worker-init: startup start:251.76MB, end 255.03MB, increase: 3.27MB
-2024-5-14 13:21:43-debug: asset-db:worker-startup-database[assets] (204ms)
-2024-5-14 13:21:43-debug: asset-db:start-database (503ms)
-2024-5-14 13:21:43-debug: asset-db:ready (5610ms)
-2024-5-14 13:21:43-debug: init worker message success
-2024-5-14 13:21:44-debug: [Build Memory track]: builder:worker-init start:251.24MB, end 264.01MB, increase: 12.77MB
-2024-5-14 13:21:44-debug: programming:execute-script (3ms)
-2024-5-14 13:21:44-debug: builder:worker-init (326ms)
-2024-5-14 13:21:48-debug: programming:execute-script (3ms)
-2024-5-14 13:21:51-debug: refresh db internal success
-2024-5-14 13:21:51-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scriptsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:21:51-debug: refresh db assets success
-2024-5-14 13:21:51-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:21:51-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:21:51-debug: asset-db:refresh-all-database (81ms)
-2024-5-14 13:21:51-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:21:51-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:21:59-debug: refresh db internal success
-2024-5-14 13:21:59-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/firebase.jsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:21:59-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:21:59-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:21:59-debug: refresh db assets success
-2024-5-14 13:21:59-debug: asset-db:refresh-all-database (35ms)
-2024-5-14 13:21:59-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:21:59-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:22:44-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Menu.scene...
-2024-5-14 13:22:44-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Menu.scenebackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:22:44-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes success
-2024-5-14 13:22:44-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenesbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:23:02-debug: Build with Cocos Creator 3.8.2
-2024-5-14 13:23:02-debug: =================================== build Task (web-desktop) Start ================================
-2024-5-14 13:23:02-debug: Start build task, options:{"name":"Mario","server":"","platform":"web-desktop","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"ab2dfc6f-bc35-40ac-96f3-d85479c4cacd","outputName":"web-desktop","taskName":"web-desktop","scenes":[{"url":"db://assets/Scenes/Menu.scene","uuid":"ab2dfc6f-bc35-40ac-96f3-d85479c4cacd"}],"packages":{"engine":{"cleanupImageCache":"inheritProjectSetting","__version__":"1.0.8"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"cocos-service":{"configID":"c49362","services":[]},"web-desktop":{"resolution":{"designWidth":1280,"designHeight":960},"cullEngineAsmJsModule":false,"__version__":"1.0.1"}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/web-desktop5-14-2024 13-23.log"}
-2024-5-14 13:23:02-debug: Start record console... {file(/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/builder/log/web-desktop5-14-2024 13-23.log)}
-2024-5-14 13:23:02-debug: cocos-service:(onBeforeBuild) start..., progress: 0%
-2024-5-14 13:23:02-debug: // ---- build task cocos-service：onBeforeBuild ----
-2024-5-14 13:23:03-debug: // ---- build task cocos-service：onBeforeBuild ---- (527ms)
-2024-5-14 13:23:03-debug: scene:(onBeforeBuild) start..., progress: 2%
-2024-5-14 13:23:03-debug: // ---- build task scene：onBeforeBuild ----
-2024-5-14 13:23:03-debug: cocos-service:(onBeforeBuild) in 527 ms ✓, progress: 2%
-2024-5-14 13:23:03-debug: // ---- build task scene：onBeforeBuild ---- (6ms)
-2024-5-14 13:23:03-log: Asset DB is paused with build!
-2024-5-14 13:23:03-debug: Start lock asset db..., progress: 4%
-2024-5-14 13:23:03-debug: scene:(onBeforeBuild) in 6 ms ✓, progress: 4%
-2024-5-14 13:23:03-debug: Query all assets info in project
-2024-5-14 13:23:03-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-5-14 13:23:03-debug:   Number of all scenes: 1
-2024-5-14 13:23:03-debug:   Number of all scripts: 2
-2024-5-14 13:23:03-debug:   Number of other assets: 325
-2024-5-14 13:23:03-debug: web-desktop:(onAfterInit) start..., progress: 4%
-2024-5-14 13:23:03-debug: // ---- build task web-desktop：onAfterInit ----
-2024-5-14 13:23:03-debug: // ---- build task web-desktop：onAfterInit ---- (3ms)
-2024-5-14 13:23:03-debug: web-desktop:(onAfterInit) in 3 ms ✓, progress: 7%
-2024-5-14 13:23:03-debug: cocos-service:(onAfterInit) start..., progress: 7%
-2024-5-14 13:23:03-debug: // ---- build task cocos-service：onAfterInit ----
-2024-5-14 13:23:03-debug: // ---- build task cocos-service：onAfterInit ---- (405ms)
-2024-5-14 13:23:03-debug: cocos-service:(onAfterInit) in 405 ms ✓, progress: 9%
-2024-5-14 13:23:03-debug: engine:(onAfterInit) start..., progress: 9%
-2024-5-14 13:23:03-debug: // ---- build task engine：onAfterInit ----
-2024-5-14 13:23:03-debug: // ---- build task engine：onAfterInit ---- (5ms)
-2024-5-14 13:23:03-debug: engine:(onAfterInit) in 5 ms ✓, progress: 11%
-2024-5-14 13:23:03-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 11%
-2024-5-14 13:23:03-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
-2024-5-14 13:23:03-debug: [adsense-h5g-plugin] remove script success
-2024-5-14 13:23:03-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (4ms)
-2024-5-14 13:23:03-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 4 ms ✓, progress: 11%
-2024-5-14 13:23:03-debug: Init all bundles start..., progress: 11%
-2024-5-14 13:23:03-debug: Num of bundles: 2..., progress: 11%
-2024-5-14 13:23:03-debug: reload all scripts.
-2024-5-14 13:23:03-debug: Set detail map pack:///resolution-detail-map.json: {}
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-2024-5-14 13:23:03-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js is not in module cache!
-2024-5-14 13:23:03-debug: [[Executor]] Register DebugViewRuntimeControl
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js" loaded.
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js is not in module cache!
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js is not in module cache!
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js is not in module cache!
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/90/90997eabe8ce7836b94622394cb7406ec179e3ae.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/90/90997eabe8ce7836b94622394cb7406ec179e3ae.js is not in module cache!
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/aa/aa348686bfe3c2b7c5a91319ee52ae445cc7ed76.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/aa/aa348686bfe3c2b7c5a91319ee52ae445cc7ed76.js is not in module cache!
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/42/42d15e8944e0f033c1a20ac95f21535b2a490418.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/42/42d15e8944e0f033c1a20ac95f21535b2a490418.js is not in module cache!
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a8/a87061112b2b70d8d1edffc15008ad981fd1d51f.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a8/a87061112b2b70d8d1edffc15008ad981fd1d51f.js is not in module cache!
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/f8/f8519f5727e7b36ff1c89510362118795afcb00f.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/f8/f8519f5727e7b36ff1c89510362118795afcb00f.js is not in module cache!
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/440a2a2646f830c14deb2c1cb36fd6c1c16c8e88.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/440a2a2646f830c14deb2c1cb36fd6c1c16c8e88.js is not in module cache!
-2024-5-14 13:23:03-debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/41/4147f24370232754e1f2179b568f03ca30641d47.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/41/4147f24370232754e1f2179b568f03ca30641d47.js is not in module cache!
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/f8/f8519f5727e7b36ff1c89510362118795afcb00f.js" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/a8/a87061112b2b70d8d1edffc15008ad981fd1d51f.js" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/41/4147f24370232754e1f2179b568f03ca30641d47.js" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/44/440a2a2646f830c14deb2c1cb36fd6c1c16c8e88.js" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/90/90997eabe8ce7836b94622394cb7406ec179e3ae.js" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js" loaded.
-2024-5-14 13:23:03-warn: It looks like you're using the development build of the Firebase JS SDK.When deploying Firebase apps to production, it is advisable to only importthe individual SDK components you intend to use.For the CDN builds, these are available in the following manner(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
-2024-5-14 13:23:03-warn: Warning: This is a browser-targeted Firebase bundle but it appears it is beingrun in a Node environment.  If running in a Node environment, make sure youare using the bundle specified by the "main" field in package.json.If you are using Webpack, you can specify "main" as the first item in"resolve.mainFields":https://webpack.js.org/configuration/resolve/#resolvemainfieldsIf using Rollup, use the rollup-plugin-node-resolve plugin and set "module"to false and "main" to true:https://github.com/rollup/rollup-plugin-node-resolve
-2024-5-14 13:23:03-error: TypeError: Cannot read property 'hasOwnProperty' of undefined    at Qn (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:31595:38)    at new yi (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:31701:57)    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:33032:26    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36930:17    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36931:16    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30048:72    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30049:10    at CjsLoader._load (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:103:11)    at CjsLoader._tryModuleLoad (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:83:18)    at CjsLoader._require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:56:16)
-2024-5-14 13:23:03-warn: Error: Cannot instantiate firebase-auth - be sure to load firebase-app.js first.    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36933:37    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30048:72    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30049:10    at CjsLoader._load (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:103:11)    at CjsLoader._tryModuleLoad (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:83:18)    at CjsLoader._require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:56:16)    at CjsLoader.require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:36:23)    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js:41:14)    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-2024-5-14 13:23:03-log: pack:///chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.jsError: Cannot instantiate firebase-auth - be sure to load firebase-app.js first.    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36933:37    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30048:72    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30049:10    at CjsLoader._load (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:103:11)    at CjsLoader._tryModuleLoad (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:83:18)    at CjsLoader._require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:56:16)    at CjsLoader.require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:36:23)    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js:41:14)    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)false
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2024-5-14 13:23:03-debug: Incremental keys: core,__extends,__assign,__rest,__decorate,__param,__esDecorate,__runInitializers,__propKey,__setFunctionName,__metadata,__awaiter,__generator,__exportStar,__createBinding,__values,__read,__spread,__spreadArrays,__spreadArray,__await,__asyncGenerator,__asyncDelegator,__asyncValues,__makeTemplateObject,__importStar,__importDefault,__classPrivateFieldGet,__classPrivateFieldSet,__classPrivateFieldIn,__addDisposableResource,__disposeResources
-2024-5-14 13:23:03-debug: web-desktop:(onAfterBundleInit) start..., progress: 11%
-2024-5-14 13:23:03-debug: // ---- build task web-desktop：onAfterBundleInit ----
-2024-5-14 13:23:03-warn: Warning: This is a browser-targeted Firebase bundle but it appears it is beingrun in a Node environment.  If running in a Node environment, make sure youare using the bundle specified by the "main" field in package.json.If you are using Webpack, you can specify "main" as the first item in"resolve.mainFields":https://webpack.js.org/configuration/resolve/#resolvemainfieldsIf using Rollup, use the rollup-plugin-node-resolve plugin and set "module"to false and "main" to true:https://github.com/rollup/rollup-plugin-node-resolve
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/42/42d15e8944e0f033c1a20ac95f21535b2a490418.js" loaded.
-2024-5-14 13:23:03-debug: [[Executor]] Module "pack:///chunks/aa/aa348686bfe3c2b7c5a91319ee52ae445cc7ed76.js" loaded.
-2024-5-14 13:23:03-debug: // ---- build task web-desktop：onAfterBundleInit ---- (3ms)
-2024-5-14 13:23:03-debug: Init bundle root assets start..., progress: 11%
-2024-5-14 13:23:03-debug: 查询 Asset Bundle start, progress: 11%
-2024-5-14 13:23:03-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 13:23:03-debug: web-desktop:(onAfterBundleInit) in 3 ms ✓, progress: 11%
-2024-5-14 13:23:04-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-5-14 13:23:04-debug: Init bundle share assets start..., progress: 11%
-2024-5-14 13:23:04-debug: Init bundle root assets success..., progress: 11%
-2024-5-14 13:23:04-debug: Init bundle share assets success..., progress: 11%
-2024-5-14 13:23:04-debug: handle json group in bundle internal
-2024-5-14 13:23:04-debug: handle json group in bundle internal success
-2024-5-14 13:23:04-debug: handle json group in bundle main
-2024-5-14 13:23:04-debug: handle json group in bundle main success
-2024-5-14 13:23:04-debug: init image compress task 0 in bundle internal
-2024-5-14 13:23:04-debug: init image compress task 0 in bundle main
-2024-5-14 13:23:04-debug: // ---- build task 查询 Asset Bundle ---- (19ms)
-2024-5-14 13:23:04-debug: [Build Memory track]: 查询 Asset Bundle start:205.88MB, end 208.17MB, increase: 2.28MB
-2024-5-14 13:23:04-debug: 查询 Asset Bundle start, progress: 16%
-2024-5-14 13:23:04-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 13:23:04-debug: run build task 查询 Asset Bundle success in 19 ms√, progress: 16%
-2024-5-14 13:23:04-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
-2024-5-14 13:23:04-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 21%
-2024-5-14 13:23:04-debug: [Build Memory track]: 查询 Asset Bundle start:208.18MB, end 208.24MB, increase: 59.33KB
-2024-5-14 13:23:04-debug: // ---- build task web-desktop：onAfterBundleDataTask ----
-2024-5-14 13:23:04-debug: web-desktop:(onAfterBundleDataTask) start..., progress: 21%
-2024-5-14 13:23:04-debug: // ---- build task web-desktop：onAfterBundleDataTask ---- (4ms)
-2024-5-14 13:23:04-debug: web-desktop:(onAfterBundleDataTask) in 4 ms ✓, progress: 21%
-2024-5-14 13:23:04-debug: 打包脚本 start, progress: 21%
-2024-5-14 13:23:04-debug: // ---- build task 打包脚本 ----
-2024-5-14 13:23:06-debug: Generate systemJs..., progress: 21%
-2024-5-14 13:23:08-debug: 构建项目脚本 start..., progress: 21%
-2024-5-14 13:23:08-debug: Build script in bundle start, progress: 21%
-2024-5-14 13:23:09-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-2024-5-14 13:23:09-log: [build-script]enter sub process 6294, /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
-2024-5-14 13:23:10-log: [build-script]Create cjs interop url for 'file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js'
-2024-5-14 13:23:10-log: [build-script]Create cjs interop url for 'file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js'
-2024-5-14 13:23:13-debug: [build-script][BABEL] Note: The code generator has deoptimised the styling of /file:/Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js as it exceeds the max of 500KB.
-2024-5-14 13:23:19-debug: excute-script over with build-script 10329ms
-2024-5-14 13:23:19-debug: Copy externalScripts success!
-2024-5-14 13:23:19-debug: Build script in bundle success, progress: 21%
-2024-5-14 13:23:19-debug: 构建项目脚本 in (11003 ms) √, progress: 21%
-2024-5-14 13:23:19-debug: 构建引擎脚本 start..., progress: 21%
-2024-5-14 13:23:19-warn: Engine cache directory({link(/var/folders/qb/r6f5dxp12h3d5769mhs6vnhr0000gn/T/CocosCreator/3.8.2/builder/engine/bcae0dd6cb906f3d6c7420a7b5f36291)}) exists but has empty content. It's abnormal.
-2024-5-14 13:23:32-log: Run build task(build-engine) in child, see: chrome://inspect/#devices
-2024-5-14 13:23:33-log: [build-engine]enter sub process 6342, /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
-2024-5-14 13:23:33-log: [build-engine]Module source "internal-constants":function tryDefineGlobal (name, value) {    const _global = typeof window === 'undefined' ? global : window;    if (typeof _global[name] === 'undefined') {        return (_global[name] = value);    } else {        // eslint-disable-next-line @typescript-eslint/no-unsafe-return        return _global[name];    }}export const HTML5 = true;export const NATIVE = false;export const ANDROID = false;export const IOS = false;export const MAC = false;export const WINDOWS = false;export const LINUX = false;export const OHOS = false;export const OPEN_HARMONY = false;export const WECHAT = false;tryDefineGlobal('CC_WECHAT', false);export const WECHAT_MINI_PROGRAM = false;export const BAIDU = false;tryDefineGlobal('CC_BAIDU', false);export const XIAOMI = false;tryDefineGlobal('CC_XIAOMI', false);export const ALIPAY = false;tryDefineGlobal('CC_ALIPAY', false);export const TAOBAO = false;export const TAOBAO_MINIGAME = false;export const BYTEDANCE = false;tryDefineGlobal('CC_BYTEDANCE', false);export const OPPO = false;tryDefineGlobal('CC_OPPO', false);export const VIVO = false;tryDefineGlobal('CC_VIVO', false);export const HUAWEI = false;tryDefineGlobal('CC_HUAWEI', false);export const COCOSPLAY = false;tryDefineGlobal('CC_COCOSPLAY', false);export const QTT = false;tryDefineGlobal('CC_QTT', false);export const LINKSURE = false;tryDefineGlobal('CC_LINKSURE', false);export const EDITOR = false;tryDefineGlobal('CC_EDITOR', false);export const EDITOR_NOT_IN_PREVIEW = false;export const PREVIEW = false;tryDefineGlobal('CC_PREVIEW', false);export const BUILD = true;tryDefineGlobal('CC_BUILD', true);export const TEST = false;tryDefineGlobal('CC_TEST', false);export const DEBUG = false;tryDefineGlobal('CC_DEBUG', false);export const SERVER_MODE = false;export const DEV = false;tryDefineGlobal('CC_DEV', false);export const MINIGAME = false;tryDefineGlobal('CC_MINIGAME', false);export const RUNTIME_BASED = false;tryDefineGlobal('CC_RUNTIME_BASED', false);export const SUPPORT_JIT = true;tryDefineGlobal('CC_SUPPORT_JIT', true);export const JSB = false;tryDefineGlobal('CC_JSB', false);export const NOT_PACK_PHYSX_LIBS = false;export const NET_MODE = 0;export const WEBGPU = false;export const WASM_SUPPORT_MODE = 2;export const FORCE_BANNING_BULLET_WASM = false;export const CULL_ASM_JS_MODULE = false;export const WASM_FALLBACK = true;export const WASM_SUBPACKAGE = false;export const CULL_MESHOPT = true;
-2024-5-14 13:23:33-log: [build-engine]Module source "cc":export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/2d.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/sorting.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/animation.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/audio.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/base.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/dragon-bones.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/gfx-webgl.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/gfx-webgl2.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/intersection-2d.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/particle-2d.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/physics-2d-box2d.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/physics-2d-framework.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/profiler.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/spine.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/tiled-map.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/tween.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/ui.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/video.ts';export * from '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/webview.ts';
-2024-5-14 13:23:34-log: [build-engine]Redirect module internal:native to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/native-binding/impl.ts
-2024-5-14 13:23:34-log: [build-engine]Redirect module pal/system-info to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/system-info/web/system-info.ts
-2024-5-14 13:23:35-log: [build-engine]Redirect module pal/screen-adapter to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/screen-adapter/web/screen-adapter.ts
-2024-5-14 13:23:39-log: [build-engine]Redirect module pal/input to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/input/web/index.ts
-2024-5-14 13:23:40-log: [build-engine]Redirect module pal/audio to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/audio/web/player.ts
-2024-5-14 13:23:41-log: [build-engine]Redirect module pal/env to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/env/web/env.ts
-2024-5-14 13:23:41-log: [build-engine]Redirect module pal/pacer to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/pacer/pacer-web.ts
-2024-5-14 13:23:41-log: [build-engine]Redirect module /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/animation/marionette/runtime-exports.ts to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/animation/marionette/index-empty.ts
-2024-5-14 13:23:41-log: [build-engine]Redirect module pal/minigame to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/minigame/non-minigame.ts
-2024-5-14 13:23:42-log: [build-engine]Redirect module /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/renderer/native-2d.ts to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/renderer/native-2d-empty.ts
-2024-5-14 13:23:43-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/@cocos/dragonbones-js/out/dragonBones.js
-2024-5-14 13:23:43-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/@cocos/dragonbones-js/out/dragonBones.js
-2024-5-14 13:23:46-log: [build-engine]Redirect module pal/wasm to /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/wasm/wasm-web.ts
-2024-5-14 13:23:51-log: [build-engine]==== Performance ====
-2024-5-14 13:23:51-log: [build-engine]{"# BUILD":[17279.410624980927,628932004,683643408],"## generate module graph":[15687.755166053772,540095688,594812536],"- plugin 0 (@cocos/ccbuild|external-loader) - resolveId":[158.36061191558838,3949876,594764440],"- plugin 0 (@cocos/ccbuild|external-loader) - resolveId (async)":[715.7100729942322,-30352532,594764980],"- plugin 1 (@cocos/ccbuild|module-overrides) - resolveId":[152.4234218597412,-4342544,594765432],"- plugin 2 (virtual) - resolveId":[157.9880714416504,5681436,594767356],"load modules":[78962.42260837555,-6225765724,590119880],"- plugin 0 (@cocos/ccbuild|external-loader) - load":[34.418538093566895,733312,590086776],"- plugin 0 (@cocos/ccbuild|external-loader) - load (async)":[106.96235847473145,4509364,590087264],"- plugin 1 (@cocos/ccbuild|module-overrides) - load":[31.798972606658936,142276,590087708],"- plugin 2 (virtual) - load":[30.671271324157715,307752,590088104],"- plugin 6 (json) - transform":[34.34400224685669,767168,590123596],"- plugin 7 (commonjs) - transform":[535.9750819206238,42951368,590126844],"- plugin 8 (babel) - transform":[99.1296739578247,-5833680,590147100],"generate ast":[477.43696880340576,43250576,593362596],"analyse ast":[917.8239617347717,-82106228,594758488],"- plugin 3 (@cocos/ccbuild|module-query-plugin) - resolveId":[147.88401412963867,8906864,594774968],"- plugin 3 (@cocos/ccbuild|module-query-plugin) - resolveId (async)":[688.4244914054871,33010668,594775580],"- plugin 4 (ts-paths) - resolveId":[135.95388650894165,585936,594775968],"- plugin 5 (node-resolve) - resolveId":[149.3932023048401,5537364,594777108],"- plugin 5 (node-resolve) - resolveId (async)":[30463.33106613159,2871736992,594777548],"- plugin 5 (node-resolve) - load":[30.406405925750732,99272,590088508],"- plugin 7 (commonjs) - load":[31.84605646133423,130292,590088952],"- plugin 8 (babel) - load":[181.47502422332764,10571192,590089348],"- plugin 8 (babel) - transform (async)":[10217.72278881073,608923484,593063648],"- plugin 7 (commonjs) - resolveId":[23.208195686340332,81224,594777988],"- plugin 8 (babel) - resolveId":[21.976382732391357,57920,594778392],"- plugin 7 (commonjs) - resolveId (async)":[3365.429250240326,92124032,589812168],"- plugin 7 (commonjs) - load (async)":[2178.1863327026367,-35935916,487051724],"## sort modules":[157.07795763015747,10921940,605734868],"## mark included statements":[1434.123999595642,77906552,683641752],"treeshaking pass 1":[479.3092908859253,47410876,653534428],"treeshaking pass 2":[165.47750043869019,12632924,666167684],"treeshaking pass 3":[107.30599975585938,8892620,675060636],"treeshaking pass 4":[73.46445894241333,817480,675878448],"treeshaking pass 5":[55.625625133514404,1599840,677478620],"treeshaking pass 6":[187.47216606140137,4639832,682118784],"treeshaking pass 7":[85.84345769882202,-1442104,680677012],"treeshaking pass 8":[69.65250015258789,465660,681143004],"treeshaking pass 9":[54.93066740036011,928132,682071468],"treeshaking pass 10":[51.65466594696045,-1627744,680444056],"treeshaking pass 11":[50.65079069137573,-2352264,678092124],"treeshaking pass 12":[50.135207653045654,5548836,683641292]}====             ====
-2024-5-14 13:24:02-debug: excute-script over with build-engine 29508ms
-2024-5-14 13:24:02-debug: 构建引擎脚本 in (42726 ms) √, progress: 21%
-2024-5-14 13:24:02-debug: Copy plugin script ..., progress: 21%
-2024-5-14 13:24:02-debug: Generate import-map..., progress: 21%
-2024-5-14 13:24:02-debug: // ---- build task 打包脚本 ---- (58268ms)
-2024-5-14 13:24:02-debug: run build task 打包脚本 success in 58 s√, progress: 26%
-2024-5-14 13:24:02-debug: [Build Memory track]: 打包脚本 start:205.63MB, end 206.65MB, increase: 1.02MB
-2024-5-14 13:24:02-debug: Build Assets start, progress: 26%
-2024-5-14 13:24:02-debug: // ---- build task Build Assets ----
-2024-5-14 13:24:02-debug: Build bundles..., progress: 26%
-2024-5-14 13:24:02-debug: Pack Images start, progress: 26%
-2024-5-14 13:24:02-debug: builder:pack-auto-atlas-image (9ms)
-2024-5-14 13:24:02-debug: Pack Images success, progress: 26%
-2024-5-14 13:24:02-debug: Compress image start..., progress: 26%
-2024-5-14 13:24:02-debug: Num of all image compress task 0, really: 0, configTasks: 0
-2024-5-14 13:24:02-debug: sort compress task {}
-2024-5-14 13:24:02-debug: No image need to compress
-2024-5-14 13:24:02-debug: Compress image success..., progress: 26%
-2024-5-14 13:24:02-debug: Ouput asset in bundles start, progress: 26%
-2024-5-14 13:24:02-debug: Handle all json groups in bundle internal
-2024-5-14 13:24:02-debug: handle json group
-2024-5-14 13:24:02-debug: Handle all json groups in bundle main
-2024-5-14 13:24:02-debug: handle single json
-2024-5-14 13:24:02-debug: handle json group
-2024-5-14 13:24:02-debug: Json group(0ca60d3e4) compile success，json number: 6
-2024-5-14 13:24:02-debug: handle single json
-2024-5-14 13:24:02-debug: Output asset in bundles success, progress: 26%
-2024-5-14 13:24:02-debug: // ---- build task Build Assets ---- (45ms)
-2024-5-14 13:24:02-debug: run build task Build Assets success in 45 ms√, progress: 31%
-2024-5-14 13:24:02-debug: [Build Memory track]: Build Assets start:206.66MB, end 206.90MB, increase: 245.64KB
-2024-5-14 13:24:02-debug: 给所有的资源加上 MD5 后缀 start, progress: 31%
-2024-5-14 13:24:02-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
-2024-5-14 13:24:02-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (4ms)
-2024-5-14 13:24:02-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 13:24:02-debug: Output asset in bundles start, progress: 36%
-2024-5-14 13:24:02-debug: compress config of bundle internal...
-2024-5-14 13:24:02-debug: compress config of bundle internal success
-2024-5-14 13:24:02-debug: compress config of bundle main...
-2024-5-14 13:24:02-debug: compress config of bundle main success
-2024-5-14 13:24:02-debug: ouput config of bundle internal
-2024-5-14 13:24:02-debug: output config of bundle internal success
-2024-5-14 13:24:02-debug: ouput config of bundle main
-2024-5-14 13:24:02-debug: 查询 Asset Bundle start, progress: 36%
-2024-5-14 13:24:02-debug: Output asset in bundles success, progress: 36%
-2024-5-14 13:24:02-debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:206.97MB, end 207.25MB, increase: 283.55KB
-2024-5-14 13:24:02-debug: run build task 给所有的资源加上 MD5 后缀 success in 4 ms√, progress: 36%
-2024-5-14 13:24:02-debug: output config of bundle main success
-2024-5-14 13:24:02-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
-2024-5-14 13:24:02-debug: run build task 查询 Asset Bundle success in 8 ms√, progress: 41%
-2024-5-14 13:24:02-debug: 整理部分构建选项内数据到 settings.json start, progress: 41%
-2024-5-14 13:24:02-debug: [Build Memory track]: 查询 Asset Bundle start:207.26MB, end 207.44MB, increase: 179.51KB
-2024-5-14 13:24:02-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 13:24:02-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2024-5-14 13:24:02-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 43%
-2024-5-14 13:24:02-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:207.45MB, end 207.50MB, increase: 50.32KB
-2024-5-14 13:24:02-debug: 填充脚本数据到 settings.json start, progress: 43%
-2024-5-14 13:24:02-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-5-14 13:24:02-debug: // ---- build task 填充脚本数据到 settings.json ---- (4ms)
-2024-5-14 13:24:02-debug: run build task 填充脚本数据到 settings.json success in 4 ms√, progress: 44%
-2024-5-14 13:24:02-debug: [Build Memory track]: 填充脚本数据到 settings.json start:207.51MB, end 207.56MB, increase: 51.92KB
-2024-5-14 13:24:02-debug: 整理部分构建选项内数据到 settings.json start, progress: 44%
-2024-5-14 13:24:02-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 13:24:02-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (10ms)
-2024-5-14 13:24:02-debug: // ---- build task web-desktop：onBeforeCompressSettings ----
-2024-5-14 13:24:02-debug: run build task 整理部分构建选项内数据到 settings.json success in 10 ms√, progress: 46%
-2024-5-14 13:24:02-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:207.57MB, end 206.86MB, increase: -732.12KB
-2024-5-14 13:24:02-debug: web-desktop:(onBeforeCompressSettings) start..., progress: 46%
-2024-5-14 13:24:02-debug: // ---- build task web-desktop：onBeforeCompressSettings ---- (4ms)
-2024-5-14 13:24:02-debug: web-desktop:(onBeforeCompressSettings) in 4 ms ✓, progress: 48%
-2024-5-14 13:24:02-debug: cocos-service:(onBeforeCompressSettings) start..., progress: 48%
-2024-5-14 13:24:02-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
-2024-5-14 13:24:02-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (563ms)
-2024-5-14 13:24:02-debug: cocos-service:(onBeforeCompressSettings) in 563 ms ✓, progress: 51%
-2024-5-14 13:24:02-debug: 保存 settings.json start, progress: 51%
-2024-5-14 13:24:02-debug: // ---- build task 保存 settings.json ----
-2024-5-14 13:24:02-debug: // ---- build task 保存 settings.json ---- (5ms)
-2024-5-14 13:24:02-debug: // ---- build task 整理静态模板文件 ----
-2024-5-14 13:24:02-debug: run build task 保存 settings.json success in 5 ms√, progress: 53%
-2024-5-14 13:24:02-debug: 整理静态模板文件 start, progress: 53%
-2024-5-14 13:24:02-debug: [Build Memory track]: 保存 settings.json start:207.04MB, end 207.19MB, increase: 155.25KB
-2024-5-14 13:24:03-debug: // ---- build task 整理静态模板文件 ---- (58ms)
-2024-5-14 13:24:03-debug: // ---- build task cocos-service：onAfterCompressSettings ----
-2024-5-14 13:24:03-debug: [Build Memory track]: 整理静态模板文件 start:207.21MB, end 208.42MB, increase: 1.22MB
-2024-5-14 13:24:03-debug: cocos-service:(onAfterCompressSettings) start..., progress: 56%
-2024-5-14 13:24:03-debug: run build task 整理静态模板文件 success in 58 ms√, progress: 56%
-2024-5-14 13:24:03-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (443ms)
-2024-5-14 13:24:03-debug: web-desktop:(onAfterBuild) start..., progress: 58%
-2024-5-14 13:24:03-debug: cocos-service:(onAfterCompressSettings) in 443 ms ✓, progress: 58%
-2024-5-14 13:24:03-debug: // ---- build task web-desktop：onAfterBuild ----
-2024-5-14 13:24:03-debug: // ---- build task web-desktop：onAfterBuild ---- (18ms)
-2024-5-14 13:24:03-debug: web-desktop:(onAfterBuild) in 18 ms ✓, progress: 60%
-2024-5-14 13:24:03-debug: // ---- build task cocos-service：onAfterBuild ----
-2024-5-14 13:24:03-debug: cocos-service:(onAfterBuild) start..., progress: 60%
-2024-5-14 13:24:03-debug: // ---- build task cocos-service：onAfterBuild ---- (513ms)
-2024-5-14 13:24:03-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
-2024-5-14 13:24:03-debug: cocos-service:(onAfterBuild) in 513 ms ✓, progress: 62%
-2024-5-14 13:24:03-debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
-2024-5-14 13:24:03-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (5ms)
-2024-5-14 13:24:03-debug: adsense-h5g-plugin:(onAfterBuild) in 5 ms ✓, progress: 64%
-2024-5-14 13:24:03-log: Asset DB is resume!
-2024-5-14 13:24:03-debug: builder:build-project-total (61063ms)
-2024-5-14 13:24:03-debug: build success in 61063!
-2024-5-14 13:24:03-debug: [Build Memory track]: builder:build-project-total start:197.01MB, end 209.72MB, increase: 12.71MB
-2024-5-14 13:24:03-debug: ================================ build Task (web-desktop) Finished in (1 min 1 s)ms ================================
-2024-5-14 13:24:03-debug: Stop record console. {file(/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/builder/log/web-desktop5-14-2024 13-23.log)}
-2024-5-14 13:25:36-debug: refresh db internal success
-2024-5-14 13:25:36-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:25:36-debug: refresh db assets success
-2024-5-14 13:25:36-debug: asset-db:refresh-all-database (49ms)
-2024-5-14 13:25:36-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:25:36-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:25:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:29:28-debug: refresh db internal success
-2024-5-14 13:29:28-debug: refresh db assets success
-2024-5-14 13:29:28-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:29:28-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:29:28-debug: asset-db:refresh-all-database (46ms)
-2024-5-14 13:29:31-debug: Build with Cocos Creator 3.8.2
-2024-5-14 13:29:31-debug: =================================== build Task (web-desktop) Start ================================
-2024-5-14 13:29:31-debug: Start build task, options:{"name":"Mario","server":"","platform":"web-desktop","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"ab2dfc6f-bc35-40ac-96f3-d85479c4cacd","outputName":"web-desktop","taskName":"web-desktop","scenes":[{"url":"db://assets/Scenes/Menu.scene","uuid":"ab2dfc6f-bc35-40ac-96f3-d85479c4cacd"}],"packages":{"engine":{"cleanupImageCache":"inheritProjectSetting","__version__":"1.0.8"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"cocos-service":{"configID":"c49362","services":[]},"web-desktop":{"resolution":{"designWidth":1280,"designHeight":960},"cullEngineAsmJsModule":false,"__version__":"1.0.1"}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/web-desktop5-14-2024 13-23.log"}
-2024-5-14 13:29:31-debug: Start record console... {file(/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/builder/log/web-desktop5-14-2024 13-23.log)}
-2024-5-14 13:29:31-debug: cocos-service:(onBeforeBuild) start..., progress: 0%
-2024-5-14 13:29:31-debug: // ---- build task cocos-service：onBeforeBuild ----
-2024-5-14 13:29:32-debug: // ---- build task cocos-service：onBeforeBuild ---- (492ms)
-2024-5-14 13:29:32-debug: cocos-service:(onBeforeBuild) in 492 ms ✓, progress: 2%
-2024-5-14 13:29:32-debug: scene:(onBeforeBuild) start..., progress: 2%
-2024-5-14 13:29:32-debug: // ---- build task scene：onBeforeBuild ----
-2024-5-14 13:29:32-debug: // ---- build task scene：onBeforeBuild ---- (7ms)
-2024-5-14 13:29:32-debug: Query all assets info in project
-2024-5-14 13:29:32-debug: Start lock asset db..., progress: 4%
-2024-5-14 13:29:32-log: Asset DB is paused with build!
-2024-5-14 13:29:32-debug: scene:(onBeforeBuild) in 7 ms ✓, progress: 4%
-2024-5-14 13:29:32-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-5-14 13:29:32-debug:   Number of all scenes: 1
-2024-5-14 13:29:32-debug:   Number of all scripts: 2
-2024-5-14 13:29:32-debug:   Number of other assets: 325
-2024-5-14 13:29:32-debug: web-desktop:(onAfterInit) start..., progress: 4%
-2024-5-14 13:29:32-debug: // ---- build task web-desktop：onAfterInit ----
-2024-5-14 13:29:32-debug: // ---- build task web-desktop：onAfterInit ---- (2ms)
-2024-5-14 13:29:32-debug: cocos-service:(onAfterInit) start..., progress: 7%
-2024-5-14 13:29:32-debug: web-desktop:(onAfterInit) in 2 ms ✓, progress: 7%
-2024-5-14 13:29:32-debug: // ---- build task cocos-service：onAfterInit ----
-2024-5-14 13:29:32-debug: // ---- build task cocos-service：onAfterInit ---- (304ms)
-2024-5-14 13:29:32-debug: cocos-service:(onAfterInit) in 304 ms ✓, progress: 9%
-2024-5-14 13:29:32-debug: engine:(onAfterInit) start..., progress: 9%
-2024-5-14 13:29:32-debug: // ---- build task engine：onAfterInit ----
-2024-5-14 13:29:32-debug: // ---- build task engine：onAfterInit ---- (6ms)
-2024-5-14 13:29:32-debug: engine:(onAfterInit) in 6 ms ✓, progress: 11%
-2024-5-14 13:29:32-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 11%
-2024-5-14 13:29:32-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
-2024-5-14 13:29:32-debug: [adsense-h5g-plugin] remove script success
-2024-5-14 13:29:32-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 5 ms ✓, progress: 11%
-2024-5-14 13:29:32-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (5ms)
-2024-5-14 13:29:32-debug: Init all bundles start..., progress: 11%
-2024-5-14 13:29:32-debug: Num of bundles: 2..., progress: 11%
-2024-5-14 13:29:32-debug: reload all scripts.
-2024-5-14 13:29:32-debug: Set detail map pack:///resolution-detail-map.json: {}
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/90/90997eabe8ce7836b94622394cb7406ec179e3ae.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/aa/aa348686bfe3c2b7c5a91319ee52ae445cc7ed76.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/a8/a87061112b2b70d8d1edffc15008ad981fd1d51f.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/42/42d15e8944e0f033c1a20ac95f21535b2a490418.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/f8/f8519f5727e7b36ff1c89510362118795afcb00f.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/44/440a2a2646f830c14deb2c1cb36fd6c1c16c8e88.js'
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/41/4147f24370232754e1f2179b568f03ca30641d47.js'
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/42/42d15e8944e0f033c1a20ac95f21535b2a490418.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/f8/f8519f5727e7b36ff1c89510362118795afcb00f.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/aa/aa348686bfe3c2b7c5a91319ee52ae445cc7ed76.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/a8/a87061112b2b70d8d1edffc15008ad981fd1d51f.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/41/4147f24370232754e1f2179b568f03ca30641d47.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/44/440a2a2646f830c14deb2c1cb36fd6c1c16c8e88.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/90/90997eabe8ce7836b94622394cb7406ec179e3ae.js" loaded.
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js" loaded.
-2024-5-14 13:29:32-warn: Warning: This is a browser-targeted Firebase bundle but it appears it is beingrun in a Node environment.  If running in a Node environment, make sure youare using the bundle specified by the "main" field in package.json.If you are using Webpack, you can specify "main" as the first item in"resolve.mainFields":https://webpack.js.org/configuration/resolve/#resolvemainfieldsIf using Rollup, use the rollup-plugin-node-resolve plugin and set "module"to false and "main" to true:https://github.com/rollup/rollup-plugin-node-resolve
-2024-5-14 13:29:32-warn: It looks like you're using the development build of the Firebase JS SDK.When deploying Firebase apps to production, it is advisable to only importthe individual SDK components you intend to use.For the CDN builds, these are available in the following manner(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
-2024-5-14 13:29:32-warn: Warning: This is a browser-targeted Firebase bundle but it appears it is beingrun in a Node environment.  If running in a Node environment, make sure youare using the bundle specified by the "main" field in package.json.If you are using Webpack, you can specify "main" as the first item in"resolve.mainFields":https://webpack.js.org/configuration/resolve/#resolvemainfieldsIf using Rollup, use the rollup-plugin-node-resolve plugin and set "module"to false and "main" to true:https://github.com/rollup/rollup-plugin-node-resolve
-2024-5-14 13:29:32-error: TypeError: Cannot read property 'hasOwnProperty' of undefined    at Qn (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:31595:38)    at new yi (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:31701:57)    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:33032:26    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36930:17    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36931:16    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30048:72    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30049:10    at CjsLoader._load (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:103:11)    at CjsLoader._tryModuleLoad (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:83:18)    at CjsLoader._require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:56:16)    at CjsLoader.require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:36:23)    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js:41:14)    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:311:13)    at Executor.reload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:194:13)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2782    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:1284)    at loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2211)    at BundleManager.loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:2788)    at BuildTask.initBundleManager (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7652)    at BuildTask.run (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:3688)    at build (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:3733)    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
-2024-5-14 13:29:32-warn: Error: Cannot instantiate firebase-auth - be sure to load firebase-app.js first.    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36933:37    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30048:72    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30049:10    at CjsLoader._load (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:103:11)    at CjsLoader._tryModuleLoad (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:83:18)    at CjsLoader._require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:56:16)    at CjsLoader.require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:36:23)    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js:41:14)    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:311:13)    at Executor.reload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:194:13)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2782    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:1284)    at loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2211)    at BundleManager.loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:2788)    at BuildTask.initBundleManager (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7652)    at BuildTask.run (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:3688)    at build (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:3733)    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
-2024-5-14 13:29:32-log: pack:///chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.jsError: Cannot instantiate firebase-auth - be sure to load firebase-app.js first.    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36933:37    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30048:72    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30049:10    at CjsLoader._load (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:103:11)    at CjsLoader._tryModuleLoad (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:83:18)    at CjsLoader._require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:56:16)    at CjsLoader.require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:36:23)    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js:41:14)    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:311:13)    at Executor.reload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:194:13)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2782    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:1284)    at loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2211)    at BundleManager.loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:2788)    at BuildTask.initBundleManager (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7652)    at BuildTask.run (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:3688)    at build (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:3733)    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)false
-2024-5-14 13:29:32-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2024-5-14 13:29:32-debug: Incremental keys: core,__extends,__assign,__rest,__decorate,__param,__esDecorate,__runInitializers,__propKey,__setFunctionName,__metadata,__awaiter,__generator,__exportStar,__createBinding,__values,__read,__spread,__spreadArrays,__spreadArray,__await,__asyncGenerator,__asyncDelegator,__asyncValues,__makeTemplateObject,__importStar,__importDefault,__classPrivateFieldGet,__classPrivateFieldSet,__classPrivateFieldIn,__addDisposableResource,__disposeResources
-2024-5-14 13:29:32-debug: web-desktop:(onAfterBundleInit) start..., progress: 11%
-2024-5-14 13:29:32-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
-2024-5-14 13:29:32-debug: [[Executor]] Register DebugViewRuntimeControl
-2024-5-14 13:29:32-debug: // ---- build task web-desktop：onAfterBundleInit ----
-2024-5-14 13:29:32-debug: Unregister DebugViewRuntimeControl
-2024-5-14 13:29:32-debug: // ---- build task web-desktop：onAfterBundleInit ---- (3ms)
-2024-5-14 13:29:32-debug: Init bundle root assets start..., progress: 11%
-2024-5-14 13:29:32-debug: 查询 Asset Bundle start, progress: 11%
-2024-5-14 13:29:32-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 13:29:32-debug: web-desktop:(onAfterBundleInit) in 3 ms ✓, progress: 11%
-2024-5-14 13:29:32-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-5-14 13:29:32-debug: Init bundle root assets success..., progress: 11%
-2024-5-14 13:29:32-debug: Init bundle share assets start..., progress: 11%
-2024-5-14 13:29:32-debug: Init bundle share assets success..., progress: 11%
-2024-5-14 13:29:32-debug: handle json group in bundle internal
-2024-5-14 13:29:32-debug: handle json group in bundle internal success
-2024-5-14 13:29:32-debug: handle json group in bundle main
-2024-5-14 13:29:32-debug: init image compress task 0 in bundle internal
-2024-5-14 13:29:32-debug: init image compress task 0 in bundle main
-2024-5-14 13:29:32-debug: handle json group in bundle main success
-2024-5-14 13:29:32-debug: // ---- build task 查询 Asset Bundle ---- (18ms)
-2024-5-14 13:29:32-debug: run build task 查询 Asset Bundle success in 18 ms√, progress: 16%
-2024-5-14 13:29:32-debug: [Build Memory track]: 查询 Asset Bundle start:214.99MB, end 214.33MB, increase: -672.35KB
-2024-5-14 13:29:32-debug: 查询 Asset Bundle start, progress: 16%
-2024-5-14 13:29:32-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 13:29:32-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
-2024-5-14 13:29:32-debug: // ---- build task web-desktop：onAfterBundleDataTask ----
-2024-5-14 13:29:32-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 21%
-2024-5-14 13:29:32-debug: web-desktop:(onAfterBundleDataTask) start..., progress: 21%
-2024-5-14 13:29:32-debug: [Build Memory track]: 查询 Asset Bundle start:214.34MB, end 214.40MB, increase: 56.68KB
-2024-5-14 13:29:32-debug: // ---- build task web-desktop：onAfterBundleDataTask ---- (5ms)
-2024-5-14 13:29:32-debug: 打包脚本 start, progress: 21%
-2024-5-14 13:29:32-debug: // ---- build task 打包脚本 ----
-2024-5-14 13:29:32-debug: web-desktop:(onAfterBundleDataTask) in 5 ms ✓, progress: 21%
-2024-5-14 13:29:34-debug: Generate systemJs..., progress: 21%
-2024-5-14 13:29:36-debug: 构建项目脚本 start..., progress: 21%
-2024-5-14 13:29:36-debug: Build script in bundle start, progress: 21%
-2024-5-14 13:29:37-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-2024-5-14 13:29:37-log: [build-script]enter sub process 6936, /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
-2024-5-14 13:29:38-log: [build-script]Create cjs interop url for 'file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js'
-2024-5-14 13:29:38-log: [build-script]Create cjs interop url for 'file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js'
-2024-5-14 13:29:40-debug: [build-script][BABEL] Note: The code generator has deoptimised the styling of /file:/Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js as it exceeds the max of 500KB.
-2024-5-14 13:29:47-debug: excute-script over with build-script 10357ms
-2024-5-14 13:29:47-debug: Copy externalScripts success!
-2024-5-14 13:29:47-debug: Build script in bundle success, progress: 21%
-2024-5-14 13:29:47-debug: 构建项目脚本 in (11142 ms) √, progress: 21%
-2024-5-14 13:29:47-debug: 构建引擎脚本 start..., progress: 21%
-2024-5-14 13:29:47-debug: Use cache engine: {link(/var/folders/qb/r6f5dxp12h3d5769mhs6vnhr0000gn/T/CocosCreator/3.8.2/builder/engine/bcae0dd6cb906f3d6c7420a7b5f36291)}
-2024-5-14 13:29:47-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.2","md5Map":[],"engineName":"cocos-js","platform":"HTML5","useCache":true,"isNative":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","output":"/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/build/web-desktop/cocos-js","flags":{"DEBUG":false,"WASM_FALLBACK":true,"CULL_ASM_JS_MODULE":false,"CULL_MESHOPT":true},"entry":"/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine"}
-2024-5-14 13:29:47-debug: 构建引擎脚本 in (34 ms) √, progress: 21%
-2024-5-14 13:29:47-debug: Copy plugin script ..., progress: 21%
-2024-5-14 13:29:47-debug: Generate import-map..., progress: 21%
-2024-5-14 13:29:47-debug: // ---- build task 打包脚本 ---- (15187ms)
-2024-5-14 13:29:47-debug: Build Assets start, progress: 26%
-2024-5-14 13:29:47-debug: Build bundles..., progress: 26%
-2024-5-14 13:29:47-debug: Pack Images start, progress: 26%
-2024-5-14 13:29:47-debug: run build task 打包脚本 success in 15 s√, progress: 26%
-2024-5-14 13:29:47-debug: // ---- build task Build Assets ----
-2024-5-14 13:29:47-debug: [Build Memory track]: 打包脚本 start:214.76MB, end 208.63MB, increase: -6274.33KB
-2024-5-14 13:29:47-debug: builder:pack-auto-atlas-image (6ms)
-2024-5-14 13:29:47-debug: Num of all image compress task 0, really: 0, configTasks: 0
-2024-5-14 13:29:47-debug: No image need to compress
-2024-5-14 13:29:47-debug: Compress image success..., progress: 26%
-2024-5-14 13:29:47-debug: Ouput asset in bundles start, progress: 26%
-2024-5-14 13:29:47-debug: Handle all json groups in bundle internal
-2024-5-14 13:29:47-debug: handle json group
-2024-5-14 13:29:47-debug: Pack Images success, progress: 26%
-2024-5-14 13:29:47-debug: Handle all json groups in bundle main
-2024-5-14 13:29:47-debug: handle single json
-2024-5-14 13:29:47-debug: Compress image start..., progress: 26%
-2024-5-14 13:29:47-debug: sort compress task {}
-2024-5-14 13:29:47-debug: handle json group
-2024-5-14 13:29:47-debug: Json group(0ca60d3e4) compile success，json number: 6
-2024-5-14 13:29:47-debug: handle single json
-2024-5-14 13:29:47-debug: Output asset in bundles success, progress: 26%
-2024-5-14 13:29:47-debug: // ---- build task Build Assets ---- (32ms)
-2024-5-14 13:29:47-debug: run build task Build Assets success in 32 ms√, progress: 31%
-2024-5-14 13:29:47-debug: [Build Memory track]: Build Assets start:208.64MB, end 208.98MB, increase: 342.54KB
-2024-5-14 13:29:47-debug: 给所有的资源加上 MD5 后缀 start, progress: 31%
-2024-5-14 13:29:47-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
-2024-5-14 13:29:47-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (3ms)
-2024-5-14 13:29:47-debug: run build task 给所有的资源加上 MD5 后缀 success in 3 ms√, progress: 36%
-2024-5-14 13:29:47-debug: 查询 Asset Bundle start, progress: 36%
-2024-5-14 13:29:47-debug: compress config of bundle internal...
-2024-5-14 13:29:47-debug: compress config of bundle internal success
-2024-5-14 13:29:47-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 13:29:47-debug: compress config of bundle main...
-2024-5-14 13:29:47-debug: ouput config of bundle internal
-2024-5-14 13:29:47-debug: output config of bundle internal success
-2024-5-14 13:29:47-debug: ouput config of bundle main
-2024-5-14 13:29:47-debug: output config of bundle main success
-2024-5-14 13:29:47-debug: Output asset in bundles success, progress: 36%
-2024-5-14 13:29:47-debug: compress config of bundle main success
-2024-5-14 13:29:47-debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:209.05MB, end 209.09MB, increase: 46.03KB
-2024-5-14 13:29:47-debug: Output asset in bundles start, progress: 36%
-2024-5-14 13:29:47-debug: // ---- build task 查询 Asset Bundle ---- (9ms)
-2024-5-14 13:29:47-debug: run build task 查询 Asset Bundle success in 9 ms√, progress: 41%
-2024-5-14 13:29:47-debug: [Build Memory track]: 查询 Asset Bundle start:209.10MB, end 209.26MB, increase: 163.80KB
-2024-5-14 13:29:47-debug: 整理部分构建选项内数据到 settings.json start, progress: 41%
-2024-5-14 13:29:47-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 13:29:47-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2024-5-14 13:29:47-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 43%
-2024-5-14 13:29:47-debug: 填充脚本数据到 settings.json start, progress: 43%
-2024-5-14 13:29:47-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-5-14 13:29:47-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:209.27MB, end 209.32MB, increase: 44.74KB
-2024-5-14 13:29:47-debug: // ---- build task 填充脚本数据到 settings.json ---- (4ms)
-2024-5-14 13:29:47-debug: run build task 填充脚本数据到 settings.json success in 4 ms√, progress: 44%
-2024-5-14 13:29:47-debug: [Build Memory track]: 填充脚本数据到 settings.json start:209.33MB, end 209.37MB, increase: 46.32KB
-2024-5-14 13:29:47-debug: 整理部分构建选项内数据到 settings.json start, progress: 44%
-2024-5-14 13:29:47-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 13:29:47-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
-2024-5-14 13:29:47-debug: // ---- build task web-desktop：onBeforeCompressSettings ----
-2024-5-14 13:29:47-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:209.39MB, end 208.63MB, increase: -769.69KB
-2024-5-14 13:29:47-debug: web-desktop:(onBeforeCompressSettings) start..., progress: 46%
-2024-5-14 13:29:47-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 46%
-2024-5-14 13:29:47-debug: // ---- build task web-desktop：onBeforeCompressSettings ---- (3ms)
-2024-5-14 13:29:47-debug: web-desktop:(onBeforeCompressSettings) in 3 ms ✓, progress: 48%
-2024-5-14 13:29:47-debug: cocos-service:(onBeforeCompressSettings) start..., progress: 48%
-2024-5-14 13:29:47-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
-2024-5-14 13:29:48-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (361ms)
-2024-5-14 13:29:48-debug: 保存 settings.json start, progress: 51%
-2024-5-14 13:29:48-debug: // ---- build task 保存 settings.json ----
-2024-5-14 13:29:48-debug: cocos-service:(onBeforeCompressSettings) in 361 ms ✓, progress: 51%
-2024-5-14 13:29:48-debug: // ---- build task 保存 settings.json ---- (4ms)
-2024-5-14 13:29:48-debug: 整理静态模板文件 start, progress: 53%
-2024-5-14 13:29:48-debug: [Build Memory track]: 保存 settings.json start:208.79MB, end 208.94MB, increase: 150.25KB
-2024-5-14 13:29:48-debug: run build task 保存 settings.json success in 4 ms√, progress: 53%
-2024-5-14 13:29:48-debug: // ---- build task 整理静态模板文件 ----
-2024-5-14 13:29:48-debug: // ---- build task 整理静态模板文件 ---- (30ms)
-2024-5-14 13:29:48-debug: run build task 整理静态模板文件 success in 30 ms√, progress: 56%
-2024-5-14 13:29:48-debug: [Build Memory track]: 整理静态模板文件 start:208.95MB, end 209.42MB, increase: 482.86KB
-2024-5-14 13:29:48-debug: cocos-service:(onAfterCompressSettings) start..., progress: 56%
-2024-5-14 13:29:48-debug: // ---- build task cocos-service：onAfterCompressSettings ----
-2024-5-14 13:29:48-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (565ms)
-2024-5-14 13:29:48-debug: cocos-service:(onAfterCompressSettings) in 565 ms ✓, progress: 58%
-2024-5-14 13:29:48-debug: web-desktop:(onAfterBuild) start..., progress: 58%
-2024-5-14 13:29:48-debug: // ---- build task web-desktop：onAfterBuild ----
-2024-5-14 13:29:48-debug: // ---- build task web-desktop：onAfterBuild ---- (15ms)
-2024-5-14 13:29:48-debug: web-desktop:(onAfterBuild) in 15 ms ✓, progress: 60%
-2024-5-14 13:29:48-debug: cocos-service:(onAfterBuild) start..., progress: 60%
-2024-5-14 13:29:48-debug: // ---- build task cocos-service：onAfterBuild ----
-2024-5-14 13:29:48-debug: // ---- build task cocos-service：onAfterBuild ---- (199ms)
-2024-5-14 13:29:48-debug: cocos-service:(onAfterBuild) in 199 ms ✓, progress: 62%
-2024-5-14 13:29:48-debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
-2024-5-14 13:29:48-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
-2024-5-14 13:29:48-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (4ms)
-2024-5-14 13:29:48-log: Asset DB is resume!
-2024-5-14 13:29:48-debug: adsense-h5g-plugin:(onAfterBuild) in 4 ms ✓, progress: 64%
-2024-5-14 13:29:48-debug: builder:build-project-total (17325ms)
-2024-5-14 13:29:48-debug: build success in 17325!
-2024-5-14 13:29:48-debug: [Build Memory track]: builder:build-project-total start:212.45MB, end 209.80MB, increase: -2715.59KB
-2024-5-14 13:29:48-debug: ================================ build Task (web-desktop) Finished in (17 s)ms ================================
-2024-5-14 13:29:48-debug: Stop record console. {file(/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/builder/log/web-desktop5-14-2024 13-23.log)}
-2024-5-14 13:29:55-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Menu.scene...
-2024-5-14 13:29:55-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Menu.scenebackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:29:55-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes success
-2024-5-14 13:29:57-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Menu.scene...
-2024-5-14 13:29:57-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Menu.scenebackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:29:57-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes success
-2024-5-14 13:30:02-debug: Build with Cocos Creator 3.8.2
-2024-5-14 13:30:02-debug: =================================== build Task (web-desktop) Start ================================
-2024-5-14 13:30:02-debug: Start build task, options:{"name":"BoomBoom Frontier","server":"","platform":"web-desktop","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"ab2dfc6f-bc35-40ac-96f3-d85479c4cacd","outputName":"web-desktop","taskName":"web-desktop","scenes":[{"url":"db://assets/Scenes/Menu.scene","uuid":"ab2dfc6f-bc35-40ac-96f3-d85479c4cacd"}],"packages":{"engine":{"cleanupImageCache":"inheritProjectSetting","__version__":"1.0.8"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"cocos-service":{"configID":"c49362","services":[]},"web-desktop":{"resolution":{"designWidth":1280,"designHeight":960},"cullEngineAsmJsModule":false,"__version__":"1.0.1"}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/web-desktop5-14-2024 13-23.log"}
-2024-5-14 13:30:02-debug: Start record console... {file(/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/builder/log/web-desktop5-14-2024 13-23.log)}
-2024-5-14 13:30:02-debug: cocos-service:(onBeforeBuild) start..., progress: 0%
-2024-5-14 13:30:02-debug: // ---- build task cocos-service：onBeforeBuild ----
-2024-5-14 13:30:02-debug: // ---- build task cocos-service：onBeforeBuild ---- (420ms)
-2024-5-14 13:30:02-debug: cocos-service:(onBeforeBuild) in 420 ms ✓, progress: 2%
-2024-5-14 13:30:02-debug: // ---- build task scene：onBeforeBuild ----
-2024-5-14 13:30:02-debug: scene:(onBeforeBuild) start..., progress: 2%
-2024-5-14 13:30:02-debug: // ---- build task scene：onBeforeBuild ---- (7ms)
-2024-5-14 13:30:02-log: Asset DB is paused with build!
-2024-5-14 13:30:02-debug: Start lock asset db..., progress: 4%
-2024-5-14 13:30:02-debug: scene:(onBeforeBuild) in 7 ms ✓, progress: 4%
-2024-5-14 13:30:02-debug: Query all assets info in project
-2024-5-14 13:30:02-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-5-14 13:30:02-debug:   Number of all scenes: 1
-2024-5-14 13:30:02-debug:   Number of all scripts: 2
-2024-5-14 13:30:02-debug:   Number of other assets: 325
-2024-5-14 13:30:02-debug: web-desktop:(onAfterInit) start..., progress: 4%
-2024-5-14 13:30:02-debug: // ---- build task web-desktop：onAfterInit ----
-2024-5-14 13:30:02-debug: // ---- build task web-desktop：onAfterInit ---- (3ms)
-2024-5-14 13:30:02-debug: web-desktop:(onAfterInit) in 3 ms ✓, progress: 7%
-2024-5-14 13:30:02-debug: // ---- build task cocos-service：onAfterInit ----
-2024-5-14 13:30:02-debug: cocos-service:(onAfterInit) start..., progress: 7%
-2024-5-14 13:30:02-debug: // ---- build task cocos-service：onAfterInit ---- (192ms)
-2024-5-14 13:30:02-debug: cocos-service:(onAfterInit) in 192 ms ✓, progress: 9%
-2024-5-14 13:30:02-debug: engine:(onAfterInit) start..., progress: 9%
-2024-5-14 13:30:02-debug: // ---- build task engine：onAfterInit ----
-2024-5-14 13:30:02-debug: // ---- build task engine：onAfterInit ---- (6ms)
-2024-5-14 13:30:02-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 11%
-2024-5-14 13:30:02-debug: engine:(onAfterInit) in 6 ms ✓, progress: 11%
-2024-5-14 13:30:02-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
-2024-5-14 13:30:02-debug: [adsense-h5g-plugin] remove script success
-2024-5-14 13:30:02-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (5ms)
-2024-5-14 13:30:02-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 5 ms ✓, progress: 11%
-2024-5-14 13:30:02-debug: Init all bundles start..., progress: 11%
-2024-5-14 13:30:02-debug: Num of bundles: 2..., progress: 11%
-2024-5-14 13:30:02-debug: reload all scripts.
-2024-5-14 13:30:02-debug: Set detail map pack:///resolution-detail-map.json: {}
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/90/90997eabe8ce7836b94622394cb7406ec179e3ae.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/aa/aa348686bfe3c2b7c5a91319ee52ae445cc7ed76.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/a8/a87061112b2b70d8d1edffc15008ad981fd1d51f.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/f8/f8519f5727e7b36ff1c89510362118795afcb00f.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/44/440a2a2646f830c14deb2c1cb36fd6c1c16c8e88.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/41/4147f24370232754e1f2179b568f03ca30641d47.js'
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Register DebugViewRuntimeControl
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/42/42d15e8944e0f033c1a20ac95f21535b2a490418.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/f8/f8519f5727e7b36ff1c89510362118795afcb00f.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/aa/aa348686bfe3c2b7c5a91319ee52ae445cc7ed76.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/a8/a87061112b2b70d8d1edffc15008ad981fd1d51f.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/41/4147f24370232754e1f2179b568f03ca30641d47.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/44/440a2a2646f830c14deb2c1cb36fd6c1c16c8e88.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/90/90997eabe8ce7836b94622394cb7406ec179e3ae.js" loaded.
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js" loaded.
-2024-5-14 13:30:02-warn: Warning: This is a browser-targeted Firebase bundle but it appears it is beingrun in a Node environment.  If running in a Node environment, make sure youare using the bundle specified by the "main" field in package.json.If you are using Webpack, you can specify "main" as the first item in"resolve.mainFields":https://webpack.js.org/configuration/resolve/#resolvemainfieldsIf using Rollup, use the rollup-plugin-node-resolve plugin and set "module"to false and "main" to true:https://github.com/rollup/rollup-plugin-node-resolve
-2024-5-14 13:30:02-warn: It looks like you're using the development build of the Firebase JS SDK.When deploying Firebase apps to production, it is advisable to only importthe individual SDK components you intend to use.For the CDN builds, these are available in the following manner(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
-2024-5-14 13:30:02-warn: Warning: This is a browser-targeted Firebase bundle but it appears it is beingrun in a Node environment.  If running in a Node environment, make sure youare using the bundle specified by the "main" field in package.json.If you are using Webpack, you can specify "main" as the first item in"resolve.mainFields":https://webpack.js.org/configuration/resolve/#resolvemainfieldsIf using Rollup, use the rollup-plugin-node-resolve plugin and set "module"to false and "main" to true:https://github.com/rollup/rollup-plugin-node-resolve
-2024-5-14 13:30:02-error: TypeError: Cannot read property 'hasOwnProperty' of undefined    at Qn (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:31595:38)    at new yi (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:31701:57)    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:33032:26    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36930:17    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36931:16    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30048:72    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30049:10    at CjsLoader._load (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:103:11)    at CjsLoader._tryModuleLoad (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:83:18)    at CjsLoader._require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:56:16)    at CjsLoader.require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:36:23)    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js:41:14)    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:311:13)    at Executor.reload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:194:13)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2782    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:1284)    at loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2211)    at BundleManager.loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:2788)    at BuildTask.initBundleManager (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7652)    at BuildTask.run (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:3688)    at build (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:3733)    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
-2024-5-14 13:30:02-warn: Error: Cannot instantiate firebase-auth - be sure to load firebase-app.js first.    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36933:37    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30048:72    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30049:10    at CjsLoader._load (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:103:11)    at CjsLoader._tryModuleLoad (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:83:18)    at CjsLoader._require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:56:16)    at CjsLoader.require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:36:23)    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js:41:14)    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:311:13)    at Executor.reload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:194:13)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2782    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:1284)    at loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2211)    at BundleManager.loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:2788)    at BuildTask.initBundleManager (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7652)    at BuildTask.run (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:3688)    at build (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:3733)    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
-2024-5-14 13:30:02-log: pack:///chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.jsError: Cannot instantiate firebase-auth - be sure to load firebase-app.js first.    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:36933:37    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30048:72    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/d6/d6edea73ba9a4c3ea4831d342cfa85c7cfc23dd3.js:30049:10    at CjsLoader._load (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:103:11)    at CjsLoader._tryModuleLoad (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:83:18)    at CjsLoader._require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:56:16)    at CjsLoader.require (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js:36:23)    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/44/44bbb3198ea3856c0c59bb588653076f959ff4b2.js:41:14)    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12    at file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13    at Object.execute (file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:311:13)    at Executor.reload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:194:13)    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2782    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:1284)    at loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2211)    at BundleManager.loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:2788)    at BuildTask.initBundleManager (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7652)    at BuildTask.run (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:3688)    at build (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:3733)    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)false
-2024-5-14 13:30:02-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2024-5-14 13:30:02-debug: Incremental keys: core,__extends,__assign,__rest,__decorate,__param,__esDecorate,__runInitializers,__propKey,__setFunctionName,__metadata,__awaiter,__generator,__exportStar,__createBinding,__values,__read,__spread,__spreadArrays,__spreadArray,__await,__asyncGenerator,__asyncDelegator,__asyncValues,__makeTemplateObject,__importStar,__importDefault,__classPrivateFieldGet,__classPrivateFieldSet,__classPrivateFieldIn,__addDisposableResource,__disposeResources
-2024-5-14 13:30:02-debug: web-desktop:(onAfterBundleInit) start..., progress: 11%
-2024-5-14 13:30:02-debug: // ---- build task web-desktop：onAfterBundleInit ----
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/42/42d15e8944e0f033c1a20ac95f21535b2a490418.js'
-2024-5-14 13:30:02-debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
-2024-5-14 13:30:02-debug: Unregister DebugViewRuntimeControl
-2024-5-14 13:30:02-debug: // ---- build task web-desktop：onAfterBundleInit ---- (3ms)
-2024-5-14 13:30:02-debug: Init bundle root assets start..., progress: 11%
-2024-5-14 13:30:02-debug: 查询 Asset Bundle start, progress: 11%
-2024-5-14 13:30:02-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 13:30:02-debug: web-desktop:(onAfterBundleInit) in 3 ms ✓, progress: 11%
-2024-5-14 13:30:02-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-5-14 13:30:02-debug: Init bundle share assets start..., progress: 11%
-2024-5-14 13:30:02-debug: Init bundle root assets success..., progress: 11%
-2024-5-14 13:30:02-debug: Init bundle share assets success..., progress: 11%
-2024-5-14 13:30:02-debug: handle json group in bundle internal
-2024-5-14 13:30:02-debug: init image compress task 0 in bundle internal
-2024-5-14 13:30:02-debug: init image compress task 0 in bundle main
-2024-5-14 13:30:02-debug: handle json group in bundle main success
-2024-5-14 13:30:02-debug: handle json group in bundle internal success
-2024-5-14 13:30:02-debug: handle json group in bundle main
-2024-5-14 13:30:02-debug: // ---- build task 查询 Asset Bundle ---- (19ms)
-2024-5-14 13:30:02-debug: 查询 Asset Bundle start, progress: 16%
-2024-5-14 13:30:02-debug: [Build Memory track]: 查询 Asset Bundle start:214.35MB, end 213.24MB, increase: -1140.59KB
-2024-5-14 13:30:02-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 13:30:02-debug: run build task 查询 Asset Bundle success in 19 ms√, progress: 16%
-2024-5-14 13:30:02-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
-2024-5-14 13:30:02-debug: // ---- build task web-desktop：onAfterBundleDataTask ----
-2024-5-14 13:30:02-debug: [Build Memory track]: 查询 Asset Bundle start:213.25MB, end 213.30MB, increase: 54.73KB
-2024-5-14 13:30:02-debug: web-desktop:(onAfterBundleDataTask) start..., progress: 21%
-2024-5-14 13:30:02-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 21%
-2024-5-14 13:30:02-debug: // ---- build task web-desktop：onAfterBundleDataTask ---- (4ms)
-2024-5-14 13:30:02-debug: web-desktop:(onAfterBundleDataTask) in 4 ms ✓, progress: 21%
-2024-5-14 13:30:02-debug: 打包脚本 start, progress: 21%
-2024-5-14 13:30:02-debug: // ---- build task 打包脚本 ----
-2024-5-14 13:30:04-debug: Generate systemJs..., progress: 21%
-2024-5-14 13:30:06-debug: 构建项目脚本 start..., progress: 21%
-2024-5-14 13:30:06-debug: Build script in bundle start, progress: 21%
-2024-5-14 13:30:06-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-2024-5-14 13:30:07-log: [build-script]enter sub process 6980, /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
-2024-5-14 13:30:07-log: [build-script]Create cjs interop url for 'file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js'
-2024-5-14 13:30:07-log: [build-script]Create cjs interop url for 'file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js'
-2024-5-14 13:30:10-debug: [build-script][BABEL] Note: The code generator has deoptimised the styling of /file:/Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js as it exceeds the max of 500KB.
-2024-5-14 13:30:16-debug: excute-script over with build-script 10102ms
-2024-5-14 13:30:16-debug: Copy externalScripts success!
-2024-5-14 13:30:16-debug: Build script in bundle success, progress: 21%
-2024-5-14 13:30:16-debug: 构建项目脚本 in (10321 ms) √, progress: 21%
-2024-5-14 13:30:16-debug: 构建引擎脚本 start..., progress: 21%
-2024-5-14 13:30:16-debug: Use cache engine: {link(/var/folders/qb/r6f5dxp12h3d5769mhs6vnhr0000gn/T/CocosCreator/3.8.2/builder/engine/bcae0dd6cb906f3d6c7420a7b5f36291)}
-2024-5-14 13:30:16-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.2","md5Map":[],"engineName":"cocos-js","platform":"HTML5","useCache":true,"isNative":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","output":"/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/build/web-desktop/cocos-js","flags":{"DEBUG":false,"WASM_FALLBACK":true,"CULL_ASM_JS_MODULE":false,"CULL_MESHOPT":true},"entry":"/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine"}
-2024-5-14 13:30:16-debug: 构建引擎脚本 in (36 ms) √, progress: 21%
-2024-5-14 13:30:16-debug: Copy plugin script ..., progress: 21%
-2024-5-14 13:30:16-debug: Generate import-map..., progress: 21%
-2024-5-14 13:30:16-debug: // ---- build task 打包脚本 ---- (14027ms)
-2024-5-14 13:30:16-debug: Build Assets start, progress: 26%
-2024-5-14 13:30:16-debug: [Build Memory track]: 打包脚本 start:213.46MB, end 209.05MB, increase: -4510.32KB
-2024-5-14 13:30:16-debug: Build bundles..., progress: 26%
-2024-5-14 13:30:16-debug: Pack Images start, progress: 26%
-2024-5-14 13:30:16-debug: // ---- build task Build Assets ----
-2024-5-14 13:30:16-debug: run build task 打包脚本 success in 14 s√, progress: 26%
-2024-5-14 13:30:16-debug: builder:pack-auto-atlas-image (7ms)
-2024-5-14 13:30:16-debug: Compress image start..., progress: 26%
-2024-5-14 13:30:16-debug: sort compress task {}
-2024-5-14 13:30:16-debug: Compress image success..., progress: 26%
-2024-5-14 13:30:16-debug: Ouput asset in bundles start, progress: 26%
-2024-5-14 13:30:16-debug: Num of all image compress task 0, really: 0, configTasks: 0
-2024-5-14 13:30:16-debug: handle json group
-2024-5-14 13:30:16-debug: Handle all json groups in bundle main
-2024-5-14 13:30:16-debug: handle json group
-2024-5-14 13:30:16-debug: No image need to compress
-2024-5-14 13:30:16-debug: Handle all json groups in bundle internal
-2024-5-14 13:30:16-debug: handle single json
-2024-5-14 13:30:16-debug: Pack Images success, progress: 26%
-2024-5-14 13:30:16-debug: Json group(0ca60d3e4) compile success，json number: 6
-2024-5-14 13:30:16-debug: handle single json
-2024-5-14 13:30:16-debug: Output asset in bundles success, progress: 26%
-2024-5-14 13:30:16-debug: // ---- build task Build Assets ---- (35ms)
-2024-5-14 13:30:16-debug: run build task Build Assets success in 35 ms√, progress: 31%
-2024-5-14 13:30:16-debug: [Build Memory track]: Build Assets start:209.07MB, end 209.97MB, increase: 922.97KB
-2024-5-14 13:30:16-debug: 给所有的资源加上 MD5 后缀 start, progress: 31%
-2024-5-14 13:30:16-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
-2024-5-14 13:30:16-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (4ms)
-2024-5-14 13:30:16-debug: run build task 给所有的资源加上 MD5 后缀 success in 4 ms√, progress: 36%
-2024-5-14 13:30:16-debug: Output asset in bundles start, progress: 36%
-2024-5-14 13:30:16-debug: compress config of bundle internal...
-2024-5-14 13:30:16-debug: compress config of bundle internal success
-2024-5-14 13:30:16-debug: compress config of bundle main...
-2024-5-14 13:30:16-debug: compress config of bundle main success
-2024-5-14 13:30:16-debug: ouput config of bundle internal
-2024-5-14 13:30:16-debug: output config of bundle internal success
-2024-5-14 13:30:16-debug: ouput config of bundle main
-2024-5-14 13:30:16-debug: output config of bundle main success
-2024-5-14 13:30:16-debug: Output asset in bundles success, progress: 36%
-2024-5-14 13:30:16-debug: 查询 Asset Bundle start, progress: 36%
-2024-5-14 13:30:16-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 13:30:16-debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:210.04MB, end 208.76MB, increase: -1303.91KB
-2024-5-14 13:30:16-log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
-2024-5-14 13:30:16-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
-2024-5-14 13:30:16-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 13:30:16-debug: [Build Memory track]: 查询 Asset Bundle start:208.78MB, end 208.96MB, increase: 184.91KB
-2024-5-14 13:30:16-debug: 整理部分构建选项内数据到 settings.json start, progress: 41%
-2024-5-14 13:30:16-debug: run build task 查询 Asset Bundle success in 8 ms√, progress: 41%
-2024-5-14 13:30:16-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2024-5-14 13:30:16-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 43%
-2024-5-14 13:30:16-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:208.97MB, end 209.02MB, increase: 50.32KB
-2024-5-14 13:30:16-debug: 填充脚本数据到 settings.json start, progress: 43%
-2024-5-14 13:30:16-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-5-14 13:30:16-debug: // ---- build task 填充脚本数据到 settings.json ---- (4ms)
-2024-5-14 13:30:16-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 13:30:16-debug: [Build Memory track]: 填充脚本数据到 settings.json start:209.03MB, end 209.08MB, increase: 51.97KB
-2024-5-14 13:30:16-debug: 整理部分构建选项内数据到 settings.json start, progress: 44%
-2024-5-14 13:30:16-debug: run build task 填充脚本数据到 settings.json success in 4 ms√, progress: 44%
-2024-5-14 13:30:16-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
-2024-5-14 13:30:16-debug: // ---- build task web-desktop：onBeforeCompressSettings ----
-2024-5-14 13:30:16-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:209.09MB, end 209.25MB, increase: 160.61KB
-2024-5-14 13:30:16-debug: web-desktop:(onBeforeCompressSettings) start..., progress: 46%
-2024-5-14 13:30:16-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 46%
-2024-5-14 13:30:16-debug: // ---- build task web-desktop：onBeforeCompressSettings ---- (4ms)
-2024-5-14 13:30:16-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
-2024-5-14 13:30:16-debug: cocos-service:(onBeforeCompressSettings) start..., progress: 48%
-2024-5-14 13:30:16-debug: web-desktop:(onBeforeCompressSettings) in 4 ms ✓, progress: 48%
-2024-5-14 13:30:17-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (209ms)
-2024-5-14 13:30:17-debug: cocos-service:(onBeforeCompressSettings) in 209 ms ✓, progress: 51%
-2024-5-14 13:30:17-debug: 保存 settings.json start, progress: 51%
-2024-5-14 13:30:17-debug: // ---- build task 保存 settings.json ----
-2024-5-14 13:30:17-debug: // ---- build task 保存 settings.json ---- (5ms)
-2024-5-14 13:30:17-debug: // ---- build task 整理静态模板文件 ----
-2024-5-14 13:30:17-debug: [Build Memory track]: 保存 settings.json start:209.42MB, end 209.58MB, increase: 169.62KB
-2024-5-14 13:30:17-debug: 整理静态模板文件 start, progress: 53%
-2024-5-14 13:30:17-debug: run build task 保存 settings.json success in 5 ms√, progress: 53%
-2024-5-14 13:30:17-debug: // ---- build task 整理静态模板文件 ---- (35ms)
-2024-5-14 13:30:17-debug: // ---- build task cocos-service：onAfterCompressSettings ----
-2024-5-14 13:30:17-debug: [Build Memory track]: 整理静态模板文件 start:209.59MB, end 210.66MB, increase: 1.07MB
-2024-5-14 13:30:17-debug: cocos-service:(onAfterCompressSettings) start..., progress: 56%
-2024-5-14 13:30:17-debug: run build task 整理静态模板文件 success in 35 ms√, progress: 56%
-2024-5-14 13:30:17-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (381ms)
-2024-5-14 13:30:17-debug: // ---- build task web-desktop：onAfterBuild ----
-2024-5-14 13:30:17-debug: cocos-service:(onAfterCompressSettings) in 381 ms ✓, progress: 58%
-2024-5-14 13:30:17-debug: web-desktop:(onAfterBuild) start..., progress: 58%
-2024-5-14 13:30:17-debug: // ---- build task web-desktop：onAfterBuild ---- (17ms)
-2024-5-14 13:30:17-debug: // ---- build task cocos-service：onAfterBuild ----
-2024-5-14 13:30:17-debug: cocos-service:(onAfterBuild) start..., progress: 60%
-2024-5-14 13:30:17-debug: web-desktop:(onAfterBuild) in 17 ms ✓, progress: 60%
-2024-5-14 13:30:23-log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
-2024-5-14 13:30:25-debug: // ---- build task cocos-service：onAfterBuild ---- (8038ms)
-2024-5-14 13:30:25-debug: cocos-service:(onAfterBuild) in 8038 ms ✓, progress: 62%
-2024-5-14 13:30:25-debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
-2024-5-14 13:30:25-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
-2024-5-14 13:30:25-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (16ms)
-2024-5-14 13:30:25-debug: adsense-h5g-plugin:(onAfterBuild) in 16 ms ✓, progress: 64%
-2024-5-14 13:30:25-log: Asset DB is resume!
-2024-5-14 13:30:25-debug: builder:build-project-total (23522ms)
-2024-5-14 13:30:25-debug: build success in 23522!
-2024-5-14 13:30:25-debug: [Build Memory track]: builder:build-project-total start:211.45MB, end 211.13MB, increase: -332.72KB
-2024-5-14 13:30:25-debug: ================================ build Task (web-desktop) Finished in (23 s)ms ================================
-2024-5-14 13:30:25-debug: Stop record console. {file(/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/builder/log/web-desktop5-14-2024 13-23.log)}
-2024-5-14 13:30:25-debug: refresh db internal success
-2024-5-14 13:30:25-debug: refresh db assets success
-2024-5-14 13:30:25-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:30:25-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:30:25-debug: asset-db:refresh-all-database (69ms)
-2024-5-14 13:30:25-debug: asset-db:worker-effect-data-processing (15ms)
-2024-5-14 13:30:25-debug: asset-db-hook-engine-extends-afterRefresh (15ms)
-2024-5-14 13:30:26-debug: refresh db internal success
-2024-5-14 13:30:26-debug: refresh db assets success
-2024-5-14 13:30:26-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:30:26-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:30:26-debug: asset-db:refresh-all-database (41ms)
-2024-5-14 13:30:26-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:30:26-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:31:08-debug: refresh db internal success
-2024-5-14 13:31:08-debug: refresh db assets success
-2024-5-14 13:31:08-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:31:08-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:31:08-debug: asset-db:refresh-all-database (35ms)
-2024-5-14 13:31:10-debug: refresh db internal success
-2024-5-14 13:31:10-debug: refresh db assets success
-2024-5-14 13:31:10-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:31:10-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:31:10-debug: asset-db:refresh-all-database (42ms)
-2024-5-14 13:31:40-debug: refresh db internal success
-2024-5-14 13:31:40-debug: refresh db assets success
-2024-5-14 13:31:40-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:31:40-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:31:40-debug: asset-db:refresh-all-database (38ms)
-2024-5-14 13:31:44-debug: refresh db internal success
-2024-5-14 13:31:44-debug: refresh db assets success
-2024-5-14 13:31:44-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:31:44-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:31:44-debug: asset-db:refresh-all-database (45ms)
-2024-5-14 13:32:16-debug: refresh db internal success
-2024-5-14 13:32:16-debug: refresh db assets success
-2024-5-14 13:32:16-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:32:16-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:32:16-debug: asset-db:refresh-all-database (33ms)
-2024-5-14 13:32:16-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:32:16-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:32:23-debug: refresh db internal success
-2024-5-14 13:32:23-debug: refresh db assets success
-2024-5-14 13:32:23-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:32:23-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:32:23-debug: asset-db:refresh-all-database (38ms)
-2024-5-14 13:32:23-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:32:23-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:32:27-debug: refresh db internal success
-2024-5-14 13:32:27-debug: refresh db assets success
-2024-5-14 13:32:27-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:32:27-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:32:27-debug: asset-db:refresh-all-database (30ms)
-2024-5-14 13:32:30-debug: refresh db internal success
-2024-5-14 13:32:30-debug: refresh db assets success
-2024-5-14 13:32:30-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:32:30-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:32:30-debug: asset-db:refresh-all-database (25ms)
-2024-5-14 13:32:45-debug: refresh db internal success
-2024-5-14 13:32:45-debug: refresh db assets success
-2024-5-14 13:32:45-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:32:45-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:32:45-debug: asset-db:refresh-all-database (24ms)
-2024-5-14 13:33:37-debug: refresh db internal success
-2024-5-14 13:33:37-debug: refresh db assets success
-2024-5-14 13:33:37-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:33:37-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:33:37-debug: asset-db:refresh-all-database (33ms)
-2024-5-14 13:33:37-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:33:37-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:33:40-debug: refresh db internal success
-2024-5-14 13:33:40-debug: refresh db assets success
-2024-5-14 13:33:40-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:33:40-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:33:40-debug: asset-db:refresh-all-database (35ms)
-2024-5-14 13:33:46-debug: refresh db internal success
-2024-5-14 13:33:46-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:33:46-debug: refresh db assets success
-2024-5-14 13:33:46-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:33:46-debug: asset-db:refresh-all-database (27ms)
-2024-5-14 13:33:59-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scene...
-2024-5-14 13:33:59-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scenebackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:33:59-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes success
-2024-5-14 13:33:59-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenesbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:34:10-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.ts...
-2024-5-14 13:34:10-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:34:10-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts success
-2024-5-14 13:34:10-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scriptsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:35:47-debug: refresh db internal success
-2024-5-14 13:35:47-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:35:47-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:35:47-debug: refresh db assets success
-2024-5-14 13:35:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:35:47-debug: asset-db:refresh-all-database (30ms)
-2024-5-14 13:35:51-debug: refresh db internal success
-2024-5-14 13:35:51-debug: refresh db assets success
-2024-5-14 13:35:51-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:35:51-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:35:51-debug: asset-db:refresh-all-database (38ms)
-2024-5-14 13:35:58-debug: refresh db internal success
-2024-5-14 13:35:58-debug: refresh db assets success
-2024-5-14 13:35:58-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:35:58-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:35:58-debug: asset-db:refresh-all-database (19ms)
-2024-5-14 13:36:01-debug: refresh db internal success
-2024-5-14 13:36:01-debug: refresh db assets success
-2024-5-14 13:36:01-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:36:01-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:36:01-debug: asset-db:refresh-all-database (32ms)
-2024-5-14 13:36:01-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:36:01-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:37:11-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scene...
-2024-5-14 13:37:11-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scenebackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:37:11-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes success
-2024-5-14 13:37:18-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/multiRoom.prefab...
-2024-5-14 13:37:18-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/multiRoom.prefabbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:37:18-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs success
-2024-5-14 13:37:18-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:37:30-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scene...
-2024-5-14 13:37:30-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scenebackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:37:30-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes success
-2024-5-14 13:37:45-debug: refresh db internal success
-2024-5-14 13:37:45-debug: refresh db assets success
-2024-5-14 13:37:45-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:37:45-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:37:45-debug: asset-db:refresh-all-database (28ms)
-2024-5-14 13:37:45-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:37:45-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:38:00-debug: refresh db internal success
-2024-5-14 13:38:00-debug: refresh db assets success
-2024-5-14 13:38:00-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:38:00-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:38:00-debug: asset-db:refresh-all-database (31ms)
-2024-5-14 13:38:41-debug: refresh db internal success
-2024-5-14 13:38:41-debug: refresh db assets success
-2024-5-14 13:38:41-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:38:41-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:38:41-debug: asset-db:refresh-all-database (28ms)
-2024-5-14 13:39:10-debug: refresh db internal success
-2024-5-14 13:39:10-debug: refresh db assets success
-2024-5-14 13:39:10-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:39:10-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:39:10-debug: asset-db:refresh-all-database (37ms)
-2024-5-14 13:39:24-debug: refresh db internal success
-2024-5-14 13:39:24-debug: refresh db assets success
-2024-5-14 13:39:24-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:39:24-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:39:24-debug: asset-db:refresh-all-database (32ms)
-2024-5-14 13:39:31-debug: refresh db internal success
-2024-5-14 13:39:31-debug: refresh db assets success
-2024-5-14 13:39:31-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:39:31-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:39:31-debug: asset-db:refresh-all-database (31ms)
-2024-5-14 13:39:31-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:39:36-debug: refresh db internal success
-2024-5-14 13:39:36-debug: refresh db assets success
-2024-5-14 13:39:36-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:39:36-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:39:36-debug: asset-db:refresh-all-database (38ms)
-2024-5-14 13:39:36-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:39:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:39:51-debug: refresh db internal success
-2024-5-14 13:39:51-debug: refresh db assets success
-2024-5-14 13:39:51-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:39:51-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:39:51-debug: asset-db:refresh-all-database (37ms)
-2024-5-14 13:39:54-debug: refresh db internal success
-2024-5-14 13:39:54-debug: refresh db assets success
-2024-5-14 13:39:54-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:39:54-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:39:54-debug: asset-db:refresh-all-database (25ms)
-2024-5-14 13:40:09-debug: refresh db internal success
-2024-5-14 13:40:09-debug: refresh db assets success
-2024-5-14 13:40:09-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:40:09-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:40:09-debug: asset-db:refresh-all-database (35ms)
-2024-5-14 13:40:21-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/multiRoom.prefab...
-2024-5-14 13:40:21-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/multiRoom.prefabbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:40:21-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs success
-2024-5-14 13:40:51-debug: refresh db internal success
-2024-5-14 13:40:51-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:40:51-debug: refresh db assets success
-2024-5-14 13:40:51-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:40:51-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:40:51-debug: asset-db:refresh-all-database (28ms)
-2024-5-14 13:40:51-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:41:02-debug: refresh db internal success
-2024-5-14 13:41:02-debug: refresh db assets success
-2024-5-14 13:41:02-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:41:02-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:41:02-debug: asset-db:refresh-all-database (20ms)
-2024-5-14 13:41:02-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:41:45-debug: refresh db internal success
-2024-5-14 13:41:45-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:41:45-debug: refresh db assets success
-2024-5-14 13:41:45-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:41:45-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:41:45-debug: asset-db:refresh-all-database (20ms)
-2024-5-14 13:41:45-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:41:45-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:41:51-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Game.scene...
-2024-5-14 13:41:51-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Game.scenebackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:41:51-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes success
-2024-5-14 13:41:51-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenesbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:42:06-debug: refresh db internal success
-2024-5-14 13:42:06-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:42:06-debug: refresh db assets success
-2024-5-14 13:42:06-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:42:06-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:42:06-debug: asset-db:refresh-all-database (19ms)
-2024-5-14 13:42:06-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:42:06-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:44:26-debug: refresh db internal success
-2024-5-14 13:44:26-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:44:26-debug: refresh db assets success
-2024-5-14 13:44:26-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:44:26-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:44:26-debug: asset-db:refresh-all-database (27ms)
-2024-5-14 13:44:26-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:44:26-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:44:31-debug: refresh db internal success
-2024-5-14 13:44:31-debug: refresh db assets success
-2024-5-14 13:44:31-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:44:31-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:44:31-debug: asset-db:refresh-all-database (35ms)
-2024-5-14 13:45:33-debug: refresh db internal success
-2024-5-14 13:45:33-debug: refresh db assets success
-2024-5-14 13:45:33-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:45:33-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:45:33-debug: asset-db:refresh-all-database (28ms)
-2024-5-14 13:50:12-debug: refresh db internal success
-2024-5-14 13:50:12-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:50:12-debug: refresh db assets success
-2024-5-14 13:50:12-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:50:12-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:50:12-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:50:12-debug: asset-db:refresh-all-database (44ms)
-2024-5-14 13:50:12-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:52:15-debug: refresh db internal success
-2024-5-14 13:52:15-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:52:15-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/firebase.jsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:52:15-debug: refresh db assets success
-2024-5-14 13:52:15-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:52:15-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:52:15-debug: asset-db:refresh-all-database (32ms)
-2024-5-14 13:52:15-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:52:15-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:53:51-debug: refresh db internal success
-2024-5-14 13:53:51-debug: refresh db assets success
-2024-5-14 13:53:51-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:53:51-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:53:51-debug: asset-db:refresh-all-database (36ms)
-2024-5-14 13:53:54-debug: refresh db internal success
-2024-5-14 13:53:54-debug: refresh db assets success
-2024-5-14 13:53:54-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:53:54-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:53:54-debug: asset-db:refresh-all-database (34ms)
-2024-5-14 13:53:59-debug: refresh db internal success
-2024-5-14 13:53:59-debug: refresh db assets success
-2024-5-14 13:53:59-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:53:59-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:53:59-debug: asset-db:refresh-all-database (28ms)
-2024-5-14 13:53:59-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:55:02-debug: refresh db internal success
-2024-5-14 13:55:02-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scriptsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:55:02-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/firebase.jsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:55:02-debug: refresh db assets success
-2024-5-14 13:55:02-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:55:02-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:55:02-debug: asset-db:refresh-all-database (30ms)
-2024-5-14 13:55:02-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:55:02-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 13:55:05-debug: refresh db internal success
-2024-5-14 13:55:05-debug: refresh db assets success
-2024-5-14 13:55:05-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:55:05-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:55:05-debug: asset-db:refresh-all-database (15ms)
-2024-5-14 13:58:04-debug: refresh db internal success
-2024-5-14 13:58:04-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/firebase.jsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:58:04-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:58:04-debug: refresh db assets success
-2024-5-14 13:58:04-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:58:04-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:58:04-debug: asset-db:refresh-all-database (95ms)
-2024-5-14 13:58:04-debug: asset-db:worker-effect-data-processing (4ms)
-2024-5-14 13:58:04-debug: asset-db-hook-engine-extends-afterRefresh (6ms)
-2024-5-14 13:59:04-debug: refresh db internal success
-2024-5-14 13:59:04-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 13:59:04-debug: refresh db assets success
-2024-5-14 13:59:04-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 13:59:04-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 13:59:04-debug: asset-db:refresh-all-database (42ms)
-2024-5-14 13:59:04-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 13:59:04-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 14:00:09-debug: refresh db internal success
-2024-5-14 14:00:09-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 14:00:09-debug: refresh db assets success
-2024-5-14 14:00:09-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 14:00:09-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 14:00:09-debug: asset-db:refresh-all-database (31ms)
-2024-5-14 14:00:09-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 14:00:09-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 14:00:12-debug: Query all assets info in project
-2024-5-14 14:00:12-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-5-14 14:00:12-debug:   Number of all scenes: 3
-2024-5-14 14:00:12-debug:   Number of all scripts: 3
-2024-5-14 14:00:12-debug:   Number of other assets: 326
-2024-5-14 14:00:12-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:00:12-debug: 查询 Asset Bundle start, progress: 0%
-2024-5-14 14:00:12-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-5-14 14:00:12-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
-2024-5-14 14:00:12-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
-2024-5-14 14:00:12-debug: [Build Memory track]: 查询 Asset Bundle start:210.47MB, end 210.77MB, increase: 302.14KB
-2024-5-14 14:00:12-debug: 查询 Asset Bundle start, progress: 5%
-2024-5-14 14:00:12-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:00:12-debug: [Build Memory track]: 查询 Asset Bundle start:210.78MB, end 210.79MB, increase: 10.35KB
-2024-5-14 14:00:12-debug: run build task 查询 Asset Bundle success in √, progress: 10%
-2024-5-14 14:00:12-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-5-14 14:00:12-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:00:12-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2024-5-14 14:00:12-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2024-5-14 14:00:12-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:210.80MB, end 210.81MB, increase: 12.68KB
-2024-5-14 14:00:12-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-5-14 14:00:12-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-5-14 14:00:12-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
-2024-5-14 14:00:12-debug: [Build Memory track]: 填充脚本数据到 settings.json start:210.82MB, end 210.83MB, increase: 10.83KB
-2024-5-14 14:00:12-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-5-14 14:00:12-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:00:12-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2024-5-14 14:00:12-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
-2024-5-14 14:00:12-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:210.84MB, end 210.95MB, increase: 117.59KB
-2024-5-14 14:02:15-debug: refresh db internal success
-2024-5-14 14:02:15-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 14:02:15-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/firebase.jsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 14:02:15-debug: refresh db assets success
-2024-5-14 14:02:15-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 14:02:15-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 14:02:15-debug: asset-db:refresh-all-database (57ms)
-2024-5-14 14:02:15-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 14:02:15-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 14:02:17-debug: Query all assets info in project
-2024-5-14 14:02:17-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-5-14 14:02:17-debug:   Number of all scenes: 3
-2024-5-14 14:02:17-debug:   Number of all scripts: 3
-2024-5-14 14:02:17-debug:   Number of other assets: 326
-2024-5-14 14:02:17-debug: 查询 Asset Bundle start, progress: 0%
-2024-5-14 14:02:17-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:02:17-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-5-14 14:02:17-debug: // ---- build task 查询 Asset Bundle ---- (11ms)
-2024-5-14 14:02:17-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:02:17-debug: [Build Memory track]: 查询 Asset Bundle start:212.09MB, end 212.39MB, increase: 306.43KB
-2024-5-14 14:02:17-debug: 查询 Asset Bundle start, progress: 5%
-2024-5-14 14:02:17-debug: run build task 查询 Asset Bundle success in 11 ms√, progress: 5%
-2024-5-14 14:02:17-debug: run build task 查询 Asset Bundle success in √, progress: 10%
-2024-5-14 14:02:17-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-5-14 14:02:17-debug: [Build Memory track]: 查询 Asset Bundle start:212.40MB, end 212.41MB, increase: 10.02KB
-2024-5-14 14:02:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:02:17-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
-2024-5-14 14:02:17-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:212.42MB, end 212.42MB, increase: 9.06KB
-2024-5-14 14:02:17-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-5-14 14:02:17-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-5-14 14:02:17-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
-2024-5-14 14:02:17-debug: [Build Memory track]: 填充脚本数据到 settings.json start:212.43MB, end 212.45MB, increase: 13.29KB
-2024-5-14 14:02:17-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-5-14 14:02:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:02:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2024-5-14 14:02:17-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
-2024-5-14 14:02:17-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:212.45MB, end 212.57MB, increase: 113.26KB
-2024-5-14 14:02:17-debug: Query all assets info in project
-2024-5-14 14:02:17-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-5-14 14:02:17-debug:   Number of all scenes: 3
-2024-5-14 14:02:17-debug:   Number of all scripts: 3
-2024-5-14 14:02:17-debug:   Number of other assets: 326
-2024-5-14 14:02:17-debug: 查询 Asset Bundle start, progress: 0%
-2024-5-14 14:02:17-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:02:17-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-5-14 14:02:17-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
-2024-5-14 14:02:17-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 5%
-2024-5-14 14:02:17-debug: [Build Memory track]: 查询 Asset Bundle start:213.80MB, end 213.71MB, increase: -92.15KB
-2024-5-14 14:02:17-debug: 查询 Asset Bundle start, progress: 5%
-2024-5-14 14:02:17-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:02:17-debug: run build task 查询 Asset Bundle success in √, progress: 10%
-2024-5-14 14:02:17-debug: [Build Memory track]: 查询 Asset Bundle start:213.72MB, end 213.72MB, increase: 10.04KB
-2024-5-14 14:02:17-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-5-14 14:02:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:02:17-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
-2024-5-14 14:02:17-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:213.73MB, end 213.74MB, increase: 8.77KB
-2024-5-14 14:02:17-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-5-14 14:02:17-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-5-14 14:02:17-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
-2024-5-14 14:02:17-debug: [Build Memory track]: 填充脚本数据到 settings.json start:213.75MB, end 213.76MB, increase: 12.34KB
-2024-5-14 14:02:17-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-5-14 14:02:17-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
-2024-5-14 14:02:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:02:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2024-5-14 14:02:17-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
-2024-5-14 14:02:17-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:213.77MB, end 213.89MB, increase: 117.48KB
-2024-5-14 14:02:24-debug: refresh db internal success
-2024-5-14 14:02:24-debug: refresh db assets success
-2024-5-14 14:02:24-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 14:02:24-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 14:02:24-debug: asset-db:refresh-all-database (17ms)
-2024-5-14 14:02:26-debug: Query all assets info in project
-2024-5-14 14:02:26-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-5-14 14:02:26-debug:   Number of all scenes: 3
-2024-5-14 14:02:26-debug:   Number of other assets: 326
-2024-5-14 14:02:26-debug:   Number of all scripts: 3
-2024-5-14 14:02:26-debug: 查询 Asset Bundle start, progress: 0%
-2024-5-14 14:02:26-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:02:26-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-5-14 14:02:26-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
-2024-5-14 14:02:26-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:02:26-debug: [Build Memory track]: 查询 Asset Bundle start:214.59MB, end 214.53MB, increase: -61.36KB
-2024-5-14 14:02:26-debug: 查询 Asset Bundle start, progress: 5%
-2024-5-14 14:02:26-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
-2024-5-14 14:02:26-debug: run build task 查询 Asset Bundle success in √, progress: 10%
-2024-5-14 14:02:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:02:26-debug: [Build Memory track]: 查询 Asset Bundle start:214.54MB, end 214.55MB, increase: 9.73KB
-2024-5-14 14:02:26-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-5-14 14:02:26-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
-2024-5-14 14:02:26-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:214.56MB, end 214.57MB, increase: 10.66KB
-2024-5-14 14:02:26-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-5-14 14:02:26-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-5-14 14:02:26-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
-2024-5-14 14:02:26-debug: [Build Memory track]: 填充脚本数据到 settings.json start:214.58MB, end 214.59MB, increase: 12.40KB
-2024-5-14 14:02:26-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-5-14 14:02:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:02:26-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
-2024-5-14 14:02:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2024-5-14 14:02:26-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
-2024-5-14 14:02:26-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:214.60MB, end 214.71MB, increase: 113.95KB
-2024-5-14 14:02:57-debug: refresh db internal success
-2024-5-14 14:02:57-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 14:02:57-debug: refresh db assets success
-2024-5-14 14:02:57-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 14:02:57-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 14:02:57-debug: asset-db:refresh-all-database (33ms)
-2024-5-14 14:02:58-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scene...
-2024-5-14 14:02:58-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scenebackground: #aaff85; color: #000;color: #000;
-2024-5-14 14:02:58-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes success
-2024-5-14 14:02:58-debug: Query all assets info in project
-2024-5-14 14:02:58-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-5-14 14:02:58-debug:   Number of all scenes: 3
-2024-5-14 14:02:58-debug:   Number of all scripts: 3
-2024-5-14 14:02:58-debug:   Number of other assets: 326
-2024-5-14 14:02:58-debug: 查询 Asset Bundle start, progress: 0%
-2024-5-14 14:02:58-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:02:58-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-5-14 14:02:58-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 5%
-2024-5-14 14:02:58-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
-2024-5-14 14:02:58-debug: [Build Memory track]: 查询 Asset Bundle start:215.79MB, end 215.76MB, increase: -37.14KB
-2024-5-14 14:02:58-debug: 查询 Asset Bundle start, progress: 5%
-2024-5-14 14:02:58-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:02:58-debug: // ---- build task 查询 Asset Bundle ---- (1ms)
-2024-5-14 14:02:58-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:02:58-debug: [Build Memory track]: 查询 Asset Bundle start:215.77MB, end 215.78MB, increase: 13.09KB
-2024-5-14 14:02:58-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-5-14 14:02:58-debug: run build task 查询 Asset Bundle success in 1 ms√, progress: 10%
-2024-5-14 14:02:58-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2024-5-14 14:02:58-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-5-14 14:02:58-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:215.79MB, end 215.80MB, increase: 11.95KB
-2024-5-14 14:02:58-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-5-14 14:02:58-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2024-5-14 14:02:58-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
-2024-5-14 14:02:58-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:02:58-debug: [Build Memory track]: 填充脚本数据到 settings.json start:215.81MB, end 215.82MB, increase: 13.05KB
-2024-5-14 14:02:58-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-5-14 14:02:58-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
-2024-5-14 14:02:58-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2024-5-14 14:02:58-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
-2024-5-14 14:02:58-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:215.83MB, end 215.00MB, increase: -849.47KB
-2024-5-14 14:03:26-debug: refresh db internal success
-2024-5-14 14:03:26-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.tsbackground: #aaff85; color: #000;color: #000;
-2024-5-14 14:03:26-debug: refresh db assets success
-2024-5-14 14:03:26-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 14:03:26-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 14:03:26-debug: asset-db:refresh-all-database (38ms)
-2024-5-14 14:03:26-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 14:03:26-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 14:03:27-debug: Query all assets info in project
-2024-5-14 14:03:27-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-5-14 14:03:27-debug:   Number of all scenes: 3
-2024-5-14 14:03:27-debug:   Number of all scripts: 3
-2024-5-14 14:03:27-debug:   Number of other assets: 326
-2024-5-14 14:03:27-debug: 查询 Asset Bundle start, progress: 0%
-2024-5-14 14:03:27-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:03:27-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-5-14 14:03:27-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
-2024-5-14 14:03:27-debug: [Build Memory track]: 查询 Asset Bundle start:216.84MB, end 217.11MB, increase: 279.30KB
-2024-5-14 14:03:27-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
-2024-5-14 14:03:27-debug: // ---- build task 查询 Asset Bundle ----
-2024-5-14 14:03:27-debug: 查询 Asset Bundle start, progress: 5%
-2024-5-14 14:03:27-debug: run build task 查询 Asset Bundle success in √, progress: 10%
-2024-5-14 14:03:27-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:03:27-debug: [Build Memory track]: 查询 Asset Bundle start:217.12MB, end 217.13MB, increase: 10.38KB
-2024-5-14 14:03:27-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-5-14 14:03:27-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2024-5-14 14:03:27-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-5-14 14:03:27-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:217.14MB, end 217.15MB, increase: 12.97KB
-2024-5-14 14:03:27-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-5-14 14:03:27-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2024-5-14 14:03:27-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
-2024-5-14 14:03:27-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-5-14 14:03:27-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-5-14 14:03:27-debug: [Build Memory track]: 填充脚本数据到 settings.json start:217.16MB, end 217.17MB, increase: 10.55KB
-2024-5-14 14:03:27-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2024-5-14 14:03:27-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 15%
-2024-5-14 14:03:27-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:217.18MB, end 217.29MB, increase: 113.13KB
-2024-5-14 14:03:31-debug: refresh db internal success
-2024-5-14 14:03:31-debug: refresh db assets success
-2024-5-14 14:03:31-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 14:03:31-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 14:03:31-debug: asset-db:refresh-all-database (34ms)
-2024-5-14 14:03:31-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 14:03:42-debug: refresh db internal success
-2024-5-14 14:03:42-debug: refresh db assets success
-2024-5-14 14:03:42-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 14:03:42-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 14:03:42-debug: asset-db:refresh-all-database (33ms)
-2024-5-14 14:03:42-debug: asset-db:worker-effect-data-processing (1ms)
-2024-5-14 14:03:42-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-5-14 14:04:07-debug: refresh db internal success
-2024-5-14 14:04:07-debug: refresh db assets success
-2024-5-14 14:04:07-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-5-14 14:04:07-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-5-14 14:04:07-debug: asset-db:refresh-all-database (31ms)
-2024-5-14 14:04:08-debug: start refresh asset from /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scene...
-2024-5-14 14:04:08-debug: %cImport%c: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scenebackground: #aaff85; color: #000;color: #000;
-2024-5-14 14:04:08-debug: refresh asset /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes success

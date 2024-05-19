@@ -172,7 +172,7 @@
     "_string": "room",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 56.875,
+    "_actualFontSize": 54.921875,
     "_fontSize": 50,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -242,8 +242,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 637.626,
-      "height": 120.127
+      "width": 550,
+      "height": 95
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -372,7 +372,7 @@
     "fileId": "751A5qNvBEzod7aktyOgFg"
   },
   {
-    "__type__": "f8e14gXc9ZPNKrHfMF1zxxP",
+    "__type__": "47837FJ5UdFAI8ciVzbD7Hf",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -383,11 +383,14 @@
     "__prefab": {
       "__id__": 15
     },
+    "roomName": {
+      "__id__": 5
+    },
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "4fMNPW7t5C07qTX9R46ZTn"
+    "fileId": "f1Gmx7cahOobX59i1Bg9Mw"
   },
   {
     "__type__": "cc.PrefabInfo",

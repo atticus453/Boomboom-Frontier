@@ -6,7 +6,7 @@ System.register([], function (_export, _context) {
     execute: async function () {
       // Auto generated represents the prerequisite imports of project modules.
       await (async () => {
-        const requests = [() => _context.import("__unresolved_0"), () => _context.import("__unresolved_1")];
+        const requests = [() => _context.import("__unresolved_0"), () => _context.import("__unresolved_1"), () => _context.import("__unresolved_2")];
 
         for (const request of requests) {
           try {

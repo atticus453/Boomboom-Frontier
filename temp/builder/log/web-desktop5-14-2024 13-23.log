@@ -773,3 +773,539 @@
 2024-5-14 13:30:25 - debug: build success in 23522!
 2024-5-14 13:30:25 - debug: [Build Memory track]: builder:build-project-total start:211.45MB, end 211.13MB, increase: -332.72KB
 2024-5-14 13:30:25 - debug: ================================ build Task (web-desktop) Finished in (23 s)ms ================================
+2024-5-16 13:19:55 - debug: =================================== build Task (web-desktop) Start ================================
+2024-5-16 13:19:55 - debug: Start build task, options:{"name":"BoomBoom Frontier","server":"","platform":"web-desktop","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"ab2dfc6f-bc35-40ac-96f3-d85479c4cacd","outputName":"web-desktop","taskName":"web-desktop","scenes":[{"url":"db://assets/Scenes/Menu.scene","uuid":"ab2dfc6f-bc35-40ac-96f3-d85479c4cacd"}],"packages":{"engine":{"cleanupImageCache":"inheritProjectSetting","__version__":"1.0.8"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"web-desktop":{"resolution":{"designWidth":1280,"designHeight":960},"cullEngineAsmJsModule":false,"__version__":"1.0.1"},"cocos-service":{"configID":"c49362","services":[]}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/web-desktop5-14-2024 13-23.log"}
+2024-5-16 13:19:55 - debug: Build with Cocos Creator 3.8.2
+2024-5-16 13:19:55 - debug: cocos-service:(onBeforeBuild) start..., progress: 0%
+2024-5-16 13:19:55 - debug: // ---- build task cocos-service：onBeforeBuild ----
+2024-5-16 13:19:56 - debug: // ---- build task cocos-service：onBeforeBuild ---- (358ms)
+2024-5-16 13:19:56 - debug: cocos-service:(onBeforeBuild) in 358 ms ✓, progress: 2%
+2024-5-16 13:19:56 - debug: scene:(onBeforeBuild) start..., progress: 2%
+2024-5-16 13:19:56 - debug: // ---- build task scene：onBeforeBuild ----
+2024-5-16 13:19:56 - debug: // ---- build task scene：onBeforeBuild ---- (5ms)
+2024-5-16 13:19:56 - debug: scene:(onBeforeBuild) in 5 ms ✓, progress: 4%
+2024-5-16 13:19:56 - debug: Start lock asset db..., progress: 4%
+2024-5-16 13:19:56 - log: Asset DB is paused with build!
+2024-5-16 13:19:56 - debug: Query all assets info in project
+2024-5-16 13:19:56 - debug: init custom config: keepNodeUuid: false, useCache: true
+2024-5-16 13:19:56 - debug:   Number of all scenes: 3
+2024-5-16 13:19:56 - debug:   Number of all scripts: 3
+2024-5-16 13:19:56 - debug:   Number of other assets: 329
+2024-5-16 13:19:56 - debug: web-desktop:(onAfterInit) start..., progress: 4%
+2024-5-16 13:19:56 - debug: // ---- build task web-desktop：onAfterInit ----
+2024-5-16 13:19:56 - debug: // ---- build task web-desktop：onAfterInit ---- (2ms)
+2024-5-16 13:19:56 - debug: web-desktop:(onAfterInit) in 2 ms ✓, progress: 7%
+2024-5-16 13:19:56 - debug: cocos-service:(onAfterInit) start..., progress: 7%
+2024-5-16 13:19:56 - debug: // ---- build task cocos-service：onAfterInit ----
+2024-5-16 13:19:56 - debug: // ---- build task cocos-service：onAfterInit ---- (285ms)
+2024-5-16 13:19:56 - debug: cocos-service:(onAfterInit) in 285 ms ✓, progress: 9%
+2024-5-16 13:19:56 - debug: engine:(onAfterInit) start..., progress: 9%
+2024-5-16 13:19:56 - debug: // ---- build task engine：onAfterInit ----
+2024-5-16 13:19:56 - debug: // ---- build task engine：onAfterInit ---- (5ms)
+2024-5-16 13:19:56 - debug: engine:(onAfterInit) in 5 ms ✓, progress: 11%
+2024-5-16 13:19:56 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 11%
+2024-5-16 13:19:56 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2024-5-16 13:19:56 - debug: [adsense-h5g-plugin] remove script success
+2024-5-16 13:19:56 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (6ms)
+2024-5-16 13:19:56 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 6 ms ✓, progress: 11%
+2024-5-16 13:19:56 - debug: Init all bundles start..., progress: 11%
+2024-5-16 13:19:56 - debug: Num of bundles: 2..., progress: 11%
+2024-5-16 13:19:56 - debug: reload all scripts.
+2024-5-16 13:19:56 - debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-5-16 13:19:56 - groupCollapsed: Invalidate all modules
+2024-5-16 13:19:56 - debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-5-16 13:19:56 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2024-5-16 13:19:56 - groupEnd: Invalidate all modules
+2024-5-16 13:19:56 - groupCollapsed: Imports all modules
+2024-5-16 13:19:56 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-5-16 13:19:56 - debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+2024-5-16 13:19:56 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-5-16 13:19:56 - debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js is not in module cache!
+2024-5-16 13:19:56 - debug: [[Executor]] Register DebugViewRuntimeControl
+2024-5-16 13:19:56 - debug: [[Executor]] Module "pack:///chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js" loaded.
+2024-5-16 13:19:56 - debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/48/4840064f1c8314bacaf28f88f24c72e3ddc0f6c4.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/48/4840064f1c8314bacaf28f88f24c72e3ddc0f6c4.js is not in module cache!
+2024-5-16 13:19:56 - debug: [[Executor]] Register MultiSelect
+2024-5-16 13:19:56 - debug: [[Executor]] Module "pack:///chunks/48/4840064f1c8314bacaf28f88f24c72e3ddc0f6c4.js" loaded.
+2024-5-16 13:19:56 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-5-16 13:19:56 - groupEnd: Imports all modules
+2024-5-16 13:19:56 - debug: Incremental keys: 
+2024-5-16 13:19:56 - debug: web-desktop:(onAfterBundleInit) start..., progress: 11%
+2024-5-16 13:19:56 - debug: // ---- build task web-desktop：onAfterBundleInit ----
+2024-5-16 13:19:56 - debug: // ---- build task web-desktop：onAfterBundleInit ---- (5ms)
+2024-5-16 13:19:56 - debug: web-desktop:(onAfterBundleInit) in 5 ms ✓, progress: 11%
+2024-5-16 13:19:56 - debug: 查询 Asset Bundle start, progress: 11%
+2024-5-16 13:19:56 - debug: // ---- build task 查询 Asset Bundle ----
+2024-5-16 13:19:56 - debug: Init bundle root assets start..., progress: 11%
+2024-5-16 13:19:56 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-5-16 13:19:56 - debug: Init bundle root assets success..., progress: 11%
+2024-5-16 13:19:56 - debug: Init bundle share assets start..., progress: 11%
+2024-5-16 13:19:56 - debug: Init bundle share assets success..., progress: 11%
+2024-5-16 13:19:56 - debug: handle json group in bundle internal
+2024-5-16 13:19:56 - debug: handle json group in bundle internal success
+2024-5-16 13:19:56 - debug: handle json group in bundle main
+2024-5-16 13:19:56 - debug: init image compress task 0 in bundle internal
+2024-5-16 13:19:56 - debug: handle json group in bundle main success
+2024-5-16 13:19:56 - debug: init image compress task 0 in bundle main
+2024-5-16 13:19:56 - debug: // ---- build task 查询 Asset Bundle ---- (19ms)
+2024-5-16 13:19:56 - debug: run build task 查询 Asset Bundle success in 19 ms√, progress: 16%
+2024-5-16 13:19:56 - debug: [Build Memory track]: 查询 Asset Bundle start:200.61MB, end 199.18MB, increase: -1464.85KB
+2024-5-16 13:19:56 - debug: 查询 Asset Bundle start, progress: 16%
+2024-5-16 13:19:56 - debug: // ---- build task 查询 Asset Bundle ----
+2024-5-16 13:19:56 - debug: // ---- build task 查询 Asset Bundle ---- (4ms)
+2024-5-16 13:19:56 - debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 21%
+2024-5-16 13:19:56 - debug: [Build Memory track]: 查询 Asset Bundle start:199.19MB, end 199.24MB, increase: 54.75KB
+2024-5-16 13:19:56 - debug: web-desktop:(onAfterBundleDataTask) start..., progress: 21%
+2024-5-16 13:19:56 - debug: // ---- build task web-desktop：onAfterBundleDataTask ----
+2024-5-16 13:19:56 - debug: // ---- build task web-desktop：onAfterBundleDataTask ---- (4ms)
+2024-5-16 13:19:56 - debug: web-desktop:(onAfterBundleDataTask) in 4 ms ✓, progress: 21%
+2024-5-16 13:19:56 - debug: 打包脚本 start, progress: 21%
+2024-5-16 13:19:56 - debug: // ---- build task 打包脚本 ----
+2024-5-16 13:19:58 - debug: Generate systemJs..., progress: 21%
+2024-5-16 13:20:00 - debug: 构建项目脚本 start..., progress: 21%
+2024-5-16 13:20:00 - debug: Build script in bundle start, progress: 21%
+2024-5-16 13:20:00 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2024-5-16 13:20:01 - log: [build-script]enter sub process 7228, /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
+2024-5-16 13:20:01 - log(2): [build-script]Create cjs interop url for 'file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js'
+2024-5-16 13:20:04 - error: [build-script][BABEL] Note: The code generator has deoptimised the styling of /file:/Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js as it exceeds the max of 500KB.
+2024-5-16 13:20:11 - debug: excute-script over with build-script 10185ms
+2024-5-16 13:20:11 - debug: Copy externalScripts success!
+2024-5-16 13:20:11 - debug: Build script in bundle success, progress: 21%
+2024-5-16 13:20:11 - debug: 构建项目脚本 in (10415 ms) √, progress: 21%
+2024-5-16 13:20:11 - debug: 构建引擎脚本 start..., progress: 21%
+2024-5-16 13:20:11 - debug: Use cache engine: {link(/var/folders/qb/r6f5dxp12h3d5769mhs6vnhr0000gn/T/CocosCreator/3.8.2/builder/engine/bcae0dd6cb906f3d6c7420a7b5f36291)}
+2024-5-16 13:20:11 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.2","md5Map":[],"engineName":"cocos-js","platform":"HTML5","useCache":true,"isNative":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","output":"/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/build/web-desktop/cocos-js","flags":{"DEBUG":false,"WASM_FALLBACK":true,"CULL_ASM_JS_MODULE":false,"CULL_MESHOPT":true},"entry":"/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine"}
+2024-5-16 13:20:11 - debug: 构建引擎脚本 in (66 ms) √, progress: 21%
+2024-5-16 13:20:11 - debug: Copy plugin script ..., progress: 21%
+2024-5-16 13:20:11 - debug: Generate import-map..., progress: 21%
+2024-5-16 13:20:11 - debug: // ---- build task 打包脚本 ---- (14781ms)
+2024-5-16 13:20:11 - debug: run build task 打包脚本 success in 14 s√, progress: 26%
+2024-5-16 13:20:11 - debug: [Build Memory track]: 打包脚本 start:199.40MB, end 253.19MB, increase: 53.79MB
+2024-5-16 13:20:11 - debug: Build Assets start, progress: 26%
+2024-5-16 13:20:11 - debug: // ---- build task Build Assets ----
+2024-5-16 13:20:11 - debug: Build bundles..., progress: 26%
+2024-5-16 13:20:11 - debug: Pack Images start, progress: 26%
+2024-5-16 13:20:11 - debug: builder:pack-auto-atlas-image (7ms)
+2024-5-16 13:20:11 - debug: Pack Images success, progress: 26%
+2024-5-16 13:20:11 - debug: Compress image start..., progress: 26%
+2024-5-16 13:20:11 - group: Compress image...
+2024-5-16 13:20:11 - debug: sort compress task {}
+2024-5-16 13:20:11 - debug: Num of all image compress task 0, really: 0, configTasks: 0
+2024-5-16 13:20:11 - debug: No image need to compress
+2024-5-16 13:20:11 - groupEnd: Compress image...
+2024-5-16 13:20:11 - debug: Compress image success..., progress: 26%
+2024-5-16 13:20:11 - debug: Ouput asset in bundles start, progress: 26%
+2024-5-16 13:20:11 - debug: Handle all json groups in bundle internal
+2024-5-16 13:20:11 - debug: handle json group
+2024-5-16 13:20:11 - debug: Handle all json groups in bundle main
+2024-5-16 13:20:11 - debug: handle json group
+2024-5-16 13:20:11 - debug: handle single json
+2024-5-16 13:20:11 - debug: Json group(0ca60d3e4) compile success，json number: 6
+2024-5-16 13:20:11 - debug: handle single json
+2024-5-16 13:20:11 - debug: Output asset in bundles success, progress: 26%
+2024-5-16 13:20:11 - debug: // ---- build task Build Assets ---- (38ms)
+2024-5-16 13:20:11 - debug: run build task Build Assets success in 38 ms√, progress: 31%
+2024-5-16 13:20:11 - debug: [Build Memory track]: Build Assets start:253.20MB, end 251.10MB, increase: -2150.79KB
+2024-5-16 13:20:11 - debug: 给所有的资源加上 MD5 后缀 start, progress: 31%
+2024-5-16 13:20:11 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2024-5-16 13:20:11 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (4ms)
+2024-5-16 13:20:11 - debug: run build task 给所有的资源加上 MD5 后缀 success in 4 ms√, progress: 36%
+2024-5-16 13:20:11 - debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:251.17MB, end 251.22MB, increase: 51.50KB
+2024-5-16 13:20:11 - debug: 查询 Asset Bundle start, progress: 36%
+2024-5-16 13:20:11 - debug: // ---- build task 查询 Asset Bundle ----
+2024-5-16 13:20:11 - debug: Output asset in bundles start, progress: 36%
+2024-5-16 13:20:11 - debug: compress config of bundle internal...
+2024-5-16 13:20:11 - debug: compress config of bundle internal success
+2024-5-16 13:20:11 - debug: compress config of bundle main...
+2024-5-16 13:20:11 - debug: compress config of bundle main success
+2024-5-16 13:20:11 - debug: ouput config of bundle internal
+2024-5-16 13:20:11 - debug: output config of bundle internal success
+2024-5-16 13:20:11 - debug: ouput config of bundle main
+2024-5-16 13:20:11 - debug: output config of bundle main success
+2024-5-16 13:20:11 - debug: Output asset in bundles success, progress: 36%
+2024-5-16 13:20:11 - debug: // ---- build task 查询 Asset Bundle ---- (8ms)
+2024-5-16 13:20:11 - debug: run build task 查询 Asset Bundle success in 8 ms√, progress: 41%
+2024-5-16 13:20:11 - debug: [Build Memory track]: 查询 Asset Bundle start:251.24MB, end 251.41MB, increase: 175.07KB
+2024-5-16 13:20:11 - debug: 整理部分构建选项内数据到 settings.json start, progress: 41%
+2024-5-16 13:20:11 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-5-16 13:20:11 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
+2024-5-16 13:20:11 - debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 43%
+2024-5-16 13:20:11 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:251.42MB, end 251.47MB, increase: 50.27KB
+2024-5-16 13:20:11 - debug: 填充脚本数据到 settings.json start, progress: 43%
+2024-5-16 13:20:11 - debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-5-16 13:20:11 - debug: // ---- build task 填充脚本数据到 settings.json ---- (4ms)
+2024-5-16 13:20:11 - debug: run build task 填充脚本数据到 settings.json success in 4 ms√, progress: 44%
+2024-5-16 13:20:11 - debug: [Build Memory track]: 填充脚本数据到 settings.json start:251.48MB, end 251.54MB, increase: 61.77KB
+2024-5-16 13:20:11 - debug: 整理部分构建选项内数据到 settings.json start, progress: 44%
+2024-5-16 13:20:11 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-5-16 13:20:11 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2024-5-16 13:20:11 - debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 46%
+2024-5-16 13:20:11 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:251.55MB, end 251.70MB, increase: 155.55KB
+2024-5-16 13:20:11 - debug: web-desktop:(onBeforeCompressSettings) start..., progress: 46%
+2024-5-16 13:20:11 - debug: // ---- build task web-desktop：onBeforeCompressSettings ----
+2024-5-16 13:20:11 - debug: // ---- build task web-desktop：onBeforeCompressSettings ---- (4ms)
+2024-5-16 13:20:11 - debug: web-desktop:(onBeforeCompressSettings) in 4 ms ✓, progress: 48%
+2024-5-16 13:20:11 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 48%
+2024-5-16 13:20:11 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2024-5-16 13:20:11 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (315ms)
+2024-5-16 13:20:11 - debug: cocos-service:(onBeforeCompressSettings) in 315 ms ✓, progress: 51%
+2024-5-16 13:20:11 - debug: 保存 settings.json start, progress: 51%
+2024-5-16 13:20:11 - debug: // ---- build task 保存 settings.json ----
+2024-5-16 13:20:11 - debug: // ---- build task 保存 settings.json ---- (6ms)
+2024-5-16 13:20:11 - debug: run build task 保存 settings.json success in 6 ms√, progress: 53%
+2024-5-16 13:20:11 - debug: [Build Memory track]: 保存 settings.json start:251.04MB, end 251.19MB, increase: 155.77KB
+2024-5-16 13:20:11 - debug: 整理静态模板文件 start, progress: 53%
+2024-5-16 13:20:11 - debug: // ---- build task 整理静态模板文件 ----
+2024-5-16 13:20:11 - debug: // ---- build task 整理静态模板文件 ---- (46ms)
+2024-5-16 13:20:11 - debug: run build task 整理静态模板文件 success in 46 ms√, progress: 56%
+2024-5-16 13:20:11 - debug: [Build Memory track]: 整理静态模板文件 start:251.21MB, end 252.57MB, increase: 1.37MB
+2024-5-16 13:20:11 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 56%
+2024-5-16 13:20:11 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2024-5-16 13:20:12 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (425ms)
+2024-5-16 13:20:12 - debug: cocos-service:(onAfterCompressSettings) in 425 ms ✓, progress: 58%
+2024-5-16 13:20:12 - debug: web-desktop:(onAfterBuild) start..., progress: 58%
+2024-5-16 13:20:12 - debug: // ---- build task web-desktop：onAfterBuild ----
+2024-5-16 13:20:12 - debug: // ---- build task web-desktop：onAfterBuild ---- (18ms)
+2024-5-16 13:20:12 - debug: web-desktop:(onAfterBuild) in 18 ms ✓, progress: 60%
+2024-5-16 13:20:12 - debug: cocos-service:(onAfterBuild) start..., progress: 60%
+2024-5-16 13:20:12 - debug: // ---- build task cocos-service：onAfterBuild ----
+2024-5-16 13:20:12 - debug: // ---- build task cocos-service：onAfterBuild ---- (360ms)
+2024-5-16 13:20:12 - debug: cocos-service:(onAfterBuild) in 360 ms ✓, progress: 62%
+2024-5-16 13:20:12 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
+2024-5-16 13:20:12 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2024-5-16 13:20:12 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (10ms)
+2024-5-16 13:20:12 - debug: adsense-h5g-plugin:(onAfterBuild) in 10 ms ✓, progress: 64%
+2024-5-16 13:20:12 - log: Asset DB is resume!
+2024-5-16 13:20:12 - debug: builder:build-project-total (16793ms)
+2024-5-16 13:20:12 - debug: build success in 16793!
+2024-5-16 13:20:12 - debug: [Build Memory track]: builder:build-project-total start:198.14MB, end 253.88MB, increase: 55.74MB
+2024-5-16 13:20:12 - debug: ================================ build Task (web-desktop) Finished in (16 s)ms ================================
+2024-5-16 14:00:33 - debug: =================================== build Task (web-desktop) Start ================================
+2024-5-16 14:00:33 - debug: Start build task, options:{"name":"BoomBoom Frontier","server":"","platform":"web-desktop","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"ab2dfc6f-bc35-40ac-96f3-d85479c4cacd","outputName":"web-desktop","taskName":"web-desktop","scenes":[{"url":"db://assets/Scenes/Menu.scene","uuid":"ab2dfc6f-bc35-40ac-96f3-d85479c4cacd"},{"url":"db://assets/Scenes/MultiSelect.scene","uuid":"d1e81e9d-ab3a-407d-931f-acb9135b2694"}],"packages":{"engine":{"cleanupImageCache":"inheritProjectSetting","__version__":"1.0.8"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"web-desktop":{"resolution":{"designWidth":1280,"designHeight":960},"cullEngineAsmJsModule":false,"__version__":"1.0.1"},"cocos-service":{"configID":"c49362","services":[]}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/web-desktop5-14-2024 13-23.log"}
+2024-5-16 14:00:33 - debug: Build with Cocos Creator 3.8.2
+2024-5-16 14:00:33 - debug: cocos-service:(onBeforeBuild) start..., progress: 0%
+2024-5-16 14:00:33 - debug: // ---- build task cocos-service：onBeforeBuild ----
+2024-5-16 14:00:34 - debug: // ---- build task cocos-service：onBeforeBuild ---- (392ms)
+2024-5-16 14:00:34 - debug: cocos-service:(onBeforeBuild) in 392 ms ✓, progress: 2%
+2024-5-16 14:00:34 - debug: scene:(onBeforeBuild) start..., progress: 2%
+2024-5-16 14:00:34 - debug: // ---- build task scene：onBeforeBuild ----
+2024-5-16 14:00:34 - debug: // ---- build task scene：onBeforeBuild ---- (7ms)
+2024-5-16 14:00:34 - debug: scene:(onBeforeBuild) in 7 ms ✓, progress: 4%
+2024-5-16 14:00:34 - debug: Start lock asset db..., progress: 4%
+2024-5-16 14:00:34 - log: Asset DB is paused with build!
+2024-5-16 14:00:34 - debug: Query all assets info in project
+2024-5-16 14:00:34 - debug: init custom config: keepNodeUuid: false, useCache: true
+2024-5-16 14:00:34 - debug:   Number of all scenes: 3
+2024-5-16 14:00:34 - debug:   Number of all scripts: 3
+2024-5-16 14:00:34 - debug:   Number of other assets: 329
+2024-5-16 14:00:34 - debug: web-desktop:(onAfterInit) start..., progress: 4%
+2024-5-16 14:00:34 - debug: // ---- build task web-desktop：onAfterInit ----
+2024-5-16 14:00:34 - debug: // ---- build task web-desktop：onAfterInit ---- (2ms)
+2024-5-16 14:00:34 - debug: web-desktop:(onAfterInit) in 2 ms ✓, progress: 7%
+2024-5-16 14:00:34 - debug: cocos-service:(onAfterInit) start..., progress: 7%
+2024-5-16 14:00:34 - debug: // ---- build task cocos-service：onAfterInit ----
+2024-5-16 14:00:34 - debug: // ---- build task cocos-service：onAfterInit ---- (318ms)
+2024-5-16 14:00:34 - debug: cocos-service:(onAfterInit) in 318 ms ✓, progress: 9%
+2024-5-16 14:00:34 - debug: engine:(onAfterInit) start..., progress: 9%
+2024-5-16 14:00:34 - debug: // ---- build task engine：onAfterInit ----
+2024-5-16 14:00:34 - debug: // ---- build task engine：onAfterInit ---- (6ms)
+2024-5-16 14:00:34 - debug: engine:(onAfterInit) in 6 ms ✓, progress: 11%
+2024-5-16 14:00:34 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 11%
+2024-5-16 14:00:34 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2024-5-16 14:00:34 - debug: [adsense-h5g-plugin] remove script success
+2024-5-16 14:00:34 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (4ms)
+2024-5-16 14:00:34 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 4 ms ✓, progress: 11%
+2024-5-16 14:00:34 - debug: Init all bundles start..., progress: 11%
+2024-5-16 14:00:34 - debug: Num of bundles: 2..., progress: 11%
+2024-5-16 14:00:34 - debug: reload all scripts.
+2024-5-16 14:00:34 - debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-5-16 14:00:34 - groupCollapsed: Invalidate all modules
+2024-5-16 14:00:34 - debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-5-16 14:00:34 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2024-5-16 14:00:34 - groupEnd: Invalidate all modules
+2024-5-16 14:00:34 - groupCollapsed: Imports all modules
+2024-5-16 14:00:34 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-5-16 14:00:34 - debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+2024-5-16 14:00:34 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-5-16 14:00:34 - debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js is not in module cache!
+2024-5-16 14:00:34 - debug: [[Executor]] Register DebugViewRuntimeControl
+2024-5-16 14:00:34 - debug: [[Executor]] Module "pack:///chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js" loaded.
+2024-5-16 14:00:34 - debug: /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/48/4840064f1c8314bacaf28f88f24c72e3ddc0f6c4.js resolved to /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/temp/programming/packer-driver/targets/editor/chunks/48/4840064f1c8314bacaf28f88f24c72e3ddc0f6c4.js is not in module cache!
+2024-5-16 14:00:34 - debug: [[Executor]] Register MultiSelect
+2024-5-16 14:00:34 - debug: [[Executor]] Module "pack:///chunks/48/4840064f1c8314bacaf28f88f24c72e3ddc0f6c4.js" loaded.
+2024-5-16 14:00:34 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-5-16 14:00:34 - groupEnd: Imports all modules
+2024-5-16 14:00:34 - debug: Incremental keys: 
+2024-5-16 14:00:34 - debug: web-desktop:(onAfterBundleInit) start..., progress: 11%
+2024-5-16 14:00:34 - debug: // ---- build task web-desktop：onAfterBundleInit ----
+2024-5-16 14:00:34 - debug: // ---- build task web-desktop：onAfterBundleInit ---- (3ms)
+2024-5-16 14:00:34 - debug: web-desktop:(onAfterBundleInit) in 3 ms ✓, progress: 11%
+2024-5-16 14:00:34 - debug: 查询 Asset Bundle start, progress: 11%
+2024-5-16 14:00:34 - debug: // ---- build task 查询 Asset Bundle ----
+2024-5-16 14:00:34 - debug: Init bundle root assets start..., progress: 11%
+2024-5-16 14:00:34 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-5-16 14:00:34 - debug: Init bundle root assets success..., progress: 11%
+2024-5-16 14:00:34 - debug: Init bundle share assets start..., progress: 11%
+2024-5-16 14:00:34 - debug: Init bundle share assets success..., progress: 11%
+2024-5-16 14:00:34 - debug: handle json group in bundle internal
+2024-5-16 14:00:34 - debug: handle json group in bundle internal success
+2024-5-16 14:00:34 - debug: handle json group in bundle main
+2024-5-16 14:00:34 - debug: init image compress task 0 in bundle internal
+2024-5-16 14:00:34 - debug: handle json group in bundle main success
+2024-5-16 14:00:34 - debug: init image compress task 0 in bundle main
+2024-5-16 14:00:34 - debug: // ---- build task 查询 Asset Bundle ---- (19ms)
+2024-5-16 14:00:34 - debug: run build task 查询 Asset Bundle success in 19 ms√, progress: 16%
+2024-5-16 14:00:34 - debug: [Build Memory track]: 查询 Asset Bundle start:204.21MB, end 205.26MB, increase: 1.05MB
+2024-5-16 14:00:34 - debug: 查询 Asset Bundle start, progress: 16%
+2024-5-16 14:00:34 - debug: // ---- build task 查询 Asset Bundle ----
+2024-5-16 14:00:34 - debug: // ---- build task 查询 Asset Bundle ---- (4ms)
+2024-5-16 14:00:34 - debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 21%
+2024-5-16 14:00:34 - debug: [Build Memory track]: 查询 Asset Bundle start:205.27MB, end 205.33MB, increase: 59.13KB
+2024-5-16 14:00:34 - debug: web-desktop:(onAfterBundleDataTask) start..., progress: 21%
+2024-5-16 14:00:34 - debug: // ---- build task web-desktop：onAfterBundleDataTask ----
+2024-5-16 14:00:34 - debug: // ---- build task web-desktop：onAfterBundleDataTask ---- (4ms)
+2024-5-16 14:00:34 - debug: web-desktop:(onAfterBundleDataTask) in 4 ms ✓, progress: 21%
+2024-5-16 14:00:34 - debug: 打包脚本 start, progress: 21%
+2024-5-16 14:00:34 - debug: // ---- build task 打包脚本 ----
+2024-5-16 14:00:36 - debug: Generate systemJs..., progress: 21%
+2024-5-16 14:00:39 - debug: 构建项目脚本 start..., progress: 21%
+2024-5-16 14:00:39 - debug: Build script in bundle start, progress: 21%
+2024-5-16 14:00:50 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2024-5-16 14:00:51 - log: [build-script]enter sub process 10606, /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
+2024-5-16 14:00:51 - log: [build-script]Create cjs interop url for 'file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js'
+2024-5-16 14:00:51 - log: [build-script]Create cjs interop url for 'file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js'
+2024-5-16 14:00:54 - error: [build-script][BABEL] Note: The code generator has deoptimised the styling of /file:/Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/firebase.js as it exceeds the max of 500KB.
+2024-5-16 14:01:00 - debug: excute-script over with build-script 10216ms
+2024-5-16 14:01:00 - debug: Copy externalScripts success!
+2024-5-16 14:01:00 - debug: Build script in bundle success, progress: 21%
+2024-5-16 14:01:00 - debug: 构建项目脚本 in (21850 ms) √, progress: 21%
+2024-5-16 14:01:00 - debug: 构建引擎脚本 start..., progress: 21%
+2024-5-16 14:01:00 - debug: Use cache engine: {link(/var/folders/qb/r6f5dxp12h3d5769mhs6vnhr0000gn/T/CocosCreator/3.8.2/builder/engine/bcae0dd6cb906f3d6c7420a7b5f36291)}
+2024-5-16 14:01:00 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.2","md5Map":[],"engineName":"cocos-js","platform":"HTML5","useCache":true,"isNative":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","output":"/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/build/web-desktop/cocos-js","flags":{"DEBUG":false,"WASM_FALLBACK":true,"CULL_ASM_JS_MODULE":false,"CULL_MESHOPT":true},"entry":"/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine"}
+2024-5-16 14:01:00 - debug: 构建引擎脚本 in (73 ms) √, progress: 21%
+2024-5-16 14:01:00 - debug: Copy plugin script ..., progress: 21%
+2024-5-16 14:01:00 - debug: Generate import-map..., progress: 21%
+2024-5-16 14:01:00 - debug: // ---- build task 打包脚本 ---- (26344ms)
+2024-5-16 14:01:00 - debug: run build task 打包脚本 success in 26 s√, progress: 26%
+2024-5-16 14:01:00 - debug: [Build Memory track]: 打包脚本 start:205.49MB, end 253.99MB, increase: 48.50MB
+2024-5-16 14:01:00 - debug: Build Assets start, progress: 26%
+2024-5-16 14:01:00 - debug: // ---- build task Build Assets ----
+2024-5-16 14:01:00 - debug: Build bundles..., progress: 26%
+2024-5-16 14:01:00 - debug: Pack Images start, progress: 26%
+2024-5-16 14:01:00 - debug: builder:pack-auto-atlas-image (7ms)
+2024-5-16 14:01:00 - debug: Pack Images success, progress: 26%
+2024-5-16 14:01:00 - debug: Compress image start..., progress: 26%
+2024-5-16 14:01:00 - group: Compress image...
+2024-5-16 14:01:00 - debug: sort compress task {}
+2024-5-16 14:01:00 - debug: Num of all image compress task 0, really: 0, configTasks: 0
+2024-5-16 14:01:00 - debug: No image need to compress
+2024-5-16 14:01:00 - groupEnd: Compress image...
+2024-5-16 14:01:00 - debug: Compress image success..., progress: 26%
+2024-5-16 14:01:00 - debug: Ouput asset in bundles start, progress: 26%
+2024-5-16 14:01:00 - debug: Handle all json groups in bundle internal
+2024-5-16 14:01:00 - debug: handle json group
+2024-5-16 14:01:00 - debug: Handle all json groups in bundle main
+2024-5-16 14:01:00 - debug: handle json group
+2024-5-16 14:01:00 - debug: Json group(055d57d12) compile success，json number: 6
+2024-5-16 14:01:00 - debug: handle single json
+2024-5-16 14:01:01 - debug: Json group(0ca60d3e4) compile success，json number: 6
+2024-5-16 14:01:01 - debug: handle single json
+2024-5-16 14:01:01 - debug: Output asset in bundles success, progress: 26%
+2024-5-16 14:01:01 - debug: // ---- build task Build Assets ---- (45ms)
+2024-5-16 14:01:01 - debug: run build task Build Assets success in 45 ms√, progress: 31%
+2024-5-16 14:01:01 - debug: [Build Memory track]: Build Assets start:254.00MB, end 254.93MB, increase: 949.71KB
+2024-5-16 14:01:01 - debug: 给所有的资源加上 MD5 后缀 start, progress: 31%
+2024-5-16 14:01:01 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2024-5-16 14:01:01 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (4ms)
+2024-5-16 14:01:01 - debug: run build task 给所有的资源加上 MD5 后缀 success in 4 ms√, progress: 36%
+2024-5-16 14:01:01 - debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:255.00MB, end 255.05MB, increase: 51.86KB
+2024-5-16 14:01:01 - debug: 查询 Asset Bundle start, progress: 36%
+2024-5-16 14:01:01 - debug: // ---- build task 查询 Asset Bundle ----
+2024-5-16 14:01:01 - debug: Output asset in bundles start, progress: 36%
+2024-5-16 14:01:01 - debug: compress config of bundle internal...
+2024-5-16 14:01:01 - debug: compress config of bundle internal success
+2024-5-16 14:01:01 - debug: compress config of bundle main...
+2024-5-16 14:01:01 - debug: compress config of bundle main success
+2024-5-16 14:01:01 - debug: ouput config of bundle internal
+2024-5-16 14:01:01 - debug: output config of bundle internal success
+2024-5-16 14:01:01 - debug: ouput config of bundle main
+2024-5-16 14:01:01 - debug: output config of bundle main success
+2024-5-16 14:01:01 - debug: Output asset in bundles success, progress: 36%
+2024-5-16 14:01:01 - debug: // ---- build task 查询 Asset Bundle ---- (8ms)
+2024-5-16 14:01:01 - debug: run build task 查询 Asset Bundle success in 8 ms√, progress: 41%
+2024-5-16 14:01:01 - debug: [Build Memory track]: 查询 Asset Bundle start:255.06MB, end 255.25MB, increase: 191.44KB
+2024-5-16 14:01:01 - debug: 整理部分构建选项内数据到 settings.json start, progress: 41%
+2024-5-16 14:01:01 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-5-16 14:01:01 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2024-5-16 14:01:01 - debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 43%
+2024-5-16 14:01:01 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:255.26MB, end 255.31MB, increase: 50.57KB
+2024-5-16 14:01:01 - debug: 填充脚本数据到 settings.json start, progress: 43%
+2024-5-16 14:01:01 - debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-5-16 14:01:01 - debug: // ---- build task 填充脚本数据到 settings.json ---- (4ms)
+2024-5-16 14:01:01 - debug: run build task 填充脚本数据到 settings.json success in 4 ms√, progress: 44%
+2024-5-16 14:01:01 - debug: [Build Memory track]: 填充脚本数据到 settings.json start:255.32MB, end 255.37MB, increase: 52.29KB
+2024-5-16 14:01:01 - debug: 整理部分构建选项内数据到 settings.json start, progress: 44%
+2024-5-16 14:01:01 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-5-16 14:01:01 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (6ms)
+2024-5-16 14:01:01 - debug: run build task 整理部分构建选项内数据到 settings.json success in 6 ms√, progress: 46%
+2024-5-16 14:01:01 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:255.39MB, end 254.49MB, increase: -918.09KB
+2024-5-16 14:01:01 - debug: web-desktop:(onBeforeCompressSettings) start..., progress: 46%
+2024-5-16 14:01:01 - debug: // ---- build task web-desktop：onBeforeCompressSettings ----
+2024-5-16 14:01:01 - debug: // ---- build task web-desktop：onBeforeCompressSettings ---- (4ms)
+2024-5-16 14:01:01 - debug: web-desktop:(onBeforeCompressSettings) in 4 ms ✓, progress: 48%
+2024-5-16 14:01:01 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 48%
+2024-5-16 14:01:01 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2024-5-16 14:01:01 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (728ms)
+2024-5-16 14:01:01 - debug: cocos-service:(onBeforeCompressSettings) in 728 ms ✓, progress: 51%
+2024-5-16 14:01:01 - debug: 保存 settings.json start, progress: 51%
+2024-5-16 14:01:01 - debug: // ---- build task 保存 settings.json ----
+2024-5-16 14:01:01 - debug: // ---- build task 保存 settings.json ---- (6ms)
+2024-5-16 14:01:01 - debug: run build task 保存 settings.json success in 6 ms√, progress: 53%
+2024-5-16 14:01:01 - debug: [Build Memory track]: 保存 settings.json start:254.69MB, end 254.84MB, increase: 155.56KB
+2024-5-16 14:01:01 - debug: 整理静态模板文件 start, progress: 53%
+2024-5-16 14:01:01 - debug: // ---- build task 整理静态模板文件 ----
+2024-5-16 14:01:01 - debug: // ---- build task 整理静态模板文件 ---- (41ms)
+2024-5-16 14:01:01 - debug: run build task 整理静态模板文件 success in 41 ms√, progress: 56%
+2024-5-16 14:01:01 - debug: [Build Memory track]: 整理静态模板文件 start:254.85MB, end 257.55MB, increase: 2.69MB
+2024-5-16 14:01:01 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 56%
+2024-5-16 14:01:01 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2024-5-16 14:01:02 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (414ms)
+2024-5-16 14:01:02 - debug: cocos-service:(onAfterCompressSettings) in 414 ms ✓, progress: 58%
+2024-5-16 14:01:02 - debug: web-desktop:(onAfterBuild) start..., progress: 58%
+2024-5-16 14:01:02 - debug: // ---- build task web-desktop：onAfterBuild ----
+2024-5-16 14:01:02 - debug: // ---- build task web-desktop：onAfterBuild ---- (15ms)
+2024-5-16 14:01:02 - debug: web-desktop:(onAfterBuild) in 15 ms ✓, progress: 60%
+2024-5-16 14:01:02 - debug: cocos-service:(onAfterBuild) start..., progress: 60%
+2024-5-16 14:01:02 - debug: // ---- build task cocos-service：onAfterBuild ----
+2024-5-16 14:01:03 - debug: // ---- build task cocos-service：onAfterBuild ---- (1160ms)
+2024-5-16 14:01:03 - debug: cocos-service:(onAfterBuild) in 1160 ms ✓, progress: 62%
+2024-5-16 14:01:03 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
+2024-5-16 14:01:03 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2024-5-16 14:01:03 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (5ms)
+2024-5-16 14:01:03 - debug: adsense-h5g-plugin:(onAfterBuild) in 5 ms ✓, progress: 64%
+2024-5-16 14:01:03 - log: Asset DB is resume!
+2024-5-16 14:01:03 - debug: builder:build-project-total (29608ms)
+2024-5-16 14:01:03 - debug: build success in 29608!
+2024-5-16 14:01:03 - debug: [Build Memory track]: builder:build-project-total start:202.78MB, end 257.44MB, increase: 54.66MB
+2024-5-16 14:01:03 - debug: ================================ build Task (web-desktop) Finished in (29 s)ms ================================
