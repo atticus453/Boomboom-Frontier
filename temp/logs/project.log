@@ -1,0 +1,10 @@
+5-20-2024 18:51:20 - log: Load engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
+5-20-2024 18:51:21 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+5-20-2024 18:51:21 - log: Register native engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+5-20-2024 18:51:27 - log: [Scene] meshopt wasm decoder initialized
+5-20-2024 18:51:27 - log: [Scene] [box2d]:box2d wasm lib loaded.
+5-20-2024 18:51:27 - log: [Scene] [bullet]:bullet wasm lib loaded.
+5-20-2024 18:51:27 - log: [Scene] [PHYSICS]: using builtin.
+5-20-2024 18:51:27 - log: [Scene] Cocos Creator v3.8.2
+5-20-2024 18:51:27 - info: [Scene] Forward render pipeline initialized.
+5-20-2024 18:51:28 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
