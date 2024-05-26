@@ -28,8 +28,16 @@
   },
   "ab2dfc6f-bc35-40ac-96f3-d85479c4cacd": {
     "url": "db://assets/Scenes/ScoreBoard.scene",
+    "url": "db://assets/Scenes/ScoreBoard.scene",
     "value": {
       "depends": [
+        "ab2dfc6f-bc35-40ac-96f3-d85479c4cacd",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "c9e31009-0d85-4626-a3ea-2d4ab6ff70a1",
+        "0216040a-ab4f-441e-8529-3e25420480b8",
+        "574bd92d-19d1-4886-aff8-6204ba45fb8d"
         "ab2dfc6f-bc35-40ac-96f3-d85479c4cacd",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",

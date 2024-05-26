@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Button, find, EditBox, Prefab, instantiate, Label, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, MultiSelect;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Button, find, director, EditBox, Prefab, instantiate, Label, MultiRoom, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, MultiSelect;
 
   function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -13,8 +13,14 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfMultiRoom(extras) {
+    _reporterNs.report("MultiRoom", "./MultiRoom", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
@@ -23,10 +29,13 @@ System.register(["cc"], function (_export, _context) {
       Node = _cc.Node;
       Button = _cc.Button;
       find = _cc.find;
+      director = _cc.director;
       EditBox = _cc.EditBox;
       Prefab = _cc.Prefab;
       instantiate = _cc.instantiate;
       Label = _cc.Label;
+    }, function (_unresolved_2) {
+      MultiRoom = _unresolved_2.MultiRoom;
     }],
     execute: function () {
       _crd = true;
@@ -48,14 +57,17 @@ System.register(["cc"], function (_export, _context) {
         constructor() {
           super(...arguments);
           this.roomPosY = 100;
-
           // roomHeight: number = 100;
+          this.roomID = 0;
+
           _initializerDefineProperty(this, "roomName", _descriptor, this);
 
           _initializerDefineProperty(this, "roomPrefab", _descriptor2, this);
         }
 
         start() {
+          var _this = this;
+
           var creatRoomButton = find("Canvas/creatRoom").getComponent(Button);
           creatRoomButton.node.on(Node.EventType.MOUSE_UP, this.addRoom, this);
           var roomRef = firebase.database().ref('rooms/');
@@ -63,12 +75,23 @@ System.register(["cc"], function (_export, _context) {
             if (snapshot.exists()) {
               var roomList = snapshot.val();
 
-              for (var room in roomList) {
-                var roomNode = instantiate(this.roomPrefab);
+              var _loop = function _loop(room) {
+                var roomNode = instantiate(_this.roomPrefab); // console.log(roomList[room]);
+
                 roomNode.getChildByName("Label").getComponent(Label).string = roomList[room].roomName;
-                roomNode.setPosition(0, this.roomPosY, 0);
-                this.roomPosY -= 150;
+                roomNode.setPosition(0, _this.roomPosY, 0);
+                _this.roomPosY -= 150;
                 find("Canvas/Rooms").addChild(roomNode);
+                roomNode.on(Node.EventType.MOUSE_UP, () => {
+                  (_crd && MultiRoom === void 0 ? (_reportPossibleCrUseOfMultiRoom({
+                    error: Error()
+                  }), MultiRoom) : MultiRoom).roomID = roomList[room].key;
+                  director.loadScene("MultiRoom");
+                });
+              };
+
+              for (var room in roomList) {
+                _loop(room);
               }
             } else {
               console.log("No rooms found.");
@@ -79,25 +102,29 @@ System.register(["cc"], function (_export, _context) {
         }
 
         addRoom() {
-          var _this = this;
+          var _this2 = this;
 
           return _asyncToGenerator(function* () {
             try {
-              if (_this.roomName.string) {
-                var newRoom = yield firebase.database().ref('rooms/' + _this.roomName.string);
-                yield newRoom.set({
-                  roomName: _this.roomName.string,
-                  users: [],
+              if (_this2.roomName.string) {
+                var roomsRef = firebase.database().ref('rooms');
+                var newRoomRef = roomsRef.push();
+                _this2.roomID = newRoomRef.key;
+                var user = yield firebase.auth().currentUser;
+                yield newRoomRef.set({
+                  roomName: _this2.roomName.string,
+                  users: [user.uid],
                   isReady: false,
-                  userCnt: 1
+                  userCnt: 1,
+                  key: _this2.roomID
                 });
-                var roomNode = instantiate(_this.roomPrefab);
+                var roomNode = instantiate(_this2.roomPrefab);
                 console.log(roomNode);
-                roomNode.getChildByName("Label").getComponent(Label).string = _this.roomName.string;
-                roomNode.setPosition(0, _this.roomPosY, 0);
-                _this.roomPosY -= 150;
+                roomNode.getChildByName("Label").getComponent(Label).string = _this2.roomName.string;
+                roomNode.setPosition(0, _this2.roomPosY, 0);
+                _this2.roomPosY -= 150;
                 find("Canvas/Rooms").addChild(roomNode);
-                _this.roomName.string = "";
+                _this2.roomName.string = "";
                 alert("Room created successfully");
               }
             } catch (error) {
