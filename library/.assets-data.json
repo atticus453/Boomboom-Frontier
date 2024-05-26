@@ -27,12 +27,22 @@
     "versionCode": 0
   },
   "ab2dfc6f-bc35-40ac-96f3-d85479c4cacd": {
-    "url": "db://assets/Scenes/Menu.scene",
+    "url": "db://assets/Scenes/ScoreBoard.scene",
     "value": {
       "depends": [
-        "ab2dfc6f-bc35-40ac-96f3-d85479c4cacd"
+        "ab2dfc6f-bc35-40ac-96f3-d85479c4cacd",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "c9e31009-0d85-4626-a3ea-2d4ab6ff70a1",
+        "0216040a-ab4f-441e-8529-3e25420480b8",
+        "574bd92d-19d1-4886-aff8-6204ba45fb8d"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "77399c5b-2e89-4cc8-92a5-b6f8884f4135",
+        "23d52a2a-3912-4e94-a982-7390b3553217"
+      ]
     },
     "versionCode": 0
   },
@@ -120,6 +130,209 @@
   "47837149-e547-4500-8f1c-895cdb0fb1df": {
     "url": "db://assets/Scripts/MultiRoom.ts",
     "value": {},
+    "versionCode": 0
+  },
+  "eded2656-edf5-4867-bedd-44571385b2a3": {
+    "url": "db://assets/Map",
+    "value": {},
+    "versionCode": 0
+  },
+  "25de3770-3720-4d02-882b-89f274118346": {
+    "url": "db://assets/Player",
+    "value": {},
+    "versionCode": 0
+  },
+  "02f9c742-9185-4f35-ad02-eb311b6fd25e": {
+    "url": "db://assets/Prefab",
+    "value": {},
+    "versionCode": 0
+  },
+  "b49908bd-42df-4121-bf78-3c2b51c6e9f2": {
+    "url": "db://assets/Scripts/Bullet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7580abf5-e0aa-47fa-9942-8d316dd31a3f": {
+    "url": "db://assets/Scripts/Player.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8f224486-550e-4bd5-9caf-b01a6b2ae0fd": {
+    "url": "db://assets/Map/Stage2.tmx",
+    "value": {
+      "depends": [
+        "b4c18936-ed4d-418a-96ff-f1938944db19@f9941"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fb49dcfe-7490-4ea4-a8e9-4ff17aedeb36": {
+    "url": "db://assets/Prefab/Bullet.prefab",
+    "value": {
+      "depends": [
+        "db341962-c9da-41b7-8b8c-0fbd138ceb19@f9941"
+      ],
+      "dependScripts": [
+        "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b4c18936-ed4d-418a-96ff-f1938944db19": {
+    "url": "db://assets/Map/tileset.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e74eaed0-3b3c-41e4-8248-952c9f7e5882": {
+    "url": "db://assets/Player/button_blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "db341962-c9da-41b7-8b8c-0fbd138ceb19": {
+    "url": "db://assets/Player/timer.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e74eaed0-3b3c-41e4-8248-952c9f7e5882@6c48a": {
+    "url": "db://assets/Player/button_blue.png@6c48a",
+    "value": {
+      "depends": [
+        "e74eaed0-3b3c-41e4-8248-952c9f7e5882"
+      ]
+    },
+    "versionCode": 0
+  },
+  "db341962-c9da-41b7-8b8c-0fbd138ceb19@6c48a": {
+    "url": "db://assets/Player/timer.png@6c48a",
+    "value": {
+      "depends": [
+        "db341962-c9da-41b7-8b8c-0fbd138ceb19"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b4c18936-ed4d-418a-96ff-f1938944db19@6c48a": {
+    "url": "db://assets/Map/tileset.png@6c48a",
+    "value": {
+      "depends": [
+        "b4c18936-ed4d-418a-96ff-f1938944db19"
+      ]
+    },
+    "versionCode": 0
+  },
+  "48939222-f916-4102-a061-fa566b059c3a": {
+    "url": "db://assets/Scenes/Game.scene",
+    "value": {
+      "depends": [
+        "48939222-f916-4102-a061-fa566b059c3a",
+        "8f224486-550e-4bd5-9caf-b01a6b2ae0fd",
+        "e74eaed0-3b3c-41e4-8248-952c9f7e5882@f9941",
+        "fb49dcfe-7490-4ea4-a8e9-4ff17aedeb36"
+      ],
+      "dependScripts": [
+        "7580abf5-e0aa-47fa-9942-8d316dd31a3f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "db341962-c9da-41b7-8b8c-0fbd138ceb19@f9941": {
+    "url": "db://assets/Player/timer.png@f9941",
+    "value": {
+      "depends": [
+        "db341962-c9da-41b7-8b8c-0fbd138ceb19@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e74eaed0-3b3c-41e4-8248-952c9f7e5882@f9941": {
+    "url": "db://assets/Player/button_blue.png@f9941",
+    "value": {
+      "depends": [
+        "e74eaed0-3b3c-41e4-8248-952c9f7e5882@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b4c18936-ed4d-418a-96ff-f1938944db19@f9941": {
+    "url": "db://assets/Map/tileset.png@f9941",
+    "value": {
+      "depends": [
+        "b4c18936-ed4d-418a-96ff-f1938944db19@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7b198bfb-549c-45d7-95dc-5dafa1bc45e7": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 0
+  },
+  "6e33bf17-db7f-4cb8-8136-8c79799a4155": {
+    "url": "db://assets/Scripts/firebase.d.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3e09365e-7b1b-4230-95a9-62b54dab05e4": {
+    "url": "db://assets/Scripts/signIn.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d290d91b-9803-4fb2-b175-a5319e2f9c8f": {
+    "url": "db://assets/Scenes/Menu.scene",
+    "value": {
+      "depends": [
+        "d290d91b-9803-4fb2-b175-a5319e2f9c8f"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "48e623e0-fb0e-46ea-b0f6-9e706504b2ab": {
+    "url": "db://assets/Scenes/signIn.scene",
+    "value": {
+      "depends": [
+        "48e623e0-fb0e-46ea-b0f6-9e706504b2ab",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ],
+      "dependScripts": [
+        "3e09365e-7b1b-4230-95a9-62b54dab05e4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4f582775-4c22-4853-9900-f661cf1f2470": {
+    "url": "db://assets/Scenes/MultiRoom.scene",
+    "value": {
+      "depends": [
+        "4f582775-4c22-4853-9900-f661cf1f2470",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "37e68e28-035d-421d-82c0-acf9c1232c8d"
+      ],
+      "dependScripts": [
+        "47837149-e547-4500-8f1c-895cdb0fb1df",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "37e68e28-035d-421d-82c0-acf9c1232c8d": {
+    "url": "db://assets/Prefabs/user.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": []
+    },
     "versionCode": 0
   }
 }

@@ -1,10 +1,138 @@
-5-20-2024 18:51:20 - log: Load engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
-5-20-2024 18:51:21 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-5-20-2024 18:51:21 - log: Register native engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-5-20-2024 18:51:27 - log: [Scene] meshopt wasm decoder initialized
-5-20-2024 18:51:27 - log: [Scene] [box2d]:box2d wasm lib loaded.
-5-20-2024 18:51:27 - log: [Scene] [bullet]:bullet wasm lib loaded.
-5-20-2024 18:51:27 - log: [Scene] [PHYSICS]: using builtin.
-5-20-2024 18:51:27 - log: [Scene] Cocos Creator v3.8.2
-5-20-2024 18:51:27 - info: [Scene] Forward render pipeline initialized.
-5-20-2024 18:51:28 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-26-2024 10:35:09 - log: Load engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
+5-26-2024 10:35:10 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+5-26-2024 10:35:10 - log: Register native engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+5-26-2024 10:35:18 - log: [Scene] meshopt wasm decoder initialized
+5-26-2024 10:35:18 - log: [Scene] [box2d]:box2d wasm lib loaded.
+5-26-2024 10:35:18 - log: [Scene] [bullet]:bullet wasm lib loaded.
+5-26-2024 10:35:18 - log: [Scene] [PHYSICS]: using builtin.
+5-26-2024 10:35:18 - log: [Scene] Cocos Creator v3.8.2
+5-26-2024 10:35:18 - info: [Scene] Forward render pipeline initialized.
+5-26-2024 10:35:18 - warn: [Scene] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [Scene] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:1743:21
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-26-2024 10:35:19 - warn: [Scene] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+Error: [Scene] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25549:78
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-26-2024 10:35:19 - warn: [Scene] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [Scene] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:26929:28
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25552:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25553:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-26-2024 10:35:19 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-26-2024 11:09:34 - warn: [Scene] Missing class: 77399xbLolMyJKltviIT0E1Error: [Scene] Missing class: 77399xbLolMyJKltviIT0E1
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+5-26-2024 11:09:34 - warn: [Scene] Missing class: 23d52oqORJOlKmCc5CzVTIXError: [Scene] Missing class: 23d52oqORJOlKmCc5CzVTIX
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+5-26-2024 11:09:34 - error: [Scene] Script "77399xbLolMyJKltviIT0E1" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "77399c5b-2e89-4cc8-92a5-b6f8884f4135"
+Class ID: "77399xbLolMyJKltviIT0E1"
+Error: [Scene] Script "77399xbLolMyJKltviIT0E1" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "77399c5b-2e89-4cc8-92a5-b6f8884f4135"
+Class ID: "77399xbLolMyJKltviIT0E1"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+5-26-2024 11:09:34 - error: [Scene] Script "23d52oqORJOlKmCc5CzVTIX" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "23d52a2a-3912-4e94-a982-7390b3553217"
+Class ID: "23d52oqORJOlKmCc5CzVTIX"
+Error: [Scene] Script "23d52oqORJOlKmCc5CzVTIX" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "23d52a2a-3912-4e94-a982-7390b3553217"
+Class ID: "23d52oqORJOlKmCc5CzVTIX"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
