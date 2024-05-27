@@ -334,5 +334,3950 @@
       "dependScripts": []
     },
     "versionCode": 0
+  },
+  "23d52a2a-3912-4e94-a982-7390b3553217": {
+    "url": "db://assets/Scripts/CreateUser.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9bf5ad3c-c7c1-4438-b741-dfa53607b3a4": {
+    "url": "db://assets/Scripts/Ranking.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c9e31009-0d85-4626-a3ea-2d4ab6ff70a1": {
+    "url": "db://assets/Prefabs/RankingScroll.prefab",
+    "value": {},
+    "versionCode": 0
+  },
+  "0216040a-ab4f-441e-8529-3e25420480b8": {
+    "url": "db://assets/Prefabs/item.prefab",
+    "value": {},
+    "versionCode": 0
+  },
+  "e7110b7a-c696-413b-acf7-34c6fec9507e": {
+    "url": "db://assets/Scenes/Menu.scene",
+    "value": {
+      "depends": [
+        "e7110b7a-c696-413b-acf7-34c6fec9507e"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "2bc47b8b-592d-4eca-b1e2-18da4405ad12": {
+    "url": "db://assets/Map/tileset",
+    "value": {},
+    "versionCode": 0
+  },
+  "b0bbd7dc-0f2a-4905-8da7-8209392ed5f0": {
+    "url": "db://assets/Map/map1.tmx",
+    "value": {
+      "depends": [
+        "ea1c2358-6ff0-4f50-bd12-602d03c5595d",
+        "22551c57-344a-452d-b8f4-829538cba0a6",
+        "7edc7134-1c13-40cc-b1e2-3ad8928ad3ec",
+        "8b76784a-46fe-47c2-8376-680b9709a4c9",
+        "90d6c57b-0b58-43f3-bac9-f3422735314b",
+        "10d7afd1-75e9-4909-9a75-340b95e6c13b@f9941",
+        "d5018ce7-b6fa-4f6d-8a5f-d1bca8a64042@f9941",
+        "8091462d-7988-4df8-bf33-2fde2e134b50@f9941",
+        "eec30637-0508-4758-b965-0111fc4ae26a@f9941",
+        "59fc5af1-9410-4001-a65c-9132ad98ef36@f9941"
+      ]
+    },
+    "versionCode": 0
+  },
+  "8bc969d7-b64b-4771-94f7-d55fc2ce840d": {
+    "url": "db://assets/Map/tileset/Bridge_All.tsx",
+    "value": {},
+    "versionCode": 0
+  },
+  "8b666624-3516-4361-bcc6-84edb422dec8": {
+    "url": "db://assets/Map/tileset/Shadows.tsx",
+    "value": {},
+    "versionCode": 0
+  },
+  "31c2818f-2f63-407f-ade9-72ccabc3357a": {
+    "url": "db://assets/Map/tileset/Tilemap_Elevation.tsx",
+    "value": {},
+    "versionCode": 0
+  },
+  "ad5982e5-6e08-4294-bcbd-e8498b73d0a4": {
+    "url": "db://assets/Map/tileset/Tilemap_Flat.tsx",
+    "value": {},
+    "versionCode": 0
+  },
+  "94f4eced-f8f8-4c73-86c0-229a320bb249": {
+    "url": "db://assets/Map/tileset/Water.tsx",
+    "value": {},
+    "versionCode": 0
+  },
+  "f79c7ec5-39fb-43f9-9c81-eb67e1caa08a": {
+    "url": "db://assets/Map/tileset/tileset.tsx",
+    "value": {},
+    "versionCode": 0
+  },
+  "495c1923-3534-4763-9197-2148cda373e4": {
+    "url": "db://assets/Map/map1source",
+    "value": {},
+    "versionCode": 0
+  },
+  "04285989-b935-41f8-9d01-119aa0d698f1": {
+    "url": "db://assets/Map/map1source/Deco",
+    "value": {},
+    "versionCode": 0
+  },
+  "6ba45228-e406-43f6-be12-58988a1a029c": {
+    "url": "db://assets/Map/map1source/Effects",
+    "value": {},
+    "versionCode": 0
+  },
+  "30323abb-2314-448d-afe9-b5d0ad05f070": {
+    "url": "db://assets/Map/map1source/Factions",
+    "value": {},
+    "versionCode": 0
+  },
+  "964a335b-d5a3-4491-8e7b-c7e214c9e160": {
+    "url": "db://assets/Map/map1source/Resources",
+    "value": {},
+    "versionCode": 0
+  },
+  "8d43b65f-d6b1-4e3a-9c77-9ea9e5331537": {
+    "url": "db://assets/Map/map1source/Terrain",
+    "value": {},
+    "versionCode": 0
+  },
+  "d23e4651-b780-4ee2-a770-7d23b36116f6": {
+    "url": "db://assets/Map/map1source/UI",
+    "value": {},
+    "versionCode": 0
+  },
+  "67cfd832-28d3-4ac2-a60a-2463f90c911a": {
+    "url": "db://assets/Map/map1source/Effects/Explosion",
+    "value": {},
+    "versionCode": 0
+  },
+  "2d8a7799-a76d-424c-839e-9c4bf4d9d879": {
+    "url": "db://assets/Map/map1source/Effects/Fire",
+    "value": {},
+    "versionCode": 0
+  },
+  "9e0744e0-5bc3-4ec4-b208-c118d6ddc7df": {
+    "url": "db://assets/Map/map1source/Factions/Goblins",
+    "value": {},
+    "versionCode": 0
+  },
+  "09d3b3ff-01f0-4b1e-9766-09f020f9aa61": {
+    "url": "db://assets/Map/map1source/Factions/Knights",
+    "value": {},
+    "versionCode": 0
+  },
+  "655b63ce-278a-4ec4-879a-e4de9bdb66bc": {
+    "url": "db://assets/Map/map1source/Resources/Gold Mine",
+    "value": {},
+    "versionCode": 0
+  },
+  "935cd915-747e-4770-a41d-e60866db035c": {
+    "url": "db://assets/Map/map1source/Resources/Resources",
+    "value": {},
+    "versionCode": 0
+  },
+  "d3553909-8d18-4704-a09f-67065fc24b8d": {
+    "url": "db://assets/Map/map1source/Resources/Sheep",
+    "value": {},
+    "versionCode": 0
+  },
+  "85f29f35-0fe9-4691-99ea-9790121e15b6": {
+    "url": "db://assets/Map/map1source/Resources/Trees",
+    "value": {},
+    "versionCode": 0
+  },
+  "d79dfd14-4d7a-41a8-8589-22019c5aa253": {
+    "url": "db://assets/Map/map1source/Terrain/Bridge",
+    "value": {},
+    "versionCode": 0
+  },
+  "fb130c6a-51d5-4235-b318-cb1d6ce54045": {
+    "url": "db://assets/Map/map1source/Terrain/Ground",
+    "value": {},
+    "versionCode": 0
+  },
+  "033fede8-c8c1-4388-8753-bc3f7437b881": {
+    "url": "db://assets/Map/map1source/Terrain/Water",
+    "value": {},
+    "versionCode": 0
+  },
+  "02062026-b5fc-445f-96e1-da5c5d38955d": {
+    "url": "db://assets/Map/map1source/UI/Banners",
+    "value": {},
+    "versionCode": 0
+  },
+  "c09ce581-7f58-4f97-8656-c3168ec130d5": {
+    "url": "db://assets/Map/map1source/UI/Buttons",
+    "value": {},
+    "versionCode": 0
+  },
+  "fbf6dbad-9083-42a1-b488-fa936fcff784": {
+    "url": "db://assets/Map/map1source/UI/Icons",
+    "value": {},
+    "versionCode": 0
+  },
+  "cf8dd75c-a0f7-4c01-8a17-635b753e6adb": {
+    "url": "db://assets/Map/map1source/UI/Pointers",
+    "value": {},
+    "versionCode": 0
+  },
+  "6eb01bbe-1cf9-49ef-9c2c-f2cb81730cbd": {
+    "url": "db://assets/Map/map1source/UI/Ribbons",
+    "value": {},
+    "versionCode": 0
+  },
+  "68d1a584-5273-4bed-9ec0-f8dfeb2f70ca": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings",
+    "value": {},
+    "versionCode": 0
+  },
+  "055b6a18-a705-474f-a66e-daedc1bf4656": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops",
+    "value": {},
+    "versionCode": 0
+  },
+  "767f7dd8-8fe7-4e20-b14a-b850ff6c6978": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings",
+    "value": {},
+    "versionCode": 0
+  },
+  "581510b0-a89c-41a9-b543-3ab863c19622": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops",
+    "value": {},
+    "versionCode": 0
+  },
+  "8943591b-2af5-4acb-8a32-e446c5febb8f": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam",
+    "value": {},
+    "versionCode": 0
+  },
+  "ed0fa8c1-e367-4fae-b9b8-acd51c9fe494": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks",
+    "value": {},
+    "versionCode": 0
+  },
+  "a6eea98c-d068-45d2-917a-313ad34f797f": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_House",
+    "value": {},
+    "versionCode": 0
+  },
+  "e87208dd-c205-4e4f-a3d6-db700b43ed1b": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower",
+    "value": {},
+    "versionCode": 0
+  },
+  "b32f471e-4860-4ee1-9bfb-e16668f45518": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel",
+    "value": {},
+    "versionCode": 0
+  },
+  "890dcb5d-33b5-499e-8ff5-19aa32fed1fc": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT",
+    "value": {},
+    "versionCode": 0
+  },
+  "677750e7-e500-48c4-844f-323d7c7410b0": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch",
+    "value": {},
+    "versionCode": 0
+  },
+  "1d5312f9-0394-4c0a-afa2-ce8f6514b1b3": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle",
+    "value": {},
+    "versionCode": 0
+  },
+  "e9b4e4b2-9db4-44b8-8742-2f0e2b84f31c": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House",
+    "value": {},
+    "versionCode": 0
+  },
+  "11fd24be-950d-4e60-81b6-fd52257f8092": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower",
+    "value": {},
+    "versionCode": 0
+  },
+  "8f49c5f0-f7ec-4aa8-8b67-ef6db2b0b314": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer",
+    "value": {},
+    "versionCode": 0
+  },
+  "a7ce5927-1831-4f2b-95c6-e9cee23f921b": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Dead",
+    "value": {},
+    "versionCode": 0
+  },
+  "88b82ac2-c803-4c3b-97a4-d8e0fdc6a3d4": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn",
+    "value": {},
+    "versionCode": 0
+  },
+  "243799b3-0568-47e1-a2d3-8b704c7fb04e": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior",
+    "value": {},
+    "versionCode": 0
+  },
+  "21d1092a-1dd9-4010-b6d2-57c6c271706c": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Blue",
+    "value": {},
+    "versionCode": 0
+  },
+  "4eec8a53-b970-449b-9c1d-755ca61e4aa5": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Purple",
+    "value": {},
+    "versionCode": 0
+  },
+  "1483549b-d4e6-4e33-bbdf-24937477d37d": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Red",
+    "value": {},
+    "versionCode": 0
+  },
+  "ee51d056-7fb5-49d9-88a6-65a947216a1f": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Yellow",
+    "value": {},
+    "versionCode": 0
+  },
+  "b4ee2b34-07b4-4c89-8acd-326da315288f": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Blue",
+    "value": {},
+    "versionCode": 0
+  },
+  "cc5c9d02-0dad-4d81-99b3-9e54e7cf96f3": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Dynamite",
+    "value": {},
+    "versionCode": 0
+  },
+  "fc6038d2-d39b-437d-b4fe-0c4686189b8b": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Purple",
+    "value": {},
+    "versionCode": 0
+  },
+  "50d9f54b-226b-4566-9a66-3005d6ca93ef": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Red",
+    "value": {},
+    "versionCode": 0
+  },
+  "0427b701-6ca6-4aa3-950f-dea8f01ae8c5": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Yellow",
+    "value": {},
+    "versionCode": 0
+  },
+  "5657441d-be40-4812-a3ea-417337c0bf06": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Blue",
+    "value": {},
+    "versionCode": 0
+  },
+  "3474bb33-5592-42ad-97ad-66d586162652": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Purple",
+    "value": {},
+    "versionCode": 0
+  },
+  "122c7681-4478-40f2-a27a-d9af1908cf7e": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Red",
+    "value": {},
+    "versionCode": 0
+  },
+  "7de64b8e-8154-4977-b82e-0b8fa8c0cdce": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Yellow",
+    "value": {},
+    "versionCode": 0
+  },
+  "f408b4d2-175f-45a0-b4b0-b355b0d3ad6c": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow",
+    "value": {},
+    "versionCode": 0
+  },
+  "280fe5ef-53a3-4ea7-b5d1-2c52f95db1ce": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Arrow",
+    "value": {},
+    "versionCode": 0
+  },
+  "6e69ce48-9fec-4ba1-9c02-b766f3850eb2": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Blue",
+    "value": {},
+    "versionCode": 0
+  },
+  "379dc086-906a-443d-97f5-ae43cf2079ea": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Purple",
+    "value": {},
+    "versionCode": 0
+  },
+  "b2ed831c-c6f0-4740-885d-c2645150a3ba": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Red",
+    "value": {},
+    "versionCode": 0
+  },
+  "49835449-f011-404f-8ef6-5f0eb15fa274": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Yellow",
+    "value": {},
+    "versionCode": 0
+  },
+  "a83f2725-0d2b-4c0a-a342-7f1c4b9c790e": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Blue",
+    "value": {},
+    "versionCode": 0
+  },
+  "227e60e9-4b6b-498a-bee6-5f68abf4ffc7": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Purple",
+    "value": {},
+    "versionCode": 0
+  },
+  "e0227b28-784e-4179-a0cd-4dff9d332bc2": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Red",
+    "value": {},
+    "versionCode": 0
+  },
+  "7c067cb4-9a6b-4324-a58b-abd84c7acb78": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Yellow",
+    "value": {},
+    "versionCode": 0
+  },
+  "163173f2-3241-4b0d-b6ba-b804280b02fd": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Blue",
+    "value": {},
+    "versionCode": 0
+  },
+  "b42d716d-27fa-448a-9612-eef7eeca2dbe": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Purple",
+    "value": {},
+    "versionCode": 0
+  },
+  "00bbc20b-6295-4f7a-9839-3357ebe3745a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Red",
+    "value": {},
+    "versionCode": 0
+  },
+  "d03edb98-d9e8-4d37-9e3c-1b3b87275552": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Yellow",
+    "value": {},
+    "versionCode": 0
+  },
+  "a15fe1b4-bc3f-41a0-b5cb-ab72b01241df": {
+    "url": "db://assets/Map/map1source/Deco/01.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b9b98577-62e2-4d75-ac01-3e9ea674bca4": {
+    "url": "db://assets/Map/map1source/Deco/02.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "defbd8e7-30ac-4246-bfcf-fb60c233510a": {
+    "url": "db://assets/Map/map1source/Deco/03.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c381ec18-72a2-4470-aab7-4fb929f9d4a0": {
+    "url": "db://assets/Map/map1source/Deco/04.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "927cdad2-88ea-4d74-9045-3c48bec82b67": {
+    "url": "db://assets/Map/map1source/Deco/05.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b9b98577-62e2-4d75-ac01-3e9ea674bca4@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/02.png@6c48a",
+    "value": {
+      "depends": [
+        "b9b98577-62e2-4d75-ac01-3e9ea674bca4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d30e6891-55eb-43a9-99aa-677d50a86a23": {
+    "url": "db://assets/Map/map1source/Deco/06.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a15fe1b4-bc3f-41a0-b5cb-ab72b01241df@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/01.png@6c48a",
+    "value": {
+      "depends": [
+        "a15fe1b4-bc3f-41a0-b5cb-ab72b01241df"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c381ec18-72a2-4470-aab7-4fb929f9d4a0@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/04.png@6c48a",
+    "value": {
+      "depends": [
+        "c381ec18-72a2-4470-aab7-4fb929f9d4a0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d2f3b366-cf45-48e2-8a0e-2ece8440ccd8": {
+    "url": "db://assets/Map/map1source/Deco/07.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "3e61f790-b339-424b-8b5f-9386cc53a3ff": {
+    "url": "db://assets/Map/map1source/Deco/08.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "defbd8e7-30ac-4246-bfcf-fb60c233510a@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/03.png@6c48a",
+    "value": {
+      "depends": [
+        "defbd8e7-30ac-4246-bfcf-fb60c233510a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d84edddc-84f3-4af4-9990-a744284214f3": {
+    "url": "db://assets/Map/map1source/Deco/09.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "927cdad2-88ea-4d74-9045-3c48bec82b67@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/05.png@6c48a",
+    "value": {
+      "depends": [
+        "927cdad2-88ea-4d74-9045-3c48bec82b67"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a0b41e8b-634f-4e7e-9204-1aee2b37a0ba": {
+    "url": "db://assets/Map/map1source/Deco/10.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d30e6891-55eb-43a9-99aa-677d50a86a23@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/06.png@6c48a",
+    "value": {
+      "depends": [
+        "d30e6891-55eb-43a9-99aa-677d50a86a23"
+      ]
+    },
+    "versionCode": 0
+  },
+  "69c68f47-e33a-478e-a030-bb361a05dcb2": {
+    "url": "db://assets/Map/map1source/Deco/11.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "3e61f790-b339-424b-8b5f-9386cc53a3ff@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/08.png@6c48a",
+    "value": {
+      "depends": [
+        "3e61f790-b339-424b-8b5f-9386cc53a3ff"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d2f3b366-cf45-48e2-8a0e-2ece8440ccd8@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/07.png@6c48a",
+    "value": {
+      "depends": [
+        "d2f3b366-cf45-48e2-8a0e-2ece8440ccd8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5a66dd69-8703-452a-b37f-284e57acd412": {
+    "url": "db://assets/Map/map1source/Deco/12.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "27fb9a76-c983-42b5-97f9-9c4c30593142": {
+    "url": "db://assets/Map/map1source/Deco/13.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d84edddc-84f3-4af4-9990-a744284214f3@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/09.png@6c48a",
+    "value": {
+      "depends": [
+        "d84edddc-84f3-4af4-9990-a744284214f3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c1896ea2-34ce-4eff-a7f5-7fe0b526d494": {
+    "url": "db://assets/Map/map1source/Deco/14.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a0b41e8b-634f-4e7e-9204-1aee2b37a0ba@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/10.png@6c48a",
+    "value": {
+      "depends": [
+        "a0b41e8b-634f-4e7e-9204-1aee2b37a0ba"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d56009cc-1d82-4577-8182-2a16b914bc71": {
+    "url": "db://assets/Map/map1source/Deco/15.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "69c68f47-e33a-478e-a030-bb361a05dcb2@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/11.png@6c48a",
+    "value": {
+      "depends": [
+        "69c68f47-e33a-478e-a030-bb361a05dcb2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5da71785-83e6-4112-82f3-e621a9a4fc0c": {
+    "url": "db://assets/Map/map1source/Deco/16.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5a66dd69-8703-452a-b37f-284e57acd412@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/12.png@6c48a",
+    "value": {
+      "depends": [
+        "5a66dd69-8703-452a-b37f-284e57acd412"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4ad67ada-4c2c-41ea-862d-07673a77d09f": {
+    "url": "db://assets/Map/map1source/Deco/17.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "27fb9a76-c983-42b5-97f9-9c4c30593142@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/13.png@6c48a",
+    "value": {
+      "depends": [
+        "27fb9a76-c983-42b5-97f9-9c4c30593142"
+      ]
+    },
+    "versionCode": 0
+  },
+  "eaec261e-42ef-476b-ad7c-aa476e9830fc": {
+    "url": "db://assets/Map/map1source/Deco/18.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c1896ea2-34ce-4eff-a7f5-7fe0b526d494@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/14.png@6c48a",
+    "value": {
+      "depends": [
+        "c1896ea2-34ce-4eff-a7f5-7fe0b526d494"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a1768d90-0213-4e4d-ad10-3345c1b561eb": {
+    "url": "db://assets/Map/map1source/Effects/Explosion/Explosions.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d56009cc-1d82-4577-8182-2a16b914bc71@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/15.png@6c48a",
+    "value": {
+      "depends": [
+        "d56009cc-1d82-4577-8182-2a16b914bc71"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7f851b56-03fc-40bb-b961-0b61d7c0e875": {
+    "url": "db://assets/Map/map1source/Effects/Explosion/Explosions.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0f195ad2-e9bf-40e8-8b51-2e9ee2b43fbf": {
+    "url": "db://assets/Map/map1source/Effects/Fire/Fire.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5da71785-83e6-4112-82f3-e621a9a4fc0c@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/16.png@6c48a",
+    "value": {
+      "depends": [
+        "5da71785-83e6-4112-82f3-e621a9a4fc0c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "da9aebad-df1a-4b14-ad8a-d844a2e7a922": {
+    "url": "db://assets/Map/map1source/Effects/Fire/Fire.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "4ad67ada-4c2c-41ea-862d-07673a77d09f@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/17.png@6c48a",
+    "value": {
+      "depends": [
+        "4ad67ada-4c2c-41ea-862d-07673a77d09f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "84efc99b-f1be-47c2-b3f3-a51673fd71f5": {
+    "url": "db://assets/Map/map1source/Resources/Gold Mine/GoldMine_Active.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "29f7727f-b740-4546-93d4-de09e4bac994": {
+    "url": "db://assets/Map/map1source/Resources/Gold Mine/GoldMine_Destroyed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "eaec261e-42ef-476b-ad7c-aa476e9830fc@6c48a": {
+    "url": "db://assets/Map/map1source/Deco/18.png@6c48a",
+    "value": {
+      "depends": [
+        "eaec261e-42ef-476b-ad7c-aa476e9830fc"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6401ea8b-0849-44b6-9634-3f561f9bcf37": {
+    "url": "db://assets/Map/map1source/Resources/Gold Mine/GoldMine_Inactive.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7f851b56-03fc-40bb-b961-0b61d7c0e875@6c48a": {
+    "url": "db://assets/Map/map1source/Effects/Explosion/Explosions.png@6c48a",
+    "value": {
+      "depends": [
+        "7f851b56-03fc-40bb-b961-0b61d7c0e875"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ff062795-4360-451c-9cfc-4ddbef97eb1e": {
+    "url": "db://assets/Map/map1source/Resources/Resources/G_Idle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "da9aebad-df1a-4b14-ad8a-d844a2e7a922@6c48a": {
+    "url": "db://assets/Map/map1source/Effects/Fire/Fire.png@6c48a",
+    "value": {
+      "depends": [
+        "da9aebad-df1a-4b14-ad8a-d844a2e7a922"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3fda0f93-2d55-47d3-b0cd-2505252fcbd0": {
+    "url": "db://assets/Map/map1source/Resources/Resources/G_Idle_(NoShadow).png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "84efc99b-f1be-47c2-b3f3-a51673fd71f5@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Gold Mine/GoldMine_Active.png@6c48a",
+    "value": {
+      "depends": [
+        "84efc99b-f1be-47c2-b3f3-a51673fd71f5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c441f8bc-9fd1-4158-b718-1bf97a2fe03c": {
+    "url": "db://assets/Map/map1source/Resources/Resources/G_Spawn.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "29f7727f-b740-4546-93d4-de09e4bac994@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Gold Mine/GoldMine_Destroyed.png@6c48a",
+    "value": {
+      "depends": [
+        "29f7727f-b740-4546-93d4-de09e4bac994"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e28a205c-4075-477b-8e98-83f8ff89d25f": {
+    "url": "db://assets/Map/map1source/Resources/Resources/M_Idle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "6401ea8b-0849-44b6-9634-3f561f9bcf37@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Gold Mine/GoldMine_Inactive.png@6c48a",
+    "value": {
+      "depends": [
+        "6401ea8b-0849-44b6-9634-3f561f9bcf37"
+      ]
+    },
+    "versionCode": 0
+  },
+  "60750314-6cee-40e0-8fe3-240b633b3be2": {
+    "url": "db://assets/Map/map1source/Resources/Resources/M_Idle_(NoShadow).png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ff062795-4360-451c-9cfc-4ddbef97eb1e@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Resources/G_Idle.png@6c48a",
+    "value": {
+      "depends": [
+        "ff062795-4360-451c-9cfc-4ddbef97eb1e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "53cc57e4-79c1-4a86-bb8d-07ebbffe664c": {
+    "url": "db://assets/Map/map1source/Resources/Resources/M_Spawn.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "3fda0f93-2d55-47d3-b0cd-2505252fcbd0@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Resources/G_Idle_(NoShadow).png@6c48a",
+    "value": {
+      "depends": [
+        "3fda0f93-2d55-47d3-b0cd-2505252fcbd0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "eafb5815-f7d2-4448-8645-e23657b85ddd": {
+    "url": "db://assets/Map/map1source/Resources/Resources/Resources.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c441f8bc-9fd1-4158-b718-1bf97a2fe03c@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Resources/G_Spawn.png@6c48a",
+    "value": {
+      "depends": [
+        "c441f8bc-9fd1-4158-b718-1bf97a2fe03c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3dbab7d1-f940-4b56-862b-e66f6b5cf5e1": {
+    "url": "db://assets/Map/map1source/Resources/Resources/W_Idle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e28a205c-4075-477b-8e98-83f8ff89d25f@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Resources/M_Idle.png@6c48a",
+    "value": {
+      "depends": [
+        "e28a205c-4075-477b-8e98-83f8ff89d25f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f086ecb4-1b2b-4d32-aa12-9dd3ddb6e3a9": {
+    "url": "db://assets/Map/map1source/Resources/Resources/W_Idle_(NoShadow).png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "60750314-6cee-40e0-8fe3-240b633b3be2@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Resources/M_Idle_(NoShadow).png@6c48a",
+    "value": {
+      "depends": [
+        "60750314-6cee-40e0-8fe3-240b633b3be2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "19409447-e0a3-4a10-8e99-9055c8e703e1": {
+    "url": "db://assets/Map/map1source/Resources/Resources/W_Spawn.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "57410f55-c9d5-44f7-a206-a8b13aa62962": {
+    "url": "db://assets/Map/map1source/Resources/Sheep/HappySheep_All.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "53cc57e4-79c1-4a86-bb8d-07ebbffe664c@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Resources/M_Spawn.png@6c48a",
+    "value": {
+      "depends": [
+        "53cc57e4-79c1-4a86-bb8d-07ebbffe664c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3239516d-4c2a-4672-af2a-1d922d7d7e82": {
+    "url": "db://assets/Map/map1source/Resources/Sheep/HappySheep_Bouncing.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f086ecb4-1b2b-4d32-aa12-9dd3ddb6e3a9@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Resources/W_Idle_(NoShadow).png@6c48a",
+    "value": {
+      "depends": [
+        "f086ecb4-1b2b-4d32-aa12-9dd3ddb6e3a9"
+      ]
+    },
+    "versionCode": 0
+  },
+  "66de560a-508f-405e-9233-24371b3a9d1b": {
+    "url": "db://assets/Map/map1source/Resources/Sheep/HappySheep_Idle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "3dbab7d1-f940-4b56-862b-e66f6b5cf5e1@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Resources/W_Idle.png@6c48a",
+    "value": {
+      "depends": [
+        "3dbab7d1-f940-4b56-862b-e66f6b5cf5e1"
+      ]
+    },
+    "versionCode": 0
+  },
+  "81b91895-0b18-4e1a-9b73-ee70adaa026a": {
+    "url": "db://assets/Map/map1source/Resources/Sheep/Happy_Sheep.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "19409447-e0a3-4a10-8e99-9055c8e703e1@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Resources/W_Spawn.png@6c48a",
+    "value": {
+      "depends": [
+        "19409447-e0a3-4a10-8e99-9055c8e703e1"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c5377e22-a2df-4aa1-94d4-3c04fb5cd14c": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1c444410-fee4-4953-89a9-0ee57211c2ff": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "57410f55-c9d5-44f7-a206-a8b13aa62962@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Sheep/HappySheep_All.png@6c48a",
+    "value": {
+      "depends": [
+        "57410f55-c9d5-44f7-a206-a8b13aa62962"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d5018ce7-b6fa-4f6d-8a5f-d1bca8a64042": {
+    "url": "db://assets/Map/map1source/Terrain/Bridge/Bridge_All.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "3239516d-4c2a-4672-af2a-1d922d7d7e82@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Sheep/HappySheep_Bouncing.png@6c48a",
+    "value": {
+      "depends": [
+        "3239516d-4c2a-4672-af2a-1d922d7d7e82"
+      ]
+    },
+    "versionCode": 0
+  },
+  "59fc5af1-9410-4001-a65c-9132ad98ef36": {
+    "url": "db://assets/Map/map1source/Terrain/Ground/Shadows.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "8091462d-7988-4df8-bf33-2fde2e134b50": {
+    "url": "db://assets/Map/map1source/Terrain/Ground/Tilemap_Elevation.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "66de560a-508f-405e-9233-24371b3a9d1b@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Sheep/HappySheep_Idle.png@6c48a",
+    "value": {
+      "depends": [
+        "66de560a-508f-405e-9233-24371b3a9d1b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "10d7afd1-75e9-4909-9a75-340b95e6c13b": {
+    "url": "db://assets/Map/map1source/Terrain/Ground/Tilemap_Flat.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "59fc5af1-9410-4001-a65c-9132ad98ef36@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Ground/Shadows.png@6c48a",
+    "value": {
+      "depends": [
+        "59fc5af1-9410-4001-a65c-9132ad98ef36"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d5018ce7-b6fa-4f6d-8a5f-d1bca8a64042@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Bridge/Bridge_All.png@6c48a",
+    "value": {
+      "depends": [
+        "d5018ce7-b6fa-4f6d-8a5f-d1bca8a64042"
+      ]
+    },
+    "versionCode": 0
+  },
+  "eec30637-0508-4758-b965-0111fc4ae26a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Water.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "261b000c-a929-4b58-b6a4-da307b3d6980": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Connection_Down.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1c444410-fee4-4953-89a9-0ee57211c2ff@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree.png@6c48a",
+    "value": {
+      "depends": [
+        "1c444410-fee4-4953-89a9-0ee57211c2ff"
+      ]
+    },
+    "versionCode": 0
+  },
+  "86408dcb-fc8d-434b-803a-cf51818c598f": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Connection_Left.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "8091462d-7988-4df8-bf33-2fde2e134b50@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Ground/Tilemap_Elevation.png@6c48a",
+    "value": {
+      "depends": [
+        "8091462d-7988-4df8-bf33-2fde2e134b50"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9262521e-940a-4004-b9d6-8db00cbb6867": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Connection_Right.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "eec30637-0508-4758-b965-0111fc4ae26a@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Water.png@6c48a",
+    "value": {
+      "depends": [
+        "eec30637-0508-4758-b965-0111fc4ae26a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "8778e9d4-53fe-4849-9e5f-9dac72491eaf": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Connection_Up.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "10d7afd1-75e9-4909-9a75-340b95e6c13b@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Ground/Tilemap_Flat.png@6c48a",
+    "value": {
+      "depends": [
+        "10d7afd1-75e9-4909-9a75-340b95e6c13b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "cb05aa86-c6b7-4793-8f0b-5d16080da7fd": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Horizontal.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "261b000c-a929-4b58-b6a4-da307b3d6980@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Connection_Down.png@6c48a",
+    "value": {
+      "depends": [
+        "261b000c-a929-4b58-b6a4-da307b3d6980"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fe6aed99-58e5-401a-9217-da46e8aef755": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Vertical.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "86408dcb-fc8d-434b-803a-cf51818c598f@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Connection_Left.png@6c48a",
+    "value": {
+      "depends": [
+        "86408dcb-fc8d-434b-803a-cf51818c598f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9262521e-940a-4004-b9d6-8db00cbb6867@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Connection_Right.png@6c48a",
+    "value": {
+      "depends": [
+        "9262521e-940a-4004-b9d6-8db00cbb6867"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f0af3ce7-00b6-4b86-9e41-86de96ed02e4": {
+    "url": "db://assets/Map/map1source/UI/Banners/Carved_3Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "50ba3aa3-5cba-4a5c-aa27-b8921ec7d276": {
+    "url": "db://assets/Map/map1source/UI/Banners/Carved_9Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "8778e9d4-53fe-4849-9e5f-9dac72491eaf@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Connection_Up.png@6c48a",
+    "value": {
+      "depends": [
+        "8778e9d4-53fe-4849-9e5f-9dac72491eaf"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f9df9d3b-15d4-4563-8bfe-15bbaa1e211e": {
+    "url": "db://assets/Map/map1source/UI/Banners/Carved_Regular.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "cb05aa86-c6b7-4793-8f0b-5d16080da7fd@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Horizontal.png@6c48a",
+    "value": {
+      "depends": [
+        "cb05aa86-c6b7-4793-8f0b-5d16080da7fd"
+      ]
+    },
+    "versionCode": 0
+  },
+  "038a8e4e-6aee-4656-911b-2327dc19776c": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "fe6aed99-58e5-401a-9217-da46e8aef755@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Banners/Banner_Vertical.png@6c48a",
+    "value": {
+      "depends": [
+        "fe6aed99-58e5-401a-9217-da46e8aef755"
+      ]
+    },
+    "versionCode": 0
+  },
+  "648eb8f0-2885-43e3-92cd-c55bc950925f": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue_3Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f0af3ce7-00b6-4b86-9e41-86de96ed02e4@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Banners/Carved_3Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "f0af3ce7-00b6-4b86-9e41-86de96ed02e4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7eabcafc-5baf-4ffa-875b-b7ab39c4aaf2": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue_3Slides_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "50ba3aa3-5cba-4a5c-aa27-b8921ec7d276@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Banners/Carved_9Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "50ba3aa3-5cba-4a5c-aa27-b8921ec7d276"
+      ]
+    },
+    "versionCode": 0
+  },
+  "86106c53-5dbf-4a33-ae3f-e46b7ea018fb": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue_9Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f9df9d3b-15d4-4563-8bfe-15bbaa1e211e@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Banners/Carved_Regular.png@6c48a",
+    "value": {
+      "depends": [
+        "f9df9d3b-15d4-4563-8bfe-15bbaa1e211e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f2453e90-adbe-468e-b8bf-343f40f41678": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue_9Slides_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "038a8e4e-6aee-4656-911b-2327dc19776c@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "038a8e4e-6aee-4656-911b-2327dc19776c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "405840a6-01c4-4d3d-9989-ea5842ff0681": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "648eb8f0-2885-43e3-92cd-c55bc950925f@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue_3Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "648eb8f0-2885-43e3-92cd-c55bc950925f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "50e32feb-7864-4933-9d2c-c1ca63aaaa3b": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Disable.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7eabcafc-5baf-4ffa-875b-b7ab39c4aaf2@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue_3Slides_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "7eabcafc-5baf-4ffa-875b-b7ab39c4aaf2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7799d733-3aae-4fcf-9e0b-c094311a191a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Disable_3Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "86106c53-5dbf-4a33-ae3f-e46b7ea018fb@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue_9Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "86106c53-5dbf-4a33-ae3f-e46b7ea018fb"
+      ]
+    },
+    "versionCode": 0
+  },
+  "878e7076-f61a-48c4-9c68-0d7b20215061": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Disable_9Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f2453e90-adbe-468e-b8bf-343f40f41678@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue_9Slides_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "f2453e90-adbe-468e-b8bf-343f40f41678"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f0c1c891-98e8-429a-ab92-37dccf6fa7ed": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Hover.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "405840a6-01c4-4d3d-9989-ea5842ff0681@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Blue_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "405840a6-01c4-4d3d-9989-ea5842ff0681"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e52c8f99-036e-42b8-a391-b3d9cd489a83": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Hover_3Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "50e32feb-7864-4933-9d2c-c1ca63aaaa3b@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Disable.png@6c48a",
+    "value": {
+      "depends": [
+        "50e32feb-7864-4933-9d2c-c1ca63aaaa3b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "75b61c86-cac0-4537-ae19-75d85c9dd8da": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Hover_9Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7799d733-3aae-4fcf-9e0b-c094311a191a@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Disable_3Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "7799d733-3aae-4fcf-9e0b-c094311a191a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "77af7ebf-b7e6-4316-8cde-9b50011e75ba": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "878e7076-f61a-48c4-9c68-0d7b20215061@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Disable_9Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "878e7076-f61a-48c4-9c68-0d7b20215061"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b3624951-017c-43c8-a368-a36a72feb95e": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red_3Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f0c1c891-98e8-429a-ab92-37dccf6fa7ed@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Hover.png@6c48a",
+    "value": {
+      "depends": [
+        "f0c1c891-98e8-429a-ab92-37dccf6fa7ed"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0c42344a-56db-4c47-a8aa-962e8298d4df": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red_3Slides_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e52c8f99-036e-42b8-a391-b3d9cd489a83@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Hover_3Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "e52c8f99-036e-42b8-a391-b3d9cd489a83"
+      ]
+    },
+    "versionCode": 0
+  },
+  "53e78a29-852f-40ff-b7b0-f7f9b0f1dca2": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red_9Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "75b61c86-cac0-4537-ae19-75d85c9dd8da@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Hover_9Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "75b61c86-cac0-4537-ae19-75d85c9dd8da"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f7169e1e-2564-464a-820a-048b3beab6e2": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red_9Slides_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "77af7ebf-b7e6-4316-8cde-9b50011e75ba@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "77af7ebf-b7e6-4316-8cde-9b50011e75ba"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1e6fb6ef-1179-4687-add4-022238be0d50": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b3624951-017c-43c8-a368-a36a72feb95e@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red_3Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "b3624951-017c-43c8-a368-a36a72feb95e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9e677b94-8412-475f-a27c-0c3f3fc7a0e7": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_01.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0c42344a-56db-4c47-a8aa-962e8298d4df@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red_3Slides_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "0c42344a-56db-4c47-a8aa-962e8298d4df"
+      ]
+    },
+    "versionCode": 0
+  },
+  "8b77aa75-8f6f-488b-b518-86d91a53c2b1": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_02.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "53e78a29-852f-40ff-b7b0-f7f9b0f1dca2@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red_9Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "53e78a29-852f-40ff-b7b0-f7f9b0f1dca2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d08ebdb7-2e9c-4ad8-959d-957d77cb6061": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_03.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f7169e1e-2564-464a-820a-048b3beab6e2@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red_9Slides_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "f7169e1e-2564-464a-820a-048b3beab6e2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4526d362-ddbe-440b-8119-9b648ef61c69": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_04.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1e6fb6ef-1179-4687-add4-022238be0d50@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Buttons/Button_Red_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "1e6fb6ef-1179-4687-add4-022238be0d50"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0b0a133b-217b-4ed5-891f-139696ec312e": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_05.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9e677b94-8412-475f-a27c-0c3f3fc7a0e7@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_01.png@6c48a",
+    "value": {
+      "depends": [
+        "9e677b94-8412-475f-a27c-0c3f3fc7a0e7"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ea55217a-96da-4fdf-891a-1e22195772fa": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_06.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "8b77aa75-8f6f-488b-b518-86d91a53c2b1@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_02.png@6c48a",
+    "value": {
+      "depends": [
+        "8b77aa75-8f6f-488b-b518-86d91a53c2b1"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1016e239-07ad-4a66-b2c3-52031376de97": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_07.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d08ebdb7-2e9c-4ad8-959d-957d77cb6061@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_03.png@6c48a",
+    "value": {
+      "depends": [
+        "d08ebdb7-2e9c-4ad8-959d-957d77cb6061"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7daa27ee-dfce-45d8-8ffd-58a9216144e3": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_08.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "4526d362-ddbe-440b-8119-9b648ef61c69@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_04.png@6c48a",
+    "value": {
+      "depends": [
+        "4526d362-ddbe-440b-8119-9b648ef61c69"
+      ]
+    },
+    "versionCode": 0
+  },
+  "291f8855-6a30-4de2-98ae-b7200715dfa5": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_09.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0b0a133b-217b-4ed5-891f-139696ec312e@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_05.png@6c48a",
+    "value": {
+      "depends": [
+        "0b0a133b-217b-4ed5-891f-139696ec312e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "45f0151c-caca-4808-92b9-35f881f9e34a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_10.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ea55217a-96da-4fdf-891a-1e22195772fa@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_06.png@6c48a",
+    "value": {
+      "depends": [
+        "ea55217a-96da-4fdf-891a-1e22195772fa"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0cd8ffe2-d57d-405f-8710-7baa71fbbe0a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_01.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1016e239-07ad-4a66-b2c3-52031376de97@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_07.png@6c48a",
+    "value": {
+      "depends": [
+        "1016e239-07ad-4a66-b2c3-52031376de97"
+      ]
+    },
+    "versionCode": 0
+  },
+  "cdd75387-fc27-422b-b7b4-fdddcb0f4e1d": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_02.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7daa27ee-dfce-45d8-8ffd-58a9216144e3@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_08.png@6c48a",
+    "value": {
+      "depends": [
+        "7daa27ee-dfce-45d8-8ffd-58a9216144e3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9a373b45-8bf7-4c02-93f4-2c8c8a7130a0": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_03.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "291f8855-6a30-4de2-98ae-b7200715dfa5@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_09.png@6c48a",
+    "value": {
+      "depends": [
+        "291f8855-6a30-4de2-98ae-b7200715dfa5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5c7b4a19-5437-4688-8fc0-e37e32474ded": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_04.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "45f0151c-caca-4808-92b9-35f881f9e34a@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Disable_10.png@6c48a",
+    "value": {
+      "depends": [
+        "45f0151c-caca-4808-92b9-35f881f9e34a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0cd8ffe2-d57d-405f-8710-7baa71fbbe0a@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_01.png@6c48a",
+    "value": {
+      "depends": [
+        "0cd8ffe2-d57d-405f-8710-7baa71fbbe0a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "10baa5d4-29ac-4032-88e2-903a29aa51fa": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_05.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "221b2a0a-9e7f-499f-8908-3a41aa11db42": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_06.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "cdd75387-fc27-422b-b7b4-fdddcb0f4e1d@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_02.png@6c48a",
+    "value": {
+      "depends": [
+        "cdd75387-fc27-422b-b7b4-fdddcb0f4e1d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "8701dd39-b964-4dfe-98bd-ab8f3b38ee7b": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_07.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9a373b45-8bf7-4c02-93f4-2c8c8a7130a0@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_03.png@6c48a",
+    "value": {
+      "depends": [
+        "9a373b45-8bf7-4c02-93f4-2c8c8a7130a0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "18677381-ce46-47ed-8251-f911795a9767": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_08.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5c7b4a19-5437-4688-8fc0-e37e32474ded@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_04.png@6c48a",
+    "value": {
+      "depends": [
+        "5c7b4a19-5437-4688-8fc0-e37e32474ded"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ebe5906d-2319-4d90-a69b-55570c87fbff": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_09.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "10baa5d4-29ac-4032-88e2-903a29aa51fa@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_05.png@6c48a",
+    "value": {
+      "depends": [
+        "10baa5d4-29ac-4032-88e2-903a29aa51fa"
+      ]
+    },
+    "versionCode": 0
+  },
+  "221b2a0a-9e7f-499f-8908-3a41aa11db42@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_06.png@6c48a",
+    "value": {
+      "depends": [
+        "221b2a0a-9e7f-499f-8908-3a41aa11db42"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5198b73b-2ac9-46a4-85e0-8d1d17a9f20a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_10.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d8fdc427-59f1-4a81-8e32-363c3cdf8492": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_01.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "8701dd39-b964-4dfe-98bd-ab8f3b38ee7b@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_07.png@6c48a",
+    "value": {
+      "depends": [
+        "8701dd39-b964-4dfe-98bd-ab8f3b38ee7b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "25c5bbc1-ba74-4f43-87b2-f8311f929ae0": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_02.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ebe5906d-2319-4d90-a69b-55570c87fbff@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_09.png@6c48a",
+    "value": {
+      "depends": [
+        "ebe5906d-2319-4d90-a69b-55570c87fbff"
+      ]
+    },
+    "versionCode": 0
+  },
+  "11fd6598-582e-4e05-b254-dbe44a24a49c": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_03.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "18677381-ce46-47ed-8251-f911795a9767@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_08.png@6c48a",
+    "value": {
+      "depends": [
+        "18677381-ce46-47ed-8251-f911795a9767"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0e57ea08-f0a3-4ff4-ba5d-a512d2cdcc67": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_04.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5198b73b-2ac9-46a4-85e0-8d1d17a9f20a@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Pressed_10.png@6c48a",
+    "value": {
+      "depends": [
+        "5198b73b-2ac9-46a4-85e0-8d1d17a9f20a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b192b754-5c2e-4125-878a-59b434110658": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_05.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d8fdc427-59f1-4a81-8e32-363c3cdf8492@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_01.png@6c48a",
+    "value": {
+      "depends": [
+        "d8fdc427-59f1-4a81-8e32-363c3cdf8492"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a797fed1-0c87-46e5-a232-1d06c8642513": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_06.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "25c5bbc1-ba74-4f43-87b2-f8311f929ae0@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_02.png@6c48a",
+    "value": {
+      "depends": [
+        "25c5bbc1-ba74-4f43-87b2-f8311f929ae0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4b8a31bf-c325-42fa-9d14-5a0a18b29e40": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_07.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "11fd6598-582e-4e05-b254-dbe44a24a49c@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_03.png@6c48a",
+    "value": {
+      "depends": [
+        "11fd6598-582e-4e05-b254-dbe44a24a49c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a5fb51e6-aad9-4c56-8f26-3eaed8a46c66": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_08.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0e57ea08-f0a3-4ff4-ba5d-a512d2cdcc67@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_04.png@6c48a",
+    "value": {
+      "depends": [
+        "0e57ea08-f0a3-4ff4-ba5d-a512d2cdcc67"
+      ]
+    },
+    "versionCode": 0
+  },
+  "91ca03ac-7e9e-465e-8b72-fa21dbaabee7": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_09.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b192b754-5c2e-4125-878a-59b434110658@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_05.png@6c48a",
+    "value": {
+      "depends": [
+        "b192b754-5c2e-4125-878a-59b434110658"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2cf0bfd5-aa8c-43c2-a7bb-b26dd8439891": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_10.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a797fed1-0c87-46e5-a232-1d06c8642513@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_06.png@6c48a",
+    "value": {
+      "depends": [
+        "a797fed1-0c87-46e5-a232-1d06c8642513"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c04707b7-086e-4827-8ae2-913bc7ab8b74": {
+    "url": "db://assets/Map/map1source/UI/Pointers/01.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "4b8a31bf-c325-42fa-9d14-5a0a18b29e40@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_07.png@6c48a",
+    "value": {
+      "depends": [
+        "4b8a31bf-c325-42fa-9d14-5a0a18b29e40"
+      ]
+    },
+    "versionCode": 0
+  },
+  "59db04d0-f914-452e-b145-47481cb475e4": {
+    "url": "db://assets/Map/map1source/UI/Pointers/02.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a5fb51e6-aad9-4c56-8f26-3eaed8a46c66@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_08.png@6c48a",
+    "value": {
+      "depends": [
+        "a5fb51e6-aad9-4c56-8f26-3eaed8a46c66"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d0b22868-703e-4623-b9ae-f5db5865ac65": {
+    "url": "db://assets/Map/map1source/UI/Pointers/03.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "91ca03ac-7e9e-465e-8b72-fa21dbaabee7@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_09.png@6c48a",
+    "value": {
+      "depends": [
+        "91ca03ac-7e9e-465e-8b72-fa21dbaabee7"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2612808c-485a-4fea-89d2-9174de45979b": {
+    "url": "db://assets/Map/map1source/UI/Pointers/04.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "2cf0bfd5-aa8c-43c2-a7bb-b26dd8439891@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Icons/Regular_10.png@6c48a",
+    "value": {
+      "depends": [
+        "2cf0bfd5-aa8c-43c2-a7bb-b26dd8439891"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1fd4e980-a026-4c09-94fa-ccf06ef36cf0": {
+    "url": "db://assets/Map/map1source/UI/Pointers/05.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c04707b7-086e-4827-8ae2-913bc7ab8b74@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Pointers/01.png@6c48a",
+    "value": {
+      "depends": [
+        "c04707b7-086e-4827-8ae2-913bc7ab8b74"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b18ed988-36ec-4423-be17-0da30ef5ad2d": {
+    "url": "db://assets/Map/map1source/UI/Pointers/06.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "59db04d0-f914-452e-b145-47481cb475e4@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Pointers/02.png@6c48a",
+    "value": {
+      "depends": [
+        "59db04d0-f914-452e-b145-47481cb475e4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "acb64cda-0588-415c-87cf-1719af5f79f3": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_3Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d0b22868-703e-4623-b9ae-f5db5865ac65@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Pointers/03.png@6c48a",
+    "value": {
+      "depends": [
+        "d0b22868-703e-4623-b9ae-f5db5865ac65"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0fdfbf50-14bd-4b12-9e1a-96bcb8c90693": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Down.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "2612808c-485a-4fea-89d2-9174de45979b@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Pointers/04.png@6c48a",
+    "value": {
+      "depends": [
+        "2612808c-485a-4fea-89d2-9174de45979b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ba14c185-7952-4074-b8a4-518b0ed7c840": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Down_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1fd4e980-a026-4c09-94fa-ccf06ef36cf0@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Pointers/05.png@6c48a",
+    "value": {
+      "depends": [
+        "1fd4e980-a026-4c09-94fa-ccf06ef36cf0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "85a4d84b-7253-492b-a9a9-78549625c481": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Left.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b18ed988-36ec-4423-be17-0da30ef5ad2d@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Pointers/06.png@6c48a",
+    "value": {
+      "depends": [
+        "b18ed988-36ec-4423-be17-0da30ef5ad2d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bc152d43-9404-4b0a-8806-af4305f91ac8": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Left_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "acb64cda-0588-415c-87cf-1719af5f79f3@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_3Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "acb64cda-0588-415c-87cf-1719af5f79f3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2428bf50-061d-4733-afc5-30528b9334f6": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Right.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ba14c185-7952-4074-b8a4-518b0ed7c840@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Down_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "ba14c185-7952-4074-b8a4-518b0ed7c840"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e8da1112-fb17-4a28-a349-27f3f5577ee4": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Right_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0fdfbf50-14bd-4b12-9e1a-96bcb8c90693@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Down.png@6c48a",
+    "value": {
+      "depends": [
+        "0fdfbf50-14bd-4b12-9e1a-96bcb8c90693"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7000fde0-f685-4aa3-ace9-93e60b9b1988": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Up.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "85a4d84b-7253-492b-a9a9-78549625c481@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Left.png@6c48a",
+    "value": {
+      "depends": [
+        "85a4d84b-7253-492b-a9a9-78549625c481"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9aae0c2e-c6e8-4549-8041-9c1a96b00703": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Up_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "bc152d43-9404-4b0a-8806-af4305f91ac8@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Left_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "bc152d43-9404-4b0a-8806-af4305f91ac8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "8c2b9bdd-357e-4246-b260-9f0ed41cf5ea": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_3Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "2428bf50-061d-4733-afc5-30528b9334f6@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Right.png@6c48a",
+    "value": {
+      "depends": [
+        "2428bf50-061d-4733-afc5-30528b9334f6"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bec45dd5-aac7-4f24-bec3-850c3fcd65bb": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Down.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e8da1112-fb17-4a28-a349-27f3f5577ee4@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Right_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "e8da1112-fb17-4a28-a349-27f3f5577ee4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f1a4beab-d926-481f-bf86-2fc7bdc29c1c": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Down_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7000fde0-f685-4aa3-ace9-93e60b9b1988@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Up.png@6c48a",
+    "value": {
+      "depends": [
+        "7000fde0-f685-4aa3-ace9-93e60b9b1988"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a4697dec-711f-459a-aa7b-9149ea29688a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Left.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9aae0c2e-c6e8-4549-8041-9c1a96b00703@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Blue_Connection_Up_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "9aae0c2e-c6e8-4549-8041-9c1a96b00703"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5f9a1853-14e8-4261-ad7f-e5ffd039c4cc": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Left_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "8c2b9bdd-357e-4246-b260-9f0ed41cf5ea@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_3Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "8c2b9bdd-357e-4246-b260-9f0ed41cf5ea"
+      ]
+    },
+    "versionCode": 0
+  },
+  "70d11734-bf0d-4970-8019-e98b76923079": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Right.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "bec45dd5-aac7-4f24-bec3-850c3fcd65bb@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Down.png@6c48a",
+    "value": {
+      "depends": [
+        "bec45dd5-aac7-4f24-bec3-850c3fcd65bb"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e3b561a4-3aa9-4b31-a52d-4ad895cf4a66": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Right_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f1a4beab-d926-481f-bf86-2fc7bdc29c1c@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Down_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "f1a4beab-d926-481f-bf86-2fc7bdc29c1c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "72270479-4f0e-4ec0-836c-193321e097ba": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Up.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a4697dec-711f-459a-aa7b-9149ea29688a@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Left.png@6c48a",
+    "value": {
+      "depends": [
+        "a4697dec-711f-459a-aa7b-9149ea29688a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d0d5ac39-96e2-4ead-a435-3a96216c1c4b": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Up_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5f9a1853-14e8-4261-ad7f-e5ffd039c4cc@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Left_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "5f9a1853-14e8-4261-ad7f-e5ffd039c4cc"
+      ]
+    },
+    "versionCode": 0
+  },
+  "20ac748b-4c1e-4d3a-99b0-060e5bcc238d": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_3Slides.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "70d11734-bf0d-4970-8019-e98b76923079@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Right.png@6c48a",
+    "value": {
+      "depends": [
+        "70d11734-bf0d-4970-8019-e98b76923079"
+      ]
+    },
+    "versionCode": 0
+  },
+  "777b9424-7aa9-4e2f-81bf-180a30804dc4": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Down.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e3b561a4-3aa9-4b31-a52d-4ad895cf4a66@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Right_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "e3b561a4-3aa9-4b31-a52d-4ad895cf4a66"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2575114c-663f-4cad-851e-ee7cae1092b6": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Down_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d0d5ac39-96e2-4ead-a435-3a96216c1c4b@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Up_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "d0d5ac39-96e2-4ead-a435-3a96216c1c4b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9337459a-40be-4a70-8e68-8f6864f38233": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Left.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "72270479-4f0e-4ec0-836c-193321e097ba@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Red_Connection_Up.png@6c48a",
+    "value": {
+      "depends": [
+        "72270479-4f0e-4ec0-836c-193321e097ba"
+      ]
+    },
+    "versionCode": 0
+  },
+  "cf7715d2-342d-47d9-9635-0b07de1ffecc": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Left_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "20ac748b-4c1e-4d3a-99b0-060e5bcc238d@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_3Slides.png@6c48a",
+    "value": {
+      "depends": [
+        "20ac748b-4c1e-4d3a-99b0-060e5bcc238d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e293f8b1-ca85-4c09-87e4-ae743f9c6e38": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Right.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "777b9424-7aa9-4e2f-81bf-180a30804dc4@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Down.png@6c48a",
+    "value": {
+      "depends": [
+        "777b9424-7aa9-4e2f-81bf-180a30804dc4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "500d1f9f-994d-4e51-8624-acfc6559fc44": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Right_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "2575114c-663f-4cad-851e-ee7cae1092b6@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Down_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "2575114c-663f-4cad-851e-ee7cae1092b6"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fe3f1254-f3a4-4b6c-99b4-391d20314d97": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Up.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "cf7715d2-342d-47d9-9635-0b07de1ffecc@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Left_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "cf7715d2-342d-47d9-9635-0b07de1ffecc"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9337459a-40be-4a70-8e68-8f6864f38233@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Left.png@6c48a",
+    "value": {
+      "depends": [
+        "9337459a-40be-4a70-8e68-8f6864f38233"
+      ]
+    },
+    "versionCode": 0
+  },
+  "daea1808-bd00-468e-93f8-ef529654f32e": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Up_Pressed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a1983acb-0dbc-4318-84f4-bd22c60d20f5": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d3f4c39e-7c77-4633-8d2c-1fc4e72ec31f": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e293f8b1-ca85-4c09-87e4-ae743f9c6e38@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Right.png@6c48a",
+    "value": {
+      "depends": [
+        "e293f8b1-ca85-4c09-87e4-ae743f9c6e38"
+      ]
+    },
+    "versionCode": 0
+  },
+  "500d1f9f-994d-4e51-8624-acfc6559fc44@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Right_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "500d1f9f-994d-4e51-8624-acfc6559fc44"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e31f4a85-1f04-483b-b638-ce2b2f187b1c": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "06a46740-70a6-42c5-b824-7c95640e82b1": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks_01.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "daea1808-bd00-468e-93f8-ef529654f32e@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Up_Pressed.png@6c48a",
+    "value": {
+      "depends": [
+        "daea1808-bd00-468e-93f8-ef529654f32e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "78905d7d-4995-41d3-bdaf-4a8cec3ef4e2": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks_02.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "fe3f1254-f3a4-4b6c-99b4-391d20314d97@6c48a": {
+    "url": "db://assets/Map/map1source/UI/Ribbons/Ribbon_Yellow_Connection_Up.png@6c48a",
+    "value": {
+      "depends": [
+        "fe3f1254-f3a4-4b6c-99b4-391d20314d97"
+      ]
+    },
+    "versionCode": 0
+  },
+  "47ecbb6d-2d2a-4768-91d7-cb53a661b86f": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks_03.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9b4f2d91-3141-45ba-9b22-9060dce5a9be": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks_04.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d3f4c39e-7c77-4633-8d2c-1fc4e72ec31f@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam.png@6c48a",
+    "value": {
+      "depends": [
+        "d3f4c39e-7c77-4633-8d2c-1fc4e72ec31f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9d5e993e-9a8a-442d-ac7a-902af529850c": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_House/Goblin_House.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "06a46740-70a6-42c5-b824-7c95640e82b1@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks_01.png@6c48a",
+    "value": {
+      "depends": [
+        "06a46740-70a6-42c5-b824-7c95640e82b1"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ef08cc3b-8107-4b8f-bb12-a64fe4c0ec30": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_House/Goblin_House_Destroyed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "47ecbb6d-2d2a-4768-91d7-cb53a661b86f@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks_03.png@6c48a",
+    "value": {
+      "depends": [
+        "47ecbb6d-2d2a-4768-91d7-cb53a661b86f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "78905d7d-4995-41d3-bdaf-4a8cec3ef4e2@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks_02.png@6c48a",
+    "value": {
+      "depends": [
+        "78905d7d-4995-41d3-bdaf-4a8cec3ef4e2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "176da22a-67b8-4971-8d69-19456161ae07": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Blue.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5ee07d87-4f7c-400e-8fe3-d2143afab1cf": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9b4f2d91-3141-45ba-9b22-9060dce5a9be@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks_04.png@6c48a",
+    "value": {
+      "depends": [
+        "9b4f2d91-3141-45ba-9b22-9060dce5a9be"
+      ]
+    },
+    "versionCode": 0
+  },
+  "743af7d8-e12b-4ebb-b70a-32dd25e6afaf": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Destroyed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "eba93214-b7b7-4506-8aec-c2505f480e32": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_InConstruction.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9d5e993e-9a8a-442d-ac7a-902af529850c@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_House/Goblin_House.png@6c48a",
+    "value": {
+      "depends": [
+        "9d5e993e-9a8a-442d-ac7a-902af529850c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ff7d85c9-f395-4777-8c2f-a9cc74348ebb": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Purple.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ef08cc3b-8107-4b8f-bb12-a64fe4c0ec30@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_House/Goblin_House_Destroyed.png@6c48a",
+    "value": {
+      "depends": [
+        "ef08cc3b-8107-4b8f-bb12-a64fe4c0ec30"
+      ]
+    },
+    "versionCode": 0
+  },
+  "98029882-9134-41d7-98b6-359872916c24": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Purple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1895cd8f-5232-4568-b499-6f6860808261": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Red.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "743af7d8-e12b-4ebb-b70a-32dd25e6afaf@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Destroyed.png@6c48a",
+    "value": {
+      "depends": [
+        "743af7d8-e12b-4ebb-b70a-32dd25e6afaf"
+      ]
+    },
+    "versionCode": 0
+  },
+  "478cf530-a4dd-4c21-b2aa-baee05a402eb": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5ee07d87-4f7c-400e-8fe3-d2143afab1cf@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "5ee07d87-4f7c-400e-8fe3-d2143afab1cf"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ad085d38-773b-4501-af7d-8cefa7ff2429": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Yellow.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d1d1f10d-79d8-4e3c-9501-5799806931d4": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "eba93214-b7b7-4506-8aec-c2505f480e32@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_InConstruction.png@6c48a",
+    "value": {
+      "depends": [
+        "eba93214-b7b7-4506-8aec-c2505f480e32"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f9c83207-7643-4a0a-8bb3-e3ba063bfac5": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a417a233-8f26-446a-aa28-32e326401cf9": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Construction.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "98029882-9134-41d7-98b6-359872916c24@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Purple.png@6c48a",
+    "value": {
+      "depends": [
+        "98029882-9134-41d7-98b6-359872916c24"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b3253c8e-1913-4e20-9ce8-c273c5b9abf5": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Destroyed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "478cf530-a4dd-4c21-b2aa-baee05a402eb@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "478cf530-a4dd-4c21-b2aa-baee05a402eb"
+      ]
+    },
+    "versionCode": 0
+  },
+  "eb27aa63-8b25-4d57-9766-479dc2a966a2": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Purple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d1d1f10d-79d8-4e3c-9501-5799806931d4@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "d1d1f10d-79d8-4e3c-9501-5799806931d4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "04102c53-5294-4db0-9a17-bb183d8b252b": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f9c83207-7643-4a0a-8bb3-e3ba063bfac5@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "f9c83207-7643-4a0a-8bb3-e3ba063bfac5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b48752c4-2311-47a6-b9e7-668515135e71": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a417a233-8f26-446a-aa28-32e326401cf9@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Construction.png@6c48a",
+    "value": {
+      "depends": [
+        "a417a233-8f26-446a-aa28-32e326401cf9"
+      ]
+    },
+    "versionCode": 0
+  },
+  "57523fc6-efac-493c-b49e-84b3c2707336": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b3253c8e-1913-4e20-9ce8-c273c5b9abf5@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Destroyed.png@6c48a",
+    "value": {
+      "depends": [
+        "b3253c8e-1913-4e20-9ce8-c273c5b9abf5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1bd567f7-ae5a-404f-b790-b5f1141b34b4": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Construction.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "eb27aa63-8b25-4d57-9766-479dc2a966a2@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Purple.png@6c48a",
+    "value": {
+      "depends": [
+        "eb27aa63-8b25-4d57-9766-479dc2a966a2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a84b8105-9243-49ee-a2f3-44f3940ce7ac": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Destroyed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "04102c53-5294-4db0-9a17-bb183d8b252b@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "04102c53-5294-4db0-9a17-bb183d8b252b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7016e534-75d9-455b-a6b5-e82035c76f4c": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Purple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b48752c4-2311-47a6-b9e7-668515135e71@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Castle/Castle_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "b48752c4-2311-47a6-b9e7-668515135e71"
+      ]
+    },
+    "versionCode": 0
+  },
+  "57523fc6-efac-493c-b49e-84b3c2707336@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "57523fc6-efac-493c-b49e-84b3c2707336"
+      ]
+    },
+    "versionCode": 0
+  },
+  "de27e89d-5f46-4f96-b4f4-67be35260226": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ac220898-78d1-4554-b178-521eebfd1b57": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1bd567f7-ae5a-404f-b790-b5f1141b34b4@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Construction.png@6c48a",
+    "value": {
+      "depends": [
+        "1bd567f7-ae5a-404f-b790-b5f1141b34b4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "87fe57a7-d459-43d0-b457-6bde5707c01a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a84b8105-9243-49ee-a2f3-44f3940ce7ac@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Destroyed.png@6c48a",
+    "value": {
+      "depends": [
+        "a84b8105-9243-49ee-a2f3-44f3940ce7ac"
+      ]
+    },
+    "versionCode": 0
+  },
+  "09f6d0a3-11cb-49b5-9222-721c9ad81562": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Construction.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7016e534-75d9-455b-a6b5-e82035c76f4c@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Purple.png@6c48a",
+    "value": {
+      "depends": [
+        "7016e534-75d9-455b-a6b5-e82035c76f4c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "31f0943f-7a9b-4e66-91e2-c58561de2bea": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Destroyed.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "de27e89d-5f46-4f96-b4f4-67be35260226@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "de27e89d-5f46-4f96-b4f4-67be35260226"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ea590571-b166-41fd-b347-1bc2fbda1d64": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Purple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ac220898-78d1-4554-b178-521eebfd1b57@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/House/House_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "ac220898-78d1-4554-b178-521eebfd1b57"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e558190e-0db1-4c1f-8d3e-12440d62379c": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "87fe57a7-d459-43d0-b457-6bde5707c01a@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "87fe57a7-d459-43d0-b457-6bde5707c01a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e3745472-b401-49c4-a415-3c7bbd93ffd9": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "09f6d0a3-11cb-49b5-9222-721c9ad81562@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Construction.png@6c48a",
+    "value": {
+      "depends": [
+        "09f6d0a3-11cb-49b5-9222-721c9ad81562"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d7d8b04a-5d00-4daa-b882-095d696dca2c": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow.zip",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "31f0943f-7a9b-4e66-91e2-c58561de2bea@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Destroyed.png@6c48a",
+    "value": {
+      "depends": [
+        "31f0943f-7a9b-4e66-91e2-c58561de2bea"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f5907cb6-7e54-4842-815c-2add17641f57": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Dead/Dead.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ea590571-b166-41fd-b347-1bc2fbda1d64@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Purple.png@6c48a",
+    "value": {
+      "depends": [
+        "ea590571-b166-41fd-b347-1bc2fbda1d64"
+      ]
+    },
+    "versionCode": 0
+  },
+  "cac6e988-e9c7-4322-854f-a66aae00871c": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Dead/Dead.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e558190e-0db1-4c1f-8d3e-12440d62379c@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "e558190e-0db1-4c1f-8d3e-12440d62379c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7b7c825f-3635-4251-8849-d0b8e4b4faa0": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "4ff2496a-45c2-468c-b28e-bd07f897cb08": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e08c36ad-9809-4ff4-8e33-9690ff7e817a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Purple/Barrel_Purple.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e3745472-b401-49c4-a415-3c7bbd93ffd9@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Buildings/Tower/Tower_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "e3745472-b401-49c4-a415-3c7bbd93ffd9"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4ed8e6ca-4808-418e-bc3e-6d09cfeeffc2": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Purple/Barrel_Purple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "cb038ea0-16e6-40b7-a5cf-e4cc62fcdfc7": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Red/Barrel_Red.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9ca7c626-64c9-4ce9-9dd3-8973732ff653": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Red/Barrel_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "57149c1c-5a38-41f1-aaf6-2baecab1eeb5": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Yellow/Barrel_Yellow.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "cac6e988-e9c7-4322-854f-a66aae00871c@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Dead/Dead.png@6c48a",
+    "value": {
+      "depends": [
+        "cac6e988-e9c7-4322-854f-a66aae00871c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0d992374-bb22-4944-8b52-603dc6f8d884": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Yellow/Barrel_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "db2f7761-e67a-4c19-9ff1-e81a1ed2b9ae": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "4ff2496a-45c2-468c-b28e-bd07f897cb08@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "4ff2496a-45c2-468c-b28e-bd07f897cb08"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ba334843-24e8-4601-bec6-4766cea78311": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "4ed8e6ca-4808-418e-bc3e-6d09cfeeffc2@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Purple/Barrel_Purple.png@6c48a",
+    "value": {
+      "depends": [
+        "4ed8e6ca-4808-418e-bc3e-6d09cfeeffc2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "48262b05-aab0-4a6a-9950-8c5c2e9331c5": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Dynamite/Dynamite.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ca78f9e6-a393-4b97-a7a3-cbca17b4743e": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Purple/TNT_Purple.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9ca7c626-64c9-4ce9-9dd3-8973732ff653@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Red/Barrel_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "9ca7c626-64c9-4ce9-9dd3-8973732ff653"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5fbe6330-9d34-49f5-9867-490af9e83378": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Purple/TNT_Purple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "628f32b3-cf1a-488c-888c-b392925697b6": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Red/TNT_Red.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "48262b05-aab0-4a6a-9950-8c5c2e9331c5@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Dynamite/Dynamite.png@6c48a",
+    "value": {
+      "depends": [
+        "48262b05-aab0-4a6a-9950-8c5c2e9331c5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0d992374-bb22-4944-8b52-603dc6f8d884@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Barrel/Yellow/Barrel_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "0d992374-bb22-4944-8b52-603dc6f8d884"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b5f185f0-7deb-499b-8c41-0261b73a8ec6": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Red/TNT_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e6468572-16f5-40b3-bdcf-0b4e20f89ba8": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Yellow/TNT_Yellow.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b709b1b9-7586-4915-b742-395a65030171": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Yellow/TNT_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "10e42ba8-f50c-46b6-b194-fe28a0434d0e": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ba334843-24e8-4601-bec6-4766cea78311@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "ba334843-24e8-4601-bec6-4766cea78311"
+      ]
+    },
+    "versionCode": 0
+  },
+  "38ac9ec1-f438-4e67-9c7a-5e309aa41b14": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "42f2cf2d-7f68-46b0-8666-9e03e328aea4": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5fbe6330-9d34-49f5-9867-490af9e83378@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Purple/TNT_Purple.png@6c48a",
+    "value": {
+      "depends": [
+        "5fbe6330-9d34-49f5-9867-490af9e83378"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fc8d10a4-cbf7-40af-9962-92f60c0ec7ac": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b5f185f0-7deb-499b-8c41-0261b73a8ec6@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Red/TNT_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "b5f185f0-7deb-499b-8c41-0261b73a8ec6"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e9fc8798-12d3-4564-9d1d-0cc979c3c828": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Red/Torch_Red.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "6ed6d170-8b57-47a7-b44c-7b39d9937509": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Red/Torch_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b709b1b9-7586-4915-b742-395a65030171@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/TNT/Yellow/TNT_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "b709b1b9-7586-4915-b742-395a65030171"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2fc73a0c-b7f1-4336-8068-110b5a78a78f": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Yellow/Torch_Yellow.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1c5695b8-42a2-4a6b-92a3-8cf0144ce30b": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Yellow/Torch_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "748e58c1-c603-4afc-9551-8db90b1a974a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Blue_(NoArms).png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "38ac9ec1-f438-4e67-9c7a-5e309aa41b14@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "38ac9ec1-f438-4e67-9c7a-5e309aa41b14"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d478345e-5473-41b3-a548-f3b7285ef72d": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "fc8d10a4-cbf7-40af-9962-92f60c0ec7ac@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.png@6c48a",
+    "value": {
+      "depends": [
+        "fc8d10a4-cbf7-40af-9962-92f60c0ec7ac"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e1ffda0c-ebe2-4c00-a973-bc993fc62ab8": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Purple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "6ed6d170-8b57-47a7-b44c-7b39d9937509@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Red/Torch_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "6ed6d170-8b57-47a7-b44c-7b39d9937509"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fce5009d-7151-4c83-a543-aee74a217a57": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "748e58c1-c603-4afc-9551-8db90b1a974a@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Blue_(NoArms).png@6c48a",
+    "value": {
+      "depends": [
+        "748e58c1-c603-4afc-9551-8db90b1a974a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0f7eb209-0ab2-410c-9cb3-5f6e0b67d9a4": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1c5695b8-42a2-4a6b-92a3-8cf0144ce30b@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Goblins/Troops/Torch/Yellow/Torch_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "1c5695b8-42a2-4a6b-92a3-8cf0144ce30b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5c0e314a-c5d1-4b09-9285-27b5e03d0550": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Purple_(NoArms).png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d478345e-5473-41b3-a548-f3b7285ef72d@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "d478345e-5473-41b3-a548-f3b7285ef72d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "46aacebe-feb9-44aa-a578-5118db46e992": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Red_(NoArms).png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e1ffda0c-ebe2-4c00-a973-bc993fc62ab8@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Purple.png@6c48a",
+    "value": {
+      "depends": [
+        "e1ffda0c-ebe2-4c00-a973-bc993fc62ab8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "725bc7d5-1be4-4207-86ea-fd2696f99880": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Yellow_(NoArms).png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "fce5009d-7151-4c83-a543-aee74a217a57@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "fce5009d-7151-4c83-a543-aee74a217a57"
+      ]
+    },
+    "versionCode": 0
+  },
+  "06a049cd-9789-4117-a67f-bfd6c11c1e42": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Arrow/Arrow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0f7eb209-0ab2-410c-9cb3-5f6e0b67d9a4@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "0f7eb209-0ab2-410c-9cb3-5f6e0b67d9a4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "24a348bc-226c-4edb-98db-cf171e03ac32": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Blue/Archer_Blue.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5c0e314a-c5d1-4b09-9285-27b5e03d0550@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Purple_(NoArms).png@6c48a",
+    "value": {
+      "depends": [
+        "5c0e314a-c5d1-4b09-9285-27b5e03d0550"
+      ]
+    },
+    "versionCode": 0
+  },
+  "10f7cdb3-7412-4fec-8a0a-15b6520c4abf": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "46aacebe-feb9-44aa-a578-5118db46e992@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Red_(NoArms).png@6c48a",
+    "value": {
+      "depends": [
+        "46aacebe-feb9-44aa-a578-5118db46e992"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3fd42675-af48-4810-a55f-146a70e766e8": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Purple/Archer_Purlple.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "06a049cd-9789-4117-a67f-bfd6c11c1e42@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Arrow/Arrow.png@6c48a",
+    "value": {
+      "depends": [
+        "06a049cd-9789-4117-a67f-bfd6c11c1e42"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b22af309-d30a-4d05-b4b6-1e58a730ea19": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Purple/Archer_Purlple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "44422434-cf61-429b-a378-8f38656e2d6e": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Red/Archer_Red.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "725bc7d5-1be4-4207-86ea-fd2696f99880@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Yellow_(NoArms).png@6c48a",
+    "value": {
+      "depends": [
+        "725bc7d5-1be4-4207-86ea-fd2696f99880"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ccf2ba12-3e95-4647-a7d4-abb588623c07": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Red/Archer_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0f835ff1-4383-4d8e-b39a-9b5b8a3de534": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Yellow/Archer_Yellow.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c7586069-f0da-4468-82b1-f1ef5acb32ac": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Yellow/Archer_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "535e5e63-1cea-421a-8d2c-b96b19631a9d": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "10f7cdb3-7412-4fec-8a0a-15b6520c4abf@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "10f7cdb3-7412-4fec-8a0a-15b6520c4abf"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5d4cbae6-3160-4085-9cc3-786ff1855dc3": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5bd6f1cb-97aa-4d37-b20b-63d8c90ae78d": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b22af309-d30a-4d05-b4b6-1e58a730ea19@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Purple/Archer_Purlple.png@6c48a",
+    "value": {
+      "depends": [
+        "b22af309-d30a-4d05-b4b6-1e58a730ea19"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bf7d5d13-e519-45e1-be33-739272700584": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ccf2ba12-3e95-4647-a7d4-abb588623c07@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Red/Archer_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "ccf2ba12-3e95-4647-a7d4-abb588623c07"
+      ]
+    },
+    "versionCode": 0
+  },
+  "06d942f3-5ec1-484b-a8ca-f2ba2315bc51": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Red/Pawn_Red.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "300071d5-f6b4-48e9-b142-822cc13d77f2": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Red/Pawn_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "937f1a30-b4e5-4b38-b122-4bdbdb41c23d": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Yellow/Pawn_Yellow.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c7586069-f0da-4468-82b1-f1ef5acb32ac@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Archer/Yellow/Archer_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "c7586069-f0da-4468-82b1-f1ef5acb32ac"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2e10b449-83b1-48f6-9db9-b50b0a64e6be": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Yellow/Pawn_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "82285b35-a9ef-4c44-87a5-fa2816fc47e3": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5d4cbae6-3160-4085-9cc3-786ff1855dc3@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "5d4cbae6-3160-4085-9cc3-786ff1855dc3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bf7d5d13-e519-45e1-be33-739272700584@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.png@6c48a",
+    "value": {
+      "depends": [
+        "bf7d5d13-e519-45e1-be33-739272700584"
+      ]
+    },
+    "versionCode": 0
+  },
+  "adb2df70-2020-4924-9bf8-8a9636e21591": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0ad92411-8258-4fe0-8047-73be0231bd54": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "300071d5-f6b4-48e9-b142-822cc13d77f2@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Red/Pawn_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "300071d5-f6b4-48e9-b142-822cc13d77f2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "33170a18-13c4-4d45-8a68-3b3adccd2b4b": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ba1020e3-c259-4031-b3d6-2603455a3e1c": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Red/Warrior_Red.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "2573fac5-77ea-4ef4-a1f4-11ce14ef62cf": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7b666b1a-3459-444f-a332-7945cb3a4c00": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Yellow/Warrior_Yellow.aseprite",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "2e10b449-83b1-48f6-9db9-b50b0a64e6be@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Pawn/Yellow/Pawn_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "2e10b449-83b1-48f6-9db9-b50b0a64e6be"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bd1591cd-3b79-42a1-88b6-54b62df957ee": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Yellow/Warrior_Yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "adb2df70-2020-4924-9bf8-8a9636e21591@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png@6c48a",
+    "value": {
+      "depends": [
+        "adb2df70-2020-4924-9bf8-8a9636e21591"
+      ]
+    },
+    "versionCode": 0
+  },
+  "33170a18-13c4-4d45-8a68-3b3adccd2b4b@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png@6c48a",
+    "value": {
+      "depends": [
+        "33170a18-13c4-4d45-8a68-3b3adccd2b4b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2573fac5-77ea-4ef4-a1f4-11ce14ef62cf@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png@6c48a",
+    "value": {
+      "depends": [
+        "2573fac5-77ea-4ef4-a1f4-11ce14ef62cf"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bd1591cd-3b79-42a1-88b6-54b62df957ee@6c48a": {
+    "url": "db://assets/Map/map1source/Factions/Knights/Troops/Warrior/Yellow/Warrior_Yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "bd1591cd-3b79-42a1-88b6-54b62df957ee"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6ae8d9ad-e94c-4d85-870a-2350c22422f0": {
+    "url": "db://assets/Scenes/map1Scene.scene",
+    "value": {},
+    "versionCode": 0
+  },
+  "4ad90e95-0bd6-4399-884c-98200c974ea6": {
+    "url": "db://assets/Map/maptest.tmx",
+    "value": {
+      "depends": [
+        "7edc7134-1c13-40cc-b1e2-3ad8928ad3ec",
+        "8091462d-7988-4df8-bf33-2fde2e134b50@f9941"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d5018ce7-b6fa-4f6d-8a5f-d1bca8a64042@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Bridge/Bridge_All.png@f9941",
+    "value": {
+      "depends": [
+        "d5018ce7-b6fa-4f6d-8a5f-d1bca8a64042@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "59fc5af1-9410-4001-a65c-9132ad98ef36@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Ground/Shadows.png@f9941",
+    "value": {
+      "depends": [
+        "59fc5af1-9410-4001-a65c-9132ad98ef36@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "8091462d-7988-4df8-bf33-2fde2e134b50@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Ground/Tilemap_Elevation.png@f9941",
+    "value": {
+      "depends": [
+        "8091462d-7988-4df8-bf33-2fde2e134b50@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "10d7afd1-75e9-4909-9a75-340b95e6c13b@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Ground/Tilemap_Flat.png@f9941",
+    "value": {
+      "depends": [
+        "10d7afd1-75e9-4909-9a75-340b95e6c13b@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "af976b2b-56ef-4939-af98-a7693a942727": {
+    "url": "db://assets/Map",
+    "value": {},
+    "versionCode": 0
+  },
+  "eec30637-0508-4758-b965-0111fc4ae26a@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Water.png@f9941",
+    "value": {
+      "depends": [
+        "eec30637-0508-4758-b965-0111fc4ae26a@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7edc7134-1c13-40cc-b1e2-3ad8928ad3ec": {
+    "url": "db://assets/Map/Tilemap_Elevation.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "70774282-0f2c-4340-8714-aa5ba35f0da7": {
+    "url": "db://assets/Scenes/map1Scene.scene",
+    "value": {
+      "depends": [
+        "70774282-0f2c-4340-8714-aa5ba35f0da7",
+        "b0bbd7dc-0f2a-4905-8da7-8209392ed5f0"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "22551c57-344a-452d-b8f4-829538cba0a6": {
+    "url": "db://assets/Map/Bridge_All.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "90d6c57b-0b58-43f3-bac9-f3422735314b": {
+    "url": "db://assets/Map/Shadows.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ea1c2358-6ff0-4f50-bd12-602d03c5595d": {
+    "url": "db://assets/Map/Tilemap_Flat.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "8b76784a-46fe-47c2-8376-680b9709a4c9": {
+    "url": "db://assets/Map/Water.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
   }
 }
