@@ -3,8 +3,15 @@
     "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
     "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js",
-    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/MultiRoom.ts": "./chunks/1d/1da053d1857915a29ec38362b5a8598a78ee42db.js",
-    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/MultiSelect.ts": "./chunks/48/4840064f1c8314bacaf28f88f24c72e3ddc0f6c4.js"
+    "file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts": "./chunks/29/29e70ad7252a3451f3b4d526ae00dd0c7644aa91.js",
+    "file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts": "./chunks/62/6201c7c27c69c381c3772ca3570aa1384bf5a382.js",
+    "file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts": "./chunks/8c/8c48aba86690559cf66b0e715cd585e40357ced3.js",
+    "file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts": "./chunks/dd/dd89cd657c1c1cff04284daeb18b896f0b6dd2ff.js",
+    "file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts": "./chunks/ac/ac4b0b2a5a4a13ecd3355273fbef6917c30f5bc5.js",
+    "file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts": "./chunks/e4/e401fdf9d0c494394ea98a1c409670a9ea355e66.js",
+    "file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts": "./chunks/85/8581fed065de9e082a714d444d839c6a211f13ea.js",
+    "file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts": "./chunks/e0/e0fbca9f92d0615d34999d98c8efa0fced11acb4.js",
+    "file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts": "./chunks/1e/1ef741d1e4b93a34ee963747c1eee9fb0255adee.js"
   },
   "scopes": {
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -30,13 +37,43 @@
     },
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
       "__unresolved_0": "./chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js",
-      "__unresolved_1": "./chunks/1d/1da053d1857915a29ec38362b5a8598a78ee42db.js",
-      "__unresolved_2": "./chunks/48/4840064f1c8314bacaf28f88f24c72e3ddc0f6c4.js"
+      "__unresolved_1": "./chunks/29/29e70ad7252a3451f3b4d526ae00dd0c7644aa91.js",
+      "__unresolved_2": "./chunks/62/6201c7c27c69c381c3772ca3570aa1384bf5a382.js",
+      "__unresolved_3": "./chunks/8c/8c48aba86690559cf66b0e715cd585e40357ced3.js",
+      "__unresolved_4": "./chunks/dd/dd89cd657c1c1cff04284daeb18b896f0b6dd2ff.js",
+      "__unresolved_5": "./chunks/ac/ac4b0b2a5a4a13ecd3355273fbef6917c30f5bc5.js",
+      "__unresolved_6": "./chunks/e4/e401fdf9d0c494394ea98a1c409670a9ea355e66.js",
+      "__unresolved_7": "./chunks/85/8581fed065de9e082a714d444d839c6a211f13ea.js",
+      "__unresolved_8": "./chunks/e0/e0fbca9f92d0615d34999d98c8efa0fced11acb4.js",
+      "__unresolved_9": "./chunks/1e/1ef741d1e4b93a34ee963747c1eee9fb0255adee.js"
     },
-    "./chunks/48/4840064f1c8314bacaf28f88f24c72e3ddc0f6c4.js": {
+    "./chunks/1e/1ef741d1e4b93a34ee963747c1eee9fb0255adee.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/1d/1da053d1857915a29ec38362b5a8598a78ee42db.js": {
+    "./chunks/e0/e0fbca9f92d0615d34999d98c8efa0fced11acb4.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/85/8581fed065de9e082a714d444d839c6a211f13ea.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/e4/e401fdf9d0c494394ea98a1c409670a9ea355e66.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/ac/ac4b0b2a5a4a13ecd3355273fbef6917c30f5bc5.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/ac/ac4b0b2a5a4a13ecd3355273fbef6917c30f5bc5.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/dd/dd89cd657c1c1cff04284daeb18b896f0b6dd2ff.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/8c/8c48aba86690559cf66b0e715cd585e40357ced3.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/62/6201c7c27c69c381c3772ca3570aa1384bf5a382.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/29/29e70ad7252a3451f3b4d526ae00dd0c7644aa91.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js": {

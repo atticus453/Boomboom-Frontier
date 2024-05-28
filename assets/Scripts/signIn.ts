@@ -8,33 +8,14 @@ interface User{
 export class signIn extends Component {
     @property(EditBox) nameBox: EditBox = null;
     @property(EditBox) passwordBox: EditBox = null;
+    @property(Button) BackBtn: Button = null;
+
     
-    @property(Array<User>) userList: User[] = [];
+    // @property(Array<User>) userList: User[] = [];
     onLoad(){
         this.nameBox.node.on('text-changed', this.textChange, this);
     }
     start() {
-        
-        const userRef = firebase.database().ref('users');
-        userRef.once('value')
-        .then((snapshot) => {
-            // 获取快照中的所有子节点数据
-            const userData = snapshot.val();
-            // 在这里处理所有子节点数据
-            // console.log(userData);
-            // this.userList.push(userData);
-            for (const key in userData) {
-                if (userData.hasOwnProperty(key)) {
-                    const user: User = userData[key];
-                    this.userList.push(user);
-                }
-            }
-            console.log(userData);
-        })
-        .catch((error) => {
-            // 处理错误
-            console.error(error);
-        });
 
         let StartButton = new Component.EventHandler();
         StartButton.target = this.node;
@@ -42,6 +23,11 @@ export class signIn extends Component {
         StartButton.handler = "loadGameScene";
         find("Canvas/BG/StartBtn").getComponent(Button).clickEvents.push(StartButton);
 
+        let BackButton = new Component.EventHandler();
+        BackButton.target = this.node;
+        BackButton.component = "signIn";
+        BackButton.handler = "BackMenu";
+        this.BackBtn.clickEvents.push(BackButton);
     }
 
     update(deltaTime: number) {
@@ -50,17 +36,39 @@ export class signIn extends Component {
     textChange(){
         console.log(this.nameBox.string);
     }
+    BackMenu(){
+        director.loadScene("Menu2");
+    }
     loadGameScene(){
-        let data = {
-            name: this.nameBox.string,
-            score: this.passwordBox.string
-        }
-        console.log(data);
-        if(this.userList.findIndex(user => user.name == this.nameBox.string && user.score == this.passwordBox.string) == -1){
-            alert("wrong user");
-            return;
-        };
-        // director.loadScene("ScoreBoard");
+        firebase.auth().signInWithEmailAndPassword(this.nameBox.string, this.passwordBox.string)
+            .then((userCredential) => {
+                // 登录成功时执行的操作
+                // 显示成功消息
+                alert('Login successful!');
+                // 清除输入字段
+                // txtEmail.value = '';
+                // txtPassword.value = '';
+                
+                // 重定向到另一个页面（例如 index.html）
+            })
+            .catch((error) => {
+                // 处理登录失败的情况
+                // 显示错误消息
+                alert('Login failed. Please check your email and password.');
+                // 清除输入字段
+                // txtEmail.value = '';
+                // txtPassword.value = '';
+            });
+        // let data = {
+        //     name: this.nameBox.string,
+        //     score: this.passwordBox.string
+        // }
+        // console.log(data);
+        // if(this.userList.findIndex(user => user.name == this.nameBox.string && user.score == this.passwordBox.string) == -1){
+        //     alert("wrong user");
+        //     return;
+        // };
+        director.loadScene("Select");
     }
     
 }
