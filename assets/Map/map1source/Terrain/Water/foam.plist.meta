@@ -1,0 +1,63 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "6c6c8d34-5add-4393-9a47-825b8defd0cf",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "6462b": {
+      "importer": "sprite-frame",
+      "uuid": "6c6c8d34-5add-4393-9a47-825b8defd0cf@6462b",
+      "displayName": "",
+      "id": "6462b",
+      "name": "Foam",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 1536,
+        "height": 192,
+        "rawWidth": 1536,
+        "rawHeight": 192,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f11c98a4-5bfc-46f5-9946-980613d069d3@6c48a",
+        "atlasUuid": "6c6c8d34-5add-4393-9a47-825b8defd0cf"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "foam.png",
+    "format": 3,
+    "uuid": "6c6c8d34-5add-4393-9a47-825b8defd0cf",
+    "textureUuid": "f11c98a4-5bfc-46f5-9946-980613d069d3@6c48a"
+  }
+}

@@ -4246,9 +4246,13 @@
     "value": {
       "depends": [
         "70774282-0f2c-4340-8714-aa5ba35f0da7",
-        "b0bbd7dc-0f2a-4905-8da7-8209392ed5f0"
+        "f2442aec-6e58-4bed-8571-26dd46376607@f9941",
+        "b0bbd7dc-0f2a-4905-8da7-8209392ed5f0",
+        "eec30637-0508-4758-b965-0111fc4ae26a@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "7580abf5-e0aa-47fa-9942-8d316dd31a3f"
+      ]
     },
     "versionCode": 0
   },
@@ -4277,6 +4281,521 @@
     "url": "db://assets/Map/Water.tsx",
     "value": {
       "depends": []
+    },
+    "versionCode": 0
+  },
+  "338edc73-2c3e-47ac-9d0c-d86fddea8843": {
+    "url": "db://assets/Animations",
+    "value": {},
+    "versionCode": 0
+  },
+  "d3f4c39e-7c77-4633-8d2c-1fc4e72ec31f@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam.png@f9941",
+    "value": {
+      "depends": [
+        "d3f4c39e-7c77-4633-8d2c-1fc4e72ec31f@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9b4f2d91-3141-45ba-9b22-9060dce5a9be@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks_04.png@f9941",
+    "value": {
+      "depends": [
+        "9b4f2d91-3141-45ba-9b22-9060dce5a9be@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5f4b6620-14fd-487c-8e5e-a35b627aaebb": {
+    "url": "db://assets/Animations/water.anim",
+    "value": {
+      "depends": [
+        "486d94e0-58f9-4433-9bf7-54153d1fd777@f9941",
+        "46ffb9ac-e653-42c2-99ad-9c21883129ed@f9941",
+        "7031d376-92a9-4265-b75b-a9b841962b92@f9941",
+        "955f6af5-4eac-4509-8843-ac446dd153ac@f9941",
+        "af5df126-111c-471d-b474-315a585384c8@f9941",
+        "5c23bd46-dcc5-42b7-a882-b91bde0732f3@f9941",
+        "bba24fa2-59e6-4e72-98d6-ffa8f2498118@f9941",
+        "af88ce75-a94f-458a-a26e-a37330a56545@f9941"
+      ]
+    },
+    "versionCode": 0
+  },
+  "486d94e0-58f9-4433-9bf7-54153d1fd777": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam0.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "46ffb9ac-e653-42c2-99ad-9c21883129ed": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam1.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "7031d376-92a9-4265-b75b-a9b841962b92": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam2.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "955f6af5-4eac-4509-8843-ac446dd153ac": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam3.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "5c23bd46-dcc5-42b7-a882-b91bde0732f3": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam4.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "46ffb9ac-e653-42c2-99ad-9c21883129ed@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam1.png@6c48a",
+    "value": {
+      "depends": [
+        "46ffb9ac-e653-42c2-99ad-9c21883129ed"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7031d376-92a9-4265-b75b-a9b841962b92@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam2.png@6c48a",
+    "value": {
+      "depends": [
+        "7031d376-92a9-4265-b75b-a9b841962b92"
+      ]
+    },
+    "versionCode": 0
+  },
+  "af5df126-111c-471d-b474-315a585384c8": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam5.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "af88ce75-a94f-458a-a26e-a37330a56545": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam6.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "955f6af5-4eac-4509-8843-ac446dd153ac@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam3.png@6c48a",
+    "value": {
+      "depends": [
+        "955f6af5-4eac-4509-8843-ac446dd153ac"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bba24fa2-59e6-4e72-98d6-ffa8f2498118": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam7.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "486d94e0-58f9-4433-9bf7-54153d1fd777@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam0.png@6c48a",
+    "value": {
+      "depends": [
+        "486d94e0-58f9-4433-9bf7-54153d1fd777"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5c23bd46-dcc5-42b7-a882-b91bde0732f3@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam4.png@6c48a",
+    "value": {
+      "depends": [
+        "5c23bd46-dcc5-42b7-a882-b91bde0732f3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "af88ce75-a94f-458a-a26e-a37330a56545@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam6.png@6c48a",
+    "value": {
+      "depends": [
+        "af88ce75-a94f-458a-a26e-a37330a56545"
+      ]
+    },
+    "versionCode": 0
+  },
+  "af5df126-111c-471d-b474-315a585384c8@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam5.png@6c48a",
+    "value": {
+      "depends": [
+        "af5df126-111c-471d-b474-315a585384c8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bba24fa2-59e6-4e72-98d6-ffa8f2498118@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam7.png@6c48a",
+    "value": {
+      "depends": [
+        "bba24fa2-59e6-4e72-98d6-ffa8f2498118"
+      ]
+    },
+    "versionCode": 0
+  },
+  "486d94e0-58f9-4433-9bf7-54153d1fd777@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam0.png@f9941",
+    "value": {
+      "depends": [
+        "486d94e0-58f9-4433-9bf7-54153d1fd777@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "46ffb9ac-e653-42c2-99ad-9c21883129ed@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam1.png@f9941",
+    "value": {
+      "depends": [
+        "46ffb9ac-e653-42c2-99ad-9c21883129ed@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7031d376-92a9-4265-b75b-a9b841962b92@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam2.png@f9941",
+    "value": {
+      "depends": [
+        "7031d376-92a9-4265-b75b-a9b841962b92@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "955f6af5-4eac-4509-8843-ac446dd153ac@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam3.png@f9941",
+    "value": {
+      "depends": [
+        "955f6af5-4eac-4509-8843-ac446dd153ac@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5c23bd46-dcc5-42b7-a882-b91bde0732f3@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam4.png@f9941",
+    "value": {
+      "depends": [
+        "5c23bd46-dcc5-42b7-a882-b91bde0732f3@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "af5df126-111c-471d-b474-315a585384c8@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam5.png@f9941",
+    "value": {
+      "depends": [
+        "af5df126-111c-471d-b474-315a585384c8@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "af88ce75-a94f-458a-a26e-a37330a56545@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam6.png@f9941",
+    "value": {
+      "depends": [
+        "af88ce75-a94f-458a-a26e-a37330a56545@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bba24fa2-59e6-4e72-98d6-ffa8f2498118@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam7.png@f9941",
+    "value": {
+      "depends": [
+        "bba24fa2-59e6-4e72-98d6-ffa8f2498118@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "92af5854-26fa-4602-ac0e-e30fe816fb33": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/foam-4.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "3f5c1ca6-5277-4ceb-840a-6a677d6d009a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/foam-5.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "11862631-ff2e-4cf2-8076-e00eef41c5c7": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/foam-6.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "e16e3c0e-a8c2-4e0a-a5d9-4dac4f31a199": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/foam-7.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "3f5c1ca6-5277-4ceb-840a-6a677d6d009a@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/foam-5.png@6c48a",
+    "value": {
+      "depends": [
+        "3f5c1ca6-5277-4ceb-840a-6a677d6d009a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "11862631-ff2e-4cf2-8076-e00eef41c5c7@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/foam-6.png@6c48a",
+    "value": {
+      "depends": [
+        "11862631-ff2e-4cf2-8076-e00eef41c5c7"
+      ]
+    },
+    "versionCode": 0
+  },
+  "92af5854-26fa-4602-ac0e-e30fe816fb33@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/foam-4.png@6c48a",
+    "value": {
+      "depends": [
+        "92af5854-26fa-4602-ac0e-e30fe816fb33"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e16e3c0e-a8c2-4e0a-a5d9-4dac4f31a199@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/foam-7.png@6c48a",
+    "value": {
+      "depends": [
+        "e16e3c0e-a8c2-4e0a-a5d9-4dac4f31a199"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f11c98a4-5bfc-46f5-9946-980613d069d3": {
+    "url": "db://assets/Map/map1source/Terrain/Water/foam.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "6c6c8d34-5add-4393-9a47-825b8defd0cf": {
+    "url": "db://assets/Map/map1source/Terrain/Water/foam.plist",
+    "value": {
+      "depends": [
+        "6c6c8d34-5add-4393-9a47-825b8defd0cf@6462b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6c6c8d34-5add-4393-9a47-825b8defd0cf@6462b": {
+    "url": "db://assets/Map/map1source/Terrain/Water/foam.plist@6462b",
+    "value": {
+      "depends": [
+        "f11c98a4-5bfc-46f5-9946-980613d069d3@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f11c98a4-5bfc-46f5-9946-980613d069d3@6c48a": {
+    "url": "db://assets/Map/map1source/Terrain/Water/foam.png@6c48a",
+    "value": {
+      "depends": [
+        "f11c98a4-5bfc-46f5-9946-980613d069d3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f11c98a4-5bfc-46f5-9946-980613d069d3@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/foam.png@f9941",
+    "value": {
+      "depends": [
+        "f11c98a4-5bfc-46f5-9946-980613d069d3@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ec703349-403d-4327-914a-cbf019a383a1": {
+    "url": "db://assets/Map/GoldMine_Inactive.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "80a8c67b-9e84-45ae-920e-75ca5d6ddb7c": {
+    "url": "db://assets/Map/tree.tsx",
+    "value": {},
+    "versionCode": 0
+  },
+  "f007193c-c140-4af5-b3ec-548e49587c45": {
+    "url": "db://assets/Map/Tree.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "de86e771-31e4-4733-9cfb-d596fac67ee4": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/00.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d0fb47b5-377f-4e4f-b4de-39f640ac175c": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/01.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "3dcf840a-694a-4a53-9716-6c719b219500": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/02.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0bae96f2-ba9f-40b2-b97d-2fdc53107b90": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/03.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d83bb489-ecef-41a9-b0c5-8e00beb3bc12": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "f2442aec-6e58-4bed-8571-26dd46376607": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/04.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d0fb47b5-377f-4e4f-b4de-39f640ac175c@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/01.png@6c48a",
+    "value": {
+      "depends": [
+        "d0fb47b5-377f-4e4f-b4de-39f640ac175c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b96e90ee-e2a7-41cc-9643-91b209914c81": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/05.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "de86e771-31e4-4733-9cfb-d596fac67ee4@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/00.png@6c48a",
+    "value": {
+      "depends": [
+        "de86e771-31e4-4733-9cfb-d596fac67ee4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3dcf840a-694a-4a53-9716-6c719b219500@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/02.png@6c48a",
+    "value": {
+      "depends": [
+        "3dcf840a-694a-4a53-9716-6c719b219500"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d2f09170-bc29-4223-a9d1-8cec8e54f1e0": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/06.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d52f3d8e-642c-4dbd-bf19-d56be0a05a07": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/07.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0bae96f2-ba9f-40b2-b97d-2fdc53107b90@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/03.png@6c48a",
+    "value": {
+      "depends": [
+        "0bae96f2-ba9f-40b2-b97d-2fdc53107b90"
+      ]
+    },
+    "versionCode": 0
+  },
+  "026c1fb0-6638-473b-9273-b52fbf5a5598": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/08.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f2442aec-6e58-4bed-8571-26dd46376607@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/04.png@6c48a",
+    "value": {
+      "depends": [
+        "f2442aec-6e58-4bed-8571-26dd46376607"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7370fbbe-54af-4009-b50b-1827e3546e74": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/09.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d52f3d8e-642c-4dbd-bf19-d56be0a05a07@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/07.png@6c48a",
+    "value": {
+      "depends": [
+        "d52f3d8e-642c-4dbd-bf19-d56be0a05a07"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d2f09170-bc29-4223-a9d1-8cec8e54f1e0@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/06.png@6c48a",
+    "value": {
+      "depends": [
+        "d2f09170-bc29-4223-a9d1-8cec8e54f1e0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b96e90ee-e2a7-41cc-9643-91b209914c81@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/05.png@6c48a",
+    "value": {
+      "depends": [
+        "b96e90ee-e2a7-41cc-9643-91b209914c81"
+      ]
+    },
+    "versionCode": 0
+  },
+  "026c1fb0-6638-473b-9273-b52fbf5a5598@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/08.png@6c48a",
+    "value": {
+      "depends": [
+        "026c1fb0-6638-473b-9273-b52fbf5a5598"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7370fbbe-54af-4009-b50b-1827e3546e74@6c48a": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/09.png@6c48a",
+    "value": {
+      "depends": [
+        "7370fbbe-54af-4009-b50b-1827e3546e74"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f2442aec-6e58-4bed-8571-26dd46376607@f9941": {
+    "url": "db://assets/Map/map1source/Resources/Trees/Tree_split.png/04.png@f9941",
+    "value": {
+      "depends": [
+        "f2442aec-6e58-4bed-8571-26dd46376607@6c48a"
+      ]
     },
     "versionCode": 0
   }

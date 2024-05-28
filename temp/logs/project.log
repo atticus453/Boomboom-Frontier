@@ -1,13 +1,13 @@
-5-26-2024 10:35:09 - log: Load engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
-5-26-2024 10:35:10 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-5-26-2024 10:35:10 - log: Register native engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-5-26-2024 10:35:18 - log: [Scene] meshopt wasm decoder initialized
-5-26-2024 10:35:18 - log: [Scene] [box2d]:box2d wasm lib loaded.
-5-26-2024 10:35:18 - log: [Scene] [bullet]:bullet wasm lib loaded.
-5-26-2024 10:35:18 - log: [Scene] [PHYSICS]: using builtin.
-5-26-2024 10:35:18 - log: [Scene] Cocos Creator v3.8.2
-5-26-2024 10:35:18 - info: [Scene] Forward render pipeline initialized.
-5-26-2024 10:35:18 - warn: [Scene] 
+5-28-2024 17:29:20 - log: Load engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
+5-28-2024 17:29:20 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+5-28-2024 17:29:20 - log: Register native engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+5-28-2024 17:29:26 - log: [Scene] meshopt wasm decoder initialized
+5-28-2024 17:29:26 - log: [Scene] [box2d]:box2d wasm lib loaded.
+5-28-2024 17:29:27 - log: [Scene] [bullet]:bullet wasm lib loaded.
+5-28-2024 17:29:27 - log: [Scene] [PHYSICS]: using builtin.
+5-28-2024 17:29:27 - log: [Scene] Cocos Creator v3.8.2
+5-28-2024 17:29:27 - info: [Scene] Forward render pipeline initialized.
+5-28-2024 17:29:27 - warn: [Scene] 
 Warning: This is a browser-targeted Firebase bundle but it appears it is being
 run in a Node environment.  If running in a Node environment, make sure you
 are using the bundle specified by the "main" field in package.json.
@@ -39,7 +39,7 @@ https://github.com/rollup/rollup-plugin-node-resolve
     at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
     at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
     at Module._compile (internal/modules/cjs/loader.js:1078:30)
-5-26-2024 10:35:19 - warn: [Scene] 
+5-28-2024 17:29:27 - warn: [Scene] 
 It looks like you're using the development build of the Firebase JS SDK.
 When deploying Firebase apps to production, it is advisable to only import
 the individual SDK components you intend to use.
@@ -65,7 +65,7 @@ https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
     at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
     at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
     at Module._compile (internal/modules/cjs/loader.js:1078:30)
-5-26-2024 10:35:19 - warn: [Scene] 
+5-28-2024 17:29:27 - warn: [Scene] 
 Warning: This is a browser-targeted Firebase bundle but it appears it is being
 run in a Node environment.  If running in a Node environment, make sure you
 are using the bundle specified by the "main" field in package.json.
@@ -97,42 +97,837 @@ https://github.com/rollup/rollup-plugin-node-resolve
     at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
     at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
     at Module._compile (internal/modules/cjs/loader.js:1078:30)
-5-26-2024 10:35:19 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-5-26-2024 11:09:34 - warn: [Scene] Missing class: 77399xbLolMyJKltviIT0E1Error: [Scene] Missing class: 77399xbLolMyJKltviIT0E1
-    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
-    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
-5-26-2024 11:09:34 - warn: [Scene] Missing class: 23d52oqORJOlKmCc5CzVTIXError: [Scene] Missing class: 23d52oqORJOlKmCc5CzVTIX
-    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
-    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
-5-26-2024 11:09:34 - error: [Scene] Script "77399xbLolMyJKltviIT0E1" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "77399c5b-2e89-4cc8-92a5-b6f8884f4135"
-Class ID: "77399xbLolMyJKltviIT0E1"
-Error: [Scene] Script "77399xbLolMyJKltviIT0E1" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "77399c5b-2e89-4cc8-92a5-b6f8884f4135"
-Class ID: "77399xbLolMyJKltviIT0E1"
+5-28-2024 17:29:27 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-28-2024 17:29:34 - error: [Scene] Cannot read property 'text' of nullTypeError: Cannot read property 'text' of null
+    at TiledMap._applyFile (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:68304:62)
+    at TiledMap.__preload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:68261:18)
+    at eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:48276:171)
+    at UnsortedInvoker.eval [as _invoke] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:46212:9)
+    at UnsortedInvoker.invoke (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:48265:16)
+    at NodeActivator.activateNode (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:48339:28)
+    at Scene._activate (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:55595:44)
+    at Director.runSceneImmediate (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:14712:17)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/utils.ccc:1:377
+    at eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:108631:9)
+5-28-2024 17:30:39 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:31:21 - error: [Scene] Cannot read property 'text' of nullTypeError: Cannot read property 'text' of null
+    at TiledMap._applyFile (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:68304:62)
+    at TiledMap.set tmxAsset (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:68079:18)
+    at TiledMap.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at invokeAssetSetter (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1813)
+    at CallbacksInvoker.emit (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/callbacks-invoker.ccc:1:3080)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:5153
+    at Map.forEach (<anonymous>)
+    at AssetUpdater.update (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:5121)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:5085
+5-28-2024 17:31:44 - error: [Scene] Cannot read property 'text' of nullTypeError: Cannot read property 'text' of null
+    at TiledMap._applyFile (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:68304:62)
+    at TiledMap.set tmxAsset (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:68079:18)
+    at TiledMap.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at invokeAssetSetter (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1813)
+    at CallbacksInvoker.emit (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/callbacks-invoker.ccc:1:3080)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:5153
+    at Map.forEach (<anonymous>)
+    at AssetUpdater.update (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:5121)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:5085
+5-28-2024 17:31:52 - info: [PreviewInEditor] 预览环境初始化完毕
+5-28-2024 17:32:02 - error: [Scene] Cannot read property 'text' of nullTypeError: Cannot read property 'text' of null
+    at TiledMap._applyFile (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:68304:62)
+    at TiledMap.set tmxAsset (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:68079:18)
+    at TiledMap.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at invokeAssetSetter (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1813)
+    at CallbacksInvoker.emit (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/callbacks-invoker.ccc:1:3080)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:5153
+    at Map.forEach (<anonymous>)
+    at AssetUpdater.update (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:5121)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:5085
+5-28-2024 17:32:05 - log: [PreviewInEditor] meshopt wasm decoder initialized
+5-28-2024 17:32:05 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+5-28-2024 17:32:05 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+5-28-2024 17:32:05 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+5-28-2024 17:32:06 - log: [PreviewInEditor] Cocos Creator v3.8.2
+5-28-2024 17:32:06 - info: [PreviewInEditor] Forward render pipeline initialized.
+5-28-2024 17:32:06 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
 
-    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
-    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
-5-26-2024 11:09:34 - error: [Scene] Script "23d52oqORJOlKmCc5CzVTIX" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "23d52a2a-3912-4e94-a982-7390b3553217"
-Class ID: "23d52oqORJOlKmCc5CzVTIX"
-Error: [Scene] Script "23d52oqORJOlKmCc5CzVTIX" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "23d52a2a-3912-4e94-a982-7390b3553217"
-Class ID: "23d52oqORJOlKmCc5CzVTIX"
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
 
-    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
-    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:1743:21
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:32:06 - warn: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+Error: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25549:78
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:32:06 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:26929:28
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25552:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25553:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:32:06 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-28-2024 17:32:06 - error: [PreviewInEditor] Cannot read property 'text' of nullTypeError: Cannot read property 'text' of null
+    at TiledMap._applyFile (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:68304:62)
+    at TiledMap.__preload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:68261:18)
+    at eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:48276:171)
+    at UnsortedInvoker.eval [as _invoke] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:46212:9)
+    at UnsortedInvoker.invoke (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:48265:16)
+    at NodeActivator.activateNode (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:48339:28)
+    at Scene._activate (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:55595:44)
+    at Director.runSceneImmediate (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:14712:17)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/utils.ccc:1:1375
+    at eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:101068:17)
+5-28-2024 17:32:08 - log: [PreviewInEditor] left
+5-28-2024 17:32:08 - log: [PreviewInEditor] up
+5-28-2024 17:32:08 - log: [PreviewInEditor] right
+5-28-2024 17:32:08 - log: [PreviewInEditor] stop
+5-28-2024 17:32:08 - log: [PreviewInEditor] stop
+5-28-2024 17:32:08 - log: [PreviewInEditor] stop
+5-28-2024 17:32:17 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:32:17 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:32:18 - info: [PreviewInEditor] 预览环境初始化完毕
+5-28-2024 17:32:20 - log: [PreviewInEditor] meshopt wasm decoder initialized
+5-28-2024 17:32:20 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+5-28-2024 17:32:20 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+5-28-2024 17:32:20 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+5-28-2024 17:32:21 - log: [PreviewInEditor] Cocos Creator v3.8.2
+5-28-2024 17:32:21 - info: [PreviewInEditor] Forward render pipeline initialized.
+5-28-2024 17:32:21 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:1743:21
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:32:21 - warn: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+Error: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25549:78
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:32:21 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:26929:28
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25552:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25553:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:32:21 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-28-2024 17:32:21 - log: [PreviewInEditor] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:32:22 - log: [PreviewInEditor] left
+5-28-2024 17:32:23 - log: [PreviewInEditor] up
+5-28-2024 17:32:23 - log: [PreviewInEditor] stop
+5-28-2024 17:32:24 - log: [PreviewInEditor] right
+5-28-2024 17:32:24 - log: [PreviewInEditor] stop
+5-28-2024 17:32:25 - log: [PreviewInEditor] down
+5-28-2024 17:32:25 - log: [PreviewInEditor] stop
+5-28-2024 17:32:26 - log: [PreviewInEditor] stop
+5-28-2024 17:32:26 - log: [PreviewInEditor] right
+5-28-2024 17:32:27 - log: [PreviewInEditor] up
+5-28-2024 17:32:27 - log: [PreviewInEditor] stop
+5-28-2024 17:32:27 - log: [PreviewInEditor] right
+5-28-2024 17:32:27 - log: [PreviewInEditor] stop
+5-28-2024 17:32:28 - log: [PreviewInEditor] stop
+5-28-2024 17:32:28 - log: [PreviewInEditor] down
+5-28-2024 17:32:28 - log: [PreviewInEditor] right
+5-28-2024 17:32:28 - log: [PreviewInEditor] stop
+5-28-2024 17:32:28 - log: [PreviewInEditor] up
+5-28-2024 17:32:29 - log: [PreviewInEditor] stop
+5-28-2024 17:32:29 - log: [PreviewInEditor] left
+5-28-2024 17:32:29 - log: [PreviewInEditor] stop
+5-28-2024 17:32:29 - log: [PreviewInEditor] up
+5-28-2024 17:32:30 - log: [PreviewInEditor] stop
+5-28-2024 17:32:30 - log: [PreviewInEditor] right
+5-28-2024 17:32:30 - log: [PreviewInEditor] stop
+5-28-2024 17:32:31 - log: [PreviewInEditor] down
+5-28-2024 17:32:31 - log: [PreviewInEditor] stop
+5-28-2024 17:32:32 - log: [PreviewInEditor] left
+5-28-2024 17:32:32 - log: [PreviewInEditor] stop
+5-28-2024 17:32:33 - log: [PreviewInEditor] left
+5-28-2024 17:32:33 - log: [PreviewInEditor] stop
+5-28-2024 17:32:33 - log: [PreviewInEditor] down
+5-28-2024 17:32:33 - log: [PreviewInEditor] stop
+5-28-2024 17:32:35 - log: [PreviewInEditor] up
+5-28-2024 17:32:35 - log: [PreviewInEditor] stop
+5-28-2024 17:32:36 - log: [PreviewInEditor] left
+5-28-2024 17:32:37 - log: [PreviewInEditor] stop
+5-28-2024 17:32:37 - log: [PreviewInEditor] right
+5-28-2024 17:32:37 - log: [PreviewInEditor] stop
+5-28-2024 17:32:38 - log: [PreviewInEditor] down
+5-28-2024 17:32:38 - log: [PreviewInEditor] stop
+5-28-2024 17:32:38 - log: [PreviewInEditor] left
+5-28-2024 17:32:39 - log: [PreviewInEditor] stop
+5-28-2024 17:32:39 - log: [PreviewInEditor] right
+5-28-2024 17:32:39 - log: [PreviewInEditor] stop
+5-28-2024 17:32:40 - log: [PreviewInEditor] up
+5-28-2024 17:32:40 - log: [PreviewInEditor] stop
+5-28-2024 17:32:41 - log: [PreviewInEditor] down
+5-28-2024 17:32:41 - log: [PreviewInEditor] stop
+5-28-2024 17:32:41 - log: [PreviewInEditor] stop
+5-28-2024 17:32:43 - log: [PreviewInEditor] down
+5-28-2024 17:32:44 - log: [PreviewInEditor] stop
+5-28-2024 17:32:47 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:32:48 - info: [PreviewInEditor] 预览环境初始化完毕
+5-28-2024 17:35:37 - error: [Assets] /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map/Tree.tsx.meta is not exist! will use cache meta.[Assets] /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map/Tree.tsx.meta is not exist! will use cache meta.  
+at Object.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
+at AssetDB._checkAssetStat (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:732:21)  
+at AssetDB.refresh (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:527:41)  
+at runMicrotasks (<anonymous>)  
+at runNextTicks (internal/process/task_queues.js:58:5)  
+at processImmediate (internal/timers.js:434:9)
+5-28-2024 17:35:38 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:35:45 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:35:47 - log: [PreviewInEditor] meshopt wasm decoder initialized
+5-28-2024 17:35:47 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+5-28-2024 17:35:48 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+5-28-2024 17:35:48 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+5-28-2024 17:35:48 - log: [PreviewInEditor] Cocos Creator v3.8.2
+5-28-2024 17:35:48 - info: [PreviewInEditor] Forward render pipeline initialized.
+5-28-2024 17:35:48 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:1743:21
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:35:48 - warn: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+Error: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25549:78
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:35:48 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:26929:28
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25552:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25553:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:35:48 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-28-2024 17:35:49 - log: [PreviewInEditor] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:35:50 - log: [PreviewInEditor] left
+5-28-2024 17:35:51 - log: [PreviewInEditor] up
+5-28-2024 17:35:51 - log: [PreviewInEditor] right
+5-28-2024 17:35:51 - log: [PreviewInEditor] stop
+5-28-2024 17:35:51 - log: [PreviewInEditor] stop
+5-28-2024 17:35:51 - log: [PreviewInEditor] stop
+5-28-2024 17:35:51 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:35:52 - info: [PreviewInEditor] 预览环境初始化完毕
+5-28-2024 17:36:54 - log: [PreviewInEditor] meshopt wasm decoder initialized
+5-28-2024 17:36:54 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+5-28-2024 17:36:54 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+5-28-2024 17:36:54 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+5-28-2024 17:36:54 - log: [PreviewInEditor] Cocos Creator v3.8.2
+5-28-2024 17:36:54 - info: [PreviewInEditor] Forward render pipeline initialized.
+5-28-2024 17:36:54 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:1743:21
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:36:54 - warn: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+Error: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25549:78
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:36:54 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:26929:28
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25552:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25553:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:36:54 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-28-2024 17:36:55 - log: [PreviewInEditor] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:36:57 - log: [PreviewInEditor] left
+5-28-2024 17:36:58 - log: [PreviewInEditor] up
+5-28-2024 17:36:58 - log: [PreviewInEditor] stop
+5-28-2024 17:36:59 - log: [PreviewInEditor] right
+5-28-2024 17:37:00 - log: [PreviewInEditor] stop
+5-28-2024 17:37:01 - log: [PreviewInEditor] left
+5-28-2024 17:37:01 - log: [PreviewInEditor] stop
+5-28-2024 17:37:01 - log: [PreviewInEditor] stop
+5-28-2024 17:37:02 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:37:03 - info: [PreviewInEditor] 预览环境初始化完毕
+5-28-2024 17:37:37 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:39:35 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:39:35 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:39:48 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:46:17 - log: [PreviewInEditor] meshopt wasm decoder initialized
+5-28-2024 17:46:17 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+5-28-2024 17:46:17 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+5-28-2024 17:46:18 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+5-28-2024 17:46:18 - log: [PreviewInEditor] Cocos Creator v3.8.2
+5-28-2024 17:46:18 - info: [PreviewInEditor] Forward render pipeline initialized.
+5-28-2024 17:46:18 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:1743:21
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:46:18 - warn: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+Error: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25549:78
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:46:18 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:26929:28
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25552:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25553:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:46:18 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-28-2024 17:46:18 - log: [PreviewInEditor] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:46:19 - log: [PreviewInEditor] left
+5-28-2024 17:46:20 - log: [PreviewInEditor] up
+5-28-2024 17:46:21 - log: [PreviewInEditor] stop
+5-28-2024 17:46:21 - log: [PreviewInEditor] right
+5-28-2024 17:46:21 - log: [PreviewInEditor] stop
+5-28-2024 17:46:21 - log: [PreviewInEditor] stop
+5-28-2024 17:46:22 - log: [PreviewInEditor] right
+5-28-2024 17:46:22 - log: [PreviewInEditor] stop
+5-28-2024 17:46:22 - log: [PreviewInEditor] left
+5-28-2024 17:46:23 - log: [PreviewInEditor] up
+5-28-2024 17:46:23 - log: [PreviewInEditor] stop
+5-28-2024 17:46:23 - log: [PreviewInEditor] stop
+5-28-2024 17:46:24 - log: [PreviewInEditor] down
+5-28-2024 17:46:24 - log: [PreviewInEditor] right
+5-28-2024 17:46:24 - log: [PreviewInEditor] stop
+5-28-2024 17:46:25 - log: [PreviewInEditor] stop
+5-28-2024 17:46:25 - log: [PreviewInEditor] up
+5-28-2024 17:46:25 - log: [PreviewInEditor] stop
+5-28-2024 17:46:25 - log: [PreviewInEditor] right
+5-28-2024 17:46:25 - log: [PreviewInEditor] stop
+5-28-2024 17:46:25 - log: [PreviewInEditor] right
+5-28-2024 17:46:26 - log: [PreviewInEditor] up
+5-28-2024 17:46:26 - log: [PreviewInEditor] stop
+5-28-2024 17:46:26 - log: [PreviewInEditor] right
+5-28-2024 17:46:27 - log: [PreviewInEditor] stop
+5-28-2024 17:46:27 - log: [PreviewInEditor] left
+5-28-2024 17:46:27 - log: [PreviewInEditor] stop
+5-28-2024 17:46:28 - log: [PreviewInEditor] stop
+5-28-2024 17:46:28 - log: [PreviewInEditor] left
+5-28-2024 17:46:28 - log: [PreviewInEditor] down
+5-28-2024 17:46:29 - log: [PreviewInEditor] stop
+5-28-2024 17:46:29 - log: [PreviewInEditor] right
+5-28-2024 17:46:29 - log: [PreviewInEditor] stop
+5-28-2024 17:46:29 - log: [PreviewInEditor] up
+5-28-2024 17:46:29 - log: [PreviewInEditor] stop
+5-28-2024 17:46:29 - log: [PreviewInEditor] stop
+5-28-2024 17:46:29 - log: [PreviewInEditor] left
+5-28-2024 17:46:30 - log: [PreviewInEditor] stop
+5-28-2024 17:46:30 - log: [PreviewInEditor] right
+5-28-2024 17:46:30 - log: [PreviewInEditor] stop
+5-28-2024 17:46:30 - log: [PreviewInEditor] right
+5-28-2024 17:46:30 - log: [PreviewInEditor] stop
+5-28-2024 17:46:31 - log: [PreviewInEditor] right
+5-28-2024 17:46:31 - log: [PreviewInEditor] stop
+5-28-2024 17:46:32 - log: [PreviewInEditor] left
+5-28-2024 17:46:32 - log: [PreviewInEditor] stop
+5-28-2024 17:46:32 - log: [PreviewInEditor] left
+5-28-2024 17:46:32 - log: [PreviewInEditor] up
+5-28-2024 17:46:32 - log: [PreviewInEditor] stop
+5-28-2024 17:46:32 - log: [PreviewInEditor] stop
+5-28-2024 17:46:32 - log: [PreviewInEditor] down
+5-28-2024 17:46:33 - log: [PreviewInEditor] right
+5-28-2024 17:46:33 - log: [PreviewInEditor] stop
+5-28-2024 17:46:33 - log: [PreviewInEditor] up
+5-28-2024 17:46:34 - log: [PreviewInEditor] stop
+5-28-2024 17:46:34 - log: [PreviewInEditor] down
+5-28-2024 17:46:35 - log: [PreviewInEditor] stop
+5-28-2024 17:46:36 - log: [PreviewInEditor] up
+5-28-2024 17:46:36 - log: [PreviewInEditor] stop
+5-28-2024 17:46:36 - log: [PreviewInEditor] down
+5-28-2024 17:46:36 - log: [PreviewInEditor] stop
+5-28-2024 17:46:37 - log: [PreviewInEditor] left
+5-28-2024 17:46:37 - log: [PreviewInEditor] stop
+5-28-2024 17:46:37 - log: [PreviewInEditor] right
+5-28-2024 17:46:37 - log: [PreviewInEditor] stop
+5-28-2024 17:46:38 - log: [PreviewInEditor] left
+5-28-2024 17:46:38 - log: [PreviewInEditor] stop
+5-28-2024 17:46:39 - log: [PreviewInEditor] down
+5-28-2024 17:46:40 - log: [PreviewInEditor] stop
+5-28-2024 17:46:40 - log: [PreviewInEditor] stop
+5-28-2024 17:46:40 - log: [PreviewInEditor] right
+5-28-2024 17:46:40 - log: [PreviewInEditor] up
+5-28-2024 17:46:41 - log: [PreviewInEditor] stop
+5-28-2024 17:46:41 - log: [PreviewInEditor] left
+5-28-2024 17:46:41 - log: [PreviewInEditor] stop
+5-28-2024 17:46:41 - log: [PreviewInEditor] up
+5-28-2024 17:46:41 - log: [PreviewInEditor] stop
+5-28-2024 17:46:41 - log: [PreviewInEditor] stop
+5-28-2024 17:46:42 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:46:43 - info: [PreviewInEditor] 预览环境初始化完毕
+5-28-2024 17:52:14 - log: [PreviewInEditor] meshopt wasm decoder initialized
+5-28-2024 17:52:14 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+5-28-2024 17:52:14 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+5-28-2024 17:52:14 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+5-28-2024 17:52:15 - log: [PreviewInEditor] Cocos Creator v3.8.2
+5-28-2024 17:52:15 - info: [PreviewInEditor] Forward render pipeline initialized.
+5-28-2024 17:52:15 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:1743:21
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:52:15 - warn: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+Error: [PreviewInEditor] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25549:78
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:52:15 - warn: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [PreviewInEditor] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:26929:28
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25552:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:25553:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+5-28-2024 17:52:15 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-28-2024 17:52:15 - log: [PreviewInEditor] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:52:16 - log: [PreviewInEditor] left
+5-28-2024 17:52:17 - log: [PreviewInEditor] up
+5-28-2024 17:52:17 - log: [PreviewInEditor] stop
+5-28-2024 17:52:17 - log: [PreviewInEditor] up
+5-28-2024 17:52:17 - log: [PreviewInEditor] stop
+5-28-2024 17:52:18 - log: [PreviewInEditor] right
+5-28-2024 17:52:18 - log: [PreviewInEditor] stop
+5-28-2024 17:52:19 - log: [PreviewInEditor] up
+5-28-2024 17:52:19 - log: [PreviewInEditor] stop
+5-28-2024 17:52:19 - log: [PreviewInEditor] stop
+5-28-2024 17:52:20 - log: [PreviewInEditor] up
+5-28-2024 17:52:20 - log: [PreviewInEditor] stop
+5-28-2024 17:52:21 - log: [PreviewInEditor] down
+5-28-2024 17:52:21 - log: [PreviewInEditor] stop
+5-28-2024 17:52:21 - log: [PreviewInEditor] down
+5-28-2024 17:52:22 - log: [PreviewInEditor] stop
+5-28-2024 17:52:23 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 17:52:24 - info: [PreviewInEditor] 预览环境初始化完毕
