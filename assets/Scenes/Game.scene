@@ -23,7 +23,7 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 37
+      "__id__": 40
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -54,7 +54,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 38
+      "__id__": 41
     },
     "_id": "48939222-f916-4102-a061-fa566b059c3a"
   },
@@ -81,18 +81,24 @@
       },
       {
         "__id__": 30
-      }
-    ],
-    "_active": true,
-    "_components": [
+      },
       {
         "__id__": 34
       },
       {
         "__id__": 35
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 37
       },
       {
-        "__id__": 36
+        "__id__": 38
+      },
+      {
+        "__id__": 39
       }
     ],
     "_prefab": null,
@@ -867,15 +873,11 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "bulletPrefab": {
-      "__uuid__": "fb49dcfe-7490-4ea4-a8e9-4ff17aedeb36",
-      "__expectedType__": "cc.Prefab"
-    },
-    "_id": "cfkpYnnqFFyImNhh2wUtyO"
+    "_id": "01LnEhVJFKwq6nDtkPrdyf"
   },
   {
     "__type__": "cc.Node",
-    "_name": "rightBound",
+    "_name": "Bound",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -1004,7 +1006,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "leftBound",
+    "_name": "Bound",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -1132,6 +1134,112 @@
     "_id": "det859RMlOuJDZxnD3whNt"
   },
   {
+    "__type__": "cc.Node",
+    "_name": "BulletPool",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "cbpYOtzfJAkKUe883EabAv"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "GameMgr",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 36
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -640,
+      "y": -360.00000000000006,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "3bq9kSYOtMUp1cXIhVBhR5"
+  },
+  {
+    "__type__": "2f1909cNUlGZakGFep7lItT",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 35
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "PoolMode": false,
+    "bulletPrefab": {
+      "__uuid__": "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
+      "__expectedType__": "cc.Prefab"
+    },
+    "player": {
+      "__id__": 25
+    },
+    "_id": "91aWGqM+NBR78b8LdzSj2L"
+  },
+  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -1210,28 +1318,28 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 39
-    },
-    "shadows": {
-      "__id__": 40
-    },
-    "_skybox": {
-      "__id__": 41
-    },
-    "fog": {
       "__id__": 42
     },
-    "octree": {
+    "shadows": {
       "__id__": 43
     },
-    "skin": {
+    "_skybox": {
       "__id__": 44
     },
-    "lightProbeInfo": {
+    "fog": {
       "__id__": 45
     },
-    "postSettings": {
+    "octree": {
       "__id__": 46
+    },
+    "skin": {
+      "__id__": 47
+    },
+    "lightProbeInfo": {
+      "__id__": 48
+    },
+    "postSettings": {
+      "__id__": 49
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false

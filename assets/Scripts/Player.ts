@@ -1,94 +1,74 @@
 import {
   _decorator,
   Component,
-  Node,
-  input,
-  Input,
-  EventKeyboard,
-  KeyCode,
   RigidBody2D,
   v2,
-  v3,
   Prefab,
-  instantiate,
+  BoxCollider2D,
+  Contact2DType,
+  Collider2D,
+  IPhysics2DContact,
 } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass("Player")
 export class Player extends Component {
-  @property(Prefab)
-  public bulletPrefab: Prefab = null;
-
-  private speed = 10;
+  private playerSpeed = 10;
+  private bulletSpeed = 25;
+  private preDir: string = "RIGHT";
   private dirX = 0;
   private dirY = 0;
+  private angule = 0;
 
-  start() {
-    input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
-    input.on(Input.EventType.KEY_UP, this.onKeyUp, this);
+  onLoad(): void {
+    let collider = this.node.getComponent(BoxCollider2D);
+    if (collider) {
+      collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+    }
   }
+
+  start() {}
 
   update(deltaTime: number) {
+    this.handlePlayerPosition();
+  }
+
+  handleMove(dirX: number, dirY: number, facingAngle: number, preDir: string) {
+    this.dirX = dirX;
+    this.dirY = dirY;
+    this.angule = facingAngle;
+    this.preDir = preDir;
+    this.node.setRotationFromEuler(0, 0, facingAngle);
+  }
+
+  handlePlayerPosition() {
     let playerBody = this.node.getComponent(RigidBody2D);
     playerBody.linearVelocity = v2(
-      this.dirX * this.speed,
-      this.dirY * this.speed
+      this.dirX * this.playerSpeed,
+      this.dirY * this.playerSpeed
     );
-    this.node.parent
-      .getChildByName("Camera")
-      .setPosition(this.node.position.x, this.node.position.y, 0);
 
-    let faceDir = this.dirX >= 0 ? 1 : -1;
-    this.node.setScale(faceDir, 1, 1);
-  }
-
-  onKeyDown(e: EventKeyboard) {
-    switch (e.keyCode) {
-      case KeyCode.KEY_W:
-        this.dirY = 1;
-        console.log("up");
+    let playerFace: number[] = [1, 1];
+    switch (this.preDir) {
+      case "RIGHT":
+        playerFace = [1, 1];
         break;
-      case KeyCode.KEY_S:
-        this.dirY = -1;
-        console.log("down");
+      case "LEFT":
+        playerFace = [-1, 1];
         break;
-      case KeyCode.KEY_A:
-        this.dirX = -1;
-        console.log("left");
+      case "UP":
+        playerFace = [1, 1];
         break;
-      case KeyCode.KEY_D:
-        this.dirX = 1;
-        console.log("right");
-        break;
-      case KeyCode.KEY_K:
-        this.handleShoot();
+      case "DOWN":
+        playerFace = [1, -1];
         break;
     }
+    // this.node.setScale(playerFace[0], playerFace[1], 1);
   }
 
-  onKeyUp(e: EventKeyboard) {
-    switch (e.keyCode) {
-      case KeyCode.KEY_W:
-        this.dirY = 0;
-        break;
-      case KeyCode.KEY_S:
-        this.dirY = 0;
-        break;
-      case KeyCode.KEY_A:
-        this.dirX = 0;
-        break;
-      case KeyCode.KEY_D:
-        this.dirX = 0;
-        break;
-    }
-    console.log("stop");
-  }
-
-  handleShoot() {
-    let bullet = instantiate(this.bulletPrefab);
-    bullet.setPosition(
-      v3(this.node.position.x + 5 * this.node.scale.x, this.node.position.y, 0)
-    );
-    bullet.parent = this.node;
-  }
+  onBeginContact(
+    selfCollider: Collider2D,
+    otherCollider: Collider2D,
+    contact: IPhysics2DContact
+  ) {}
 }

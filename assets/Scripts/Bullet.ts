@@ -8,25 +8,25 @@ import {
   v2,
   Collider2D,
   IPhysics2DContact,
+  find,
 } from "cc";
+import { GameMgr } from "./GameMgr";
+
 const { ccclass, property } = _decorator;
 
 @ccclass("Bullet")
 export class Bullet extends Component {
-  private speed = 20;
   private isCollied = false;
 
+  private gameMgr = null;
+
   protected onLoad(): void {
-    let shootingPlayer = this.node.parent;
     let collider = this.node.getComponent(PolygonCollider2D);
     if (collider) {
       collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
     }
 
-    let bulletBody = this.node.getComponent(RigidBody2D);
-    bulletBody.linearVelocity = v2(this.speed * shootingPlayer.scale.x, 0);
-
-    this.node.parent = shootingPlayer.parent;
+    this.gameMgr = find("Canvas/GameMgr").getComponent(GameMgr);
   }
 
   start() {
@@ -34,7 +34,13 @@ export class Bullet extends Component {
   }
 
   update(deltaTime: number) {
-    if (this.isCollied) this.node.destroy();
+    if (this.isCollied) {
+      console.log("Bullet is collied");
+      if (this.gameMgr.PoolMode) {
+        this.gameMgr.bulletPool.put(this.node);
+        this.isCollied = false;
+      } else this.node.destroy();
+    }
   }
 
   onBeginContact(
@@ -42,10 +48,7 @@ export class Bullet extends Component {
     otherCollider: Collider2D,
     contact: IPhysics2DContact
   ) {
-    if (
-      otherCollider.node.name === "leftBound" ||
-      otherCollider.node.name === "rightBound"
-    ) {
+    if (otherCollider.node.name === "Bound") {
       this.isCollied = true;
     }
   }
