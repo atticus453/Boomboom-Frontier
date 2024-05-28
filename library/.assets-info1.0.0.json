@@ -10,7 +10,7 @@
       "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts": {
-      "time": 1716829460394.1587,
+      "time": 1716890408601.7473,
       "uuid": "aa56c93b-3412-48f6-b7e7-04f207946720"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs.meta": {
@@ -1427,7 +1427,7 @@
       "uuid": "90d6c57b-0b58-43f3-bac9-f3422735314b"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/map1Scene.scene": {
-      "time": 1716889678511.4436,
+      "time": 1716892591065.6738,
       "uuid": "70774282-0f2c-4340-8714-aa5ba35f0da7"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map/maptest.tmx": {
@@ -2492,6 +2492,13 @@
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map/map1source/Resources/Trees/Tree_split.png/09.png": {
       "time": 1716889450086.6738,
       "uuid": "7370fbbe-54af-4009-b50b-1827e3546e74"
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/ZorderByY.ts.meta": {
+      "time": 1716890408603.09
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/ZorderByY.ts": {
+      "time": 1716892371445.127,
+      "uuid": "7fad07f1-2c61-4914-9cd7-ac62763b5b62"
     }
   },
   "missing": {
