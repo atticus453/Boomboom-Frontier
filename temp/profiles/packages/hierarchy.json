@@ -83,7 +83,9 @@
     "assetUuid": "29275f2d-ea8b-48f8-920c-c0f4f0f9eb1e",
     "animationUuid": "",
     "expandLevels": [
-      "0"
+      "0",
+      "0_0",
+      "0_0_1"
     ]
   },
   "4f582775-4c22-4853-9900-f661cf1f2470": {
@@ -114,11 +116,31 @@
       "0"
     ]
   },
+<<<<<<< HEAD
   "de2faacb-743f-4ddc-bff9-5111d3f1c91a": {
     "assetUuid": "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
     "animationUuid": "",
     "expandLevels": [
       "0"
+=======
+  "6ae8d9ad-e94c-4d85-870a-2350c22422f0": {
+    "assetUuid": "6ae8d9ad-e94c-4d85-870a-2350c22422f0",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_0",
+      "0_0_1"
+    ]
+  },
+  "70774282-0f2c-4340-8714-aa5ba35f0da7": {
+    "assetUuid": "70774282-0f2c-4340-8714-aa5ba35f0da7",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_0",
+      "0_0_0",
+      "0_0_0_4"
+>>>>>>> multiRoom
     ]
   }
 }

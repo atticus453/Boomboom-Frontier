@@ -1,7 +1,11 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
+<<<<<<< HEAD
       "mTimestamp": 4426.619041979313,
+=======
+      "mTimestamp": 5107.536292076111,
+>>>>>>> multiRoom
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +413,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
+<<<<<<< HEAD
       "mTimestamp": 1669244.0779579878,
+=======
+      "mTimestamp": 3811707.8926672935,
+>>>>>>> multiRoom
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -483,7 +491,11 @@
           }
         },
         {
+<<<<<<< HEAD
           "value": "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/MultiSelect.ts",
+=======
+          "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/ZorderByY.ts",
+>>>>>>> multiRoom
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -492,12 +504,20 @@
             },
             "end": {
               "line": 9,
+<<<<<<< HEAD
               "column": 105
+=======
+              "column": 155
+>>>>>>> multiRoom
             }
           }
         },
         {
+<<<<<<< HEAD
           "value": "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/Player.ts",
+=======
+          "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/signIn.ts",
+>>>>>>> multiRoom
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -506,6 +526,7 @@
             },
             "end": {
               "line": 10,
+<<<<<<< HEAD
               "column": 100
             }
           }
@@ -535,6 +556,9 @@
             "end": {
               "line": 12,
               "column": 100
+=======
+              "column": 152
+>>>>>>> multiRoom
             }
           }
         }
@@ -579,13 +603,18 @@
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/MultiSelect.ts"
+=======
+            "url": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/ZorderByY.ts"
+>>>>>>> multiRoom
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/Player.ts"
           },
           "messages": []
@@ -601,6 +630,9 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/signIn.ts"
+=======
+            "url": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/signIn.ts"
+>>>>>>> multiRoom
           },
           "messages": []
         }
@@ -763,7 +795,11 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
+<<<<<<< HEAD
       "mTimestamp": 1716890037814,
+=======
+      "mTimestamp": 1716888561051,
+>>>>>>> multiRoom
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1046,7 +1082,11 @@
     },
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/MultiSelect.ts": {
       "mTimestamp": {
+<<<<<<< HEAD
         "mtime": 1716890399267.2,
+=======
+        "mtime": 1716829239613.2822,
+>>>>>>> multiRoom
         "uuid": "f8e14817-73d6-4f34-aac7-7cc175cf1c4f"
       },
       "chunkId": "f3af69ce4820c7c46152ff5a9be4a4d0e07a6350",
@@ -1350,8 +1390,13 @@
     },
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/Bullet%202.ts": {
       "mTimestamp": {
+<<<<<<< HEAD
         "mtime": 1716889309000,
         "uuid": "addb08e1-3f55-44ba-8c83-f6489b708a45"
+=======
+        "mtime": 1716829239613.034,
+        "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
+>>>>>>> multiRoom
       },
       "chunkId": "d9b7650e016be1b145e0cc19d2f5f574dbcc38f9",
       "imports": [
@@ -1746,6 +1791,7 @@
         }
       ]
     },
+<<<<<<< HEAD
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/firebase%202.mjs?cjs=&original=.js": {
       "mTimestamp": 1716889040000,
       "chunkId": "27a25e51f8c8288c534749fde6029c2e5e6d35d8",
@@ -1809,6 +1855,23 @@
               "column": 48
             }
           }
+=======
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/CreateUser.ts": {
+      "mTimestamp": {
+        "mtime": 1716829361837.2383,
+        "uuid": "23d52a2a-3912-4e94-a982-7390b3553217"
+      },
+      "chunkId": "adbfac4ef2d2ad528691b8cf0b98210ac18f84a6",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+>>>>>>> multiRoom
         }
       ],
       "type": "esm",
@@ -1816,20 +1879,29 @@
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "cce:/internal/code-quality/cr.mjs"
+=======
+            "url": "cce:/internal/x/cc"
+>>>>>>> multiRoom
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/firebase%202.js"
+=======
+            "url": "cce:/internal/x/cc"
+>>>>>>> multiRoom
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "cce:/internal/ml/cjs-loader.mjs"
           },
           "messages": []
@@ -1845,11 +1917,15 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/firebase%202.js"
+=======
+            "url": "cce:/internal/x/cc"
+>>>>>>> multiRoom
           },
           "messages": []
         }
       ]
     },
+<<<<<<< HEAD
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/firebase%202.js": {
       "mTimestamp": {
         "mtime": 1716889040000,
@@ -1899,30 +1975,63 @@
         }
       ],
       "type": "commonjs",
+=======
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Ranking.ts": {
+      "mTimestamp": {
+        "mtime": 1716829361837.595,
+        "uuid": "9bf5ad3c-c7c1-4438-b741-dfa53607b3a4"
+      },
+      "chunkId": "938164e19bf636599a9b3ede33f753f2e4c3fe67",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+>>>>>>> multiRoom
       "resolutions": [
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "cce:/internal/ml/cjs-loader.mjs"
+=======
+            "url": "cce:/internal/x/cc"
+>>>>>>> multiRoom
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'%40firebase%2Fapp'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20"
+=======
+            "url": "cce:/internal/x/cc"
+>>>>>>> multiRoom
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'%40firebase%2Fapp'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20"
+=======
+            "url": "cce:/internal/x/cc"
+>>>>>>> multiRoom
           },
           "messages": []
         }
       ]
     },
+<<<<<<< HEAD
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/GameMgr%202.ts": {
       "mTimestamp": {
         "mtime": 1716889131000,
@@ -1935,6 +2044,16 @@
           "resolved": "__unresolved_0"
         },
         {
+=======
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/ZorderByY.ts": {
+      "mTimestamp": {
+        "mtime": 1716892371445.127,
+        "uuid": "7fad07f1-2c61-4914-9cd7-ac62763b5b62"
+      },
+      "chunkId": "f7a2ec1e67bd71231cd8968f4396b5ce0698029f",
+      "imports": [
+        {
+>>>>>>> multiRoom
           "value": "cc"
         },
         {
@@ -1944,6 +2063,7 @@
           "value": "cc",
           "loc": {
             "start": {
+<<<<<<< HEAD
               "line": 19,
               "column": 7
             },
@@ -1964,6 +2084,14 @@
             "end": {
               "line": 20,
               "column": 33
+=======
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+>>>>>>> multiRoom
             }
           }
         }
@@ -1973,6 +2101,7 @@
         {
           "resolved": {
             "type": "module",
+<<<<<<< HEAD
             "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
@@ -1980,6 +2109,8 @@
         {
           "resolved": {
             "type": "module",
+=======
+>>>>>>> multiRoom
             "url": "cce:/internal/x/cc"
           },
           "messages": []
@@ -1997,6 +2128,7 @@
             "url": "cce:/internal/x/cc"
           },
           "messages": []
+<<<<<<< HEAD
         },
         {
           "resolved": {
@@ -2004,6 +2136,8 @@
             "url": "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/Player.ts"
           },
           "messages": []
+=======
+>>>>>>> multiRoom
         }
       ]
     }

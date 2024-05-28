@@ -244,6 +244,104 @@
       },
       "timestamp": 1716889509773
     },
+    "d6d8fe46246bd354ed5ccbf602ebcf1da5123188": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1716690915697
+    },
+    "ff9989315ab5f604c3df254f78bc28720338b215": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1716690915767
+    },
+    "61f5bfff274e788a1607809a03b38eab5872aa82": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1716690915787
+    },
+    "1da053d1857915a29ec38362b5a8598a78ee42db": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1716829245882
+    },
+    "4840064f1c8314bacaf28f88f24c72e3ddc0f6c4": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "1da053d1857915a29ec38362b5a8598a78ee42db"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1716829245913
+    },
+    "adbfac4ef2d2ad528691b8cf0b98210ac18f84a6": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1716829437140
+    },
+    "938164e19bf636599a9b3ede33f753f2e4c3fe67": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1716829437163
+    },
     "93ba276ea7b26ffcdc433fab14afc1ed6f05647b": {
       "imports": {
         "__unresolved_0": {
@@ -457,6 +555,7 @@
           "messages": []
         }
       },
+<<<<<<< HEAD
       "timestamp": 1716890042232
     },
     "6a5019a719a9014c047e67aa1cf34453ab8392ce": {
@@ -604,6 +703,13 @@
         }
       },
       "timestamp": 1716891545346
+=======
+      "timestamp": 1716888566146
+    },
+    "6a5019a719a9014c047e67aa1cf34453ab8392ce": {
+      "imports": {},
+      "timestamp": 1716888566163
+>>>>>>> multiRoom
     },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
@@ -645,13 +751,18 @@
         "__unresolved_5": {
           "resolved": {
             "type": "chunk",
+<<<<<<< HEAD
             "id": "f3af69ce4820c7c46152ff5a9be4a4d0e07a6350"
+=======
+            "id": "f7a2ec1e67bd71231cd8968f4396b5ce0698029f"
+>>>>>>> multiRoom
           },
           "messages": []
         },
         "__unresolved_6": {
           "resolved": {
             "type": "chunk",
+<<<<<<< HEAD
             "id": "ed7d6a84c25187445a1dfc85c5d6d36a047adcc2"
           },
           "messages": []
@@ -667,13 +778,22 @@
           "resolved": {
             "type": "chunk",
             "id": "f27e8a9ff304007d756170daf734101acba762b5"
+=======
+            "id": "61f5bfff274e788a1607809a03b38eab5872aa82"
+>>>>>>> multiRoom
           },
           "messages": []
         }
       },
+<<<<<<< HEAD
       "timestamp": 1716891707038
     },
     "68f4f3397d53b3d8b840964c348e2e6c35a1e126": {
+=======
+      "timestamp": 1716892372738
+    },
+    "f7a2ec1e67bd71231cd8968f4396b5ce0698029f": {
+>>>>>>> multiRoom
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -697,13 +817,18 @@
           "messages": []
         }
       },
+<<<<<<< HEAD
       "timestamp": 1716891707060
+=======
+      "timestamp": 1716892372749
+>>>>>>> multiRoom
     }
   },
   "entries": {
     "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
     "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "47a1530b86f8dba752d13f037cd555503db82c41",
+<<<<<<< HEAD
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/Bullet.ts": "83be54dd229f7fc434e17fe2be7f4d5306907a16",
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/CreateUser.ts": "c0063ebf1fe18c42f07bd869e8c400c05f79a5ad",
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/GameMgr.ts": "68f4f3397d53b3d8b840964c348e2e6c35a1e126",
@@ -712,5 +837,13 @@
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/Player.ts": "ed7d6a84c25187445a1dfc85c5d6d36a047adcc2",
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/Ranking.ts": "bdedd30a077e7bd79934e9fa7194d4661bad51f7",
     "file:///Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/Scripts/signIn.ts": "f27e8a9ff304007d756170daf734101acba762b5"
+=======
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Bullet.ts": "d6d8fe46246bd354ed5ccbf602ebcf1da5123188",
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/MultiRoom.ts": "1da053d1857915a29ec38362b5a8598a78ee42db",
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/MultiSelect.ts": "4840064f1c8314bacaf28f88f24c72e3ddc0f6c4",
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Player.ts": "ff9989315ab5f604c3df254f78bc28720338b215",
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/ZorderByY.ts": "f7a2ec1e67bd71231cd8968f4396b5ce0698029f",
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/signIn.ts": "61f5bfff274e788a1607809a03b38eab5872aa82"
+>>>>>>> multiRoom
   }
 }
