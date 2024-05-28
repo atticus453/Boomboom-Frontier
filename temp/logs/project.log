@@ -98,3 +98,5 @@ https://github.com/rollup/rollup-plugin-node-resolve
     at Object.<anonymous> (/Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/library/8d/8dcc8914-bd4b-42dc-8d4c-2c4db98de753.js:38202:3)
     at Module._compile (internal/modules/cjs/loader.js:1078:30)
 5-28-2024 15:31:11 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+5-28-2024 15:37:05 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10
+5-28-2024 15:52:32 - log: [Scene] cocos2d: TMXFormat: Unsupported TMX version: 1.10

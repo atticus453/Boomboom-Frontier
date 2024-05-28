@@ -232,3 +232,139 @@ Feature changed: false
 15:31:06 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts.
 15:31:06 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts.
 15:31:06 debug: Target(preview) ends with cost 17.237500190734863ms.
+15:52:32 debug: Dispatch build request for time accumulated 2 asset changes.
+15:52:32 debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+15:52:32 debug: Target(editor) build started.
+15:52:32 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:21:31 GMT+0800 (台北標準時間)
+15:52:32 debug: Inspect cce:/internal/x/prerequisite-imports
+15:52:32 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts.
+15:52:32 debug: Detected change: file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts. Last mtime: Sun May 26 2024 15:34:29 GMT+0800 (台北標準時間)@7580abf5-e0aa-47fa-9942-8d316dd31a3f, Current mtime: Tue May 28 2024 15:50:12 GMT+0800 (台北標準時間)@7580abf5-e0aa-47fa-9942-8d316dd31a3f
+15:52:32 debug: Inspect file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts.
+15:52:32 debug: Detected change: file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts. Last mtime: Sun May 26 2024 18:05:29 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3, Current mtime: Tue May 28 2024 15:52:28 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3
+15:52:32 debug: Inspect file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:52:32 debug: Target(editor) ends with cost 108.67841720581055ms.
+15:52:32 debug: Target(preview) build started.
+15:52:32 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:21:31 GMT+0800 (台北標準時間)
+15:52:32 debug: Inspect cce:/internal/x/prerequisite-imports
+15:52:32 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts.
+15:52:32 debug: Detected change: file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts. Last mtime: Sun May 26 2024 15:34:29 GMT+0800 (台北標準時間)@7580abf5-e0aa-47fa-9942-8d316dd31a3f, Current mtime: Tue May 28 2024 15:50:12 GMT+0800 (台北標準時間)@7580abf5-e0aa-47fa-9942-8d316dd31a3f
+15:52:32 debug: Inspect file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts.
+15:52:32 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts.
+15:52:32 debug: Detected change: file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts. Last mtime: Sun May 26 2024 18:05:29 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3, Current mtime: Tue May 28 2024 15:52:28 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3
+15:52:32 debug: Inspect file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:52:32 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:52:32 debug: Target(preview) ends with cost 89.00400018692017ms.
+15:55:25 debug: Dispatch build request for time accumulated 1 asset changes.
+15:55:25 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:55:25 debug: Target(editor) build started.
+15:55:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:21:31 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:24:24 GMT+0800 (台北標準時間)
+15:55:25 debug: Inspect cce:/internal/x/prerequisite-imports
+15:55:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts.
+15:55:25 debug: Detected change: file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts. Last mtime: Tue May 28 2024 15:52:28 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3, Current mtime: Tue May 28 2024 15:55:19 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3
+15:55:25 debug: Inspect file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts
+15:55:25 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:55:25 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:55:25 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:55:25 debug: Target(editor) ends with cost 43.310874938964844ms.
+15:55:25 debug: Target(preview) build started.
+15:55:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:21:31 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:24:24 GMT+0800 (台北標準時間)
+15:55:25 debug: Inspect cce:/internal/x/prerequisite-imports
+15:55:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts.
+15:55:25 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts.
+15:55:25 debug: Detected change: file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts. Last mtime: Tue May 28 2024 15:52:28 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3, Current mtime: Tue May 28 2024 15:55:19 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3
+15:55:25 debug: Inspect file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts
+15:55:25 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:55:25 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:55:25 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:55:25 debug: Target(preview) ends with cost 44.840917110443115ms.
+15:56:28 debug: Dispatch build request for time accumulated 1 asset changes.
+15:56:28 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:56:28 debug: Target(editor) build started.
+15:56:28 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:24 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:25:26 GMT+0800 (台北標準時間)
+15:56:28 debug: Inspect cce:/internal/x/prerequisite-imports
+15:56:28 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts.
+15:56:28 debug: Detected change: file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts. Last mtime: Tue May 28 2024 15:55:19 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3, Current mtime: Tue May 28 2024 15:56:26 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3
+15:56:28 debug: Inspect file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts
+15:56:28 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:56:28 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:56:28 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:56:28 debug: Target(editor) ends with cost 42.251708984375ms.
+15:56:28 debug: Target(preview) build started.
+15:56:28 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:24 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:25:27 GMT+0800 (台北標準時間)
+15:56:28 debug: Inspect cce:/internal/x/prerequisite-imports
+15:56:28 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Bullet.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiRoom.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/MultiSelect.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Player.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Select.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/Setting.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/menu.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signIn.ts.
+15:56:28 debug: Resolve file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts from cce:/internal/x/prerequisite-imports as file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts.
+15:56:28 debug: Detected change: file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts. Last mtime: Tue May 28 2024 15:55:19 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3, Current mtime: Tue May 28 2024 15:56:26 GMT+0800 (台北標準時間)@0af02522-3297-4f07-8195-18a90b655de3
+15:56:28 debug: Inspect file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts
+15:56:28 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:56:28 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:56:28 debug: Resolve cc from file:///Users/chenyuling/Desktop/boom-new3/Boomboom-Frontier/assets/Scripts/signUp.ts as cce:/internal/x/cc.
+15:56:28 debug: Target(preview) ends with cost 37.21304178237915ms.

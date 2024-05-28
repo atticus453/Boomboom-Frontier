@@ -13,13 +13,15 @@ export class signUp extends Component {
     @property(Button) BackBtn: Button = null;
 
     @property(Array<User>) userList: User[] = [];
-    writeUserData(mail, na) {
+    writeUserData(mail, na, die, ki) {
         const comListRef = firebase.database().ref('users');
         // 2. 将帖子数据推送到数据库的 "com_list" 节点
         var newPostRef = comListRef.push();
         let data = {
             name: na,
-            email: mail
+            email: mail,
+            death: die,
+            kill: ki
         }
         newPostRef.set(data)
             .then(function() {
@@ -85,8 +87,9 @@ export class signUp extends Component {
         .then((userCredential) => {
             // 注册成功
             // addUser(txtName.value, txtEmail.value);
-            this.writeUserData(this.emailBox.string, this.nameBox.string);
+            this.writeUserData(this.emailBox.string, this.nameBox.string, 0, 0);
             alert('Signup successful.');
+            director.loadScene("Select");
             // 清空输入字段
             // txtEmail.value = '';
             // txtPassword.value = '';
@@ -111,7 +114,7 @@ export class signUp extends Component {
         //     alert("wrong user");
         //     return;
         // };
-        director.loadScene("Select");
+        
     }
 }
 
