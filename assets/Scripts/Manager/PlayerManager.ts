@@ -1,0 +1,68 @@
+// PlayerManager.ts
+import { _decorator, Component, Node, instantiate, Prefab, find } from "cc";
+import GlobalManager from "./GlobalManager";
+import { PlayerPrefab } from "../PlayerPrefab";
+//import { PhotonManager } from './PhotonManager'; // 假设你有这样一个处理Photon事件的脚本
+const { ccclass, property } = _decorator;
+
+@ccclass("PlayerManager")
+export class PlayerManager extends Component {
+  @property
+  public PoolMode: boolean = true;
+
+  @property(Prefab)
+  playerPrefab: Prefab;
+
+  @property([Node])
+  spawnPoints: Node[] = [];
+
+  private playerParentPath: string = "Canvas/map1/ZoderByY";
+  private playerParent: Node = null;
+  private players: Node[] = [];
+
+  onLoad() {
+    this.playerParent = find(this.playerParentPath);
+    this.spawnPlayers();
+    this.initializePlayers();
+  }
+
+  spawnPlayers() {
+    const selectedIndex = GlobalManager.instance.selectedPlayerIndex;
+    this.spawnPoints.forEach((spawnPoint) => {
+      const player = instantiate(this.playerPrefab);
+      player.setParent(this.playerParent);
+      player.setPosition(spawnPoint.position);
+      this.players.push(player);
+    });
+  }
+
+  initializePlayers() {
+    const selectedIndex = GlobalManager.instance.selectedPlayerIndex;
+    this.players.forEach((player, index) => {
+      const controlComponent = player.getComponent(PlayerPrefab);
+      if (index === selectedIndex - 1) {
+        // 激活该玩家的控制脚本
+        player.name = `Player${index + 1}`;
+        controlComponent.enabled = true;
+        console.log("Player is controlled by the local player");
+        console.log(
+          "Selected player index  and Index ",
+          selectedIndex,
+          " ",
+          index
+        );
+      } else {
+        // 禁用其他玩家的控制脚本，但依然会接收位置更新
+        player.name = `Player${index + 1}`;
+        controlComponent.enabled = false;
+        console.log("Player is controlled by the remote player");
+        console.log(
+          "Selected player index  and Index ",
+          selectedIndex,
+          " ",
+          index
+        );
+      }
+    });
+  }
+}
