@@ -12,10 +12,10 @@
     ],
     "paths": {
       "db://internal/*": [
-        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\*"
+        "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "C:\\Users\\USER\\OneDrive - NTHU\\Information System\\Final_Project\\Boomboom-Frontier\\assets\\*"
+        "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/*"
       ]
     },
     "experimentalDecorators": true,

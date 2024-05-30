@@ -22,9 +22,13 @@ export class Bullet extends Component {
 
   protected onLoad(): void {
     let collider = this.node.getComponent(PolygonCollider2D);
-    if (collider) {
+    try {
       collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
     }
+    catch (error) {
+      console.log(error);
+    }
+      
 
     this.gameMgr = find("Canvas/GameMgr").getComponent(GameMgr);
   }
