@@ -188,7 +188,10 @@ export class GameMgr extends Component {
     let Camera = find("/Canvas/Camera");
     let CameraPos = Camera.position;
     CameraPos.lerp(this.player.node.position, 0.1);
-    Camera.setPosition(CameraPos.x, CameraPos.y, 0);
+    console.log(CameraPos.y);
+    if(CameraPos.y >= 0 && CameraPos.y <= 230) {
+        Camera.setPosition(0, CameraPos.y, 0);
+    }
   }
 
   createBullet(): Node {

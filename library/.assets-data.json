@@ -147,14 +147,6 @@
     "value": {},
     "versionCode": 0
   },
-<<<<<<< HEAD
-  "803da332-f6ae-4bfa-b44d-63ed6d86a698": {
-    "url": "db://assets/Prefabs",
-    "value": {},
-    "versionCode": 0
-  },
-=======
->>>>>>> map1
   "b49908bd-42df-4121-bf78-3c2b51c6e9f2": {
     "url": "db://assets/Scripts/Bullet.ts",
     "value": {},
@@ -162,8 +154,6 @@
   },
   "7580abf5-e0aa-47fa-9942-8d316dd31a3f": {
     "url": "db://assets/Scripts/Player.ts",
-<<<<<<< HEAD
-=======
     "value": {},
     "versionCode": 0
   },
@@ -274,7 +264,6 @@
   },
   "7b198bfb-549c-45d7-95dc-5dafa1bc45e7": {
     "url": "db://assets/Prefabs",
->>>>>>> map1
     "value": {},
     "versionCode": 0
   },
@@ -288,11 +277,6 @@
     "value": {},
     "versionCode": 0
   },
-<<<<<<< HEAD
-  "f75d884c-63ce-490b-9499-590b9ff1861e": {
-    "url": "db://assets/Scripts/signUp.ts",
-    "value": {},
-=======
   "d290d91b-9803-4fb2-b175-a5319e2f9c8f": {
     "url": "db://assets/Scenes/Menu.scene",
     "value": {
@@ -365,202 +349,19 @@
       ],
       "dependScripts": []
     },
->>>>>>> map1
     "versionCode": 0
   },
-  "8f224486-550e-4bd5-9caf-b01a6b2ae0fd": {
-    "url": "db://assets/Map/Stage2.tmx",
+  "0216040a-ab4f-441e-8529-3e25420480b8": {
+    "url": "db://assets/Prefabs/item.prefab",
     "value": {
       "depends": [
-<<<<<<< HEAD
-        "b4c18936-ed4d-418a-96ff-f1938944db19@f9941"
-      ]
-    },
-    "versionCode": 0
-  },
-  "b4c18936-ed4d-418a-96ff-f1938944db19": {
-    "url": "db://assets/Map/tileset.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 0
-  },
-  "e74eaed0-3b3c-41e4-8248-952c9f7e5882": {
-    "url": "db://assets/Player/button_blue.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 0
-  },
-  "db341962-c9da-41b7-8b8c-0fbd138ceb19": {
-    "url": "db://assets/Player/timer.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 0
-  },
-  "fb49dcfe-7490-4ea4-a8e9-4ff17aedeb36": {
-    "url": "db://assets/Prefab/Bullet.prefab",
-    "value": {
-      "depends": [
-        "db341962-c9da-41b7-8b8c-0fbd138ceb19@f9941"
-      ],
-      "dependScripts": [
-        "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
-      ]
-    },
-    "versionCode": 0
-  },
-  "e74eaed0-3b3c-41e4-8248-952c9f7e5882@6c48a": {
-    "url": "db://assets/Player/button_blue.png@6c48a",
-    "value": {
-      "depends": [
-        "e74eaed0-3b3c-41e4-8248-952c9f7e5882"
-      ]
-    },
-    "versionCode": 0
-  },
-  "b4c18936-ed4d-418a-96ff-f1938944db19@6c48a": {
-    "url": "db://assets/Map/tileset.png@6c48a",
-    "value": {
-      "depends": [
-        "b4c18936-ed4d-418a-96ff-f1938944db19"
-      ]
-    },
-    "versionCode": 0
-  },
-  "db341962-c9da-41b7-8b8c-0fbd138ceb19@6c48a": {
-    "url": "db://assets/Player/timer.png@6c48a",
-    "value": {
-      "depends": [
-        "db341962-c9da-41b7-8b8c-0fbd138ceb19"
-      ]
-    },
-    "versionCode": 0
-  },
-  "e74eaed0-3b3c-41e4-8248-952c9f7e5882@f9941": {
-    "url": "db://assets/Player/button_blue.png@f9941",
-    "value": {
-      "depends": [
-        "e74eaed0-3b3c-41e4-8248-952c9f7e5882@6c48a"
-      ]
-    },
-    "versionCode": 0
-  },
-  "48939222-f916-4102-a061-fa566b059c3a": {
-    "url": "db://assets/Scenes/Game.scene",
-    "value": {
-      "depends": [
-        "48939222-f916-4102-a061-fa566b059c3a",
-        "8f224486-550e-4bd5-9caf-b01a6b2ae0fd",
-        "e74eaed0-3b3c-41e4-8248-952c9f7e5882@f9941",
-        "fb49dcfe-7490-4ea4-a8e9-4ff17aedeb36"
-      ],
-      "dependScripts": [
-        "7580abf5-e0aa-47fa-9942-8d316dd31a3f"
-      ]
-    },
-    "versionCode": 0
-  },
-  "ae14d2b6-37f0-4a2e-b0a5-bb707a8fe72f": {
-    "url": "db://assets/Scenes/Menu.scene",
-    "value": {},
-    "versionCode": 0
-  },
-  "db341962-c9da-41b7-8b8c-0fbd138ceb19@f9941": {
-    "url": "db://assets/Player/timer.png@f9941",
-    "value": {
-      "depends": [
-        "db341962-c9da-41b7-8b8c-0fbd138ceb19@6c48a"
-      ]
-    },
-    "versionCode": 0
-  },
-  "b4c18936-ed4d-418a-96ff-f1938944db19@f9941": {
-    "url": "db://assets/Map/tileset.png@f9941",
-    "value": {
-      "depends": [
-        "b4c18936-ed4d-418a-96ff-f1938944db19@6c48a"
-      ]
-    },
-    "versionCode": 0
-  },
-  "48e623e0-fb0e-46ea-b0f6-9e706504b2ab": {
-    "url": "db://assets/Scenes/signIn.scene",
-    "value": {
-      "depends": [
-        "48e623e0-fb0e-46ea-b0f6-9e706504b2ab",
-        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
-      ],
-      "dependScripts": [
-        "3e09365e-7b1b-4230-95a9-62b54dab05e4"
-      ]
-    },
-    "versionCode": 0
-  },
-  "466f6e11-e0cb-436e-8a84-19042547d271": {
-    "url": "db://assets/Scenes/signIn.scene",
-    "value": {},
-    "versionCode": 0
-  },
-  "4e519058-a40e-417a-9fbc-216dffa375c1": {
-    "url": "db://assets/Prefabs",
-    "value": {},
-    "versionCode": 0
-  },
-  "60c3477a-6426-4d54-8868-59ed3f5e25f7": {
-    "url": "db://assets/Scenes/Menu.scene",
-    "value": {
-      "depends": [
-        "60c3477a-6426-4d54-8868-59ed3f5e25f7"
-=======
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
         "2cf1e9b8-7b50-45ba-9044-eadb26217246@f9941"
->>>>>>> map1
       ],
       "dependScripts": []
     },
     "versionCode": 0
   },
-<<<<<<< HEAD
-  "616f7ec0-c2bc-4df4-ba93-89a86c0b5d11": {
-    "url": "db://assets/Scripts/signUp.ts",
-    "value": {},
-    "versionCode": 0
-  },
-  "5a44e028-7246-4ee5-ba28-5f74352dd67d": {
-    "url": "db://assets/Scenes/signUp.scene",
-    "value": {},
-    "versionCode": 0
-  },
-  "46417cc2-852e-45d9-a3d6-4943716f82b2": {
-    "url": "db://assets/Scripts/signUp.ts",
-    "value": {},
-    "versionCode": 0
-  },
-  "0e8e64b2-7ec1-4574-b901-a7070ad7b468": {
-    "url": "db://assets/Scenes/scene-2d.scene",
-    "value": {},
-    "versionCode": 0
-  },
-  "99885cf8-a0b3-49c7-a502-ab109ef9e77f": {
-    "url": "db://assets/Scenes/signUp.scene",
-    "value": {
-      "depends": [
-        "99885cf8-a0b3-49c7-a502-ab109ef9e77f",
-        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
-      ],
-      "dependScripts": [
-        "0af02522-3297-4f07-8195-18a90b655de3"
-=======
   "e7110b7a-c696-413b-acf7-34c6fec9507e": {
     "url": "db://assets/Scenes/Menu.scene",
     "value": {
@@ -4371,30 +4172,19 @@
     "value": {
       "depends": [
         "bd1591cd-3b79-42a1-88b6-54b62df957ee"
->>>>>>> map1
       ]
     },
     "versionCode": 0
   },
-  "0af02522-3297-4f07-8195-18a90b655de3": {
-    "url": "db://assets/Scripts/signUp.ts",
+  "6ae8d9ad-e94c-4d85-870a-2350c22422f0": {
+    "url": "db://assets/Scenes/map1Scene.scene",
     "value": {},
     "versionCode": 0
   },
-  "b6bfc790-f61d-428b-b5d1-bf55883bb5f1": {
-    "url": "db://assets/Scenes/Menu2.scene",
+  "4ad90e95-0bd6-4399-884c-98200c974ea6": {
+    "url": "db://assets/Map/maptest.tmx",
     "value": {
       "depends": [
-<<<<<<< HEAD
-        "b6bfc790-f61d-428b-b5d1-bf55883bb5f1",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
-      ],
-      "dependScripts": [
-        "0792a013-0a2a-4198-9597-59d2d29ce269"
-=======
         "7edc7134-1c13-40cc-b1e2-3ad8928ad3ec",
         "8091462d-7988-4df8-bf33-2fde2e134b50@f9941"
       ]
@@ -4491,68 +4281,52 @@
         "7580abf5-e0aa-47fa-9942-8d316dd31a3f",
         "7fad07f1-2c61-4914-9cd7-ac62763b5b62",
         "2f190f5c-3549-4665-a906-15ea7b948b53"
->>>>>>> map1
       ]
     },
     "versionCode": 0
   },
-<<<<<<< HEAD
-  "0792a013-0a2a-4198-9597-59d2d29ce269": {
-    "url": "db://assets/Scripts/menu.ts",
-    "value": {},
-    "versionCode": 0
-  },
-  "eafc482f-074d-4f87-be04-c0fb1a1583f3": {
-    "url": "db://assets/Scenes/Select.scene",
-    "value": {
-      "depends": [
-        "eafc482f-074d-4f87-be04-c0fb1a1583f3",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
-      ],
-      "dependScripts": [
-        "d236a061-25d3-4f65-ba39-2b512a6f0bc6"
-      ]
-=======
   "22551c57-344a-452d-b8f4-829538cba0a6": {
     "url": "db://assets/Map/Bridge_All.tsx",
     "value": {
       "depends": []
->>>>>>> map1
     },
     "versionCode": 0
   },
-  "d236a061-25d3-4f65-ba39-2b512a6f0bc6": {
-    "url": "db://assets/Scripts/Select.ts",
+  "90d6c57b-0b58-43f3-bac9-f3422735314b": {
+    "url": "db://assets/Map/Shadows.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ea1c2358-6ff0-4f50-bd12-602d03c5595d": {
+    "url": "db://assets/Map/Tilemap_Flat.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "8b76784a-46fe-47c2-8376-680b9709a4c9": {
+    "url": "db://assets/Map/Water.tsx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "338edc73-2c3e-47ac-9d0c-d86fddea8843": {
+    "url": "db://assets/Animations",
     "value": {},
     "versionCode": 0
   },
-  "493b4de0-50f1-4243-823e-c2a8c2c65773": {
-    "url": "db://assets/Scenes/Setting.scene",
+  "d3f4c39e-7c77-4633-8d2c-1fc4e72ec31f@f9941": {
+    "url": "db://assets/Map/map1source/Terrain/Water/Foam/Foam.png@f9941",
     "value": {
       "depends": [
-        "493b4de0-50f1-4243-823e-c2a8c2c65773",
-        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941",
-        "28765e2f-040a-4c65-8e8c-f9d0bb79d863@f9941"
-      ],
-      "dependScripts": [
-        "a8d43f3d-39c4-4bf1-b365-d803c5f0b09d"
+        "d3f4c39e-7c77-4633-8d2c-1fc4e72ec31f@6c48a"
       ]
     },
     "versionCode": 0
   },
-<<<<<<< HEAD
-  "a8d43f3d-39c4-4bf1-b365-d803c5f0b09d": {
-    "url": "db://assets/Scripts/Setting.ts",
-    "value": {},
-    "versionCode": 0
-=======
   "9b4f2d91-3141-45ba-9b22-9060dce5a9be@f9941": {
     "url": "db://assets/Map/map1source/Terrain/Water/Rocks/Rocks_04.png@f9941",
     "value": {
@@ -20551,6 +20325,102 @@
       ]
     },
     "versionCode": 0
->>>>>>> map1
+  },
+  "d236a061-25d3-4f65-ba39-2b512a6f0bc6": {
+    "url": "db://assets/Scripts/Select.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a8d43f3d-39c4-4bf1-b365-d803c5f0b09d": {
+    "url": "db://assets/Scripts/Setting.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0792a013-0a2a-4198-9597-59d2d29ce269": {
+    "url": "db://assets/Scripts/menu.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0af02522-3297-4f07-8195-18a90b655de3": {
+    "url": "db://assets/Scripts/signUp.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b6bfc790-f61d-428b-b5d1-bf55883bb5f1": {
+    "url": "db://assets/Scenes/Menu2.scene",
+    "value": {
+      "depends": [
+        "b6bfc790-f61d-428b-b5d1-bf55883bb5f1",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ],
+      "dependScripts": [
+        "0792a013-0a2a-4198-9597-59d2d29ce269"
+      ]
+    },
+    "versionCode": 0
+  },
+  "eafc482f-074d-4f87-be04-c0fb1a1583f3": {
+    "url": "db://assets/Scenes/Select.scene",
+    "value": {
+      "depends": [
+        "eafc482f-074d-4f87-be04-c0fb1a1583f3",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ],
+      "dependScripts": [
+        "d236a061-25d3-4f65-ba39-2b512a6f0bc6"
+      ]
+    },
+    "versionCode": 0
+  },
+  "493b4de0-50f1-4243-823e-c2a8c2c65773": {
+    "url": "db://assets/Scenes/Setting.scene",
+    "value": {
+      "depends": [
+        "493b4de0-50f1-4243-823e-c2a8c2c65773",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941",
+        "28765e2f-040a-4c65-8e8c-f9d0bb79d863@f9941"
+      ],
+      "dependScripts": [
+        "a8d43f3d-39c4-4bf1-b365-d803c5f0b09d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "99885cf8-a0b3-49c7-a502-ab109ef9e77f": {
+    "url": "db://assets/Scenes/signUp.scene",
+    "value": {
+      "depends": [
+        "99885cf8-a0b3-49c7-a502-ab109ef9e77f",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ],
+      "dependScripts": [
+        "0af02522-3297-4f07-8195-18a90b655de3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "60c3477a-6426-4d54-8868-59ed3f5e25f7": {
+    "url": "db://assets/Scenes/Menu.scene",
+    "value": {
+      "depends": [
+        "60c3477a-6426-4d54-8868-59ed3f5e25f7"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
   }
 }
