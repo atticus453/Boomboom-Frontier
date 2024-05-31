@@ -21,7 +21,7 @@ export class CameraFollow extends Component {
 
   updateTarget() {
     const selectedIndex = GlobalManager.instance.selectedPlayerIndex;
-    const playerPath = `Canvas/PlayerManager/Player${selectedIndex}`;
+    const playerPath = `Canvas/map1/ZorderByY/Player${selectedIndex}`;
     const playerNode = find(playerPath);
     if (playerNode) {
       this.target = playerNode;

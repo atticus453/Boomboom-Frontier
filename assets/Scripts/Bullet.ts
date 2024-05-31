@@ -16,10 +16,11 @@ const { ccclass, property } = _decorator;
 
 @ccclass("Bullet")
 export class Bullet extends Component {
-  private isCollied = false;
-
   private playerManagerPath: string = "Canvas/PlayerManager";
   private playerManager = null;
+
+  private isCollied = false;
+  private isNodePooling = true;
 
   protected onLoad(): void {
     let collider = this.node.getComponent(PolygonCollider2D);
@@ -30,6 +31,8 @@ export class Bullet extends Component {
     this.playerManager = find(this.playerManagerPath).getComponent(
       PlayerManager
     );
+
+    this.isNodePooling = this.playerManager.PoolMode;
   }
 
   start() {
@@ -39,8 +42,8 @@ export class Bullet extends Component {
   update(deltaTime: number) {
     if (this.isCollied) {
       console.log("Bullet is collied");
-      if (this.playerManager.PoolMode) {
-        this.playerManager.bulletPool.put(this.node);
+      if (this.isNodePooling) {
+        this.playerManager.recycleBullet(this.node);
         this.isCollied = false;
       } else this.node.destroy();
     }

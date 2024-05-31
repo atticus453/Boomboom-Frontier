@@ -18,6 +18,6 @@ export class SelectPlayer extends Component {
   }
 
   startGame() {
-    director.loadScene("Game");
+    director.loadScene("map1Scene");
   }
 }

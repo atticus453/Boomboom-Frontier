@@ -1,5 +1,13 @@
 // PlayerManager.ts
-import { _decorator, Component, Node, instantiate, Prefab, find } from "cc";
+import {
+  _decorator,
+  Component,
+  Node,
+  instantiate,
+  Prefab,
+  find,
+  NodePool,
+} from "cc";
 import GlobalManager from "./GlobalManager";
 import { PlayerPrefab } from "../PlayerPrefab";
 //import { PhotonManager } from './PhotonManager'; // 假设你有这样一个处理Photon事件的脚本
@@ -13,17 +21,23 @@ export class PlayerManager extends Component {
   @property(Prefab)
   playerPrefab: Prefab;
 
+  @property(Prefab)
+  bulletPrefab: Prefab;
+
   @property([Node])
   spawnPoints: Node[] = [];
 
-  private playerParentPath: string = "Canvas/map1/ZoderByY";
+  private playerParentPath: string = "Canvas/map1/ZorderByY";
   private playerParent: Node = null;
   private players: Node[] = [];
+
+  private bulletPool: NodePool = null;
 
   onLoad() {
     this.playerParent = find(this.playerParentPath);
     this.spawnPlayers();
     this.initializePlayers();
+    this.initBulletPool();
   }
 
   spawnPlayers() {
@@ -64,5 +78,30 @@ export class PlayerManager extends Component {
         );
       }
     });
+  }
+
+  initBulletPool() {
+    if (this.PoolMode) {
+      this.bulletPool = new NodePool();
+
+      for (let i = 0; i < 100; i++) {
+        let bullet = instantiate(this.bulletPrefab);
+        this.bulletPool.put(bullet);
+      }
+    }
+  }
+
+  createBullet(): Node {
+    let bullet: Node = null;
+    if (this.bulletPool.size() > 0) {
+      bullet = this.bulletPool.get();
+    } else {
+      bullet = instantiate(this.bulletPrefab);
+    }
+    return bullet;
+  }
+
+  recycleBullet(bullet: Node) {
+    this.bulletPool.put(bullet);
   }
 }

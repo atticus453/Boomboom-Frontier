@@ -46,7 +46,6 @@ export class PlayerPrefab extends Component {
   private playerManager = null;
   private PlayerIndex: number = 0;
 
-  private bulletPool: NodePool = null;
   private bulletSpeed = 25;
   private fireRate = 0.2;
   private shootInterval = 0;
@@ -56,7 +55,7 @@ export class PlayerPrefab extends Component {
   private dirY = 0;
   private angle = 0;
 
-  private isNodePooling = false;
+  private isNodePooling = true;
   private isDragging = false;
   private isShooting = false;
 
@@ -70,14 +69,6 @@ export class PlayerPrefab extends Component {
     );
 
     this.isNodePooling = this.playerManager.PoolMode;
-    if (this.isNodePooling) {
-      this.bulletPool = new NodePool();
-
-      for (let i = 0; i < 100; i++) {
-        let bullet = instantiate(this.bulletPrefab);
-        this.bulletPool.put(bullet);
-      }
-    }
   }
 
   start() {
@@ -218,7 +209,7 @@ export class PlayerPrefab extends Component {
 
   handlePlayerShoot() {
     let bullet = null;
-    if (this.isNodePooling) bullet = this.createBullet();
+    if (this.isNodePooling) bullet = this.playerManager.createBullet();
     else bullet = instantiate(this.bulletPrefab);
 
     bullet.parent = find(this.bulletLayerPath);
@@ -271,20 +262,6 @@ export class PlayerPrefab extends Component {
       input.off(Input.EventType.MOUSE_UP, this.onMouseUp, this);
       input.off(Input.EventType.MOUSE_MOVE, this.onMouseMove, this);
     }
-  }
-
-  createBullet(): Node {
-    let bullet: Node = null;
-    if (this.bulletPool.size() > 0) {
-      bullet = this.bulletPool.get();
-    } else {
-      bullet = instantiate(this.bulletPrefab);
-    }
-    return bullet;
-  }
-
-  recycleBullet(bullet: Node) {
-    this.bulletPool.put(bullet);
   }
 
   changeAngleToUnitVec() {
