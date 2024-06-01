@@ -1,15 +1,13 @@
 import {
   _decorator,
   Component,
-  Node,
   PolygonCollider2D,
   Contact2DType,
-  RigidBody2D,
-  v2,
   Collider2D,
   IPhysics2DContact,
   find,
 } from "cc";
+
 import { PlayerManager } from "./Manager/PlayerManager";
 
 const { ccclass, property } = _decorator;
@@ -45,7 +43,9 @@ export class Bullet extends Component {
       if (this.isNodePooling) {
         this.playerManager.recycleBullet(this.node);
         this.isCollied = false;
-      } else this.node.destroy();
+      } else {
+        this.node.destroy();
+      }
     }
   }
 

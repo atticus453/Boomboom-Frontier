@@ -4,8 +4,6 @@ import {
   Component,
   KeyCode,
   input,
-  SystemEvent,
-  Vec2,
   RigidBody2D,
   EventKeyboard,
   Input,
@@ -16,8 +14,6 @@ import {
   Collider2D,
   IPhysics2DContact,
   instantiate,
-  NodePool,
-  Node,
   math,
   EventMouse,
   UITransform,
@@ -30,6 +26,9 @@ import PhotonManager from "./Manager/PhotonManager";
 
 const { ccclass, property } = _decorator;
 
+// In the Fucntion "handlePlayerShoot"
+// There is a line need to be changed
+
 @ccclass("PlayerPrefab")
 export class PlayerPrefab extends Component {
   @property
@@ -38,23 +37,28 @@ export class PlayerPrefab extends Component {
   @property(Prefab)
   public bulletPrefab: Prefab = null;
 
+  // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
   private playerManagerPath: string = "Canvas/PlayerManager";
   private bulletLayerPath: string = "Canvas/BulletPool";
 
+  // The Node in the scene
   private photonManager = null;
   private playerManager = null;
   private PlayerIndex: number = 0;
 
+  // The properties of the bullet
   private bulletSpeed = 25;
   private fireRate = 0.2;
   private shootInterval = 0;
 
+  // The properties of the player
   private preDir: string = "RIGHT";
   private dirX = 0;
   private dirY = 0;
   private angle = 0;
 
+  // Some flags for judging the state of the player
   private isNodePooling = true;
   private isDragging = false;
   private isShooting = false;
@@ -94,6 +98,111 @@ export class PlayerPrefab extends Component {
         }
       }
     }
+  }
+
+  sendPosition() {
+    const position = this.node.position;
+    if (this.photonManager) {
+      this.photonManager.sendEvent(1, {
+        x: position.x,
+        y: position.y,
+        PlayerIndex: this.PlayerIndex,
+      });
+    }
+  }
+
+  handlePlayerPosition() {
+    let playerBody = this.node.getComponent(RigidBody2D);
+    playerBody.linearVelocity = v2(
+      this.dirX * this.playerSpeed,
+      this.dirY * this.playerSpeed
+    );
+
+    let playerFace: number[] = [1, 1];
+    switch (this.preDir) {
+      case "RIGHT":
+        playerFace = [1, 1];
+        break;
+      case "LEFT":
+        playerFace = [-1, 1];
+        break;
+    }
+    this.node.setScale(playerFace[0], playerFace[1]);
+
+    // --Waiting For Change--
+    //Here need to change the node to the gun
+    this.node.setRotationFromEuler(0, 0, this.angle);
+  }
+
+  handlePlayerShoot() {
+    // First create a bullet
+    let bullet = null;
+    if (this.isNodePooling) bullet = this.playerManager.createBullet();
+    else bullet = instantiate(this.bulletPrefab);
+
+    // Assign the bullet to the bullet layer
+    bullet.parent = find(this.bulletLayerPath);
+    let bulletBody = bullet.getComponent(RigidBody2D);
+
+    let bulletPosX: number,
+      bulletPosY: number,
+      bulletDir: number[] = [0, 0];
+
+    bulletDir = this.changeAngleToUnitVec();
+
+    bulletPosX = this.node.position.x + bulletDir[0] * 25;
+    bulletPosY = this.node.position.y + bulletDir[1] * 25;
+
+    bullet.setPosition(bulletPosX, bulletPosY);
+    bulletBody.linearVelocity = v2(
+      bulletDir[0] * this.bulletSpeed,
+      bulletDir[1] * this.bulletSpeed
+    );
+  }
+
+  onBeginContact(
+    selfCollider: Collider2D,
+    otherCollider: Collider2D,
+    contact: IPhysics2DContact
+  ) {}
+
+  // The function to handle the listener
+  // Use "LOAD" to open the listener
+  // Use "UNLOAD" to close the listener
+  handleListener(mode: string) {
+    if (mode === "LOAD") {
+      let collider = this.node.getComponent(BoxCollider2D);
+      if (collider) {
+        collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+      }
+
+      input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
+      input.on(Input.EventType.KEY_UP, this.onKeyUp, this);
+      input.on(Input.EventType.MOUSE_DOWN, this.onMouseDown, this);
+      input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this);
+      input.on(Input.EventType.MOUSE_MOVE, this.onMouseMove, this);
+    } else if (mode === "UNLOAD") {
+      let collider = this.node.getComponent(BoxCollider2D);
+      if (collider) {
+        collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+      }
+
+      input.off(Input.EventType.KEY_DOWN, this.onKeyDown, this);
+      input.off(Input.EventType.KEY_UP, this.onKeyUp, this);
+      input.off(Input.EventType.MOUSE_DOWN, this.onMouseDown, this);
+      input.off(Input.EventType.MOUSE_UP, this.onMouseUp, this);
+      input.off(Input.EventType.MOUSE_MOVE, this.onMouseMove, this);
+    }
+  }
+
+  // Use the angle to calculate the unit vector
+  changeAngleToUnitVec() {
+    let radian =
+      this.angle >= 0
+        ? math.toRadian(this.angle)
+        : math.toRadian(360 + this.angle);
+
+    return [Math.cos(radian), Math.sin(radian)];
   }
 
   private onKeyDown(event: EventKeyboard) {
@@ -174,102 +283,5 @@ export class PlayerPrefab extends Component {
         this.isShooting = false;
         break;
     }
-  }
-
-  sendPosition() {
-    const position = this.node.position;
-    if (this.photonManager) {
-      this.photonManager.sendEvent(1, {
-        x: position.x,
-        y: position.y,
-        PlayerIndex: this.PlayerIndex,
-      });
-    }
-  }
-
-  handlePlayerPosition() {
-    let playerBody = this.node.getComponent(RigidBody2D);
-    playerBody.linearVelocity = v2(
-      this.dirX * this.playerSpeed,
-      this.dirY * this.playerSpeed
-    );
-
-    let playerFace: number[] = [1, 1];
-    switch (this.preDir) {
-      case "RIGHT":
-        playerFace = [1, 1];
-        break;
-      case "LEFT":
-        playerFace = [-1, 1];
-        break;
-    }
-    this.node.setScale(playerFace[0], playerFace[1]);
-    this.node.setRotationFromEuler(0, 0, this.angle);
-  }
-
-  handlePlayerShoot() {
-    let bullet = null;
-    if (this.isNodePooling) bullet = this.playerManager.createBullet();
-    else bullet = instantiate(this.bulletPrefab);
-
-    bullet.parent = find(this.bulletLayerPath);
-    let bulletBody = bullet.getComponent(RigidBody2D);
-
-    let bulletPosX: number,
-      bulletPosY: number,
-      bulletDir: number[] = [0, 0];
-
-    bulletDir = this.changeAngleToUnitVec();
-
-    bulletPosX = this.node.position.x + bulletDir[0] * 25;
-    bulletPosY = this.node.position.y + bulletDir[1] * 25;
-
-    bullet.setPosition(bulletPosX, bulletPosY);
-
-    bulletBody.linearVelocity = v2(
-      bulletDir[0] * this.bulletSpeed,
-      bulletDir[1] * this.bulletSpeed
-    );
-  }
-
-  onBeginContact(
-    selfCollider: Collider2D,
-    otherCollider: Collider2D,
-    contact: IPhysics2DContact
-  ) {}
-
-  handleListener(mode: string) {
-    if (mode === "LOAD") {
-      let collider = this.node.getComponent(BoxCollider2D);
-      if (collider) {
-        collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
-      }
-
-      input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
-      input.on(Input.EventType.KEY_UP, this.onKeyUp, this);
-      input.on(Input.EventType.MOUSE_DOWN, this.onMouseDown, this);
-      input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this);
-      input.on(Input.EventType.MOUSE_MOVE, this.onMouseMove, this);
-    } else if (mode === "UNLOAD") {
-      let collider = this.node.getComponent(BoxCollider2D);
-      if (collider) {
-        collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
-      }
-
-      input.off(Input.EventType.KEY_DOWN, this.onKeyDown, this);
-      input.off(Input.EventType.KEY_UP, this.onKeyUp, this);
-      input.off(Input.EventType.MOUSE_DOWN, this.onMouseDown, this);
-      input.off(Input.EventType.MOUSE_UP, this.onMouseUp, this);
-      input.off(Input.EventType.MOUSE_MOVE, this.onMouseMove, this);
-    }
-  }
-
-  changeAngleToUnitVec() {
-    let radian =
-      this.angle >= 0
-        ? math.toRadian(this.angle)
-        : math.toRadian(360 + this.angle);
-
-    return [Math.cos(radian), Math.sin(radian)];
   }
 }
