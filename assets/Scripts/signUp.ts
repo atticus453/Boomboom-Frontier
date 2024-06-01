@@ -14,16 +14,17 @@ export class signUp extends Component {
 
     @property(Array<User>) userList: User[] = [];
     writeUserData(mail, na, die, ki) {
-        const comListRef = firebase.database().ref('users');
+        const currentUser = firebase.auth().currentUser;
+        const usersRef = firebase.database().ref('users/' + currentUser.uid);
         // 2. 将帖子数据推送到数据库的 "com_list" 节点
-        var newPostRef = comListRef.push();
+        // var newPostRef = usersRef.push();
         let data = {
             name: na,
             email: mail,
             death: die,
             kill: ki
         }
-        newPostRef.set(data)
+        usersRef.set(data)
             .then(function() {
                 console.log("Post successfully added to database.");
             })
@@ -48,13 +49,10 @@ export class signUp extends Component {
         this.BackBtn.clickEvents.push(BackButton);
 
         const userRef = firebase.database().ref('users');
-        userRef.once('value')
-        .then((snapshot) => {
+        userRef.once('value')((snapshot) => {
             // 获取快照中的所有子节点数据
             const userData = snapshot.val();
             // 在这里处理所有子节点数据
-            // console.log(userData);
-            // this.userList.push(userData);
             for (const key in userData) {
                 if (userData.hasOwnProperty(key)) {
                     const user: User = userData[key];
@@ -62,8 +60,7 @@ export class signUp extends Component {
                 }
             }
             console.log(userData);
-        })
-        .catch((error) => {
+        }, (error) => {
             // 处理错误
             console.error(error);
         });
@@ -72,12 +69,15 @@ export class signUp extends Component {
     update(deltaTime: number) {
         
     }
+
     textChange(){
         console.log(this.nameBox.string);
     }
+
     BackMenu(){
         director.loadScene("Menu2");
     }
+
     loadGameScene(){
         if(this.userList.findIndex(user => user.name == this.nameBox.string) != -1){
             alert("username has been used");
@@ -91,30 +91,10 @@ export class signUp extends Component {
             alert('Signup successful.');
             director.loadScene("Select");
             // 清空输入字段
-            // txtEmail.value = '';
-            // txtPassword.value = '';
-            // txtName.value = '';
         })
         .catch((error) => {
-            // 注册失败
             alert(error.message);
-            // 清空输入字段
-            // txtEmail.value = '';
-            // txtPassword.value = '';
-            // txtName.value = '';
-        });
-
-        
-        // let data = {
-        //     name: this.nameBox.string,
-        //     score: this.passwordBox.string
-        // }
-        // console.log(data);
-        // if(this.userList.findIndex(user => user.name == this.nameBox.string && user.score == this.passwordBox.string) == -1){
-        //     alert("wrong user");
-        //     return;
-        // };
-        
+        });     
     }
 }
 

@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "16128d13-7bde-465d-b6eb-b816b789b1e1",
+  "uuid": "3b7a547d-bf99-434e-a15f-e2b55da7cd22",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "16128d13-7bde-465d-b6eb-b816b789b1e1@6c48a",
+      "uuid": "3b7a547d-bf99-434e-a15f-e2b55da7cd22@6c48a",
       "displayName": "Jump",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "16128d13-7bde-465d-b6eb-b816b789b1e1",
+        "imageUuidOrDatabaseUri": "3b7a547d-bf99-434e-a15f-e2b55da7cd22",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "16128d13-7bde-465d-b6eb-b816b789b1e1@6c48a"
+    "redirect": "3b7a547d-bf99-434e-a15f-e2b55da7cd22@6c48a"
   }
 }

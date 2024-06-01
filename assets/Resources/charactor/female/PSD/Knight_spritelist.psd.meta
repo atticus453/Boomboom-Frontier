@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "bbba3191-9f14-4d92-9224-3e45fe8e168d",
+  "uuid": "d43d225c-f55a-47b5-a23e-55ccdaa62d0b",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "bbba3191-9f14-4d92-9224-3e45fe8e168d@6c48a",
+      "uuid": "d43d225c-f55a-47b5-a23e-55ccdaa62d0b@6c48a",
       "displayName": "Knight_spritelist",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "bbba3191-9f14-4d92-9224-3e45fe8e168d",
+        "imageUuidOrDatabaseUri": "d43d225c-f55a-47b5-a23e-55ccdaa62d0b",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "bbba3191-9f14-4d92-9224-3e45fe8e168d@6c48a"
+    "redirect": "d43d225c-f55a-47b5-a23e-55ccdaa62d0b@6c48a"
   }
 }

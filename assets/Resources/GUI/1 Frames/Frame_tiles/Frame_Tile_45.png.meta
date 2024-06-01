@@ -2,27 +2,119 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "9e6b1c4d-87f8-4406-b1bf-dab1a449cf8d",
+  "uuid": "cab554cd-eda1-48a3-8bae-2e5ee7fd4e76",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "cab554cd-eda1-48a3-8bae-2e5ee7fd4e76@f9941",
+      "displayName": "Frame_Tile_45",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -7,
+        "offsetY": 5.5,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 2,
+        "height": 5,
+        "rawWidth": 16,
+        "rawHeight": 16,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -1,
+            -2.5,
+            0,
+            1,
+            -2.5,
+            0,
+            -1,
+            2.5,
+            0,
+            1,
+            2.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            0,
+            16,
+            2,
+            16,
+            0,
+            11,
+            2,
+            11
+          ],
+          "nuv": [
+            0,
+            0.6875,
+            0.125,
+            0.6875,
+            0,
+            1,
+            0.125,
+            1
+          ],
+          "minPos": [
+            -1,
+            -2.5,
+            0
+          ],
+          "maxPos": [
+            1,
+            2.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "cab554cd-eda1-48a3-8bae-2e5ee7fd4e76@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "6c48a": {
       "importer": "texture",
-      "uuid": "9e6b1c4d-87f8-4406-b1bf-dab1a449cf8d@6c48a",
+      "uuid": "cab554cd-eda1-48a3-8bae-2e5ee7fd4e76@6c48a",
       "displayName": "Frame_Tile_45",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "9e6b1c4d-87f8-4406-b1bf-dab1a449cf8d",
+        "imageUuidOrDatabaseUri": "cab554cd-eda1-48a3-8bae-2e5ee7fd4e76",
         "visible": false
       },
       "ver": "1.0.22",
@@ -35,8 +127,8 @@
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "9e6b1c4d-87f8-4406-b1bf-dab1a449cf8d@6c48a"
+    "redirect": "cab554cd-eda1-48a3-8bae-2e5ee7fd4e76@f9941"
   }
 }

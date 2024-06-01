@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "8316be23-78be-4f46-b23b-ae939b560bdc",
+  "uuid": "5e952bae-d5a1-44ee-b60e-308a5398e5c9",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "8316be23-78be-4f46-b23b-ae939b560bdc@6c48a",
+      "uuid": "5e952bae-d5a1-44ee-b60e-308a5398e5c9@6c48a",
       "displayName": "Swordsman_spritelist",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "8316be23-78be-4f46-b23b-ae939b560bdc",
+        "imageUuidOrDatabaseUri": "5e952bae-d5a1-44ee-b60e-308a5398e5c9",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "8316be23-78be-4f46-b23b-ae939b560bdc@6c48a"
+    "redirect": "5e952bae-d5a1-44ee-b60e-308a5398e5c9@6c48a"
   }
 }

@@ -1,10 +1,15 @@
 import { _decorator, Component, Node, Slider, Button, director} from 'cc';
 const { ccclass, property } = _decorator;
 import { backPage } from './Select';
+
 @ccclass('Setting')
 export class Setting extends Component {
-    @property(Slider) slider: Slider = null;
-    @property(Button) BackBtn: Button = null;
+    @property(Slider) 
+    slider: Slider = null;
+
+    @property(Button) 
+    BackBtn: Button = null;
+
     start() {
         if (this.slider) {
             this.slider.node.on('slide', this.onSliderChanged, this);
@@ -29,7 +34,7 @@ export class Setting extends Component {
         if(backPage == 1){
             director.loadScene("Select");
         }else{
-            director.loadScene("Menu2");
+            director.loadScene("MultiRoom");
         }
         
     }

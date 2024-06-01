@@ -2,27 +2,119 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "8a8915d9-22a3-4711-93aa-4fdd578f9d57",
+  "uuid": "4fb8aa00-5259-460f-ab87-0d06410a9536",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "4fb8aa00-5259-460f-ab87-0d06410a9536@f9941",
+      "displayName": "Back6",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 48,
+        "height": 27,
+        "rawWidth": 48,
+        "rawHeight": 27,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -24,
+            -13.5,
+            0,
+            24,
+            -13.5,
+            0,
+            -24,
+            13.5,
+            0,
+            24,
+            13.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            0,
+            27,
+            48,
+            27,
+            0,
+            0,
+            48,
+            0
+          ],
+          "nuv": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "minPos": [
+            -24,
+            -13.5,
+            0
+          ],
+          "maxPos": [
+            24,
+            13.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4fb8aa00-5259-460f-ab87-0d06410a9536@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "6c48a": {
       "importer": "texture",
-      "uuid": "8a8915d9-22a3-4711-93aa-4fdd578f9d57@6c48a",
+      "uuid": "4fb8aa00-5259-460f-ab87-0d06410a9536@6c48a",
       "displayName": "Back6",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "8a8915d9-22a3-4711-93aa-4fdd578f9d57",
+        "imageUuidOrDatabaseUri": "4fb8aa00-5259-460f-ab87-0d06410a9536",
         "visible": false
       },
       "ver": "1.0.22",
@@ -35,8 +127,8 @@
   },
   "userData": {
     "hasAlpha": false,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "8a8915d9-22a3-4711-93aa-4fdd578f9d57@6c48a"
+    "redirect": "4fb8aa00-5259-460f-ab87-0d06410a9536@f9941"
   }
 }

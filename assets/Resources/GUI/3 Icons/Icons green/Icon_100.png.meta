@@ -2,27 +2,119 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "8206634f-edc2-45b1-aceb-b674d8f0726b",
+  "uuid": "8bb5965d-d099-4dce-8130-6cb1dbdd4d74",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "8bb5965d-d099-4dce-8130-6cb1dbdd4d74@f9941",
+      "displayName": "Icon_100",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -0.5,
+        "trimX": 1,
+        "trimY": 2,
+        "width": 16,
+        "height": 15,
+        "rawWidth": 18,
+        "rawHeight": 18,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -8,
+            -7.5,
+            0,
+            8,
+            -7.5,
+            0,
+            -8,
+            7.5,
+            0,
+            8,
+            7.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            1,
+            16,
+            17,
+            16,
+            1,
+            1,
+            17,
+            1
+          ],
+          "nuv": [
+            0.05555555555555555,
+            0.05555555555555555,
+            0.9444444444444444,
+            0.05555555555555555,
+            0.05555555555555555,
+            0.8888888888888888,
+            0.9444444444444444,
+            0.8888888888888888
+          ],
+          "minPos": [
+            -8,
+            -7.5,
+            0
+          ],
+          "maxPos": [
+            8,
+            7.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8bb5965d-d099-4dce-8130-6cb1dbdd4d74@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "6c48a": {
       "importer": "texture",
-      "uuid": "8206634f-edc2-45b1-aceb-b674d8f0726b@6c48a",
+      "uuid": "8bb5965d-d099-4dce-8130-6cb1dbdd4d74@6c48a",
       "displayName": "Icon_100",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
-        "mipfilter": "none",
+        "mipfilter": "linear",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "8206634f-edc2-45b1-aceb-b674d8f0726b",
+        "imageUuidOrDatabaseUri": "8bb5965d-d099-4dce-8130-6cb1dbdd4d74",
         "visible": false
       },
       "ver": "1.0.22",
@@ -35,8 +127,8 @@
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "8206634f-edc2-45b1-aceb-b674d8f0726b@6c48a"
+    "redirect": "8bb5965d-d099-4dce-8130-6cb1dbdd4d74@f9941"
   }
 }

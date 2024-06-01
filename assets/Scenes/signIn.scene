@@ -54,7 +54,7 @@
     "_globals": {
       "__id__": 46
     },
-    "_id": "48e623e0-fb0e-46ea-b0f6-9e706504b2ab"
+    "_id": "ac140ebd-7513-4b46-bd88-c793f52ea675"
   },
   {
     "__type__": "cc.Node",
@@ -173,7 +173,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 452.4333925399645,
+    "_orthoHeight": 371.3517786561265,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -1785,7 +1785,7 @@
     "_id": "1bMlftcMtCsZ/eu5JB700x"
   },
   {
-    "__type__": "3e093ZeextCMJWpYrVNqwXk",
+    "__type__": "f008atGYG5A06lT7yZ4vIuK",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -1803,7 +1803,7 @@
     "BackBtn": {
       "__id__": 39
     },
-    "_id": "b832R1WcBPt44gtcq/gemr"
+    "_id": "3bIxrazyZL4YxesLJItQ2n"
   },
   {
     "__type__": "cc.UITransform",
