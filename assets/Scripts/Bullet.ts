@@ -1,36 +1,36 @@
 import {
   _decorator,
   Component,
-  Node,
   PolygonCollider2D,
   Contact2DType,
-  RigidBody2D,
-  v2,
   Collider2D,
   IPhysics2DContact,
   find,
 } from "cc";
-import { GameMgr } from "./GameMgr";
+
+import { PlayerManager } from "./Manager/PlayerManager";
 
 const { ccclass, property } = _decorator;
 
 @ccclass("Bullet")
 export class Bullet extends Component {
-  private isCollied = false;
+  private playerManagerPath: string = "Canvas/PlayerManager";
+  private playerManager = null;
 
-  private gameMgr = null;
+  private isCollied = false;
+  private isNodePooling = true;
 
   protected onLoad(): void {
     let collider = this.node.getComponent(PolygonCollider2D);
-    try {
+    if (collider) {
       collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
     }
-    catch (error) {
-      console.log(error);
-    }
-      
 
-    this.gameMgr = find("Canvas/GameMgr").getComponent(GameMgr);
+    this.playerManager = find(this.playerManagerPath).getComponent(
+      PlayerManager
+    );
+
+    this.isNodePooling = this.playerManager.PoolMode;
   }
 
   start() {
@@ -40,10 +40,12 @@ export class Bullet extends Component {
   update(deltaTime: number) {
     if (this.isCollied) {
       console.log("Bullet is collied");
-      if (this.gameMgr.PoolMode) {
-        this.gameMgr.bulletPool.put(this.node);
+      if (this.isNodePooling) {
+        this.playerManager.recycleBullet(this.node);
         this.isCollied = false;
-      } else this.node.destroy();
+      } else {
+        this.node.destroy();
+      }
     }
   }
 
@@ -52,7 +54,10 @@ export class Bullet extends Component {
     otherCollider: Collider2D,
     contact: IPhysics2DContact
   ) {
-    if (otherCollider.node.name === "Bound") {
+    if (
+      otherCollider.node.parent.name === "Barriers" ||
+      otherCollider.node.name === "tree"
+    ) {
       this.isCollied = true;
     }
   }
