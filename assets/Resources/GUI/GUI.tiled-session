@@ -1,0 +1,76 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/Stage2.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "#Tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/Bridge_All.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/Shadows.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/Stage2.tmx": {
+            "scale": 0.53734375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 801.1631288165164,
+                "y": 361.0351846466996
+            }
+        },
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/Stage2.tmx#tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/Tilemap_Elevation.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/Tilemap_Flat.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/Water.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/map1.tmx": {
+            "scale": 0.6716796875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 640.9305030532131,
+                "y": 479.3951730154114
+            }
+        },
+        "Frame_Tile_01.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        }
+    },
+    "last.imagePath": "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Resources/GUI/1 Frames/Frame_tiles",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/map1.tmx",
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/Stage2.tmx"
+    ],
+    "project": "GUI.tiled-project",
+    "recentFiles": [
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/map1.tmx",
+        "C:/Users/USER/OneDrive - NTHU/Information System/Final_Project/Boomboom-Frontier/assets/Map/Stage2.tmx",
+        "Frame_Tile_01.tsx",
+        "Tileset.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

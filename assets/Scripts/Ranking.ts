@@ -21,19 +21,20 @@ export default class Ranking extends cc.Component {
             const usersData = snapshot.val();
             const usersDataArr = Object.keys(usersData).map((key)=>usersData[key]);
             // cc.log(Object.keys(usersData).map((key)=>usersData[key]));
-            // cc.log(data);
+            // console.log(usersDataArr);
             usersDataArr.sort((a, b)=>{
-                return a.score - b.score;
+                return b.kill - a.kill;
             });
-            // cc.log(usersDataArr);
             for(var i = 0; i < usersDataArr.length; i++) {
                 var optItem = cc.instantiate(this.item_prefab); //實例化一個預製體
-                var optItemSize = optItem.getComponent(cc.UITransform).contentSize;
+                var optItemSize = optItem.getChildByName("background").getComponent(cc.UITransform).contentSize;
                 cc.log(optItemSize.width);
                 scr.content.addChild(optItem);
-                optItem.position = cc.v3(optItem.position.x, optItem.position.y - i*optItemSize.height - 50, 0);
+                console.log(optItem.position.x);
+                optItem.position = cc.v3(optItem.position.x, optItem.position.y - i*optItemSize.height*1.1 - 50, 0);
                 optItem.getChildByName("name").getComponent(cc.Label).string = usersDataArr[i].name;
-                optItem.getChildByName("score").getComponent(cc.Label).string = usersDataArr[i].score;
+                optItem.getChildByName("score").getComponent(cc.Label).string = usersDataArr[i].kill;
+                optItem.getChildByName("rank").getComponent(cc.Label).string = i.toString();
     
             }
         });
@@ -58,6 +59,10 @@ export default class Ranking extends cc.Component {
 
     start () {
 
+    }
+
+    onReturnClick(){
+        cc.director.loadScene("MultiSelect");
     }
 
     // update (dt) {}

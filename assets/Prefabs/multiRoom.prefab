@@ -43,7 +43,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 60.06299999999993,
+      "y": 0,
       "z": 0
     },
     "_lrot": {
@@ -172,7 +172,7 @@
     "_string": "room",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 54.921875,
+    "_actualFontSize": 50,
     "_fontSize": 50,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -383,9 +383,16 @@
     "__prefab": {
       "__id__": 15
     },
+    "returnButton": null,
+    "startButton": null,
+    "settingButton": null,
+    "mapButton": null,
     "roomName": {
       "__id__": 5
     },
+    "roomIDLabel": null,
+    "userPrefab": null,
+    "bagButton": null,
     "_id": ""
   },
   {
