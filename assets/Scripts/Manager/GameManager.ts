@@ -11,7 +11,7 @@ export default class GameManager extends Component {
     static isPickup: boolean = false;
 
     start() {
-        this.getComponent(AudioSource).volume = Setting.volume;
+        this.getComponent(AudioSource).volume = Setting.BGMvolume;
         this.items = find('Canvas/items')!.children;
         console.log(this.items);
         for(let item of this.items) {
