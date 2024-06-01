@@ -54,6 +54,7 @@ export class PlayerManager extends Component {
     const selectedIndex = GlobalManager.instance.selectedPlayerIndex;
     this.players.forEach((player, index) => {
       const controlComponent = player.getComponent(PlayerPrefab);
+      controlComponent.playerIndex = index+1;
       if (index === selectedIndex - 1) {
         // 激活该玩家的控制脚本
         player.name = `Player${index + 1}`;
@@ -68,7 +69,7 @@ export class PlayerManager extends Component {
       } else {
         // 禁用其他玩家的控制脚本，但依然会接收位置更新
         player.name = `Player${index + 1}`;
-        controlComponent.enabled = false;
+        controlComponent.enabled = true;
         console.log("Player is controlled by the remote player");
         console.log(
           "Selected player index  and Index ",
@@ -104,4 +105,29 @@ export class PlayerManager extends Component {
   recycleBullet(bullet: Node) {
     this.bulletPool.put(bullet);
   }
+
+  updateHealth(playerIndex: number, damage: number) {
+    const playerNode = this.players[playerIndex - 1]; // 假设playerIndex是从1开始的
+    if (playerNode) {
+      const playerComponent = playerNode.getComponent(PlayerPrefab);
+      if (playerComponent) {
+        playerComponent.updateHealth(damage);
+      }
+    } else {
+      console.log("Player node not found for index: ", playerIndex);
+    }
+  }
+
+  handlePlayerShoot(playerIndex: number) {
+    const playerNode = this.players[playerIndex - 1]; // 假设playerIndex是从1开始的
+    if (playerNode) {
+      const playerComponent = playerNode.getComponent(PlayerPrefab);
+      if (playerComponent) {
+        playerComponent.handlePlayerShoot();
+      }
+    } else {
+      console.log("Player node not found for index: ", playerIndex);
+    }
+  }
+  
 }

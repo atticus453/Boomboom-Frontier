@@ -31,6 +31,8 @@ export class Bullet extends Component {
     );
 
     this.isNodePooling = this.playerManager.PoolMode;
+    //set name
+    this.node.name = "Bullet";
   }
 
   start() {
@@ -56,7 +58,10 @@ export class Bullet extends Component {
   ) {
     if (
       otherCollider.node.parent.name === "Barriers" ||
-      otherCollider.node.name === "tree"
+      otherCollider.node.name === "tree" ||
+      otherCollider.node.name === "Player1" ||
+      otherCollider.node.name === "Player2" ||
+      otherCollider.node.name === "Player3" 
     ) {
       this.isCollied = true;
     }

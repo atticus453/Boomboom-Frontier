@@ -18,6 +18,9 @@ import {
 } from "cc";
 // import Photon Photon-Javascript_SDK on the following line
 
+import { PlayerManager } from "./PlayerManager";
+import { PlayerPrefab } from "../PlayerPrefab";
+
 @ccclass("PhotonManager")
 export default class PhotonManager extends Component {
   @property(String)
@@ -189,9 +192,9 @@ export default class PhotonManager extends Component {
           // For this example, we'll broadcast to everyone including the sender
           target: Photon.LoadBalancing.Constants.ReceiverGroup.Others,
           // Using reliable: true to ensure delivery
-          sendReliable: true,
+          sendReliable: false,
         });
-        console.log("Event sent successfully", eventCode, data);
+        //console.log("Event sent successfully", eventCode, data);
       } catch (error) {
         console.error("Failed to send event", eventCode, data, error);
       }
@@ -201,24 +204,57 @@ export default class PhotonManager extends Component {
   }
 
   onEvent(code: number, content: any, actorNr: number) {
-    console.log("Event:", code, "Content:", content, "Actor:", actorNr);
+    //console.log("Event:", code, "Content:", content, "Actor:", actorNr);
     if (code === 1) {
       // 假设 '1' 是位置更新的事件代码
       this.updatePlayerPosition(content);
+    } else if (code === 2) {
+      // 处理血量更新事件
+      this.updatePlayerHealth(content);
+    } else if (code === 3) {
+      this.handleShootEvent(content);
     }
+
+  
   }
 
   updatePlayerPosition(content: any) {
     // 使用 content 中的 selectedIndex 来找到对应的玩家节点
     const playerNode = find(
-      `Canvas/PlayerManager/Player${content.PlayerIndex}`
+      `Canvas/map1/ZorderByY/Player${content.PlayerIndex}`
     );
     if (playerNode) {
       playerNode.setPosition(
-        new Vec3(content.x, content.y, playerNode.position.z)
+        new Vec3(content.x, content.y,playerNode.position.z)
       ); // 假设 z 坐标不变
+      playerNode.getComponent(PlayerPrefab).angle = content.angle;
     } else {
       console.log("Player node not found for index: ", content.PlayerIndex);
+    }
+  }
+
+  updatePlayerHealth(content: any) {
+    // 使用 content 中的 selectedIndex 来找到对应的玩家节点
+    const playerManagerNode = find(
+      `Canvas/PlayerManager`
+    );
+    if (playerManagerNode) {
+      const playerManager = playerManagerNode.getComponent(PlayerManager);
+      if (playerManager) {
+        playerManager.updateHealth(content.PlayerIndex, content.Damage);
+      }
+    }
+  }
+
+  handleShootEvent(content: any) {
+    const playerManagerNode = find(
+      `Canvas/PlayerManager`
+    );
+    if (playerManagerNode) {
+      const playerManager = playerManagerNode.getComponent(PlayerManager);
+      if (playerManager) {
+        playerManager.handlePlayerShoot(content.PlayerIndex);
+      }
     }
   }
 }

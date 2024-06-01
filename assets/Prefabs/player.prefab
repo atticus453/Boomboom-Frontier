@@ -122,7 +122,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "6b32fbda-1186-46bc-8fec-ae8451cc4fd4@f9941",
+      "__uuid__": "484b6dc3-ab5f-4ee7-96a0-d999a1192915@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -156,7 +156,7 @@
     "__prefab": {
       "__id__": 7
     },
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_group": 1,
@@ -299,6 +299,8 @@
       "__uuid__": "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
       "__expectedType__": "cc.Prefab"
     },
+    "health": 100,
+    "playerIndex": 0,
     "_id": ""
   },
   {
@@ -314,6 +316,7 @@
       "__id__": 0
     },
     "fileId": "32Qnf9n6lKSabs6seR5jIS",
+    "instance": null,
     "targetOverrides": null
   }
 ]

@@ -37,6 +37,12 @@ export class PlayerPrefab extends Component {
   @property(Prefab)
   public bulletPrefab: Prefab = null;
 
+  @property
+  public health: number = 100;
+
+  @property
+  public playerIndex: number = 0;
+
   // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
   private playerManagerPath: string = "Canvas/PlayerManager";
@@ -45,7 +51,8 @@ export class PlayerPrefab extends Component {
   // The Node in the scene
   private photonManager = null;
   private playerManager = null;
-  private PlayerIndex: number = 0;
+  private selectedPlayerIndex = 0;
+
 
   // The properties of the bullet
   private bulletSpeed = 25;
@@ -72,12 +79,16 @@ export class PlayerPrefab extends Component {
       PhotonManager
     );
 
+    let collider = this.node.getComponent(BoxCollider2D);
+
     this.isNodePooling = this.playerManager.PoolMode;
+    this.selectedPlayerIndex = GlobalManager.instance.selectedPlayerIndex;
+
   }
 
   start() {
     this.handleListener("LOAD");
-    this.PlayerIndex = GlobalManager.instance.selectedPlayerIndex;
+    //this.PlayerIndex = GlobalManager.instance.selectedPlayerIndex;
   }
 
   onDestroy() {
@@ -85,19 +96,28 @@ export class PlayerPrefab extends Component {
   }
 
   update(deltaTime: number) {
-    let playerBody = this.node.getComponent(RigidBody2D);
-    if (playerBody) {
-      this.handlePlayerPosition();
-      this.sendPosition();
-
-      if (this.isShooting) {
-        this.shootInterval -= deltaTime;
-        if (this.shootInterval <= 0) {
-          this.handlePlayerShoot();
-          this.shootInterval = this.fireRate;
+    if(this.playerIndex === this.selectedPlayerIndex){
+      let playerBody = this.node.getComponent(RigidBody2D);
+      if (playerBody ) {
+        this.handlePlayerPosition();
+        this.sendPosition();
+  
+        if (this.isShooting) {
+          this.shootInterval -= deltaTime;
+          if (this.shootInterval <= 0) {
+            this.handlePlayerShoot();
+            this.shootInterval = this.fireRate;
+          }
         }
+      } 
+    } else {
+      let playerBody = this.node.getComponent(RigidBody2D);
+      if (playerBody) {
+        this.handlePlayerPosition();
       }
+    
     }
+
   }
 
   sendPosition() {
@@ -106,7 +126,8 @@ export class PlayerPrefab extends Component {
       this.photonManager.sendEvent(1, {
         x: position.x,
         y: position.y,
-        PlayerIndex: this.PlayerIndex,
+        angle: this.angle,
+        PlayerIndex: this.playerIndex,
       });
     }
   }
@@ -137,6 +158,7 @@ export class PlayerPrefab extends Component {
   handlePlayerShoot() {
     // First create a bullet
     let bullet = null;
+    if(this.playerIndex === this.selectedPlayerIndex) this.sendShootEvent();
     if (this.isNodePooling) bullet = this.playerManager.createBullet();
     else bullet = instantiate(this.bulletPrefab);
 
@@ -164,12 +186,33 @@ export class PlayerPrefab extends Component {
     selfCollider: Collider2D,
     otherCollider: Collider2D,
     contact: IPhysics2DContact
-  ) {}
+  ) {
+
+
+    if (otherCollider.node.name === "Bullet" && this.playerIndex === this.selectedPlayerIndex) {
+      this.updateHealth(-10);
+      this.sendUpdateHealth(-10);
+    } 
+  }
+
+  updateHealth(amount: number) {
+    this.health += amount;
+    console.log(`Health updated: ${this.health}`);
+    if(this.health <= 0){
+      console.log("Player is dead");
+      //this.node.destroy();
+    } else {
+      // --Waiting For Change--
+      //Here need to change the node to the health bar
+      //this.node.setScale(this.health / 100, 1);
+    }
+  }
 
   // The function to handle the listener
   // Use "LOAD" to open the listener
   // Use "UNLOAD" to close the listener
   handleListener(mode: string) {
+    // judge is the current user
     if (mode === "LOAD") {
       let collider = this.node.getComponent(BoxCollider2D);
       if (collider) {
@@ -282,6 +325,25 @@ export class PlayerPrefab extends Component {
       case 0: // BUTTON_LEFT
         this.isShooting = false;
         break;
+    }
+  }
+
+  sendUpdateHealth(damage: number) {
+    if (this.photonManager) {
+      this.photonManager.sendEvent(2, { // 假设 '2' 是更新血量的事件代码
+        PlayerIndex: this.playerIndex,
+        Damage: damage
+      });
+    }
+  }
+
+  //send Shoot Event
+  sendShootEvent() {
+    if (this.photonManager) {
+      this.photonManager.sendEvent(3, { // 假设 '3' 是射击的事件代码
+        PlayerIndex: this.playerIndex,
+      });
+      console.log("Send Shoot Event");
     }
   }
 }
