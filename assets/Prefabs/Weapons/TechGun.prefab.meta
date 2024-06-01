@@ -2,12 +2,12 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
-  "uuid": "e91380b6-829c-4d25-9432-546e7c9f2e9b",
+  "uuid": "4feddd53-180c-4666-939c-85c20367f185",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "weapon1"
+    "syncNodeName": "TechGun"
   }
 }

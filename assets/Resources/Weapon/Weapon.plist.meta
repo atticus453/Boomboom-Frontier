@@ -1,0 +1,247 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "c5bd7": {
+      "importer": "sprite-frame",
+      "uuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6@c5bd7",
+      "displayName": "",
+      "id": "c5bd7",
+      "name": "GrenadeLauncher",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 88,
+        "height": 41,
+        "rawWidth": 90,
+        "rawHeight": 45,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6cb58f45-b4cc-4861-8409-72efb49ca0df@6c48a",
+        "atlasUuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ad6ca": {
+      "importer": "sprite-frame",
+      "uuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6@ad6ca",
+      "displayName": "",
+      "id": "ad6ca",
+      "name": "Haruda",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 1,
+        "offsetY": 1,
+        "trimX": 88,
+        "trimY": 0,
+        "width": 88,
+        "height": 41,
+        "rawWidth": 90,
+        "rawHeight": 45,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6cb58f45-b4cc-4861-8409-72efb49ca0df@6c48a",
+        "atlasUuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a79c5": {
+      "importer": "sprite-frame",
+      "uuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6@a79c5",
+      "displayName": "",
+      "id": "a79c5",
+      "name": "TechGun",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -0.5,
+        "trimX": 176,
+        "trimY": 0,
+        "width": 82,
+        "height": 40,
+        "rawWidth": 90,
+        "rawHeight": 45,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6cb58f45-b4cc-4861-8409-72efb49ca0df@6c48a",
+        "atlasUuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "25b34": {
+      "importer": "sprite-frame",
+      "uuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6@25b34",
+      "displayName": "",
+      "id": "25b34",
+      "name": "SmallGun",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 2,
+        "offsetY": -3,
+        "trimX": 258,
+        "trimY": 0,
+        "width": 82,
+        "height": 39,
+        "rawWidth": 90,
+        "rawHeight": 45,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6cb58f45-b4cc-4861-8409-72efb49ca0df@6c48a",
+        "atlasUuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1b53f": {
+      "importer": "sprite-frame",
+      "uuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6@1b53f",
+      "displayName": "",
+      "id": "1b53f",
+      "name": "LongGun",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0.5,
+        "offsetY": -2,
+        "trimX": 340,
+        "trimY": 0,
+        "width": 77,
+        "height": 41,
+        "rawWidth": 90,
+        "rawHeight": 45,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6cb58f45-b4cc-4861-8409-72efb49ca0df@6c48a",
+        "atlasUuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "Weapon.png",
+    "format": 2,
+    "uuid": "e53c6a27-880e-406a-ba6f-8e333f70dba6",
+    "textureUuid": "6cb58f45-b4cc-4861-8409-72efb49ca0df@6c48a"
+  }
+}
