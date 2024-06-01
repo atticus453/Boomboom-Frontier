@@ -20729,5 +20729,15 @@
     "url": "db://assets/Scenes/ScoreBoard-001.scene",
     "value": {},
     "versionCode": 0
+  },
+  "44c68f96-f0fe-4e17-8415-6b1dba0d4d3e": {
+    "url": "db://assets/Scenes/MapSelect.scene",
+    "value": {
+      "depends": [
+        "44c68f96-f0fe-4e17-8415-6b1dba0d4d3e"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
   }
 }
