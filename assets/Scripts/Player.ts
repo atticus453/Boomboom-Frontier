@@ -34,11 +34,14 @@ export class Player extends Component {
   }
 
   handleMove(dirX: number, dirY: number, facingAngle: number, preDir: string) {
+    
     this.dirX = dirX;
     this.dirY = dirY;
     this.angule = facingAngle;
     this.preDir = preDir;
     this.node.setRotationFromEuler(0, 0, facingAngle);
+    
+    
   }
 
   handlePlayerPosition() {
@@ -70,5 +73,7 @@ export class Player extends Component {
     selfCollider: Collider2D,
     otherCollider: Collider2D,
     contact: IPhysics2DContact
-  ) {}
+  ) {
+    // console.log(otherCollider.node.name);
+  }
 }
