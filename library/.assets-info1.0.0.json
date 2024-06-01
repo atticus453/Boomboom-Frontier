@@ -11083,11 +11083,11 @@
       "uuid": "5f0762fa-52dc-464e-8f6e-70a620a601f9"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations": {
-      "time": 1717229100027.0403,
+      "time": 1717247124205.8406,
       "uuid": "338edc73-2c3e-47ac-9d0c-d86fddea8843"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image": {
-      "time": 1717229100039.904,
+      "time": 1717233329007.2363,
       "uuid": "7db3d159-528d-4929-9b43-3e236ef4a49b"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Map": {
@@ -11099,7 +11099,7 @@
       "uuid": "25de3770-3720-4d02-882b-89f274118346"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs": {
-      "time": 1717229100307.0771,
+      "time": 1717240632489.2336,
       "uuid": "7b198bfb-549c-45d7-95dc-5dafa1bc45e7"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources": {
@@ -11107,7 +11107,7 @@
       "uuid": "5581fa00-5f68-4f25-af71-3592bf92ded4"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes": {
-      "time": 1717230775380.4102,
+      "time": 1717240740976.341,
       "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts": {
@@ -11255,11 +11255,11 @@
       "uuid": "79ee6341-ae58-4406-ae12-3499ab847a92"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight": {
-      "time": 1717229100854.0603,
+      "time": 1717246438591.4084,
       "uuid": "2599effc-0944-4486-9284-531896462713"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer": {
-      "time": 1717229100861.9048,
+      "time": 1717246503516.2766,
       "uuid": "63ab8cf7-d8b6-43fc-9106-5a2ced3df1cd"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\PSD": {
@@ -11275,11 +11275,11 @@
       "uuid": "17f1a322-9b88-40d4-a245-cccd02f882dc"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman": {
-      "time": 1717229100909.9756,
+      "time": 1717246696492.6194,
       "uuid": "2ff939bf-0aae-4f4d-911f-c8d5501ba665"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard": {
-      "time": 1717229100915.8125,
+      "time": 1717246706436.2566,
       "uuid": "f67f41bc-db77-45fc-823d-a839ab41d00a"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\GUI\\1 Frames\\Frame_tiles": {
@@ -11507,11 +11507,11 @@
       "uuid": "0792a013-0a2a-4198-9597-59d2d29ce269"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\MultiRoom.ts": {
-      "time": 1717230574472.859,
+      "time": 1717250154859.839,
       "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\MultiSelect.ts": {
-      "time": 1717229100927.9612,
+      "time": 1717232408728.8667,
       "uuid": "f8e14817-73d6-4f34-aac7-7cc175cf1c4f"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Player.ts": {
@@ -11892,7 +11892,7 @@
       "uuid": "ef8ef807-4fb4-4aa8-abf1-6a9efc44a625"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\water.anim": {
-      "time": 1717229100027.0403,
+      "time": 1717231333341.316,
       "uuid": "5f4b6620-14fd-487c-8e5e-a35b627aaebb"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image\\background.png": {
@@ -11906,10 +11906,6 @@
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image\\game-bg.png": {
       "time": 1717229100033.1953,
       "uuid": "4f0c74f0-2507-4837-a3ad-ff7063ea15aa"
-    },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image\\mapTumbnail.png": {
-      "time": 1717229100039.904,
-      "uuid": "cb35d831-16a9-44bb-b4d4-7fd70b6aa376"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Map\\Bridge_All.tsx": {
       "time": 1717229100041.2808,
@@ -12012,7 +12008,7 @@
       "uuid": "b6bfc790-f61d-428b-b5d1-bf55883bb5f1"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MultiRoom.scene": {
-      "time": 1717229100919.8892,
+      "time": 1717250202132.9937,
       "uuid": "4f582775-4c22-4853-9900-f661cf1f2470"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MultiSelect.scene": {
@@ -16248,7 +16244,7 @@
       "uuid": "bd1591cd-3b79-42a1-88b6-54b62df957ee"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\water.anim.meta": {
-      "time": 1717229100027.0403
+      "time": 1717231333342.5498
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\test.tsx.meta": {
       "time": 1717229100940.5913
@@ -16267,9 +16263,6 @@
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Map\\GoldMine_Inactive.tsx.meta": {
       "time": 1717229100041.2808
-    },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image\\mapTumbnail.png.meta": {
-      "time": 1717229100039.904
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Map\\Shadows.tsx.meta": {
       "time": 1717229100042.5505
@@ -16506,7 +16499,7 @@
       "time": 1717229100794.6448
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\GUI\\2 Bars\\Scrolling90.png.meta": {
-      "time": 1717229100353.5278
+      "time": 1717239386774.1555
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\GUI\\2 Bars\\Scrolling_line.png.meta": {
       "time": 1717229100354.9294
@@ -19517,12 +19510,754 @@
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Map\\map1source\\Factions\\Knights\\Troops\\Warrior\\Yellow\\Warrior_Yellow.png.meta": {
       "time": 1717229100185.9375
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MapSelect.scene.meta": {
-      "time": 1717230775395.45
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image\\map1Tumbnail.png.meta": {
+      "time": 1717233179479.292
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MapSelect.scene": {
-      "time": 1717230775392.8413,
-      "uuid": "44c68f96-f0fe-4e17-8415-6b1dba0d4d3e"
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image\\map1Tumbnail.png": {
+      "time": 1717229100039.904,
+      "uuid": "cb35d831-16a9-44bb-b4d4-7fd70b6aa376"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image\\map2thumbnail.png.meta": {
+      "time": 1717233383065.4033
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image\\map2thumbnail.png": {
+      "time": 1717233329002.8838,
+      "uuid": "66d97b1a-61b5-43ff-80ba-380e67f89441"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\mapSelect.prefab.meta": {
+      "time": 1717238978511.1296
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\mapSelect.prefab": {
+      "time": 1717238978508.9631,
+      "uuid": "7ef8905c-e672-47b3-87a7-c773cf033008"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\assets.zip.meta": {
+      "time": 1717240103801.8499
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\assets.zip": {
+      "time": 1717240018971.6282,
+      "uuid": "3d8b90ac-6d45-496f-a37e-35c94dacac49"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\setupSelect.prefab.meta": {
+      "time": 1717238970851.6992
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\setupSelect.prefab": {
+      "time": 1717249322828.212,
+      "uuid": "2a84c5b7-8861-43d4-bd91-60de4d987fbc"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\test.scene.meta": {
+      "time": 1717240740990.1384
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\test.scene": {
+      "time": 1717245364136.531,
+      "uuid": "767dda11-2db8-4855-b97b-1bdbf031747e"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Dead.meta": {
+      "time": 1717231334884.2354
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Dead\\0.png.meta": {
+      "time": 1717231334885.2378
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Dead\\1.png.meta": {
+      "time": 1717231334887.2188
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Dead\\2.png.meta": {
+      "time": 1717231334888.2205
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Dead\\3.png.meta": {
+      "time": 1717231334889.221
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Dead": {
+      "time": 1717246438573.6777,
+      "uuid": "ad91b66e-d20c-4473-b209-f23e6bc281a0"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle.meta": {
+      "time": 1717231334890.2236
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\0.png.meta": {
+      "time": 1717231334891.2258
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\1.png.meta": {
+      "time": 1717231334892.2288
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\2.png.meta": {
+      "time": 1717231334894.2336
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\3.png.meta": {
+      "time": 1717231334895.2363
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\4.png.meta": {
+      "time": 1717231334896.24
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\5.png.meta": {
+      "time": 1717231334897.2417
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run.meta": {
+      "time": 1717231334898.2437
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\0.png.meta": {
+      "time": 1717231334899.247
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\1.png.meta": {
+      "time": 1717231334901.3508
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\2.png.meta": {
+      "time": 1717231334902.356
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\3.png.meta": {
+      "time": 1717231334903.4678
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\4.png.meta": {
+      "time": 1717231334904.5027
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\5.png.meta": {
+      "time": 1717231334905.5264
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\6.png.meta": {
+      "time": 1717231334906.5535
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Dead\\1.png": {
+      "time": 1717231334886.2407,
+      "uuid": "bcfe4a00-70e5-455a-8597-150e6f9060d4"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle": {
+      "time": 1717246438581.2,
+      "uuid": "3af768a0-2a19-4f97-91ca-46ff4528a490"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Dead\\3.png": {
+      "time": 1717231334889.221,
+      "uuid": "abb674ee-b9a0-4ea6-ab61-9d0cc500689a"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Dead\\2.png": {
+      "time": 1717231334887.2188,
+      "uuid": "56a970a2-43ea-4cd5-8c00-8fb8a420a4b0"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Dead\\0.png": {
+      "time": 1717231334885.2378,
+      "uuid": "bb7524b8-d7da-402d-bd2b-5f9c1f72b323"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\0.png": {
+      "time": 1717231334891.2258,
+      "uuid": "93d0d7c9-c3bc-4b99-83f2-e48ae4b19bdf"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\2.png": {
+      "time": 1717231334893.2317,
+      "uuid": "2584daba-cd2a-4a96-95ea-2a04b74524df"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\1.png": {
+      "time": 1717231334892.2288,
+      "uuid": "56c88e6b-e08e-461d-adeb-08a4c8a0a3b4"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run": {
+      "time": 1717246438583.534,
+      "uuid": "1ede4403-b4a4-41c2-9f03-a8a2b4448b01"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\3.png": {
+      "time": 1717231334894.2336,
+      "uuid": "0f6d30fc-4cb7-44b4-b84c-669076a90f74"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\4.png": {
+      "time": 1717231334896.24,
+      "uuid": "c4bed9b5-cf71-441d-ac00-d522021ed564"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Idle\\5.png": {
+      "time": 1717231334897.2417,
+      "uuid": "6db7ca6e-4e88-4edb-b95c-a053180ed2c9"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\0.png": {
+      "time": 1717231334899.247,
+      "uuid": "975f0c02-c654-4aa4-a503-b0b82ade754e"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\1.png": {
+      "time": 1717231334900.2913,
+      "uuid": "d5a46b88-2a69-452a-a1d5-6a670735abe6"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\2.png": {
+      "time": 1717231334902.356,
+      "uuid": "2278c6e4-4c6e-443c-975c-5dac6654aac9"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\3.png": {
+      "time": 1717231334903.4678,
+      "uuid": "83a28966-d2b0-4875-a072-c35a3f8ce4e9"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\4.png": {
+      "time": 1717231334904.5027,
+      "uuid": "7e9e8c06-277d-42dd-a9fd-964db4178a95"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\5.png": {
+      "time": 1717231334905.5264,
+      "uuid": "aa276f56-bfae-412e-8309-216eb2790c39"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Knight\\Knight_Run\\6.png": {
+      "time": 1717231334906.5535,
+      "uuid": "ef715590-2d4a-40cf-8918-ba1ffc7f0bac"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Dead.meta": {
+      "time": 1717231334923.5479
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Dead\\0.png.meta": {
+      "time": 1717231334925.5576
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Dead\\1.png.meta": {
+      "time": 1717231334926.562
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Dead\\2.png.meta": {
+      "time": 1717231334928.5742
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Dead\\3.png.meta": {
+      "time": 1717231334929.5781
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Dead": {
+      "time": 1717246503492.6582,
+      "uuid": "56d1a7b0-2ca2-4b94-8ef2-162b50d82ff8"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle.meta": {
+      "time": 1717231334930.6482
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle\\0.png.meta": {
+      "time": 1717231334931.6528
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle\\1.png.meta": {
+      "time": 1717231334933.8647
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle\\2.png.meta": {
+      "time": 1717231334934.8757
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle\\3.png.meta": {
+      "time": 1717231334935.902
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle\\4.png.meta": {
+      "time": 1717231334936.9294
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png.meta": {
+      "time": 1717231334937.9646
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\0.png.meta": {
+      "time": 1717231334939.0027
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\1.png.meta": {
+      "time": 1717231334940.245
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\2.png.meta": {
+      "time": 1717231334942.3203
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\3.png.meta": {
+      "time": 1717231334943.3584
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\4.png.meta": {
+      "time": 1717231334944.3965
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\5.png.meta": {
+      "time": 1717231334945.4067
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\6.png.meta": {
+      "time": 1717231334946.4792
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\7.png.meta": {
+      "time": 1717231334947.5073
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Dead\\2.png": {
+      "time": 1717231334927.5674,
+      "uuid": "6b705aa5-3ff0-4a48-80ff-c9d520c57799"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle": {
+      "time": 1717246503496.3926,
+      "uuid": "c7d99dd8-1e57-434a-9d7c-f75d5de82d69"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Dead\\3.png": {
+      "time": 1717231334928.5742,
+      "uuid": "f05da846-1494-4936-85d1-20f4bf8faa96"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Dead\\0.png": {
+      "time": 1717231334924.5525,
+      "uuid": "484b6dc3-ab5f-4ee7-96a0-d999a1192915"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Dead\\1.png": {
+      "time": 1717231334925.5576,
+      "uuid": "b81687ef-e797-48b6-ba60-869d3c0466c7"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle\\0.png": {
+      "time": 1717231334931.6528,
+      "uuid": "1dfbe9ec-281b-45cf-a6ad-edd736852fcf"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle\\1.png": {
+      "time": 1717231334932.6575,
+      "uuid": "3aaaeec0-0af7-4f3f-a016-6dbb2ace8f50"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png": {
+      "time": 1717246503506.8079,
+      "uuid": "f25c115f-88f6-4fc8-a14e-3496d1c84817"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle\\2.png": {
+      "time": 1717231334934.8757,
+      "uuid": "e9fc5cd4-987c-437f-a888-3ce2a7ac11fc"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle\\3.png": {
+      "time": 1717231334935.902,
+      "uuid": "325fd7f5-0ecd-4e71-867c-187ec78543e4"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Idle\\4.png": {
+      "time": 1717231334936.9294,
+      "uuid": "9cf20619-a9ba-4085-bc94-307464c5439e"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\1.png": {
+      "time": 1717231334940.245,
+      "uuid": "42dda075-0ae9-4752-a1ef-8267e5501f82"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\0.png": {
+      "time": 1717231334939.0027,
+      "uuid": "6b32fbda-1186-46bc-8fec-ae8451cc4fd4"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\2.png": {
+      "time": 1717231334941.282,
+      "uuid": "ca279983-6a6d-4f09-917d-263647a361bc"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\3.png": {
+      "time": 1717231334942.3203,
+      "uuid": "6c467066-9ab1-442c-aac5-0972fe7bf6c3"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\4.png": {
+      "time": 1717231334943.3584,
+      "uuid": "5bc324e6-31fa-4eb6-97b7-38ea692196d0"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\5.png": {
+      "time": 1717231334945.4067,
+      "uuid": "24add21f-6528-42a0-b5f6-07bee1cfcf44"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\6.png": {
+      "time": 1717231334946.4792,
+      "uuid": "961230e9-a8a0-403b-9b1f-f73614809c3a"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\female\\Musketeer\\Musketeer_Run.png\\7.png": {
+      "time": 1717231334947.5073,
+      "uuid": "520dc400-44d2-49c3-b681-43ecf7340d43"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Dead.meta": {
+      "time": 1717231335043.0806
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Dead\\0.png.meta": {
+      "time": 1717231335046.0938
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Dead\\1.png.meta": {
+      "time": 1717231335047.1936
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Dead\\2.png.meta": {
+      "time": 1717231335048.1985
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Dead": {
+      "time": 1717246696466.278,
+      "uuid": "ab9b32e0-8931-48f0-8784-4693eca1c2bd"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle.meta": {
+      "time": 1717231335048.1985
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\0.png.meta": {
+      "time": 1717231335050.2136
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\1.png.meta": {
+      "time": 1717231335051.252
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\2.png.meta": {
+      "time": 1717231335052.257
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\3.png.meta": {
+      "time": 1717231335053.2625
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\4.png.meta": {
+      "time": 1717231335054.2676
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\5.png.meta": {
+      "time": 1717231335055.2722
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\6.png.meta": {
+      "time": 1717231335057.385
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\7.png.meta": {
+      "time": 1717231335058.399
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run.meta": {
+      "time": 1717231335059.4338
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\0.png.meta": {
+      "time": 1717231335061.4712
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\1.png.meta": {
+      "time": 1717231335062.4924
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\2.png.meta": {
+      "time": 1717231335063.5667
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\3.png.meta": {
+      "time": 1717231335064.5696
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\4.png.meta": {
+      "time": 1717231335065.593
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\5.png.meta": {
+      "time": 1717231335066.5984
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\6.png.meta": {
+      "time": 1717231335068.6067
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\7.png.meta": {
+      "time": 1717231335069.6116
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Dead\\2.png": {
+      "time": 1717231335047.1936,
+      "uuid": "2cfa3a24-3c84-47c4-a54c-2464d7b227d2"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Dead\\0.png": {
+      "time": 1717231335044.0852,
+      "uuid": "ee2b8fc3-5cd1-4a76-9982-d07a3764ecdc"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Dead\\1.png": {
+      "time": 1717231335046.0938,
+      "uuid": "ef3a8fe7-d744-4261-bbfd-920336e06345"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle": {
+      "time": 1717246696482.3674,
+      "uuid": "7cd2ded3-ae26-4db9-92a0-703db98e18b7"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\0.png": {
+      "time": 1717231335049.2031,
+      "uuid": "d2435f84-8259-40f2-8f0a-4b52ed5db3b3"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\1.png": {
+      "time": 1717231335050.2136,
+      "uuid": "2c8143b7-fee9-45b7-9229-f319e8967c2c"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\2.png": {
+      "time": 1717231335052.257,
+      "uuid": "8e085021-5707-42f9-9a77-830087fa10e6"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\4.png": {
+      "time": 1717231335054.2676,
+      "uuid": "9ec18510-475f-4eb4-9c3c-61402480102a"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\5.png": {
+      "time": 1717231335055.2722,
+      "uuid": "b2a742bf-7db2-4553-b562-0b9a726d19f1"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\3.png": {
+      "time": 1717231335053.2625,
+      "uuid": "ad75ef02-e55d-480c-950a-3fcbc7a0c688"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run": {
+      "time": 1717246696482.3674,
+      "uuid": "aa902443-ee14-4c5a-9254-7b3c801452ea"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\6.png": {
+      "time": 1717231335056.2966,
+      "uuid": "76b304c0-b33a-4f2e-acbf-3089dad0135b"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Idle\\7.png": {
+      "time": 1717231335057.385,
+      "uuid": "eab2dfaf-f59f-45f4-9acd-786c39f1bdd9"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\0.png": {
+      "time": 1717231335060.4426,
+      "uuid": "a3aa7078-d2ab-4aa1-b975-4f6816d518ed"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\1.png": {
+      "time": 1717231335061.4712,
+      "uuid": "0e823239-73f7-40b2-832d-00df4329ec4c"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\2.png": {
+      "time": 1717231335062.4924,
+      "uuid": "39daa083-3d92-4671-87f7-b4372030233a"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\3.png": {
+      "time": 1717231335064.5696,
+      "uuid": "e93a6a34-2916-476e-85b8-2ab0e8371378"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\4.png": {
+      "time": 1717231335065.593,
+      "uuid": "0d8c4b88-39f6-4013-87db-480a36e0b809"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\5.png": {
+      "time": 1717231335066.5984,
+      "uuid": "5abd2b16-d523-456e-b1d6-e3648ea9e61b"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\6.png": {
+      "time": 1717231335067.603,
+      "uuid": "348f8e56-7918-40d5-8975-fb2d1b6c6c61"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Swordsman\\Swordsman_Run\\7.png": {
+      "time": 1717231335068.6067,
+      "uuid": "b156eed0-03e7-47e0-bb1d-1497ecfa789f"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Dead.meta": {
+      "time": 1717231335086.387
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Dead\\0.png.meta": {
+      "time": 1717231335087.4146
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Dead\\1.png.meta": {
+      "time": 1717231335088.6042
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Dead\\2.png.meta": {
+      "time": 1717231335089.6443
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Dead\\3.png.meta": {
+      "time": 1717231335090.651
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Dead": {
+      "time": 1717246706410.9143,
+      "uuid": "f9e5f080-cd85-4a2e-b16a-aa43d8470bc4"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle.meta": {
+      "time": 1717231335091.6575
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\0.png.meta": {
+      "time": 1717231335093.7097
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\1.png.meta": {
+      "time": 1717231335094.715
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\2.png.meta": {
+      "time": 1717231335096.8708
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\3.png.meta": {
+      "time": 1717231335097.8809
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\4.png.meta": {
+      "time": 1717231335098.963
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\5.png.meta": {
+      "time": 1717231335099.9683
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run.meta": {
+      "time": 1717231335099.9683
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\0.png.meta": {
+      "time": 1717231335100.973
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\1.png.meta": {
+      "time": 1717231335103.0493
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\2.png.meta": {
+      "time": 1717231335104.223
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\3.png.meta": {
+      "time": 1717231335105.229
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\4.png.meta": {
+      "time": 1717231335106.2334
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\5.png.meta": {
+      "time": 1717231335107.2368
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\6.png.meta": {
+      "time": 1717231335108.2405
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\7.png.meta": {
+      "time": 1717231335109.3093
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Dead\\1.png": {
+      "time": 1717231335088.6042,
+      "uuid": "957d9bab-0a4c-4213-85ea-bd8d4c3b4a0a"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle": {
+      "time": 1717246706417.936,
+      "uuid": "a8a1eba5-e54e-492e-ba1e-15e2364fcef0"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Dead\\2.png": {
+      "time": 1717231335089.6443,
+      "uuid": "e6977d54-0a5b-45e8-bf92-f08ce5b74e00"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Dead\\0.png": {
+      "time": 1717231335087.4146,
+      "uuid": "caa69854-b893-4f92-b902-a32e47a4689e"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Dead\\3.png": {
+      "time": 1717231335090.651,
+      "uuid": "2722714d-36b3-4eb8-a3a6-e29620f08374"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\0.png": {
+      "time": 1717231335093.7097,
+      "uuid": "e50ca9cc-9da8-4427-9034-41e34e057f9b"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\1.png": {
+      "time": 1717231335094.715,
+      "uuid": "ca051870-cd04-44e4-8d84-c86dc62f3c1a"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\2.png": {
+      "time": 1717231335095.8662,
+      "uuid": "8af20e79-4e1c-46a6-b927-2e323cf4b0b1"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run": {
+      "time": 1717246706425.9583,
+      "uuid": "5080f780-20b3-44f7-ac3d-b9d81529df27"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\3.png": {
+      "time": 1717231335096.8708,
+      "uuid": "6d0cbc10-29c1-409e-8a42-46df0d5cefb5"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\5.png": {
+      "time": 1717231335098.963,
+      "uuid": "611a1218-4703-44fa-bbd4-ca9e2bcfcb78"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Idle\\4.png": {
+      "time": 1717231335097.8809,
+      "uuid": "5a227028-8cf7-44d9-8554-47b71b841002"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\0.png": {
+      "time": 1717231335100.973,
+      "uuid": "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\1.png": {
+      "time": 1717231335102.046,
+      "uuid": "f9be807e-f681-42e6-837d-17db60b50126"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\2.png": {
+      "time": 1717231335103.0493,
+      "uuid": "33027137-81c7-49b7-9e8e-648106a3a388"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\3.png": {
+      "time": 1717231335104.223,
+      "uuid": "929b0aef-1110-4843-906b-d5bf1bb434b3"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\4.png": {
+      "time": 1717231335105.229,
+      "uuid": "aabced1f-51d6-4ee0-a7b1-69c7221f992a"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\5.png": {
+      "time": 1717231335106.2334,
+      "uuid": "4c58f056-3354-4e7c-a650-e3c61772197c"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\6.png": {
+      "time": 1717231335107.2368,
+      "uuid": "37b6006b-98bd-4486-847a-71e9114a6489"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources\\charactor\\male\\Wizard\\Wizard_Run\\7.png": {
+      "time": 1717231335108.2405,
+      "uuid": "928fe169-8494-4fc0-bcab-b1d413d9e3e4"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\rock1.anim.meta": {
+      "time": 1717231333340.3098
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\rock3.anim.meta": {
+      "time": 1717231333341.316
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Wizard.meta": {
+      "time": 1717231333335.766
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Wizard\\Wizard_Dead.anim.meta": {
+      "time": 1717231333336.8306
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Wizard\\Wizard_Idle.anim.meta": {
+      "time": 1717231333338.0625
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Wizard\\Wizard_Run.anim.meta": {
+      "time": 1717231333339.3032
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Musketeer.meta": {
+      "time": 1717231333326.4697
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Musketeer\\Musketeer_Dead.anim.meta": {
+      "time": 1717231333328.871
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Musketeer\\Musketeer_Idle.anim.meta": {
+      "time": 1717231333329.9153
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Musketeer\\Musketeer_Run.anim.meta": {
+      "time": 1717231333331.0886
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Knight.meta": {
+      "time": 1717231333318.4138
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Knight\\Knight_Dead.anim.meta": {
+      "time": 1717231333319.4165
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Knight\\Knight_Idle.anim.meta": {
+      "time": 1717231333325.466
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Knight\\Knight_Run.anim.meta": {
+      "time": 1717231333326.4697
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Swordsman.meta": {
+      "time": 1717231333331.0886
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Swordsman\\Swordsman_Dead.anim.meta": {
+      "time": 1717231333332.2415
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Swordsman\\Swordsman_Idle.anim.meta": {
+      "time": 1717231333333.479
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Swordsman\\Swordsman_Run.anim.meta": {
+      "time": 1717231333334.7168
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\rock1.anim": {
+      "time": 1717231333339.3032,
+      "uuid": "62d72ca3-ea5a-48ba-9524-a269fd67bd5a"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\rock3.anim": {
+      "time": 1717231333340.3098,
+      "uuid": "2f8acb9b-3afe-461b-87b3-8a3070d915dc"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Wizard": {
+      "time": 1717247124223.4275,
+      "uuid": "d981acf5-96c9-41d7-a3b8-7f59db63da75"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Wizard\\Wizard_Dead.anim": {
+      "time": 1717231333335.766,
+      "uuid": "73e95c1a-4958-40dd-aea0-6a9fdf1b2bc1"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Wizard\\Wizard_Idle.anim": {
+      "time": 1717231333336.8306,
+      "uuid": "f3448ad2-31c6-4c8a-9f9d-0d4a8c146bde"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Wizard\\Wizard_Run.anim": {
+      "time": 1717231333338.0625,
+      "uuid": "5dc29b95-0507-423d-8af3-797b82d3ec05"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Musketeer": {
+      "time": 1717247124223.4275,
+      "uuid": "e6854259-fdec-4a4f-9230-cbc6f7bff8c5"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Musketeer\\Musketeer_Dead.anim": {
+      "time": 1717231333327.4734,
+      "uuid": "ed80f925-90c0-4ec3-9d5c-a750558302c6"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Musketeer\\Musketeer_Idle.anim": {
+      "time": 1717231333328.871,
+      "uuid": "b47959fe-7af5-421a-bcc3-2a68c56821fb"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Musketeer\\Musketeer_Run.anim": {
+      "time": 1717231333329.9153,
+      "uuid": "96f9e108-d504-4d1f-a47d-c15d483b7304"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Knight": {
+      "time": 1717247124224.936,
+      "uuid": "71acd979-ed1a-49dd-995c-f81fe7bf0af1"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Knight\\Knight_Dead.anim": {
+      "time": 1717231333318.4138,
+      "uuid": "38e7ed46-b70e-4601-85c3-504a871a9f35"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Knight\\Knight_Idle.anim": {
+      "time": 1717231333324.4575,
+      "uuid": "3346a46a-eb7f-4006-9fd1-ad4298d5195d"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Knight\\Knight_Run.anim": {
+      "time": 1717231333325.466,
+      "uuid": "5e0ddd02-3e99-4d71-98f7-4b86a0702044"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Swordsman": {
+      "time": 1717247124224.936,
+      "uuid": "cb80da30-bf4c-4faf-8a3d-a5269b782bb5"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Swordsman\\Swordsman_Dead.anim": {
+      "time": 1717231333332.2415,
+      "uuid": "4f4eef7c-20eb-46a1-a612-da810dc6c158"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Swordsman\\Swordsman_Idle.anim": {
+      "time": 1717231333333.479,
+      "uuid": "4cd170e9-0e2d-40c3-a93a-6608c44e650b"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Swordsman\\Swordsman_Run.anim": {
+      "time": 1717231333334.7168,
+      "uuid": "0c209352-0df1-4990-a294-70ef30d63d8d"
     }
   },
   "missing": {
@@ -19855,6 +20590,36 @@
       "path": "C:\\Users\\USER\\OneDrive - NTHU\\Information System\\Final_Project\\Boomboom-Frontier\\assets\\Scenes\\ScoreBoard-001.scene",
       "time": 1717124003625.872,
       "removeTime": 1717124014135
+    },
+    "44c68f96-f0fe-4e17-8415-6b1dba0d4d3e": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MapSelect.scene",
+      "time": 1717230775392.8413,
+      "removeTime": 1717232369926
+    },
+    "cb35d831-16a9-44bb-b4d4-7fd70b6aa376": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image\\mapTumbnail.png",
+      "time": 1717229100039.904,
+      "removeTime": 1717233179394
+    },
+    "47912445-98d5-4c78-8d81-8cac6ecc261b": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\setupSelect1.prefab",
+      "time": 1717238844523.5752,
+      "removeTime": 1717238914197
+    },
+    "7ef8905c-e672-47b3-87a7-c773cf033008": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\setupSelect1.prefab",
+      "time": 1717238955281.9197,
+      "removeTime": 1717238978506
+    },
+    "2a84c5b7-8861-43d4-bd91-60de4d987fbc": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\setupSelect.prefab",
+      "time": 1717239894759.8242,
+      "removeTime": 1717240632491
+    },
+    "fd93d8ab-e296-4d74-9e67-a45be4786957": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\test.scene",
+      "time": 1717240718047.7048,
+      "removeTime": 1717240722788
     }
   }
 }
