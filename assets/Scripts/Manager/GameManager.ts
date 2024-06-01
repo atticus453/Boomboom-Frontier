@@ -1,5 +1,6 @@
-import { _decorator, Component, Node, find, BoxCollider2D, Contact2DType, IPhysics2DContact, Sprite } from 'cc';
+import { _decorator, Component, Node, find, BoxCollider2D, Contact2DType, IPhysics2DContact, Sprite, AudioSource } from 'cc';
 import { PlayerPrefab } from '../PlayerPrefab';
+import { Setting } from '../Setting';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameManager')
@@ -10,6 +11,7 @@ export default class GameManager extends Component {
     static isPickup: boolean = false;
 
     start() {
+        this.getComponent(AudioSource).volume = Setting.volume;
         this.items = find('Canvas/items')!.children;
         console.log(this.items);
         for(let item of this.items) {

@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Slider, Button, director} from 'cc';
+import { _decorator, Component, Node, Slider, Button, director, AudioSourceComponent, AudioSource} from 'cc';
 const { ccclass, property } = _decorator;
 import { backPage } from './Select';
 
@@ -10,7 +10,11 @@ export class Setting extends Component {
     @property(Button) 
     BackBtn: Button = null;
 
+
+    static volume: number = 0.5;
+
     start() {
+        this.slider.progress = Setting.volume;
         if (this.slider) {
             this.slider.node.on('slide', this.onSliderChanged, this);
         }
@@ -21,14 +25,9 @@ export class Setting extends Component {
         this.BackBtn.clickEvents.push(BackButton);
     }
     onSliderChanged(slider: Slider) {
-        const value = slider.progress; // 获取 slider 的值，范围在 0 到 1 之间
-        console.log(`Slider value: ${value}`);
-
-        // 更新显示 slider 值的标签（如果有）
-        // if (this.sliderValueLabel) {
-        //     this.sliderValueLabel.string = `Value: ${(value * 100).toFixed(0)}`;
-        // }
-        console.log(`${(value * 100).toFixed(0)}`);
+        Setting.volume = slider.progress; // 获取 slider 的值，范围在 0 到 1 之间
+        this.getComponent(AudioSource).volume = Setting.volume;
+        console.log(this.getComponent(AudioSource).volume);
     }
     BackMenu(){
         if(backPage == 1){

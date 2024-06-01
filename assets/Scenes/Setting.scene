@@ -52,7 +52,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 30
+      "__id__": 31
     },
     "_id": "b98dfc7f-4962-40f8-829e-7155c560f8c3"
   },
@@ -91,6 +91,9 @@
       },
       {
         "__id__": 29
+      },
+      {
+        "__id__": 30
       }
     ],
     "_prefab": null,
@@ -182,7 +185,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 371.3517786561265,
+    "_orthoHeight": 360,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -471,7 +474,7 @@
     "_string": "BACK",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 50,
+    "_actualFontSize": 59.583333333333336,
     "_fontSize": 50,
     "_fontFamily": "Arial",
     "_lineHeight": 60,
@@ -756,7 +759,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 75.8984375,
+      "width": 75.88779262729459,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -789,7 +792,7 @@
     "_string": "BGM",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 40,
+    "_actualFontSize": 47.666666666666664,
     "_fontSize": 40,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -1161,30 +1164,49 @@
     "_id": "c0B9sAgBJPpJv05Dt+roPE"
   },
   {
+    "__type__": "cc.AudioSource",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_clip": {
+      "__uuid__": "a1560f4d-7b36-4e54-a9fc-3a3f1abebe86",
+      "__expectedType__": "cc.AudioClip"
+    },
+    "_loop": true,
+    "_playOnAwake": true,
+    "_volume": 1,
+    "_id": "4b2H3PKqpPcbvojYoE1PSC"
+  },
+  {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 31
-    },
-    "shadows": {
       "__id__": 32
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 33
     },
-    "fog": {
+    "_skybox": {
       "__id__": 34
     },
-    "octree": {
+    "fog": {
       "__id__": 35
     },
-    "skin": {
+    "octree": {
       "__id__": 36
     },
-    "lightProbeInfo": {
+    "skin": {
       "__id__": 37
     },
-    "postSettings": {
+    "lightProbeInfo": {
       "__id__": 38
+    },
+    "postSettings": {
+      "__id__": 39
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false
