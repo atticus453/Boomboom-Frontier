@@ -20,7 +20,8 @@ import {
     UITransform,
     v3,
     Sprite,
-    Color
+    Color,
+    Game
 } from "cc";
 
 import GlobalManager from "./Manager/GlobalManager";
@@ -188,6 +189,26 @@ export class PlayerPrefab extends Component {
         console.log("is picking up");
     }
 
+    handleUseItem() {
+        console.log("is using item");
+        const item = PlayerPrefab.itemBar.getChildByPath("Item/ItemSprite").getComponent(Sprite).spriteFrame;
+        if(item !== null) {
+            if(item.name === "healing") {
+                // console.log("healing");
+            }
+            else if(item.name === "speedUp") {
+                this.playerSpeed = 15;
+                this.scheduleOnce(() => {
+                    this.playerSpeed = 10;
+                }, 3);
+            }
+            PlayerPrefab.itemBar.getChildByPath("Item/ItemSprite").getComponent(Sprite).spriteFrame = null;
+        }
+        else {
+            return;
+        }
+    }
+
     onBeginContact(
         selfCollider: Collider2D,
         otherCollider: Collider2D,
@@ -302,7 +323,12 @@ export class PlayerPrefab extends Component {
                 this.isDragging = true;
                 break;
             case 0: // BUTTON_LEFT
-                this.isShooting = true;
+                if(this.curItem === 0) {
+                    this.isShooting = true;
+                }
+                else {
+                    this.handleUseItem();
+                }
                 break;
         }
     }

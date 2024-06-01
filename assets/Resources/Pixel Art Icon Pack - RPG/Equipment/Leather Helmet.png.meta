@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "3dbab7d1-f940-4b56-862b-e66f6b5cf5e1",
+  "uuid": "0d8079b8-ddf3-4e80-9953-b6ca93a95b33",
   "files": [
     ".json",
     ".png"
@@ -10,8 +10,8 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "3dbab7d1-f940-4b56-862b-e66f6b5cf5e1@6c48a",
-      "displayName": "W_Idle",
+      "uuid": "0d8079b8-ddf3-4e80-9953-b6ca93a95b33@6c48a",
+      "displayName": "Leather Helmet",
       "id": "6c48a",
       "name": "texture",
       "userData": {
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "3dbab7d1-f940-4b56-862b-e66f6b5cf5e1",
+        "imageUuidOrDatabaseUri": "0d8079b8-ddf3-4e80-9953-b6ca93a95b33",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "3dbab7d1-f940-4b56-862b-e66f6b5cf5e1@6c48a"
+    "redirect": "0d8079b8-ddf3-4e80-9953-b6ca93a95b33@6c48a"
   }
 }
