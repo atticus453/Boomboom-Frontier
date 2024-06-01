@@ -299,6 +299,26 @@
       "__uuid__": "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
       "__expectedType__": "cc.Prefab"
     },
+    "weapon_1": {
+      "__uuid__": "1b0fc2d9-2efb-49de-866b-8aece9049ef8",
+      "__expectedType__": "cc.Prefab"
+    },
+    "weapon_2": {
+      "__uuid__": "f23798c9-cdef-4441-bc02-fc6a96605196",
+      "__expectedType__": "cc.Prefab"
+    },
+    "weapon_3": {
+      "__uuid__": "8b395fd7-d549-4f2d-9fe3-b560e627534d",
+      "__expectedType__": "cc.Prefab"
+    },
+    "weapon_4": {
+      "__uuid__": "ea674baa-a280-42de-8c8e-fa95a9ab9711",
+      "__expectedType__": "cc.Prefab"
+    },
+    "weapon_5": {
+      "__uuid__": "4feddd53-180c-4666-939c-85c20367f185",
+      "__expectedType__": "cc.Prefab"
+    },
     "_id": ""
   },
   {
@@ -314,6 +334,7 @@
       "__id__": 0
     },
     "fileId": "32Qnf9n6lKSabs6seR5jIS",
+    "instance": null,
     "targetOverrides": null
   }
 ]

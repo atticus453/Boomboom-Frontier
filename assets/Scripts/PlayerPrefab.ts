@@ -18,6 +18,7 @@ import {
   EventMouse,
   UITransform,
   v3,
+  Node,
 } from "cc";
 
 import GlobalManager from "./Manager/GlobalManager";
@@ -36,6 +37,17 @@ export class PlayerPrefab extends Component {
 
   @property(Prefab)
   public bulletPrefab: Prefab = null;
+
+  @property(Prefab)
+  public weapon_1: Prefab = null;
+  @property(Prefab)
+  public weapon_2: Prefab = null;
+  @property(Prefab)
+  public weapon_3: Prefab = null;
+  @property(Prefab)
+  public weapon_4: Prefab = null;
+  @property(Prefab)
+  public weapon_5: Prefab = null;
 
   // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
@@ -63,6 +75,9 @@ export class PlayerPrefab extends Component {
   private isDragging = false;
   private isShooting = false;
 
+  // ChildNode
+  private gunNode = null;
+
   onLoad(): void {
     this.playerManager = find(this.playerManagerPath).getComponent(
       PlayerManager
@@ -73,6 +88,7 @@ export class PlayerPrefab extends Component {
     );
 
     this.isNodePooling = this.playerManager.PoolMode;
+    this.initGunNode();
   }
 
   start() {
@@ -98,6 +114,13 @@ export class PlayerPrefab extends Component {
         }
       }
     }
+  }
+
+  initGunNode() {
+    this.gunNode = instantiate(this.weapon_5);
+    this.gunNode.parent = this.node;
+    this.gunNode.name = "Gun";
+    this.gunNode.setPosition(0, -40);
   }
 
   sendPosition() {
@@ -131,7 +154,7 @@ export class PlayerPrefab extends Component {
 
     // --Waiting For Change--
     //Here need to change the node to the gun
-    this.node.setRotationFromEuler(0, 0, this.angle);
+    this.gunNode.setRotationFromEuler(0, 0, this.angle);
   }
 
   handlePlayerShoot() {
@@ -149,9 +172,10 @@ export class PlayerPrefab extends Component {
       bulletDir: number[] = [0, 0];
 
     bulletDir = this.changeAngleToUnitVec();
+    bulletDir[0] = bulletDir[0] * this.node.scale.x; // Adjust the direction of the bullet according to the gun
 
-    bulletPosX = this.node.position.x + bulletDir[0] * 25;
-    bulletPosY = this.node.position.y + bulletDir[1] * 25;
+    bulletPosX = this.node.position.x + bulletDir[0] * 35;
+    bulletPosY = this.node.position.y + bulletDir[1] * 35 - 40;
 
     bullet.setPosition(bulletPosX, bulletPosY);
     bulletBody.linearVelocity = v2(
