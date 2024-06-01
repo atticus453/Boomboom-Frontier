@@ -299,6 +299,10 @@
       "__uuid__": "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
       "__expectedType__": "cc.Prefab"
     },
+    "itemPrefab": {
+      "__uuid__": "5ae2fc90-0a1a-4910-a41f-8a09188887d0",
+      "__expectedType__": "cc.Prefab"
+    },
     "_id": ""
   },
   {
@@ -314,6 +318,7 @@
       "__id__": 0
     },
     "fileId": "32Qnf9n6lKSabs6seR5jIS",
+    "instance": null,
     "targetOverrides": null
   }
 ]

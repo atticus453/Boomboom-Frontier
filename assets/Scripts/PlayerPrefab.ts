@@ -8,6 +8,7 @@ import {
   EventKeyboard,
   Input,
   v2,
+  Node,
   Prefab,
   BoxCollider2D,
   Contact2DType,
@@ -23,6 +24,7 @@ import {
 import GlobalManager from "./Manager/GlobalManager";
 import { PlayerManager } from "./Manager/PlayerManager";
 import PhotonManager from "./Manager/PhotonManager";
+import GameManager from "./Manager/GameManager";
 
 const { ccclass, property } = _decorator;
 
@@ -36,6 +38,11 @@ export class PlayerPrefab extends Component {
 
   @property(Prefab)
   public bulletPrefab: Prefab = null;
+
+  @property(Prefab)
+  public itemPrefab: Prefab = null;
+
+  static itemBar: Node = null;
 
   // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
@@ -57,6 +64,7 @@ export class PlayerPrefab extends Component {
   private dirX = 0;
   private dirY = 0;
   private angle = 0;
+  private curItem: number = 0; // 0: weapon, 1: item
 
   // Some flags for judging the state of the player
   private isNodePooling = true;
@@ -78,6 +86,10 @@ export class PlayerPrefab extends Component {
   start() {
     this.handleListener("LOAD");
     this.PlayerIndex = GlobalManager.instance.selectedPlayerIndex;
+
+    PlayerPrefab.itemBar = instantiate(this.itemPrefab);
+    PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
+    find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
   }
 
   onDestroy() {
@@ -160,6 +172,11 @@ export class PlayerPrefab extends Component {
     );
   }
 
+  handlePickItem() {
+    GameManager.isPickup = true;
+    console.log("is picking up");
+  }
+
   onBeginContact(
     selfCollider: Collider2D,
     otherCollider: Collider2D,
@@ -210,25 +227,28 @@ export class PlayerPrefab extends Component {
       case KeyCode.KEY_W:
         this.dirY = 1;
         this.preDir = "UP";
-        console.log("up");
+        // console.log("up");
         break;
       case KeyCode.KEY_S:
         this.dirY = -1;
         this.preDir = "DOWN";
-        console.log("down");
+        // console.log("down");
         break;
       case KeyCode.KEY_A:
         this.dirX = -1;
         this.preDir = "LEFT";
-        console.log("left");
+        // console.log("left");
         break;
       case KeyCode.KEY_D:
         this.dirX = 1;
         this.preDir = "RIGHT";
-        console.log("right");
+        // console.log("right");
         break;
       case KeyCode.KEY_K:
         this.isShooting = true;
+        break;
+      case KeyCode.KEY_F:
+        this.handlePickItem();
         break;
     }
   }
