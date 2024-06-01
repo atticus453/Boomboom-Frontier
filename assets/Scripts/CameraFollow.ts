@@ -15,7 +15,9 @@ export class CameraFollow extends Component {
     if (this.target) {
       let CameraPos = this.node.position;
       CameraPos.lerp(this.target.position, 0.1);
-      this.node.setPosition(CameraPos.x, CameraPos.y, 0);
+      if(CameraPos.y >= 0 && CameraPos.y <= 230) {
+        this.node.setPosition(0, CameraPos.y, 0);
+    }
     }
   }
 
