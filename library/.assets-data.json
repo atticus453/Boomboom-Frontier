@@ -20413,11 +20413,16 @@
         "5a9134ca-655a-44db-97b1-0dccb5eca206@f9941",
         "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "975573cb-1f19-4eda-bcb0-71c2eaa8975b",
+        "1fccba48-a386-4c0b-884f-a80faf68ea18",
+        "64d10a9a-f4b4-4acb-bc59-a3d161926068",
         "1cad3953-879f-4cd7-aa28-89a135d40b24@f9941",
-        "fb1ffa4a-859b-42f6-ae27-e34cd4fb3b25@f9941"
+        "fb1ffa4a-859b-42f6-ae27-e34cd4fb3b25@f9941",
+        "a1560f4d-7b36-4e54-a9fc-3a3f1abebe86"
       ],
       "dependScripts": [
-        "a8d43f3d-39c4-4bf1-b365-d803c5f0b09d"
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "1911f4c1-566b-4ba6-8710-da802ab5eee3"
       ]
     },
     "versionCode": 0
@@ -44693,6 +44698,7 @@
     },
     "versionCode": 0
   },
+<<<<<<< HEAD
   "4c4b1717-854c-4071-bba8-c6eec4cda6b3": {
     "url": "db://assets/Map/map2Source",
     "value": {},
@@ -44732,11 +44738,28 @@
         "13a8c3ab-7db6-4846-8273-89b0f517572b@f9941",
         "c889fc05-7787-4da2-849d-b87d6c851746@f9941",
         "84713be9-8bea-42e2-9567-f713b192970d"
+=======
+  "975573cb-1f19-4eda-bcb0-71c2eaa8975b": {
+    "url": "db://assets/Audio/SoundEffect/button-124476.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1fccba48-a386-4c0b-884f-a80faf68ea18": {
+    "url": "db://assets/Prefabs/BGMSlider.prefab",
+    "value": {
+      "depends": [
+        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
+        "1cad3953-879f-4cd7-aa28-89a135d40b24@f9941",
+        "fb1ffa4a-859b-42f6-ae27-e34cd4fb3b25@f9941"
+>>>>>>> volume
       ],
       "dependScripts": []
     },
     "versionCode": 0
   },
+<<<<<<< HEAD
   "5c63c6d5-bd28-4b3b-8dd2-5f2b9a10b31a": {
     "url": "db://assets/Map/map2Source/boxes.png",
     "value": {
@@ -46620,11 +46643,28 @@
   },
   "b43a1f3c-4c6f-4b62-990e-b6260e9906e6": {
     "url": "db://assets/Map/map2Source/Grass_anim/grassM03.png",
+=======
+  "64d10a9a-f4b4-4acb-bc59-a3d161926068": {
+    "url": "db://assets/Prefabs/EffectSlider.prefab",
+    "value": {
+      "depends": [
+        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
+        "1cad3953-879f-4cd7-aa28-89a135d40b24@f9941",
+        "fb1ffa4a-859b-42f6-ae27-e34cd4fb3b25@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "aa6ea8e5-6a77-471e-adeb-890bf5d539dd": {
+    "url": "db://assets/Audio/BGM/menu_music.mp3",
+>>>>>>> volume
     "value": {
       "depends": []
     },
     "versionCode": 0
   },
+<<<<<<< HEAD
   "6c01573f-dffe-46f5-a555-195afb497a0e@6c48a": {
     "url": "db://assets/Map/map2Source/Grass_anim/grassL03.png@6c48a",
     "value": {
@@ -46668,6 +46708,16 @@
         "5490fdf1-7822-4b1e-b67f-aba05c932e21"
       ]
     },
+=======
+  "9db77e50-3a09-46f6-844b-9e885693d485": {
+    "url": "db://assets/Scripts/BGMmanager.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c22282e4-a908-478d-a224-12e0dfc044ee": {
+    "url": "db://assets/Scripts/Manager/BGManager.ts",
+    "value": {},
+>>>>>>> volume
     "versionCode": 0
   }
 }

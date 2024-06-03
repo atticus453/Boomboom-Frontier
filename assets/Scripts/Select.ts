@@ -44,7 +44,9 @@ export class Select extends Component {
         director.loadScene("Game");
     }
     LogOut(){
-        director.loadScene("Menu2");
+        firebase.auth().signOut().then(() => {
+            director.loadScene("Menu");
+        });
     }
 
     update(deltaTime: number) {
