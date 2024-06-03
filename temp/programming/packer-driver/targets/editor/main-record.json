@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 795103.016040802,
+      "mTimestamp": 5777927.137000084,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -700,7 +700,7 @@
           }
         },
         {
-          "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Manager/GameManager.ts",
+          "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Manager/BGManager.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -709,203 +709,217 @@
             },
             "end": {
               "line": 5,
-              "column": 850
+              "column": 848
+            }
+          }
+        },
+        {
+          "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Manager/GameManager.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 864
+            },
+            "end": {
+              "line": 5,
+              "column": 1022
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Manager/GlobalManager.ts",
-          "resolved": "__unresolved_5",
+          "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 866
+              "column": 1038
             },
             "end": {
               "line": 5,
-              "column": 1026
+              "column": 1198
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Manager/PhotonManager.ts",
-          "resolved": "__unresolved_6",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1042
+              "column": 1214
             },
             "end": {
               "line": 5,
-              "column": 1202
+              "column": 1374
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Manager/PlayerManager.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1218
+              "column": 1390
             },
             "end": {
               "line": 5,
-              "column": 1378
+              "column": 1550
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Manager/SelectPlayer.ts",
-          "resolved": "__unresolved_8",
+          "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1394
+              "column": 1566
             },
             "end": {
               "line": 5,
-              "column": 1553
+              "column": 1725
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/MultiRoom.ts",
-          "resolved": "__unresolved_9",
+          "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1569
+              "column": 1741
             },
             "end": {
               "line": 5,
-              "column": 1717
+              "column": 1889
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/MultiSelect.ts",
-          "resolved": "__unresolved_10",
+          "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1733
+              "column": 1905
             },
             "end": {
               "line": 5,
-              "column": 1883
+              "column": 2055
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/PlayerPrefab.ts",
-          "resolved": "__unresolved_11",
+          "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1899
+              "column": 2071
             },
             "end": {
               "line": 5,
-              "column": 2050
+              "column": 2222
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Ranking.ts",
-          "resolved": "__unresolved_12",
+          "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2066
+              "column": 2238
             },
             "end": {
               "line": 5,
-              "column": 2212
+              "column": 2384
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Select.ts",
-          "resolved": "__unresolved_13",
+          "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2228
+              "column": 2400
             },
             "end": {
               "line": 5,
-              "column": 2373
+              "column": 2545
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Setting.ts",
-          "resolved": "__unresolved_14",
+          "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2389
+              "column": 2561
             },
             "end": {
               "line": 5,
-              "column": 2535
+              "column": 2707
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/ZorderByY.ts",
-          "resolved": "__unresolved_15",
+          "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2551
+              "column": 2723
             },
             "end": {
               "line": 5,
-              "column": 2699
+              "column": 2871
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/menu.ts",
-          "resolved": "__unresolved_16",
+          "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2715
+              "column": 2887
             },
             "end": {
               "line": 5,
-              "column": 2858
+              "column": 3030
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/signIn.ts",
-          "resolved": "__unresolved_17",
+          "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2874
+              "column": 3046
             },
             "end": {
               "line": 5,
-              "column": 3019
+              "column": 3191
             }
           }
         },
         {
           "value": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/signUp.ts",
-          "resolved": "__unresolved_18",
+          "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3035
+              "column": 3207
             },
             "end": {
               "line": 5,
-              "column": 3180
+              "column": 3352
             }
           }
         }
@@ -937,6 +951,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/CreateUser.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Manager/BGManager.ts"
           },
           "messages": []
         },
@@ -2417,7 +2438,7 @@
     },
     "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Bullet.ts": {
       "mTimestamp": {
-        "mtime": 1717431215098.173,
+        "mtime": 1717431676035.7075,
         "uuid": "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
       },
       "chunkId": "d6d8fe46246bd354ed5ccbf602ebcf1da5123188",
@@ -3382,7 +3403,7 @@
     },
     "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Select.ts": {
       "mTimestamp": {
-        "mtime": 1717156352826.134,
+        "mtime": 1717432714653.9407,
         "uuid": "cff5eb04-f641-4967-9973-67717a9f2045"
       },
       "chunkId": "6e18b677fc63677f83cd39fa7d25fb55ab8f8b17",
@@ -3434,7 +3455,7 @@
     },
     "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Setting.ts": {
       "mTimestamp": {
-        "mtime": 1717419702438.8809,
+        "mtime": 1717432045127.317,
         "uuid": "1911f4c1-566b-4ba6-8710-da802ab5eee3"
       },
       "chunkId": "b99491f9bb343a8317d1c0db2099d56d4d6a92ed",
@@ -3454,11 +3475,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 69
+              "column": 105
             },
             "end": {
               "line": 1,
-              "column": 73
+              "column": 109
             }
           }
         },
@@ -3570,11 +3591,15 @@
     },
     "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/menu.ts": {
       "mTimestamp": {
-        "mtime": 1717156352827.5789,
+        "mtime": 1717435777488.2197,
         "uuid": "c14c4976-d7bd-474b-b734-2cdcb004c028"
       },
       "chunkId": "ce2337ab57d113a9a0701fa6671bfc3ef97cd3d0",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -3586,11 +3611,25 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 62
+              "column": 73
             },
             "end": {
               "line": 1,
-              "column": 66
+              "column": 77
+            }
+          }
+        },
+        {
+          "value": "./Manager/BGManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 43
             }
           }
         }
@@ -3600,7 +3639,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -3615,6 +3654,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Manager/BGManager.ts"
           },
           "messages": []
         }
@@ -3695,6 +3748,162 @@
             "end": {
               "line": 1,
               "column": 81
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/BGMmanager.ts": {
+      "mTimestamp": {
+        "mtime": 1717434456262.8035,
+        "uuid": "9db77e50-3a09-46f6-844b-9e885693d485"
+      },
+      "chunkId": "c65f015aad566376bae80985f039511302c7dcec",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/BGManager.ts": {
+      "mTimestamp": {
+        "mtime": 1717434507409.582,
+        "uuid": "c22282e4-a908-478d-a224-12e0dfc044ee"
+      },
+      "chunkId": "91a540b68e0774f91bac0e4e914bcd149c1a4cd6",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Manager/BGManager.ts": {
+      "mTimestamp": {
+        "mtime": 1717436196044.5012,
+        "uuid": "c22282e4-a908-478d-a224-12e0dfc044ee"
+      },
+      "chunkId": "70f393ea9624f44b626933f5cf7464244c05779f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 89
+            },
+            "end": {
+              "line": 2,
+              "column": 93
             }
           }
         }

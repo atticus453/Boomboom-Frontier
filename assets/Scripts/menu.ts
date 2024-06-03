@@ -1,4 +1,5 @@
-import { _decorator, Component, Node , Button, director} from 'cc';
+import { _decorator, Component, Node , Button, director, AudioClip} from 'cc';
+import BGManager from './Manager/BGManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('menu')
@@ -7,8 +8,12 @@ export class menu extends Component {
     
     @property(Button) signUpBtn: Button = null;
     @property(Button) signInBtn: Button = null;
+    @property(AudioClip)
+    static bgm: AudioClip = null;
+    
     // @property(Button) signOutBtn: Button = null;
     start() {
+        BGManager.playMusic();
 
         let SetButton = new Component.EventHandler();
         SetButton.target = this.node;
