@@ -8,6 +8,30 @@
     ".png"
   ],
   "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "aabced1f-51d6-4ee0-a7b1-69c7221f992a@6c48a",
+      "displayName": "4",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "aabced1f-51d6-4ee0-a7b1-69c7221f992a",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "f9941": {
       "importer": "sprite-frame",
       "uuid": "aabced1f-51d6-4ee0-a7b1-69c7221f992a@f9941",
@@ -94,30 +118,6 @@
         "atlasUuid": ""
       },
       "ver": "1.0.12",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "aabced1f-51d6-4ee0-a7b1-69c7221f992a@6c48a",
-      "displayName": "4",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "clamp-to-edge",
-        "wrapModeT": "clamp-to-edge",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "aabced1f-51d6-4ee0-a7b1-69c7221f992a",
-        "visible": false
-      },
-      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
