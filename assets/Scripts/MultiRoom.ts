@@ -160,27 +160,34 @@ export class MultiRoom extends Component {
 
     // button function setup
         this.scheduleOnce(()=>{
+            const currentUser = firebase.auth().currentUser;
+            const userRef = firebase.database().ref('users/' + currentUser.uid);
+
             setupSelect.getChildByName("cancel").on(Node.EventType.MOUSE_UP, ()=>{
                 setupSelect.destroy();
             }, this);
             setupSelect.getChildByName("knight").getChildByName("Button").on(Node.EventType.MOUSE_UP, ()=>{
                 console.log("kngiht");
                 this.node.getChildByName("playerPreview").getChildByName("player").getComponent(Animation).play("Knight_Idle");
+                userRef.update({skin: "Knight"});
                 setupSelect.destroy();
             }, this);
             setupSelect.getChildByName("musketeer").getChildByName("Button").on(Node.EventType.MOUSE_UP, ()=>{
                 console.log("musketeer");
                 this.node.getChildByName("playerPreview").getChildByName("player").getComponent(Animation).play("Musketeer_Idle");
+                userRef.update({skin: "Musketeer"});
                 setupSelect.destroy();
             }, this);
             setupSelect.getChildByName("swordsman").getChildByName("Button").on(Node.EventType.MOUSE_UP, ()=>{
                 console.log("swordsman");
                 this.node.getChildByName("playerPreview").getChildByName("player").getComponent(Animation).play("Swordsman_Idle");
+                userRef.update({skin: "Swordsman"});
                 setupSelect.destroy();
             }, this);
             setupSelect.getChildByName("wizard").getChildByName("Button").on(Node.EventType.MOUSE_UP, ()=>{
                 console.log("wizard");
                 this.node.getChildByName("playerPreview").getChildByName("player").getComponent(Animation).play("Wizard_Idle");
+                userRef.update({skin: "Wizard"});
                 setupSelect.destroy();
             }, this);    
         }, 0.1);

@@ -41579,5 +41579,15 @@
       ]
     },
     "versionCode": 0
+  },
+  "cce86046-715a-4171-b258-33d33f7fd01a": {
+    "url": "db://assets/scene.scene",
+    "value": {
+      "depends": [
+        "cce86046-715a-4171-b258-33d33f7fd01a"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
   }
 }

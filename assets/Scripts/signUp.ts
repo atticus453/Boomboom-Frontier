@@ -22,7 +22,8 @@ export class signUp extends Component {
             name: na,
             email: mail,
             death: die,
-            kill: ki
+            kill: ki,
+            skin: "Knight"
         }
         usersRef.set(data)
             .then(function() {
