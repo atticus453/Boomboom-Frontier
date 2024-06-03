@@ -24,6 +24,7 @@ export class Bullet extends Component {
     let collider = this.node.getComponent(PolygonCollider2D);
     if (collider) {
       collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+      collider.sensor = true;
     }
 
     this.playerManager = find(this.playerManagerPath).getComponent(
@@ -33,6 +34,9 @@ export class Bullet extends Component {
     this.isNodePooling = this.playerManager.PoolMode;
     //set name
     this.node.name = "Bullet";
+
+    //enable sensor
+
   }
 
   start() {
