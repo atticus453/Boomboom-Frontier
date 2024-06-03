@@ -58,25 +58,27 @@ export class PlayerManager extends Component {
       if (index === selectedIndex - 1) {
         // 激活该玩家的控制脚本
         player.name = `Player${index + 1}`;
+        player.playerIndex = index + 1;
         controlComponent.enabled = true;
-        console.log("Player is controlled by the local player");
-        console.log(
-          "Selected player index  and Index ",
-          selectedIndex,
-          " ",
-          index
-        );
+        //console.log("Player is controlled by the local player");
+        // console.log(
+        //   "Selected player index  and Index ",
+        //   selectedIndex,
+        //   " ",
+        //   index
+        // );
       } else {
         // 禁用其他玩家的控制脚本，但依然会接收位置更新
         player.name = `Player${index + 1}`;
+        player.playerIndex = index + 1;
         controlComponent.enabled = true;
-        console.log("Player is controlled by the remote player");
-        console.log(
-          "Selected player index  and Index ",
-          selectedIndex,
-          " ",
-          index
-        );
+        // console.log("Player is controlled by the remote player");
+        // console.log(
+        //   "Selected player index  and Index ",
+        //   selectedIndex,
+        //   " ",
+        //   index
+        // );
       }
     });
   }

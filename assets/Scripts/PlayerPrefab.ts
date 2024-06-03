@@ -21,6 +21,7 @@ import {
   v3,
   Sprite,
   Color,
+  ProgressBar,
   Game,
 } from "cc";
 
@@ -56,11 +57,14 @@ export class PlayerPrefab extends Component {
   @property(Prefab)
   public itemPrefab: Prefab = null;
 
+  @property(Prefab)
+  public healthBarPrefab: Prefab = null;
+
   @property
   public health: number = 100;
 
   @property
-  public playerIndex: number = 0;
+  public playerIndex: number;
 
   // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
@@ -84,7 +88,7 @@ export class PlayerPrefab extends Component {
   private preDir: string = "RIGHT";
   private dirX = 0;
   private dirY = 0;
-  private angle = 0;
+  public angle = 0;
   private curItem: number = 0; // 0: weapon, 1: item
 
   // Some flags for judging the state of the player
@@ -93,7 +97,9 @@ export class PlayerPrefab extends Component {
   private isShooting = false;
 
   // ChildNode
-  private gunNode = null;
+  public gunNode = null;
+  public healthBarNode = null;
+  public SelfLabel = null;
 
   onLoad(): void {
     this.playerManager = find(this.playerManagerPath).getComponent(
@@ -108,14 +114,24 @@ export class PlayerPrefab extends Component {
 
     this.isNodePooling = this.playerManager.PoolMode;
     this.initGunNode();
+    this.initHealthBarNode();
     this.selectedPlayerIndex = GlobalManager.instance.selectedPlayerIndex;
+    //string to number
+
+
 
   }
 
   start() {
     this.handleListener("LOAD");
-    this.playerIndex = GlobalManager.instance.selectedPlayerIndex;
 
+    if(this.playerIndex === this.selectedPlayerIndex){
+      this.node.getChildByName("SelfLabel").active = true;
+      console.log("Player", this.playerIndex, "is selected");
+    } else {
+      this.node.getChildByName("SelfLabel").active = false;
+      console.log("Player", this.playerIndex, "is not selected");
+    }
     PlayerPrefab.itemBar = instantiate(this.itemPrefab);
     PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
     find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
@@ -126,47 +142,72 @@ export class PlayerPrefab extends Component {
   }
 
   update(deltaTime: number) {
-    let playerBody = this.node.getComponent(RigidBody2D);
-    if (playerBody) {
-      this.handlePlayerPosition();
-      this.sendPosition();
 
-      if (this.isShooting) {
-        this.shootInterval -= deltaTime;
-        if (this.shootInterval <= 0) {
-          this.handlePlayerShoot();
-          this.shootInterval = this.fireRate;
+    if(this.playerIndex === this.selectedPlayerIndex){
+      //console.log("this player index is" + this.playerIndex + "selected player index is" + this.selectedPlayerIndex);
+      let playerBody = this.node.getComponent(RigidBody2D);
+      if (playerBody) {
+        this.handlePlayerPosition();
+        this.sendPosition();
+  
+        if (this.isShooting) {
+          this.shootInterval -= deltaTime;
+          if (this.shootInterval <= 0) {
+            this.handlePlayerShoot();
+            this.shootInterval = this.fireRate;
+          }
+        }else {
+          let playerBody = this.node.getComponent(RigidBody2D);
+          if (playerBody) {
+            this.handlePlayerPosition();
+          }
         }
-      }else {
-        let playerBody = this.node.getComponent(RigidBody2D);
-        if (playerBody) {
-          this.handlePlayerPosition();
+  
+        if (this.curItem === 0) {
+          PlayerPrefab.itemBar
+            .getChildByPath("Weapon/WeaponBack")
+            .getComponent(Sprite).color = new Color(201, 197, 107, 255);
+          PlayerPrefab.itemBar
+            .getChildByPath("Item/ItemBack")
+            .getComponent(Sprite).color = new Color(255, 255, 255, 255);
+        } else {
+          PlayerPrefab.itemBar
+            .getChildByPath("Weapon/WeaponBack")
+            .getComponent(Sprite).color = new Color(255, 255, 255, 255);
+          PlayerPrefab.itemBar
+            .getChildByPath("Item/ItemBack")
+            .getComponent(Sprite).color = new Color(201, 197, 107, 255);
         }
-      }
-
-      if (this.curItem === 0) {
-        PlayerPrefab.itemBar
-          .getChildByPath("Weapon/WeaponBack")
-          .getComponent(Sprite).color = new Color(201, 197, 107, 255);
-        PlayerPrefab.itemBar
-          .getChildByPath("Item/ItemBack")
-          .getComponent(Sprite).color = new Color(255, 255, 255, 255);
-      } else {
-        PlayerPrefab.itemBar
-          .getChildByPath("Weapon/WeaponBack")
-          .getComponent(Sprite).color = new Color(255, 255, 255, 255);
-        PlayerPrefab.itemBar
-          .getChildByPath("Item/ItemBack")
-          .getComponent(Sprite).color = new Color(201, 197, 107, 255);
       }
     }
+    this.updateHealthBar();
+
   }
+
+  updateHealthBar() {
+    const healthBar = this.healthBarNode.getComponent(ProgressBar);
+    try {
+      healthBar.progress = this.health / 100;
+      console.log("Health Bar Updated");
+    } catch (error) {
+      console.log("Health Bar Node not found");
+    }
+    
+  }
+
+
 
   initGunNode() {
     this.gunNode = instantiate(this.weapon_5);
     this.gunNode.parent = this.node;
     this.gunNode.name = "Gun";
     this.gunNode.setPosition(0, -40);
+  }
+
+  initHealthBarNode() {
+    this.healthBarNode = this.node.getChildByName("HealthBar");
+     // player position + offset
+    //this.healthBarNode.setPosition(this.node.position.x, this.node.position.y);
   }
 
   sendPosition() {
@@ -177,6 +218,7 @@ export class PlayerPrefab extends Component {
         y: position.y,
         angle: this.angle,
         PlayerIndex: this.playerIndex,
+        face: this.node.scale.x,
       });
     }
   }
@@ -220,7 +262,7 @@ export class PlayerPrefab extends Component {
     bulletDir = this.changeAngleToUnitVec();
     bulletDir[0] = bulletDir[0] * this.node.scale.x;
 
-    bulletPosX = this.node.position.x + bulletDir[0] * 35;
+    bulletPosX = this.node.position.x + bulletDir[0] * 40;
     bulletPosY = this.node.position.y + bulletDir[1] * 35 - 40;
 
     bullet.setPosition(bulletPosX, bulletPosY);
@@ -274,7 +316,7 @@ export class PlayerPrefab extends Component {
     this.health += amount;
     console.log(`Health updated: ${this.health}`);
     if(this.health <= 0){
-      console.log("Player is dead");
+      console.log("Player", this.playerIndex,"is dead");
       //this.node.destroy();
     } else {
       // --Waiting For Change--
@@ -282,6 +324,8 @@ export class PlayerPrefab extends Component {
       //this.node.setScale(this.health / 100, 1);
     }
   }
+
+
 
   // The function to handle the listener
   // Use "LOAD" to open the listener
@@ -340,11 +384,13 @@ export class PlayerPrefab extends Component {
       case KeyCode.KEY_A:
         this.dirX = -1;
         this.preDir = "LEFT";
+        this.sendFaceDirection();
         // console.log("left");
         break;
       case KeyCode.KEY_D:
         this.dirX = 1;
         this.preDir = "RIGHT";
+        this.sendFaceDirection();
         // console.log("right");
         break;
       case KeyCode.KEY_K:
@@ -429,6 +475,18 @@ export class PlayerPrefab extends Component {
       });
     }
   }
+
+
+  sendFaceDirection() {
+    const photonManager = find("Canvas").getComponent("PhotonManager");
+    if (this.photonManager ) {
+      this.photonManager.sendEvent(5, {
+        PlayerIndex: this.playerIndex,
+        face: this.node.scale.x,
+      });
+
+    }
+}
 
   //send Shoot Event
   sendShootEvent() {

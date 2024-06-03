@@ -213,6 +213,8 @@ export default class PhotonManager extends Component {
       this.updatePlayerHealth(content);
     } else if (code === 3) {
       this.handleShootEvent(content);
+    } else if (code === 5){
+      this.updatePlayerFace(content);
     }
 
   
@@ -228,13 +230,27 @@ export default class PhotonManager extends Component {
         new Vec3(content.x, content.y,playerNode.position.z)
       ); // 假设 z 坐标不变
       playerNode.getComponent(PlayerPrefab).angle = content.angle;
+      playerNode.getComponent(PlayerPrefab).gunNode.setRotationFromEuler(0, 0, content.angle);
+      //playerNode.setScale(content.face ,1);
+    } else {
+      console.log("Player node not found for index: ", content.PlayerIndex);
+    }
+  }
+
+  updatePlayerFace(content: any) {
+    const playerNode = find(
+      `Canvas/map1/ZorderByY/Player${content.PlayerIndex}`
+    );
+    if (playerNode) {
+      playerNode.setScale(((content.face)*-1) ,1);
+  
     } else {
       console.log("Player node not found for index: ", content.PlayerIndex);
     }
   }
 
   updatePlayerHealth(content: any) {
-    // 使用 content 中的 selectedIndex 来找到对应的玩家节点
+    // 使用 content 中的 selectedIndex 来找到对应的玩家节点d
     const playerManagerNode = find(
       `Canvas/PlayerManager`
     );

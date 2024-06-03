@@ -64,6 +64,7 @@ export class Bullet extends Component {
       otherCollider.node.name === "Player3" 
     ) {
       this.isCollied = true;
+      console.log(otherCollider.node.name);
     }
   }
 }
