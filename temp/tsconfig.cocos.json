@@ -5,9 +5,13 @@
     "module": "ES2015",
     "strict": true,
     "types": [
+<<<<<<< HEAD
       "./temp/declarations/cc",
+=======
+>>>>>>> aa72f73969c33fbd6d036322c5a33927e0ce99c7
       "./temp/declarations/cc.custom-macro",
       "./temp/declarations/jsb",
+      "./temp/declarations/cc",
       "./temp/declarations/cc.env"
     ],
     "paths": {
@@ -15,7 +19,15 @@
         "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
+<<<<<<< HEAD
         "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\*"
+=======
+<<<<<<< HEAD
+        "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier-newest/assets/*"
+=======
+        "/Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/*"
+>>>>>>> itemShow
+>>>>>>> aa72f73969c33fbd6d036322c5a33927e0ce99c7
       ]
     },
     "experimentalDecorators": true,
