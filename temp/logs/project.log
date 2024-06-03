@@ -1,0 +1,467 @@
+2024-6-4 00:15:59 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+2024-6-4 00:16:00 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+2024-6-4 00:16:00 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
+2024-6-4 00:16:04 - log: Profile changed: builder (log.level: 4)
+2024-6-4 00:16:06 - error: The plug-in main process failed to load. Error: Cannot find module 'fs-extra'
+Require stack:
+- C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\psd2cocos\dist\main.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\package\dist\browser\package.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\package\dist\browser\index.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\package\index.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\startup\protected\browser\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\startup\protected\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\startup\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\init.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\index.js
+- 
+    at Module._resolveFilename (internal/modules/cjs/loader.js:887:15)
+    at n._resolveFilename (electron/js2c/browser_init.js:257:921)
+    at Function.Module._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js:8:24)
+    at Function._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:109:46)
+    at Module._load (internal/modules/cjs/loader.js:732:27)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+    at Function._load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:127:35)
+    at Module.require (internal/modules/cjs/loader.js:959:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\psd2cocos\dist\main.js:9:36)
+2024-6-4 00:16:48 - log: [Scene] meshopt wasm decoder initialized
+2024-6-4 00:16:48 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2024-6-4 00:16:48 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2024-6-4 00:16:49 - log: [Scene] [PHYSICS]: using builtin.
+2024-6-4 00:16:49 - log: [Scene] Cocos Creator v3.8.2
+2024-6-4 00:16:49 - info: [Scene] Forward render pipeline initialized.
+2024-6-4 00:16:49 - warn: [Scene] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [Scene] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:1743:21
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:12:174
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:13:6
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+2024-6-4 00:16:49 - warn: [Scene] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+Error: [Scene] 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:25549:78
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:12:174
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:13:6
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+2024-6-4 00:16:49 - warn: [Scene] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+Error: [Scene] 
+Warning: This is a browser-targeted Firebase bundle but it appears it is being
+run in a Node environment.  If running in a Node environment, make sure you
+are using the bundle specified by the "main" field in package.json.
+
+If you are using Webpack, you can specify "main" as the first item in
+"resolve.mainFields":
+https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
+to false and "main" to true:
+https://github.com/rollup/rollup-plugin-node-resolve
+
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:26929:28
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:25552:174
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:25553:6
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+2024-6-4 00:16:49 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 00:16:50 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 00:16:50 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 00:16:50 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 00:16:50 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-6-4 00:16:51 - warn: [Scene] C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js Error: Cannot find module 'fs-extra'
+Require stack:
+- C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\public.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\init.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\main.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\web\preload.js
+- electron/js2c/renderer_init
+    at Module._resolveFilename (internal/modules/cjs/loader.js:887:15)
+    at o._resolveFilename (electron/js2c/renderer_init.js:33:917)
+    at Function.Module._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js:8:24)
+    at Function._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:109:46)
+    at Module._load (internal/modules/cjs/loader.js:732:27)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+    at Function._load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:127:35)
+    at Module.require (internal/modules/cjs/loader.js:959:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js:4:20) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\extensions\\plugin-import-2x\\dist\\scene-walker.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\public.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\index.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\index.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\init.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\index.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\main.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\web\\preload.js',
+    'electron/js2c/renderer_init'
+  ]
+}Error: [Scene] C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js Error: Cannot find module 'fs-extra'
+Require stack:
+- C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\public.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\init.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\main.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\web\preload.js
+- electron/js2c/renderer_init
+    at Function._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:109:46)
+    at Module._load (internal/modules/cjs/loader.js:732:27)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+    at Function._load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:127:35)
+    at Module.require (internal/modules/cjs/loader.js:959:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js:4:20) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\extensions\\plugin-import-2x\\dist\\scene-walker.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\public.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\index.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\index.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\init.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\index.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\main.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\web\\preload.js',
+    'electron/js2c/renderer_init'
+  ]
+}
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:492)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)
+    at attach (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\plugin.ccc:1:2946)
+    at Array.forEach (<anonymous>)
+    at PluginManager.init (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\plugin.ccc:1:1470)
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getCCClassAnimablePropType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:12667)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13040)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13164)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+    at AnimationUtil.getAnimablePropsFromComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13396)
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getCCClassAnimablePropType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:12667)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13040)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13164)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+    at AnimationUtil.getAnimablePropsFromComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13396)
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getCCClassAnimablePropType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:12667)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13040)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13164)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+    at AnimationUtil.getAnimablePropsFromComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13396)
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:38 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getCCClassAnimablePropType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:12667)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13040)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13164)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+    at AnimationUtil.getAnimablePropsFromComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13396)
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getCCClassAnimablePropType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:12667)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13040)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13164)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+    at AnimationUtil.getAnimablePropsFromComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13396)
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getCCClassAnimablePropType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:12667)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13040)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at AnimationUtil.getAnimablePropsFromProperty (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13164)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13441
+    at Array.map (<anonymous>)
+    at AnimationUtil.getAnimablePropsFromComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\utils.ccc:1:13396)
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:30:51 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at markAsWarningLog (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154277:11)
+    at LabelShadow.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154287:15)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:4328)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\encode.ccc:1:2151
+2024-6-4 00:41:40 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
