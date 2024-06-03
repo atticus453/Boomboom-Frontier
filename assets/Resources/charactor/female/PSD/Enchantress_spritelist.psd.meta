@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "8c4bbec1-b156-41eb-a24b-659958aab6ab",
+  "uuid": "d5991e26-f902-43b5-8231-f0476c4e8c7a",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "8c4bbec1-b156-41eb-a24b-659958aab6ab@6c48a",
+      "uuid": "d5991e26-f902-43b5-8231-f0476c4e8c7a@6c48a",
       "displayName": "Enchantress_spritelist",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "8c4bbec1-b156-41eb-a24b-659958aab6ab",
+        "imageUuidOrDatabaseUri": "d5991e26-f902-43b5-8231-f0476c4e8c7a",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "8c4bbec1-b156-41eb-a24b-659958aab6ab@6c48a"
+    "redirect": "d5991e26-f902-43b5-8231-f0476c4e8c7a@6c48a"
   }
 }

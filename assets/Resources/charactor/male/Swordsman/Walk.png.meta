@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "f91a82f6-8fac-4f8e-bad3-b939e07e7171",
+  "uuid": "3bbc9053-eb66-4781-8883-f604b203949d",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "f91a82f6-8fac-4f8e-bad3-b939e07e7171@6c48a",
+      "uuid": "3bbc9053-eb66-4781-8883-f604b203949d@6c48a",
       "displayName": "Walk",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "f91a82f6-8fac-4f8e-bad3-b939e07e7171",
+        "imageUuidOrDatabaseUri": "3bbc9053-eb66-4781-8883-f604b203949d",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "f91a82f6-8fac-4f8e-bad3-b939e07e7171@6c48a"
+    "redirect": "3bbc9053-eb66-4781-8883-f604b203949d@6c48a"
   }
 }

@@ -50,10 +50,17 @@
         "height": 28,
         "rawWidth": 48,
         "rawHeight": 28,
+<<<<<<< HEAD
         "borderTop": 0,
         "borderBottom": 0,
         "borderLeft": 0,
         "borderRight": 0,
+=======
+        "borderTop": 2,
+        "borderBottom": 8,
+        "borderLeft": 3,
+        "borderRight": 4,
+>>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
         "packable": true,
         "pixelsToUnit": 100,
         "pivotX": 0.5,

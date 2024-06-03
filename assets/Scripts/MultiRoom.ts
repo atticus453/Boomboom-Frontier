@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Label, Button, director, Prefab, instantiate, macro } from 'cc';
+import { _decorator, Component, Node, Label, Button, director, Prefab, instantiate, macro, AnimationClip, animation, Animation } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('MultiRoom')
@@ -40,8 +40,27 @@ export class MultiRoom extends Component {
     
     private playerFrameList: Node[] = [];
 
-    // private updateData = null;
     private roomRef = null;
+
+    private mapCnt: number = 2;
+
+    @property(Prefab)
+    mapSelectPrefab: Prefab = null;
+
+    @property(Prefab)
+    setupSelectPrefab: Prefab = null;
+
+    @property(AnimationClip)
+    knightAnimationClip: AnimationClip = null;
+
+    @property(AnimationClip)
+    musketeerAnimationClip: AnimationClip = null;
+    
+    @property(AnimationClip)
+    swordsmanAnimationClip: AnimationClip = null;
+    
+    @property(AnimationClip)
+    wizardAnimationClip: AnimationClip = null;
 
     start() {
         try {
@@ -84,8 +103,8 @@ export class MultiRoom extends Component {
                     this.mode = room.mode;
                     this.userCnt = room.userCnt;
 
-                    console.log("userList");
-                    console.log(this.userList);
+                    // console.log("userList");
+                    // console.log(this.userList);
                     for(let i=0; i<4; i++){
                         if(i > this.userCnt) continue;
                             
@@ -93,7 +112,7 @@ export class MultiRoom extends Component {
                         userRef.once('value', (snapshot) => {
                             try{
                                 if (!snapshot.exists()) return;
-                                console.log(snapshot.val());
+                                // console.log(snapshot.val());
                                 const user = snapshot.val();
                                 this.playerFrameList[i].getChildByName("name").getComponent(Label).string = user.name;
                                 this.playerFrameList[i].getChildByName("KD").getComponent(Label).string = (user.death == 0 ? "NA" : (user.kill / user.death).toString());
@@ -130,11 +149,81 @@ export class MultiRoom extends Component {
     }
 
     onBagClick(){
+        if(this.node.getChildByName("setupSelect")) return;
+
         console.log("OPENING BAG...");
+
+        let setupSelect = instantiate(this.setupSelectPrefab);
+        let skinName: string[] = ["female1", "female2", "male1", "male2"];
+        setupSelect.setPosition(0, 0);
+        this.node.addChild(setupSelect);
+
+    // button function setup
+        this.scheduleOnce(()=>{
+            const currentUser = firebase.auth().currentUser;
+            const userRef = firebase.database().ref('users/' + currentUser.uid);
+
+            setupSelect.getChildByName("cancel").on(Node.EventType.MOUSE_UP, ()=>{
+                setupSelect.destroy();
+            }, this);
+            setupSelect.getChildByName("knight").getChildByName("Button").on(Node.EventType.MOUSE_UP, ()=>{
+                console.log("kngiht");
+                this.node.getChildByName("playerPreview").getChildByName("player").getComponent(Animation).play("Knight_Idle");
+                userRef.update({skin: "Knight"});
+                setupSelect.destroy();
+            }, this);
+            setupSelect.getChildByName("musketeer").getChildByName("Button").on(Node.EventType.MOUSE_UP, ()=>{
+                console.log("musketeer");
+                this.node.getChildByName("playerPreview").getChildByName("player").getComponent(Animation).play("Musketeer_Idle");
+                userRef.update({skin: "Musketeer"});
+                setupSelect.destroy();
+            }, this);
+            setupSelect.getChildByName("swordsman").getChildByName("Button").on(Node.EventType.MOUSE_UP, ()=>{
+                console.log("swordsman");
+                this.node.getChildByName("playerPreview").getChildByName("player").getComponent(Animation).play("Swordsman_Idle");
+                userRef.update({skin: "Swordsman"});
+                setupSelect.destroy();
+            }, this);
+            setupSelect.getChildByName("wizard").getChildByName("Button").on(Node.EventType.MOUSE_UP, ()=>{
+                console.log("wizard");
+                this.node.getChildByName("playerPreview").getChildByName("player").getComponent(Animation).play("Wizard_Idle");
+                userRef.update({skin: "Wizard"});
+                setupSelect.destroy();
+            }, this);    
+        }, 0.1);
     }
 
     onMapClick(){
+        if(this.node.getChildByName("mapSelect")) return;
+
         console.log("OPENING MAP...");
+        
+        let mapSelect = instantiate(this.mapSelectPrefab);
+        let mapNames: string[] = ["map1", "map2"];
+        mapSelect.setPosition(0, 0);
+        this.node.addChild(mapSelect);
+    
+    // button function setup
+        mapSelect.getChildByName("cancel").on(Node.EventType.MOUSE_UP, ()=>{
+            mapSelect.destroy();
+        }, this);
+        mapSelect.getChildByName("map1").on(Node.EventType.MOUSE_UP, ()=>{
+            console.log("Change to map1");
+            this.roomRef.update({map: mapNames[0]});
+            mapSelect.destroy();
+        }, this);
+        mapSelect.getChildByName("map2").on(Node.EventType.MOUSE_UP, ()=>{
+            console.log("Change to map2");
+            this.roomRef.update({map: mapNames[1]});
+            mapSelect.destroy();
+        }, this);
+        mapSelect.getChildByName("random").on(Node.EventType.MOUSE_UP, ()=>{
+            console.log("Randommmmmmmm");
+            this.roomRef.update({map: mapNames[Math.floor(Math.random() * this.mapCnt)]});
+            mapSelect.destroy();
+        }, this);
+
     }
+
 }
 

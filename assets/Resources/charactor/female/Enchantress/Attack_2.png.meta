@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "52bc094b-d47a-46e7-b807-ac18dead5bad",
+  "uuid": "242e4906-57c8-4ed1-bab1-1e2613d76fc5",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "52bc094b-d47a-46e7-b807-ac18dead5bad@6c48a",
+      "uuid": "242e4906-57c8-4ed1-bab1-1e2613d76fc5@6c48a",
       "displayName": "Attack_2",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "52bc094b-d47a-46e7-b807-ac18dead5bad",
+        "imageUuidOrDatabaseUri": "242e4906-57c8-4ed1-bab1-1e2613d76fc5",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "52bc094b-d47a-46e7-b807-ac18dead5bad@6c48a"
+    "redirect": "242e4906-57c8-4ed1-bab1-1e2613d76fc5@6c48a"
   }
 }

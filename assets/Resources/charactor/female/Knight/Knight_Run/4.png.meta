@@ -2,7 +2,11 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
+<<<<<<< HEAD
   "uuid": "7e9e8c06-277d-42dd-a9fd-964db4178a95",
+=======
+  "uuid": "f6848b00-11cd-4a50-8acd-755c0f271c98",
+>>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
   "files": [
     ".json",
     ".png"
@@ -10,7 +14,11 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
+<<<<<<< HEAD
       "uuid": "7e9e8c06-277d-42dd-a9fd-964db4178a95@6c48a",
+=======
+      "uuid": "f6848b00-11cd-4a50-8acd-755c0f271c98@6c48a",
+>>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
       "displayName": "4",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +30,11 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
+<<<<<<< HEAD
         "imageUuidOrDatabaseUri": "7e9e8c06-277d-42dd-a9fd-964db4178a95",
+=======
+        "imageUuidOrDatabaseUri": "f6848b00-11cd-4a50-8acd-755c0f271c98",
+>>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
         "visible": false
       },
       "ver": "1.0.22",
@@ -34,7 +46,11 @@
     },
     "f9941": {
       "importer": "sprite-frame",
+<<<<<<< HEAD
       "uuid": "7e9e8c06-277d-42dd-a9fd-964db4178a95@f9941",
+=======
+      "uuid": "f6848b00-11cd-4a50-8acd-755c0f271c98@f9941",
+>>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
       "displayName": "4",
       "id": "f9941",
       "name": "spriteFrame",
@@ -114,7 +130,11 @@
           ]
         },
         "isUuid": true,
+<<<<<<< HEAD
         "imageUuidOrDatabaseUri": "7e9e8c06-277d-42dd-a9fd-964db4178a95@6c48a",
+=======
+        "imageUuidOrDatabaseUri": "f6848b00-11cd-4a50-8acd-755c0f271c98@6c48a",
+>>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
         "atlasUuid": ""
       },
       "ver": "1.0.12",
@@ -129,6 +149,10 @@
     "hasAlpha": true,
     "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
+<<<<<<< HEAD
     "redirect": "7e9e8c06-277d-42dd-a9fd-964db4178a95@f9941"
+=======
+    "redirect": "f6848b00-11cd-4a50-8acd-755c0f271c98@f9941"
+>>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
   }
 }

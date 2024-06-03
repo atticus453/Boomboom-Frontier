@@ -23,6 +23,7 @@ import {
   Color,
   ProgressBar,
   Game,
+  AnimationComponent
 } from "cc";
 
 import GlobalManager from "./Manager/GlobalManager";
@@ -42,6 +43,9 @@ export class PlayerPrefab extends Component {
 
   @property(Prefab)
   public bulletPrefab: Prefab = null;
+
+  @property({ type: AnimationComponent })
+  animation: AnimationComponent = null;
 
   @property(Prefab)
   public weapon_1: Prefab = null;
@@ -76,6 +80,8 @@ export class PlayerPrefab extends Component {
   private playerManager = null;
   private selectedPlayerIndex = 0;
 
+  //private PlayerIndex: number = 0;
+  private character: string = "Wizard";
 
   // The properties of the bullet
   private bulletSpeed = 25;
@@ -132,6 +138,13 @@ export class PlayerPrefab extends Component {
       this.node.getChildByName("SelfLabel").active = false;
       console.log("Player", this.playerIndex, "is not selected");
     }
+
+    this.animation = this.node.getComponent(AnimationComponent);
+    if(this.dirX === 0 && this.dirY === 0) {
+        this.animation.play(this.character+"_Idle");
+    }
+
+
     PlayerPrefab.itemBar = instantiate(this.itemPrefab);
     PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
     find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
@@ -179,6 +192,22 @@ export class PlayerPrefab extends Component {
             .getComponent(Sprite).color = new Color(201, 197, 107, 255);
         }
       }
+
+      if (this.curItem === 0) {
+        PlayerPrefab.itemBar
+          .getChildByPath("Weapon/WeaponBack")
+          .getComponent(Sprite).color = new Color(201, 197, 107, 255);
+        PlayerPrefab.itemBar
+          .getChildByPath("Item/ItemBack")
+          .getComponent(Sprite).color = new Color(255, 255, 255, 255);
+      } else {
+        PlayerPrefab.itemBar
+          .getChildByPath("Weapon/WeaponBack")
+          .getComponent(Sprite).color = new Color(255, 255, 255, 255);
+        PlayerPrefab.itemBar
+          .getChildByPath("Item/ItemBack")
+          .getComponent(Sprite).color = new Color(201, 197, 107, 255);
+      }
     }
     this.updateHealthBar();
 
@@ -209,6 +238,13 @@ export class PlayerPrefab extends Component {
      // player position + offset
     //this.healthBarNode.setPosition(this.node.position.x, this.node.position.y);
   }
+
+  // initGunNode() {
+  //   this.gunNode = instantiate(this.weapon_5);
+  //   this.gunNode.parent = this.node;
+  //   this.gunNode.name = "Gun";
+  //   this.gunNode.setPosition(0, -40);
+  // }
 
   sendPosition() {
     const position = this.node.position;
@@ -374,23 +410,27 @@ export class PlayerPrefab extends Component {
       case KeyCode.KEY_W:
         this.dirY = 1;
         this.preDir = "UP";
+        this.animation.play(this.character+"_Run");
         // console.log("up");
         break;
       case KeyCode.KEY_S:
         this.dirY = -1;
         this.preDir = "DOWN";
+        this.animation.play(this.character+"_Run");
         // console.log("down");
         break;
       case KeyCode.KEY_A:
         this.dirX = -1;
         this.preDir = "LEFT";
         this.sendFaceDirection();
+        this.animation.play(this.character+"_Run");
         // console.log("left");
         break;
       case KeyCode.KEY_D:
         this.dirX = 1;
         this.preDir = "RIGHT";
         this.sendFaceDirection();
+        this.animation.play(this.character+"_Run");
         // console.log("right");
         break;
       case KeyCode.KEY_K:
@@ -419,6 +459,9 @@ export class PlayerPrefab extends Component {
       case KeyCode.KEY_K:
         this.isShooting = false;
         break;
+    }
+    if(this.dirX === 0 && this.dirY === 0) {
+        this.animation.play(this.character+"_Idle");
     }
   }
 

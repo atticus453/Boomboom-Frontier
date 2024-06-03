@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "f877d0fe-ff3f-4e10-afe1-30c175f214ce",
+  "uuid": "ab2464c8-8df8-40e0-8f84-e662b3c5e7e9",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "f877d0fe-ff3f-4e10-afe1-30c175f214ce@6c48a",
+      "uuid": "ab2464c8-8df8-40e0-8f84-e662b3c5e7e9@6c48a",
       "displayName": "Hurt",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "f877d0fe-ff3f-4e10-afe1-30c175f214ce",
+        "imageUuidOrDatabaseUri": "ab2464c8-8df8-40e0-8f84-e662b3c5e7e9",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "f877d0fe-ff3f-4e10-afe1-30c175f214ce@6c48a"
+    "redirect": "ab2464c8-8df8-40e0-8f84-e662b3c5e7e9@6c48a"
   }
 }

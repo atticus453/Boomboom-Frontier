@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "32e5ddd6-2c00-472d-8317-4a4b689d37f5",
+  "uuid": "9c80c516-62ac-4692-9e29-f5a9fc355739",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "32e5ddd6-2c00-472d-8317-4a4b689d37f5@6c48a",
+      "uuid": "9c80c516-62ac-4692-9e29-f5a9fc355739@6c48a",
       "displayName": "Arrow",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "32e5ddd6-2c00-472d-8317-4a4b689d37f5",
+        "imageUuidOrDatabaseUri": "9c80c516-62ac-4692-9e29-f5a9fc355739",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "32e5ddd6-2c00-472d-8317-4a4b689d37f5@6c48a"
+    "redirect": "9c80c516-62ac-4692-9e29-f5a9fc355739@6c48a"
   }
 }
