@@ -2,55 +2,15 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-<<<<<<< HEAD
-  "uuid": "0ca6f6c5-4f0c-4cb3-9557-a987cc06a397",
-=======
   "uuid": "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6",
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-<<<<<<< HEAD
-      "uuid": "0ca6f6c5-4f0c-4cb3-9557-a987cc06a397@6c48a",
-=======
-      "uuid": "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6@6c48a",
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
-      "displayName": "0",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "clamp-to-edge",
-        "wrapModeT": "clamp-to-edge",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-<<<<<<< HEAD
-        "imageUuidOrDatabaseUri": "0ca6f6c5-4f0c-4cb3-9557-a987cc06a397",
-=======
-        "imageUuidOrDatabaseUri": "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6",
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
-        "visible": false
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
     "f9941": {
       "importer": "sprite-frame",
-<<<<<<< HEAD
-      "uuid": "0ca6f6c5-4f0c-4cb3-9557-a987cc06a397@f9941",
-=======
       "uuid": "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6@f9941",
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
       "displayName": "0",
       "id": "f9941",
       "name": "spriteFrame",
@@ -130,14 +90,34 @@
           ]
         },
         "isUuid": true,
-<<<<<<< HEAD
-        "imageUuidOrDatabaseUri": "0ca6f6c5-4f0c-4cb3-9557-a987cc06a397@6c48a",
-=======
         "imageUuidOrDatabaseUri": "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6@6c48a",
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
         "atlasUuid": ""
       },
       "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6@6c48a",
+      "displayName": "0",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6",
+        "visible": false
+      },
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -149,10 +129,6 @@
     "hasAlpha": true,
     "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
-<<<<<<< HEAD
-    "redirect": "0ca6f6c5-4f0c-4cb3-9557-a987cc06a397@f9941"
-=======
     "redirect": "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6@f9941"
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
   }
 }
