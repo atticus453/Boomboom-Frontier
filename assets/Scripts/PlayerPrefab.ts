@@ -101,6 +101,7 @@ export class PlayerPrefab extends Component {
   private isNodePooling = true;
   private isDragging = false;
   private isShooting = false;
+  private isDead = false;
 
   // ChildNode
   public gunNode = null;
@@ -344,6 +345,10 @@ export class PlayerPrefab extends Component {
 
     if (otherCollider.node.name === "Bullet" && this.playerIndex === this.selectedPlayerIndex) {
       this.updateHealth(-10);
+      if(this.health <= 0 && !this.isDead) {
+        this.isDead = true;
+        this.handlePlayerDeath();
+      }
       this.sendUpdateHealth(-10);
     } 
   }
@@ -361,7 +366,14 @@ export class PlayerPrefab extends Component {
     }
   }
 
-
+  handlePlayerDeath() {
+    console.log("Player", this.playerIndex, "is dead");
+    this.gunNode.destroy();
+    this.animation.play(this.character+"_Dead");
+    this.scheduleOnce(() => {
+        this.node.destroy();
+    }, 1);
+  }
 
   // The function to handle the listener
   // Use "LOAD" to open the listener

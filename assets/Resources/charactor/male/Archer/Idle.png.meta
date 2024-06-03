@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 {
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "55a52f10-9d7e-45b3-9f1b-b71c277a442b",
+  "uuid": "3f5f7193-01a8-49a5-ac57-932eb3356ebf",
   "files": [
     ".json",
     ".png"
@@ -11,143 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "55a52f10-9d7e-45b3-9f1b-b71c277a442b@6c48a",
-      "displayName": "Idle",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "clamp-to-edge",
-        "wrapModeT": "clamp-to-edge",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "55a52f10-9d7e-45b3-9f1b-b71c277a442b",
-        "visible": false
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
-    "f9941": {
-      "importer": "sprite-frame",
-      "uuid": "55a52f10-9d7e-45b3-9f1b-b71c277a442b@f9941",
-      "displayName": "Idle",
-      "id": "f9941",
-      "name": "spriteFrame",
-      "userData": {
-        "trimType": "auto",
-        "trimThreshold": 1,
-        "rotated": false,
-        "offsetX": -11,
-        "offsetY": -27,
-        "trimX": 21,
-        "trimY": 54,
-        "width": 704,
-        "height": 74,
-        "rawWidth": 768,
-        "rawHeight": 128,
-        "borderTop": 0,
-        "borderBottom": 0,
-        "borderLeft": 0,
-        "borderRight": 0,
-        "packable": true,
-        "pixelsToUnit": 100,
-        "pivotX": 0.5,
-        "pivotY": 0.5,
-        "meshType": 0,
-        "vertices": {
-          "rawPosition": [
-            -352,
-            -37,
-            0,
-            352,
-            -37,
-            0,
-            -352,
-            37,
-            0,
-            352,
-            37,
-            0
-          ],
-          "indexes": [
-            0,
-            1,
-            2,
-            2,
-            1,
-            3
-          ],
-          "uv": [
-            21,
-            74,
-            725,
-            74,
-            21,
-            0,
-            725,
-            0
-          ],
-          "nuv": [
-            0.02734375,
-            0,
-            0.9440104166666666,
-            0,
-            0.02734375,
-            0.578125,
-            0.9440104166666666,
-            0.578125
-          ],
-          "minPos": [
-            -352,
-            -37,
-            0
-          ],
-          "maxPos": [
-            352,
-            37,
-            0
-          ]
-        },
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "55a52f10-9d7e-45b3-9f1b-b71c277a442b@6c48a",
-        "atlasUuid": ""
-      },
-      "ver": "1.0.12",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    }
-  },
-  "userData": {
-    "hasAlpha": true,
-    "type": "sprite-frame",
-    "fixAlphaTransparencyArtifacts": false,
-    "redirect": "55a52f10-9d7e-45b3-9f1b-b71c277a442b@f9941",
-    "flipGreenChannel": false
-  }
-}
-=======
-{
-  "ver": "1.0.26",
-  "importer": "image",
-  "imported": true,
-  "uuid": "c48b783d-d39d-4aa0-baa2-fb04ed284de6",
-  "files": [
-    ".json",
-    ".png"
-  ],
-  "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "c48b783d-d39d-4aa0-baa2-fb04ed284de6@6c48a",
+      "uuid": "3f5f7193-01a8-49a5-ac57-932eb3356ebf@6c48a",
       "displayName": "Idle",
       "id": "6c48a",
       "name": "texture",
@@ -159,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c48b783d-d39d-4aa0-baa2-fb04ed284de6",
+        "imageUuidOrDatabaseUri": "3f5f7193-01a8-49a5-ac57-932eb3356ebf",
         "visible": false
       },
       "ver": "1.0.22",
@@ -174,7 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "c48b783d-d39d-4aa0-baa2-fb04ed284de6@6c48a"
+    "redirect": "3f5f7193-01a8-49a5-ac57-932eb3356ebf@6c48a"
   }
 }
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626

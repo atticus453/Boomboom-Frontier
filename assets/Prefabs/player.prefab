@@ -101,8 +101,8 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -12.966000000000008,
-      "y": 40.374000000000024,
+      "x": 1.648999999999944,
+      "y": 40.639999999999986,
       "z": 0
     },
     "_lrot": {
@@ -311,7 +311,7 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": -40,
+      "x": -30,
       "y": 20,
       "z": 0
     }
@@ -357,8 +357,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": -3.768000000000029,
+      "x": 5.579999999999984,
+      "y": -1.3759999999999764,
       "z": 0
     }
   },
@@ -520,7 +520,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "484b6dc3-ab5f-4ee7-96a0-d999a1192915@f9941",
+      "__uuid__": "e97388a6-2fb4-4490-bb96-240fd325048e@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -533,7 +533,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_useGrayscale": false,
     "_atlas": null,
     "_id": ""
@@ -596,12 +596,12 @@
     "_restitution": 0,
     "_offset": {
       "__type__": "cc.Vec2",
-      "x": -6.8,
+      "x": 3,
       "y": -37.4
     },
     "_size": {
       "__type__": "cc.Size",
-      "width": 17.9,
+      "width": 16.3,
       "height": 50
     },
     "_id": ""
@@ -697,6 +697,7 @@
       "__uuid__": "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
       "__expectedType__": "cc.Prefab"
     },
+    "animation": null,
     "weapon_1": {
       "__uuid__": "1b0fc2d9-2efb-49de-866b-8aece9049ef8",
       "__expectedType__": "cc.Prefab"
@@ -743,7 +744,6 @@
     },
     "fileId": "32Qnf9n6lKSabs6seR5jIS",
     "instance": null,
-    "targetOverrides": null,
     "nestedPrefabInstanceRoots": [
       {
         "__id__": 8
