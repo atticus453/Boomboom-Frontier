@@ -722,6 +722,14 @@
       "__uuid__": "5ae2fc90-0a1a-4910-a41f-8a09188887d0",
       "__expectedType__": "cc.Prefab"
     },
+    "healthItem": {
+      "__uuid__": "d0bbf0a1-e90a-479b-9fe8-0b8c6e538874",
+      "__expectedType__": "cc.Prefab"
+    },
+    "speedUpItem": {
+      "__uuid__": "7d8bd525-6a99-441e-9064-2d1a0b046702",
+      "__expectedType__": "cc.Prefab"
+    },
     "healthBarPrefab": {
       "__uuid__": "3f361310-5bb5-4c32-bfdf-98f0dd1dc911",
       "__expectedType__": "cc.Prefab"
@@ -744,6 +752,7 @@
     },
     "fileId": "32Qnf9n6lKSabs6seR5jIS",
     "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": [
       {
         "__id__": 8
