@@ -22,6 +22,7 @@ import {
   Sprite,
   Color,
   Game,
+  AnimationComponent
 } from "cc";
 
 import GlobalManager from "./Manager/GlobalManager";
@@ -41,6 +42,9 @@ export class PlayerPrefab extends Component {
 
   @property(Prefab)
   public bulletPrefab: Prefab = null;
+
+  @property({ type: AnimationComponent })
+  animation: AnimationComponent = null;
 
   @property(Prefab)
   public weapon_1: Prefab = null;
@@ -65,6 +69,7 @@ export class PlayerPrefab extends Component {
   private photonManager = null;
   private playerManager = null;
   private PlayerIndex: number = 0;
+  private character: string = "Wizard";
 
   // The properties of the bullet
   private bulletSpeed = 25;
@@ -104,6 +109,11 @@ export class PlayerPrefab extends Component {
   start() {
     this.handleListener("LOAD");
     this.PlayerIndex = GlobalManager.instance.selectedPlayerIndex;
+    this.animation = this.node.getComponent(AnimationComponent);
+    if(this.dirX === 0 && this.dirY === 0) {
+        this.animation.play(this.character+"_Idle");
+    }
+
 
     PlayerPrefab.itemBar = instantiate(this.itemPrefab);
     PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
@@ -291,21 +301,25 @@ export class PlayerPrefab extends Component {
       case KeyCode.KEY_W:
         this.dirY = 1;
         this.preDir = "UP";
+        this.animation.play(this.character+"_Run");
         // console.log("up");
         break;
       case KeyCode.KEY_S:
         this.dirY = -1;
         this.preDir = "DOWN";
+        this.animation.play(this.character+"_Run");
         // console.log("down");
         break;
       case KeyCode.KEY_A:
         this.dirX = -1;
         this.preDir = "LEFT";
+        this.animation.play(this.character+"_Run");
         // console.log("left");
         break;
       case KeyCode.KEY_D:
         this.dirX = 1;
         this.preDir = "RIGHT";
+        this.animation.play(this.character+"_Run");
         // console.log("right");
         break;
       case KeyCode.KEY_K:
@@ -334,6 +348,9 @@ export class PlayerPrefab extends Component {
       case KeyCode.KEY_K:
         this.isShooting = false;
         break;
+    }
+    if(this.dirX === 0 && this.dirY === 0) {
+        this.animation.play(this.character+"_Idle");
     }
   }
 
