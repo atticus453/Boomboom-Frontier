@@ -124,6 +124,9 @@ export class PlayerPrefab extends Component {
     this.initHealthBarNode();
     this.selectedPlayerIndex = GlobalManager.instance.selectedPlayerIndex;
     //string to number
+    PlayerPrefab.itemBar = instantiate(this.itemPrefab);
+    PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
+    find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
 
 
 
@@ -145,10 +148,6 @@ export class PlayerPrefab extends Component {
         this.animation.play(this.character+"_Idle");
     }
 
-
-    PlayerPrefab.itemBar = instantiate(this.itemPrefab);
-    PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
-    find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
   }
 
   onDestroy() {
@@ -321,8 +320,14 @@ export class PlayerPrefab extends Component {
       .getComponent(Sprite).spriteFrame;
     if (item !== null) {
       if (item.name === "healing") {
-        // console.log("healing");
-      } else if (item.name === "speedUp") {
+        if(this.health + 50 > 100) {
+            this.health = 100;
+        }
+        else {
+            this.health += 50;
+        }
+      } 
+      else if (item.name === "speedUp") {
         this.playerSpeed = 15;
         this.scheduleOnce(() => {
           this.playerSpeed = 10;
@@ -422,27 +427,31 @@ export class PlayerPrefab extends Component {
       case KeyCode.KEY_W:
         this.dirY = 1;
         this.preDir = "UP";
-        this.animation.play(this.character+"_Run");
+        if(this.playerIndex === this.selectedPlayerIndex)
+            this.animation.play(this.character+"_Run");
         // console.log("up");
         break;
       case KeyCode.KEY_S:
         this.dirY = -1;
         this.preDir = "DOWN";
-        this.animation.play(this.character+"_Run");
+        if(this.playerIndex === this.selectedPlayerIndex)
+            this.animation.play(this.character+"_Run");
         // console.log("down");
         break;
       case KeyCode.KEY_A:
         this.dirX = -1;
         this.preDir = "LEFT";
         this.sendFaceDirection();
-        this.animation.play(this.character+"_Run");
+        if(this.playerIndex === this.selectedPlayerIndex)
+            this.animation.play(this.character+"_Run");
         // console.log("left");
         break;
       case KeyCode.KEY_D:
         this.dirX = 1;
         this.preDir = "RIGHT";
         this.sendFaceDirection();
-        this.animation.play(this.character+"_Run");
+        if(this.playerIndex === this.selectedPlayerIndex)
+            this.animation.play(this.character+"_Run");
         // console.log("right");
         break;
       case KeyCode.KEY_K:
@@ -472,7 +481,7 @@ export class PlayerPrefab extends Component {
         this.isShooting = false;
         break;
     }
-    if(this.dirX === 0 && this.dirY === 0) {
+    if(this.dirX === 0 && this.dirY === 0 && this.playerIndex === this.selectedPlayerIndex) {
         this.animation.play(this.character+"_Idle");
     }
   }
