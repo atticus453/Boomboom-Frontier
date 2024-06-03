@@ -15,7 +15,11 @@
         "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
+<<<<<<< HEAD
         "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier-newest/assets/*"
+=======
+        "/Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/*"
+>>>>>>> itemShow
       ]
     },
     "experimentalDecorators": true,
