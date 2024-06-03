@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "automappingRulesFile": "",
     "commands": [
@@ -12,3 +13,19 @@
     "propertyTypes": [
     ]
 }
+=======
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        "."
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+    ]
+}
+>>>>>>> faill

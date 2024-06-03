@@ -130,6 +130,7 @@ export class MultiSelect extends Component {
     onJoinClick(roomName: string, map: string, mode: string, roomID:number){
         // if(this.node.getChildByName("roomPreview"))
         //     this.node.getChildByName("roomPreview").destroy();
+        console.log("hi");
         let roomPreview;
         if(this.node.getChildByName("roomPreview"))
             roomPreview = this.node.getChildByName("roomPreview");

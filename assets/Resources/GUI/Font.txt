@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Pixellari
 https://www.dafont.com/pixellari.font
+=======
+Pixellari
+https://www.dafont.com/pixellari.font
+>>>>>>> faill

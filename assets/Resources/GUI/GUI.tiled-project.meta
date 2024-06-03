@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "ver": "1.0.1",
   "importer": "*",
@@ -10,3 +11,17 @@
   "subMetas": {},
   "userData": {}
 }
+=======
+{
+  "ver": "1.0.1",
+  "importer": "*",
+  "imported": true,
+  "uuid": "54a21b5e-7efa-422b-9932-5c3295003127",
+  "files": [
+    ".json",
+    ".tiled-project"
+  ],
+  "subMetas": {},
+  "userData": {}
+}
+>>>>>>> faill

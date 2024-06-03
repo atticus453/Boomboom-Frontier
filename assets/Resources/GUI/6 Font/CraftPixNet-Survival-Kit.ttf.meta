@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "ver": "1.0.1",
   "importer": "ttf-font",
@@ -10,3 +11,17 @@
   "subMetas": {},
   "userData": {}
 }
+=======
+{
+  "ver": "1.0.1",
+  "importer": "ttf-font",
+  "imported": true,
+  "uuid": "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
+  "files": [
+    ".json",
+    "CraftPixNet-Survival-Kit.ttf"
+  ],
+  "subMetas": {},
+  "userData": {}
+}
+>>>>>>> faill

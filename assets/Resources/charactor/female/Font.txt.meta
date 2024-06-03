@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "ver": "1.0.2",
   "importer": "text",
@@ -9,3 +10,16 @@
   "subMetas": {},
   "userData": {}
 }
+=======
+{
+  "ver": "1.0.2",
+  "importer": "text",
+  "imported": true,
+  "uuid": "53e5ea7b-8400-485b-b2c5-9ca58ff9c3a1",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {}
+}
+>>>>>>> faill
