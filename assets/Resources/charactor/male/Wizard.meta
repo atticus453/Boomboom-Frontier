@@ -1,21 +1,9 @@
-<<<<<<< HEAD
 {
   "ver": "1.2.0",
   "importer": "directory",
   "imported": true,
-  "uuid": "f67f41bc-db77-45fc-823d-a839ab41d00a",
+  "uuid": "66ef78aa-f078-4b75-b467-e0a17ac254b0",
   "files": [],
   "subMetas": {},
   "userData": {}
 }
-=======
-{
-  "ver": "1.2.0",
-  "importer": "directory",
-  "imported": true,
-  "uuid": "f67f41bc-db77-45fc-823d-a839ab41d00a",
-  "files": [],
-  "subMetas": {},
-  "userData": {}
-}
->>>>>>> faill

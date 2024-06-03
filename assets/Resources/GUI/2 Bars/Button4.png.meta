@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "ver": "1.0.26",
   "importer": "image",
@@ -9,30 +8,6 @@
     ".png"
   ],
   "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "f99e6112-e619-4a05-baaf-db73e7518b2b@6c48a",
-      "displayName": "Button4",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "clamp-to-edge",
-        "wrapModeT": "clamp-to-edge",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "f99e6112-e619-4a05-baaf-db73e7518b2b",
-        "visible": false
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
     "f9941": {
       "importer": "sprite-frame",
       "uuid": "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941",
@@ -124,26 +99,7 @@
         ".json"
       ],
       "subMetas": {}
-    }
-  },
-  "userData": {
-    "hasAlpha": true,
-    "type": "sprite-frame",
-    "fixAlphaTransparencyArtifacts": false,
-    "redirect": "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941"
-  }
-}
-=======
-{
-  "ver": "1.0.26",
-  "importer": "image",
-  "imported": true,
-  "uuid": "f99e6112-e619-4a05-baaf-db73e7518b2b",
-  "files": [
-    ".json",
-    ".png"
-  ],
-  "subMetas": {
+    },
     "6c48a": {
       "importer": "texture",
       "uuid": "f99e6112-e619-4a05-baaf-db73e7518b2b@6c48a",
@@ -167,98 +123,6 @@
         ".json"
       ],
       "subMetas": {}
-    },
-    "f9941": {
-      "importer": "sprite-frame",
-      "uuid": "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941",
-      "displayName": "Button4",
-      "id": "f9941",
-      "name": "spriteFrame",
-      "userData": {
-        "trimType": "auto",
-        "trimThreshold": 1,
-        "rotated": false,
-        "offsetX": 0,
-        "offsetY": -0.5,
-        "trimX": 0,
-        "trimY": 1,
-        "width": 90,
-        "height": 27,
-        "rawWidth": 90,
-        "rawHeight": 28,
-        "borderTop": 0,
-        "borderBottom": 0,
-        "borderLeft": 0,
-        "borderRight": 0,
-        "packable": true,
-        "pixelsToUnit": 100,
-        "pivotX": 0.5,
-        "pivotY": 0.5,
-        "meshType": 0,
-        "vertices": {
-          "rawPosition": [
-            -45,
-            -13.5,
-            0,
-            45,
-            -13.5,
-            0,
-            -45,
-            13.5,
-            0,
-            45,
-            13.5,
-            0
-          ],
-          "indexes": [
-            0,
-            1,
-            2,
-            2,
-            1,
-            3
-          ],
-          "uv": [
-            0,
-            27,
-            90,
-            27,
-            0,
-            0,
-            90,
-            0
-          ],
-          "nuv": [
-            0,
-            0,
-            1,
-            0,
-            0,
-            0.9642857142857143,
-            1,
-            0.9642857142857143
-          ],
-          "minPos": [
-            -45,
-            -13.5,
-            0
-          ],
-          "maxPos": [
-            45,
-            13.5,
-            0
-          ]
-        },
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "f99e6112-e619-4a05-baaf-db73e7518b2b@6c48a",
-        "atlasUuid": ""
-      },
-      "ver": "1.0.12",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
     }
   },
   "userData": {
@@ -268,4 +132,3 @@
     "redirect": "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941"
   }
 }
->>>>>>> faill

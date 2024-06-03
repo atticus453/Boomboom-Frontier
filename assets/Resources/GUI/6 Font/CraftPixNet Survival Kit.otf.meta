@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "ver": "1.0.1",
   "importer": "*",
@@ -11,17 +10,3 @@
   "subMetas": {},
   "userData": {}
 }
-=======
-{
-  "ver": "1.0.1",
-  "importer": "*",
-  "imported": true,
-  "uuid": "04694429-c51c-4ad7-9134-15d27f37495b",
-  "files": [
-    ".json",
-    ".otf"
-  ],
-  "subMetas": {},
-  "userData": {}
-}
->>>>>>> faill

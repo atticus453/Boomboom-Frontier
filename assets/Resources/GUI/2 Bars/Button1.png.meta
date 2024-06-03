@@ -8,30 +8,6 @@
     ".png"
   ],
   "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "dd354864-fa6f-4ca2-88d6-b8a135038158@6c48a",
-      "displayName": "Button1",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "clamp-to-edge",
-        "wrapModeT": "clamp-to-edge",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "dd354864-fa6f-4ca2-88d6-b8a135038158",
-        "visible": false
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
     "f9941": {
       "importer": "sprite-frame",
       "uuid": "dd354864-fa6f-4ca2-88d6-b8a135038158@f9941",
@@ -50,17 +26,10 @@
         "height": 28,
         "rawWidth": 48,
         "rawHeight": 28,
-<<<<<<< HEAD
-        "borderTop": 0,
-        "borderBottom": 0,
-        "borderLeft": 0,
-        "borderRight": 0,
-=======
         "borderTop": 2,
         "borderBottom": 8,
         "borderLeft": 3,
         "borderRight": 4,
->>>>>>> faill
         "packable": true,
         "pixelsToUnit": 100,
         "pivotX": 0.5,
@@ -125,6 +94,30 @@
         "atlasUuid": ""
       },
       "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "dd354864-fa6f-4ca2-88d6-b8a135038158@6c48a",
+      "displayName": "Button1",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "dd354864-fa6f-4ca2-88d6-b8a135038158",
+        "visible": false
+      },
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"

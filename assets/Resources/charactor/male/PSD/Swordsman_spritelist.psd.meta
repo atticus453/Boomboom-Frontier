@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 {
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "5e952bae-d5a1-44ee-b60e-308a5398e5c9",
+  "uuid": "528a70e9-ef48-4db2-bc04-7166a8756b5d",
   "files": [
     ".json",
     ".png"
@@ -11,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "5e952bae-d5a1-44ee-b60e-308a5398e5c9@6c48a",
+      "uuid": "528a70e9-ef48-4db2-bc04-7166a8756b5d@6c48a",
       "displayName": "Swordsman_spritelist",
       "id": "6c48a",
       "name": "texture",
@@ -23,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "5e952bae-d5a1-44ee-b60e-308a5398e5c9",
+        "imageUuidOrDatabaseUri": "528a70e9-ef48-4db2-bc04-7166a8756b5d",
         "visible": false
       },
       "ver": "1.0.22",
@@ -38,50 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "5e952bae-d5a1-44ee-b60e-308a5398e5c9@6c48a"
+    "redirect": "528a70e9-ef48-4db2-bc04-7166a8756b5d@6c48a"
   }
 }
-=======
-{
-  "ver": "1.0.26",
-  "importer": "image",
-  "imported": true,
-  "uuid": "5e952bae-d5a1-44ee-b60e-308a5398e5c9",
-  "files": [
-    ".json",
-    ".png"
-  ],
-  "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "5e952bae-d5a1-44ee-b60e-308a5398e5c9@6c48a",
-      "displayName": "Swordsman_spritelist",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "5e952bae-d5a1-44ee-b60e-308a5398e5c9",
-        "visible": false
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    }
-  },
-  "userData": {
-    "hasAlpha": true,
-    "type": "texture",
-    "fixAlphaTransparencyArtifacts": false,
-    "redirect": "5e952bae-d5a1-44ee-b60e-308a5398e5c9@6c48a"
-  }
-}
->>>>>>> faill

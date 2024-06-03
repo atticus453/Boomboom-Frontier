@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 {
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "d1660529-2d45-469d-8253-6d84a2f0879d",
+  "uuid": "f792903d-aa03-47eb-b286-5e644182bf57",
   "files": [
     ".json",
     ".png"
@@ -11,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "d1660529-2d45-469d-8253-6d84a2f0879d@6c48a",
+      "uuid": "f792903d-aa03-47eb-b286-5e644182bf57@6c48a",
       "displayName": "Hurt",
       "id": "6c48a",
       "name": "texture",
@@ -23,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "d1660529-2d45-469d-8253-6d84a2f0879d",
+        "imageUuidOrDatabaseUri": "f792903d-aa03-47eb-b286-5e644182bf57",
         "visible": false
       },
       "ver": "1.0.22",
@@ -38,50 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "d1660529-2d45-469d-8253-6d84a2f0879d@6c48a"
+    "redirect": "f792903d-aa03-47eb-b286-5e644182bf57@6c48a"
   }
 }
-=======
-{
-  "ver": "1.0.26",
-  "importer": "image",
-  "imported": true,
-  "uuid": "d1660529-2d45-469d-8253-6d84a2f0879d",
-  "files": [
-    ".json",
-    ".png"
-  ],
-  "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "d1660529-2d45-469d-8253-6d84a2f0879d@6c48a",
-      "displayName": "Hurt",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "d1660529-2d45-469d-8253-6d84a2f0879d",
-        "visible": false
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    }
-  },
-  "userData": {
-    "hasAlpha": true,
-    "type": "texture",
-    "fixAlphaTransparencyArtifacts": false,
-    "redirect": "d1660529-2d45-469d-8253-6d84a2f0879d@6c48a"
-  }
-}
->>>>>>> faill

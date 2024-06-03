@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "ver": "1.0.26",
   "importer": "image",
@@ -41,47 +40,3 @@
     "redirect": "eed7466a-b4ca-4d58-adbe-7c351bdbf4d4@6c48a"
   }
 }
-=======
-{
-  "ver": "1.0.26",
-  "importer": "image",
-  "imported": true,
-  "uuid": "eed7466a-b4ca-4d58-adbe-7c351bdbf4d4",
-  "files": [
-    ".json",
-    ".png"
-  ],
-  "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "eed7466a-b4ca-4d58-adbe-7c351bdbf4d4@6c48a",
-      "displayName": "Icon_94",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "eed7466a-b4ca-4d58-adbe-7c351bdbf4d4",
-        "visible": false
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    }
-  },
-  "userData": {
-    "hasAlpha": false,
-    "type": "texture",
-    "fixAlphaTransparencyArtifacts": false,
-    "redirect": "eed7466a-b4ca-4d58-adbe-7c351bdbf4d4@6c48a"
-  }
-}
->>>>>>> faill

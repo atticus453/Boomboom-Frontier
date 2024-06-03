@@ -307,5 +307,36 @@
       "0_0_1_8_1",
       "0_0_1_8_1_0"
     ]
+  },
+  "7651f7bc-8e6d-42e8-b513-f4a641220177": {
+    "assetUuid": "7651f7bc-8e6d-42e8-b513-f4a641220177",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "1535bc81-7719-444a-be67-2c0014e4261f": {
+    "assetUuid": "1535bc81-7719-444a-be67-2c0014e4261f",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "bf4252d3-7019-4681-bb93-e12a69e6d157": {
+    "assetUuid": "bf4252d3-7019-4681-bb93-e12a69e6d157",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_0"
+    ]
+  },
+  "ac140ebd-7513-4b46-bd88-c793f52ea675": {
+    "assetUuid": "ac140ebd-7513-4b46-bd88-c793f52ea675",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_0",
+      "0_0_1"
+    ]
   }
 }

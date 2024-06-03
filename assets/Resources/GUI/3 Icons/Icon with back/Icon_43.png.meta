@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "ver": "1.0.26",
   "importer": "image",
@@ -41,47 +40,3 @@
     "redirect": "173fc25e-ff16-4b53-97ec-0eeac1d2ff05@6c48a"
   }
 }
-=======
-{
-  "ver": "1.0.26",
-  "importer": "image",
-  "imported": true,
-  "uuid": "173fc25e-ff16-4b53-97ec-0eeac1d2ff05",
-  "files": [
-    ".json",
-    ".png"
-  ],
-  "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "173fc25e-ff16-4b53-97ec-0eeac1d2ff05@6c48a",
-      "displayName": "Icon_43",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "173fc25e-ff16-4b53-97ec-0eeac1d2ff05",
-        "visible": false
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    }
-  },
-  "userData": {
-    "hasAlpha": false,
-    "type": "texture",
-    "fixAlphaTransparencyArtifacts": false,
-    "redirect": "173fc25e-ff16-4b53-97ec-0eeac1d2ff05@6c48a"
-  }
-}
->>>>>>> faill

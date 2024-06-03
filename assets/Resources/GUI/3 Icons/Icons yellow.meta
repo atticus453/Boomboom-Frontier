@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "ver": "1.2.0",
   "importer": "directory",
@@ -8,14 +7,3 @@
   "subMetas": {},
   "userData": {}
 }
-=======
-{
-  "ver": "1.2.0",
-  "importer": "directory",
-  "imported": true,
-  "uuid": "12aecc25-54c1-4f77-8246-21f84199b838",
-  "files": [],
-  "subMetas": {},
-  "userData": {}
-}
->>>>>>> faill

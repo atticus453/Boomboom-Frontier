@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 {
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "bab5ec74-266e-42d3-bc38-595acbedae95",
+  "uuid": "2984f50d-5e3d-4bb8-8134-5096385555e5",
   "files": [
     ".json",
     ".png"
@@ -11,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "bab5ec74-266e-42d3-bc38-595acbedae95@6c48a",
+      "uuid": "2984f50d-5e3d-4bb8-8134-5096385555e5@6c48a",
       "displayName": "Run",
       "id": "6c48a",
       "name": "texture",
@@ -23,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "bab5ec74-266e-42d3-bc38-595acbedae95",
+        "imageUuidOrDatabaseUri": "2984f50d-5e3d-4bb8-8134-5096385555e5",
         "visible": false
       },
       "ver": "1.0.22",
@@ -38,50 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "bab5ec74-266e-42d3-bc38-595acbedae95@6c48a"
+    "redirect": "2984f50d-5e3d-4bb8-8134-5096385555e5@6c48a"
   }
 }
-=======
-{
-  "ver": "1.0.26",
-  "importer": "image",
-  "imported": true,
-  "uuid": "bab5ec74-266e-42d3-bc38-595acbedae95",
-  "files": [
-    ".json",
-    ".png"
-  ],
-  "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "bab5ec74-266e-42d3-bc38-595acbedae95@6c48a",
-      "displayName": "Run",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "bab5ec74-266e-42d3-bc38-595acbedae95",
-        "visible": false
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    }
-  },
-  "userData": {
-    "hasAlpha": true,
-    "type": "texture",
-    "fixAlphaTransparencyArtifacts": false,
-    "redirect": "bab5ec74-266e-42d3-bc38-595acbedae95@6c48a"
-  }
-}
->>>>>>> faill

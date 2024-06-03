@@ -21,15 +21,11 @@
       },
       {
         "__id__": 56
-      },
-      {
-        "__id__": 56
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 77
       "__id__": 77
     },
     "_lpos": {
@@ -62,7 +58,6 @@
     "autoReleaseAssets": false,
     "_globals": {
       "__id__": 78
-      "__id__": 78
     },
     "_id": "d1e81e9d-ab3a-407d-931f-acb9135b2694"
   },
@@ -89,25 +84,8 @@
       },
       {
         "__id__": 18
-        "__id__": 8
       },
       {
-        "__id__": 11
-      },
-      {
-        "__id__": 18
-      },
-      {
-        "__id__": 25
-      },
-      {
-        "__id__": 35
-      },
-      {
-        "__id__": 37
-      },
-      {
-        "__id__": 44
         "__id__": 25
       },
       {
@@ -124,10 +102,8 @@
     "_components": [
       {
         "__id__": 52
-        "__id__": 52
       },
       {
-        "__id__": 53
         "__id__": 53
       },
       {
@@ -226,7 +202,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 502.6909090909091,
+    "_orthoHeight": 470.5882352941177,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -1205,7 +1181,7 @@
     "_string": "",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 20,
+    "_actualFontSize": 20.1875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -1340,7 +1316,7 @@
     "_string": "Enter Room Name",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 20,
+    "_actualFontSize": 20.1875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -2222,7 +2198,7 @@
       "__uuid__": "5f0762fa-52dc-464e-8f6e-70a620a601f9",
       "__expectedType__": "cc.Prefab"
     },
-    "_id": "b4/b8zNkJLWZVC5zaa+DEu"
+    "_id": "ceXaUiaOJJz74W8+WX/RHX"
   },
   {
     "__type__": "cc.Node",

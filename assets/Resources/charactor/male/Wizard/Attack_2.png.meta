@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 {
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "9df2d24b-423f-4d4f-b14d-ab1ee528d9ef",
+  "uuid": "c2d8cfd9-5e50-4155-a490-b0c3b77fa1d7",
   "files": [
     ".json",
     ".png"
@@ -11,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "9df2d24b-423f-4d4f-b14d-ab1ee528d9ef@6c48a",
+      "uuid": "c2d8cfd9-5e50-4155-a490-b0c3b77fa1d7@6c48a",
       "displayName": "Attack_2",
       "id": "6c48a",
       "name": "texture",
@@ -23,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "9df2d24b-423f-4d4f-b14d-ab1ee528d9ef",
+        "imageUuidOrDatabaseUri": "c2d8cfd9-5e50-4155-a490-b0c3b77fa1d7",
         "visible": false
       },
       "ver": "1.0.22",
@@ -38,50 +37,6 @@
     "hasAlpha": true,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "9df2d24b-423f-4d4f-b14d-ab1ee528d9ef@6c48a"
+    "redirect": "c2d8cfd9-5e50-4155-a490-b0c3b77fa1d7@6c48a"
   }
 }
-=======
-{
-  "ver": "1.0.26",
-  "importer": "image",
-  "imported": true,
-  "uuid": "9df2d24b-423f-4d4f-b14d-ab1ee528d9ef",
-  "files": [
-    ".json",
-    ".png"
-  ],
-  "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "9df2d24b-423f-4d4f-b14d-ab1ee528d9ef@6c48a",
-      "displayName": "Attack_2",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "9df2d24b-423f-4d4f-b14d-ab1ee528d9ef",
-        "visible": false
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    }
-  },
-  "userData": {
-    "hasAlpha": true,
-    "type": "texture",
-    "fixAlphaTransparencyArtifacts": false,
-    "redirect": "9df2d24b-423f-4d4f-b14d-ab1ee528d9ef@6c48a"
-  }
-}
->>>>>>> faill

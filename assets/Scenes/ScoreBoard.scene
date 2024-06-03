@@ -20,21 +20,13 @@
         "__id__": 2
       },
       {
-<<<<<<< HEAD
-        "__id__": 62
-=======
         "__id__": 63
->>>>>>> faill
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-<<<<<<< HEAD
-      "__id__": 70
-=======
       "__id__": 71
->>>>>>> faill
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -65,11 +57,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-<<<<<<< HEAD
-      "__id__": 77
-=======
       "__id__": 78
->>>>>>> faill
     },
     "_id": "2911e213-bac8-4bff-ae53-1c723d10b778"
   },
@@ -111,12 +99,9 @@
       },
       {
         "__id__": 61
-<<<<<<< HEAD
-=======
       },
       {
         "__id__": 62
->>>>>>> faill
       }
     ],
     "_prefab": null,
@@ -208,11 +193,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-<<<<<<< HEAD
-    "_orthoHeight": 396.9381107491857,
-=======
     "_orthoHeight": 502.6909090909091,
->>>>>>> faill
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -1561,28 +1542,9 @@
     "_id": "c5V1EV8IpMtrIvY1OE9t2u"
   },
   {
-<<<<<<< HEAD
-    "__type__": "c039a4f831LjYRzDf6m1RRc",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 2
-    },
-    "_enabled": true,
-    "__prefab": null,
-    "_id": "e1ZjDEGvFBOIzPK7e+9UdI"
-  },
-  {
-    "__type__": "a6217w2ClpObbmOvnBgX9CM",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-=======
     "__type__": "77399xbLolMyJKltviIT0E1",
     "_name": "",
     "_objFlags": 0,
->>>>>>> faill
     "node": {
       "__id__": 2
     },
@@ -1592,9 +1554,6 @@
       "__uuid__": "0216040a-ab4f-441e-8529-3e25420480b8",
       "__expectedType__": "cc.Prefab"
     },
-<<<<<<< HEAD
-    "_id": "05QnbN35hHQL7i4sdDPUEr"
-=======
     "playerDataJson": {
       "__uuid__": "574bd92d-19d1-4886-aff8-6204ba45fb8d",
       "__expectedType__": "cc.JsonAsset"
@@ -1628,7 +1587,6 @@
       "__expectedType__": "cc.Prefab"
     },
     "_id": "72dm9NFwhJuLKP4az8AL4x"
->>>>>>> faill
   },
   {
     "__type__": "cc.Node",
@@ -1640,32 +1598,19 @@
     },
     "_children": [
       {
-<<<<<<< HEAD
-        "__id__": 63
-=======
         "__id__": 64
->>>>>>> faill
       }
     ],
     "_active": true,
     "_components": [
       {
-<<<<<<< HEAD
-        "__id__": 66
-      },
-      {
-=======
->>>>>>> faill
         "__id__": 67
       },
       {
         "__id__": 68
-<<<<<<< HEAD
-=======
       },
       {
         "__id__": 69
->>>>>>> faill
       }
     ],
     "_prefab": null,
@@ -1704,27 +1649,16 @@
     "_objFlags": 512,
     "__editorExtras__": {},
     "_parent": {
-<<<<<<< HEAD
-      "__id__": 62
-=======
       "__id__": 63
->>>>>>> faill
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-<<<<<<< HEAD
-        "__id__": 64
-      },
-      {
-        "__id__": 65
-=======
         "__id__": 65
       },
       {
         "__id__": 66
->>>>>>> faill
       }
     ],
     "_prefab": null,
@@ -1763,11 +1697,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-<<<<<<< HEAD
-      "__id__": 63
-=======
       "__id__": 64
->>>>>>> faill
     },
     "_enabled": true,
     "__prefab": null,
@@ -1789,11 +1719,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-<<<<<<< HEAD
-      "__id__": 63
-=======
       "__id__": 64
->>>>>>> faill
     },
     "_enabled": true,
     "__prefab": null,
@@ -1855,11 +1781,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-<<<<<<< HEAD
-      "__id__": 62
-=======
       "__id__": 63
->>>>>>> faill
     },
     "_enabled": true,
     "__prefab": null,
@@ -1881,11 +1803,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-<<<<<<< HEAD
-      "__id__": 62
-=======
       "__id__": 63
->>>>>>> faill
     },
     "_enabled": true,
     "__prefab": null,
@@ -1924,21 +1842,13 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-<<<<<<< HEAD
-      "__id__": 62
-=======
       "__id__": 63
->>>>>>> faill
     },
     "_enabled": true,
     "__prefab": null,
     "clickEvents": [
       {
-<<<<<<< HEAD
-        "__id__": 69
-=======
         "__id__": 70
->>>>>>> faill
       }
     ],
     "_interactable": true,
@@ -1990,11 +1900,7 @@
     "_duration": 0.1,
     "_zoomScale": 1.2,
     "_target": {
-<<<<<<< HEAD
-      "__id__": 62
-=======
       "__id__": 63
->>>>>>> faill
     },
     "_id": "951JqnX3dPsYH6qfiidLsb"
   },
@@ -2016,17 +1922,10 @@
     "instance": null,
     "targetOverrides": [
       {
-<<<<<<< HEAD
-        "__id__": 71
-      },
-      {
-        "__id__": 74
-=======
         "__id__": 72
       },
       {
         "__id__": 75
->>>>>>> faill
       }
     ],
     "nestedPrefabInstanceRoots": [
@@ -2041,11 +1940,7 @@
       "__id__": 5
     },
     "sourceInfo": {
-<<<<<<< HEAD
-      "__id__": 72
-=======
       "__id__": 73
->>>>>>> faill
     },
     "propertyPath": [
       "_scrollView"
@@ -2054,11 +1949,7 @@
       "__id__": 5
     },
     "targetInfo": {
-<<<<<<< HEAD
-      "__id__": 73
-=======
       "__id__": 74
->>>>>>> faill
     }
   },
   {
@@ -2079,11 +1970,7 @@
       "__id__": 5
     },
     "sourceInfo": {
-<<<<<<< HEAD
-      "__id__": 75
-=======
       "__id__": 76
->>>>>>> faill
     },
     "propertyPath": [
       "_handle"
@@ -2092,11 +1979,7 @@
       "__id__": 5
     },
     "targetInfo": {
-<<<<<<< HEAD
-      "__id__": 76
-=======
       "__id__": 77
->>>>>>> faill
     }
   },
   {
@@ -2114,30 +1997,6 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-<<<<<<< HEAD
-      "__id__": 78
-    },
-    "shadows": {
-      "__id__": 79
-    },
-    "_skybox": {
-      "__id__": 80
-    },
-    "fog": {
-      "__id__": 81
-    },
-    "octree": {
-      "__id__": 82
-    },
-    "skin": {
-      "__id__": 83
-    },
-    "lightProbeInfo": {
-      "__id__": 84
-    },
-    "postSettings": {
-      "__id__": 85
-=======
       "__id__": 79
     },
     "shadows": {
@@ -2160,7 +2019,6 @@
     },
     "postSettings": {
       "__id__": 86
->>>>>>> faill
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false
