@@ -44384,5 +44384,311 @@
       ]
     },
     "versionCode": 0
+  },
+  "16c50aa2-ddae-4870-a07c-8863660382f3@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/0.png@f9941",
+    "value": {
+      "depends": [
+        "16c50aa2-ddae-4870-a07c-8863660382f3@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4fc6c5c3-d1bf-4793-a71e-6e8ffd1d80c6@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/1.png@f9941",
+    "value": {
+      "depends": [
+        "4fc6c5c3-d1bf-4793-a71e-6e8ffd1d80c6@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6695c0ea-d77a-4c36-bddb-9658577eab4d@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/3.png@f9941",
+    "value": {
+      "depends": [
+        "6695c0ea-d77a-4c36-bddb-9658577eab4d@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3efb336b-d4e3-4398-9926-6a862e511159@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/4.png@f9941",
+    "value": {
+      "depends": [
+        "3efb336b-d4e3-4398-9926-6a862e511159@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ee21772b-ce09-4df5-9baa-a65439e7889a@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/2.png@f9941",
+    "value": {
+      "depends": [
+        "ee21772b-ce09-4df5-9baa-a65439e7889a@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "74217bf8-20aa-4641-882e-3ab8695849bf@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/5.png@f9941",
+    "value": {
+      "depends": [
+        "74217bf8-20aa-4641-882e-3ab8695849bf@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2fb86c9f-2bad-4dbf-a0e1-6d3c4596d2f3@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/0.png@f9941",
+    "value": {
+      "depends": [
+        "2fb86c9f-2bad-4dbf-a0e1-6d3c4596d2f3@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0ca57d6b-8ffe-4aba-8caa-5f07b4fb7e92@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/2.png@f9941",
+    "value": {
+      "depends": [
+        "0ca57d6b-8ffe-4aba-8caa-5f07b4fb7e92@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2339df16-2e6b-4b76-9881-098016088954@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/3.png@f9941",
+    "value": {
+      "depends": [
+        "2339df16-2e6b-4b76-9881-098016088954@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "14f6ea97-a458-416c-8e5f-cd78341f6fe4@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/1.png@f9941",
+    "value": {
+      "depends": [
+        "14f6ea97-a458-416c-8e5f-cd78341f6fe4@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "696afc98-ae27-4cab-a5b4-88633a0a41cd@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/2.png@f9941",
+    "value": {
+      "depends": [
+        "696afc98-ae27-4cab-a5b4-88633a0a41cd@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d526b6ba-3634-4012-be7c-18f338e460f9@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/1.png@f9941",
+    "value": {
+      "depends": [
+        "d526b6ba-3634-4012-be7c-18f338e460f9@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1507519c-850a-4755-9f83-a88ee64f746d@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/0.png@f9941",
+    "value": {
+      "depends": [
+        "1507519c-850a-4755-9f83-a88ee64f746d@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "408279f6-9169-4592-84f0-98ed679e53ab@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/4.png@f9941",
+    "value": {
+      "depends": [
+        "408279f6-9169-4592-84f0-98ed679e53ab@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "38d83fd5-f3a5-4239-9993-8ec6c26214d4@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/3.png@f9941",
+    "value": {
+      "depends": [
+        "38d83fd5-f3a5-4239-9993-8ec6c26214d4@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "393ba38b-aecc-49ba-a92c-60d526d5ce2f@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/5.png@f9941",
+    "value": {
+      "depends": [
+        "393ba38b-aecc-49ba-a92c-60d526d5ce2f@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "19681d25-d1be-4e05-b68a-68c47128ad37@f9941": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/6.png@f9941",
+    "value": {
+      "depends": [
+        "19681d25-d1be-4e05-b68a-68c47128ad37@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "aca7d3e0-824e-4f57-80ac-04dd9b880bf1@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/0.png@f9941",
+    "value": {
+      "depends": [
+        "aca7d3e0-824e-4f57-80ac-04dd9b880bf1@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b7225141-835e-4d4a-b229-cd15950fc5ba@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/1.png@f9941",
+    "value": {
+      "depends": [
+        "b7225141-835e-4d4a-b229-cd15950fc5ba@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c8c5184f-917a-4280-b3ac-dfffc0f733de@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/3.png@f9941",
+    "value": {
+      "depends": [
+        "c8c5184f-917a-4280-b3ac-dfffc0f733de@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9cdb3a61-48d5-44e6-9a55-749886bad7a2@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/2.png@f9941",
+    "value": {
+      "depends": [
+        "9cdb3a61-48d5-44e6-9a55-749886bad7a2@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bb0d232c-f5cc-4df0-b858-3b5f5902efc7@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/1.png@f9941",
+    "value": {
+      "depends": [
+        "bb0d232c-f5cc-4df0-b858-3b5f5902efc7@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4324f9ac-539b-4aed-a96b-9c011cf1cebc@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/2.png@f9941",
+    "value": {
+      "depends": [
+        "4324f9ac-539b-4aed-a96b-9c011cf1cebc@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a71a1f80-1c15-44ab-ade1-7de7e40038df@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/0.png@f9941",
+    "value": {
+      "depends": [
+        "a71a1f80-1c15-44ab-ade1-7de7e40038df@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e2aea29f-42cc-469e-b2c7-9d6446a87468@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/4.png@f9941",
+    "value": {
+      "depends": [
+        "e2aea29f-42cc-469e-b2c7-9d6446a87468@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ec5c76f4-37fe-4ba7-860f-2694fd180d01@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/3.png@f9941",
+    "value": {
+      "depends": [
+        "ec5c76f4-37fe-4ba7-860f-2694fd180d01@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "84ccd20f-e39f-42ab-9bb2-565e25e3c961@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/2.png@f9941",
+    "value": {
+      "depends": [
+        "84ccd20f-e39f-42ab-9bb2-565e25e3c961@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5aad5188-5fdf-42ae-9011-eed044661c7e@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/0.png@f9941",
+    "value": {
+      "depends": [
+        "5aad5188-5fdf-42ae-9011-eed044661c7e@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "aaebfade-30e3-49cf-8d0c-46453ebc4a87@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/4.png@f9941",
+    "value": {
+      "depends": [
+        "aaebfade-30e3-49cf-8d0c-46453ebc4a87@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "79c61465-c00e-4244-9b32-b04287fae0c6@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/1.png@f9941",
+    "value": {
+      "depends": [
+        "79c61465-c00e-4244-9b32-b04287fae0c6@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "963a6d3b-8511-4bd0-98eb-2babbf9f1a3a@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/3.png@f9941",
+    "value": {
+      "depends": [
+        "963a6d3b-8511-4bd0-98eb-2babbf9f1a3a@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fd8eb83b-da79-43c4-ba1e-5e6f84e55319@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/5.png@f9941",
+    "value": {
+      "depends": [
+        "fd8eb83b-da79-43c4-ba1e-5e6f84e55319@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "95de80d2-a425-446c-bf5d-9a6cac68e1de@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/6.png@f9941",
+    "value": {
+      "depends": [
+        "95de80d2-a425-446c-bf5d-9a6cac68e1de@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f68e647a-0361-45aa-b1ce-2a1f5db1e315@f9941": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/7.png@f9941",
+    "value": {
+      "depends": [
+        "f68e647a-0361-45aa-b1ce-2a1f5db1e315@6c48a"
+      ]
+    },
+    "versionCode": 0
   }
 }

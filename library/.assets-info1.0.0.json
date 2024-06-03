@@ -2,15 +2,15 @@
   "version": "1.0.0",
   "map": {
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs": {
-      "time": 1717426779425.7227,
+      "time": 1717430332998.319,
       "uuid": "7b198bfb-549c-45d7-95dc-5dafa1bc45e7"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes": {
-      "time": 1717426779450.3176,
+      "time": 1717430333054.2307,
       "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts": {
-      "time": 1717426779453.2273,
+      "time": 1717430333058.2178,
       "uuid": "aa56c93b-3412-48f6-b7e7-04f207946720"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs.meta": {
@@ -54,14 +54,14 @@
       "time": 1716219859038.1687
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Game.scene": {
-      "time": 1717426779450.2163,
+      "time": 1717430333054.128,
       "uuid": "48939222-f916-4102-a061-fa566b059c3a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Image.meta": {
       "time": 1716204288923.1382
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Image": {
-      "time": 1717426779425.3604,
+      "time": 1717430332998.0247,
       "uuid": "7db3d159-528d-4929-9b43-3e236ef4a49b"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Image/game-bg.png.meta": {
@@ -75,7 +75,7 @@
       "time": 1716204288925.8179
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiRoom.ts": {
-      "time": 1717424665393.2292,
+      "time": 1717430333056.9517,
       "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Player": {
@@ -83,7 +83,7 @@
       "uuid": "25de3770-3720-4d02-882b-89f274118346"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/Bullet.ts": {
-      "time": 1717426779450.886,
+      "time": 1717430333055.094,
       "uuid": "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/firebase.d.ts": {
@@ -1383,7 +1383,7 @@
       "uuid": "90d6c57b-0b58-43f3-bac9-f3422735314b"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/map1Scene.scene": {
-      "time": 1717428541554.637,
+      "time": 1717430333054.8274,
       "uuid": "70774282-0f2c-4340-8714-aa5ba35f0da7"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map/maptest.tmx": {
@@ -2565,7 +2565,7 @@
       "time": 1717423156401.5164
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources": {
-      "time": 1717423156375.7847,
+      "time": 1717430377526.9634,
       "uuid": "1e33fc8c-f302-40e0-942d-0f1ab77735c0"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI": {
@@ -2573,7 +2573,7 @@
       "uuid": "79380e16-375c-4da6-b961-4beac6bccb31"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor": {
-      "time": 1717426779438.2515,
+      "time": 1717430333028.4321,
       "uuid": "6ffe0c1b-217c-46b4-ba6c-cbb8367302d5"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI/1 Frames": {
@@ -2581,7 +2581,7 @@
       "uuid": "ef0494ef-b1ac-4aa4-bd58-bc6c24d7ff8c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI/2 Bars": {
-      "time": 1717426779438.1348,
+      "time": 1717430333028.2505,
       "uuid": "07bceedd-6545-4fcd-820e-f433ff5b4456"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI/3 Icons": {
@@ -2605,11 +2605,11 @@
       "uuid": "b3c8b1fd-05f1-4634-8bf2-dc80ef3cfef1"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female": {
-      "time": 1717426779438.3306,
+      "time": 1717430333028.609,
       "uuid": "23ff4366-c5df-482a-815a-bd7043943648"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male": {
-      "time": 1717426779444.0784,
+      "time": 1717430333040.8618,
       "uuid": "a3a27368-fd84-478b-a85f-e8dcf249eeb4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI/1 Frames/Frame_tiles": {
@@ -2641,11 +2641,11 @@
       "uuid": "6b820307-a9a5-4f0a-86f2-5a55879d418e"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight": {
-      "time": 1717426779440.1958,
+      "time": 1717430333031.839,
       "uuid": "82234d4b-29c9-49a3-926d-c8b732e0d9d4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer": {
-      "time": 1717426779442.8079,
+      "time": 1717430333037.416,
       "uuid": "e56e0a6c-a341-411c-9c08-ce7d1922fe31"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/PSD": {
@@ -2653,7 +2653,7 @@
       "uuid": "300fc64b-2578-4c77-a76c-c3db1b53cb84"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Archer": {
-      "time": 1717426779444.436,
+      "time": 1717430333041.3562,
       "uuid": "2cc27938-7a73-45bf-b9e9-aa8e808314a4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/PSD": {
@@ -2661,11 +2661,11 @@
       "uuid": "1611c750-c016-4cd5-91b9-c6194070d7aa"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman": {
-      "time": 1717426779446.132,
+      "time": 1717430333045.9858,
       "uuid": "12e0ef37-2618-4b54-a693-4ad944208a26"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard": {
-      "time": 1717426779448.6096,
+      "time": 1717430333051.9148,
       "uuid": "66ef78aa-f078-4b75-b467-e0a17ac254b0"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI/Font.txt.meta": {
@@ -2699,10 +2699,10 @@
       "time": 1717423174541.6577
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI/2 Bars/Button1.png.meta": {
-      "time": 1717426983414.8232
+      "time": 1717430333028.0496
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI/2 Bars/Button2.png.meta": {
-      "time": 1717426983415.358
+      "time": 1717430333028.193
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI/2 Bars/Button3.png.meta": {
       "time": 1717423174552.1665
@@ -4967,10 +4967,10 @@
       "time": 1717423156391.9072
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Archer/Idle.png.meta": {
-      "time": 1717426983472.2493
+      "time": 1717430333041.2676
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Archer/Idle_2.png.meta": {
-      "time": 1717426983473.0886
+      "time": 1717430333041.572
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Archer/Jump.png.meta": {
       "time": 1717423156392.6345
@@ -8258,7 +8258,7 @@
       "time": 1717263642647.629
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Animations/Musketeer/Musketeer_Dead.anim": {
-      "time": 1717263642647.5442,
+      "time": 1717430404257.298,
       "uuid": "ed80f925-90c0-4ec3-9d5c-a750558302c6"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Animations/Wizard/Wizard_Run.anim.meta": {
@@ -8377,7 +8377,7 @@
       "uuid": "c14c4976-d7bd-474b-b734-2cdcb004c028"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/signUp.ts": {
-      "time": 1717424665393.8215,
+      "time": 1717430333058.4314,
       "uuid": "c4860c91-7fe6-4120-8d54-a256798f642a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Select.scene.meta": {
@@ -8405,7 +8405,7 @@
       "time": 1717423156371.9822
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Image/bgblur.png.meta": {
-      "time": 1717426779425.42
+      "time": 1717430332998.0718
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Image/map1Tumbnail.png.meta": {
       "time": 1717423156372.4392
@@ -8441,7 +8441,7 @@
       "time": 1717419769845.1934
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI/2 Bars/Scrolling90.png.meta": {
-      "time": 1717426779438.197
+      "time": 1717430333028.3171
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/GUI/6 Font/CraftPixNet-Survival-Kit.ttf.meta": {
       "time": 1717419769843.184
@@ -8608,16 +8608,16 @@
       "time": 1717419769690.189
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/PSD.meta": {
-      "time": 1717419769699.341
+      "time": 1717419769699.3408
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Archer.meta": {
       "time": 1717419769708.228
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/PSD.meta": {
-      "time": 1717419769715.0679
+      "time": 1717419769715.0676
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman.meta": {
-      "time": 1717419769726.09
+      "time": 1717419769726.0898
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard.meta": {
       "time": 1717419769736.6282
@@ -8629,37 +8629,37 @@
       "time": 1717419769657.3396
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Dead.meta": {
-      "time": 1717426779426.167
+      "time": 1717430220129.7244
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle.meta": {
-      "time": 1717426982137.2568
+      "time": 1717430220130.5725
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run.meta": {
-      "time": 1717426982137.4783
+      "time": 1717430220131.7166
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead.meta": {
-      "time": 1717426982137.855
+      "time": 1717430220133.256
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle.meta": {
-      "time": 1717426982138.0532
+      "time": 1717430220134.7644
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead.meta": {
-      "time": 1717426982138.4277
+      "time": 1717430220137.7234
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle.meta": {
-      "time": 1717426982138.6013
+      "time": 1717430220138.7788
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run.meta": {
-      "time": 1717426982138.7622
+      "time": 1717430220140.6929
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Dead.meta": {
-      "time": 1717426982139.0786
+      "time": 1717430220142.6748
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle.meta": {
-      "time": 1717426982139.3105
+      "time": 1717430220143.6875
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run.meta": {
-      "time": 1717426982139.5479
+      "time": 1717430220145.2437
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map/map1source/Terrain/Water/Foam/Foam_split.meta": {
       "time": 1717419769649.5151
@@ -8693,7 +8693,7 @@
       "uuid": "c6771627-8213-482e-ae25-1c614af342b1"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/Manager": {
-      "time": 1717426779451.1282,
+      "time": 1717430333055.3406,
       "uuid": "6926002c-cae2-4cf6-956f-bc83dd595c1c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/Plugin": {
@@ -8721,7 +8721,7 @@
       "uuid": "4237c686-18c7-48c2-8a81-4c68d491026b"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/PlayerPrefab.ts": {
-      "time": 1717428628186.9019,
+      "time": 1717430333058.1248,
       "uuid": "3a5613d4-a234-47e7-8f0c-dfb046555afe"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Pixel Art Icon Pack - RPG/Material": {
@@ -8761,11 +8761,11 @@
       "uuid": "c01c9e12-3cb9-48dc-b82b-79a33aebbcc4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight": {
-      "time": 1717426779427.671,
+      "time": 1717430220131.4026,
       "uuid": "de956e68-6f2f-4ae7-ab51-3925d43588ed"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer": {
-      "time": 1717426779430.1572,
+      "time": 1717430220136.1633,
       "uuid": "984dff84-5e29-4b10-836b-c21cc5533366"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/PSD": {
@@ -8781,15 +8781,15 @@
       "uuid": "be9d8051-2da4-4057-b54f-7b0a08ea10bf"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman": {
-      "time": 1717426779433.2488,
+      "time": 1717430220140.5771,
       "uuid": "cde35c14-edb6-4f84-bac1-1169091af5c7"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/Manager/PhotonManager.ts": {
-      "time": 1717426779451.0535,
+      "time": 1717430333055.2556,
       "uuid": "485e5726-6ec1-4cb5-8616-97b0814847ce"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard": {
-      "time": 1717426779436.061,
+      "time": 1717430220145.133,
       "uuid": "dc8588eb-172d-4831-ace1-f330aabf4cee"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map/map1source/Terrain/Water/Rocks_01_split": {
@@ -8801,7 +8801,7 @@
       "uuid": "95731a10-49ef-4b6d-b5ff-9e72b78dea8c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/Manager/PlayerManager.ts": {
-      "time": 1717426779451.1824,
+      "time": 1717430333055.3948,
       "uuid": "5c1808f3-2280-443f-a522-4e7758f33809"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/Manager/SelectPlayer.ts": {
@@ -8809,48 +8809,48 @@
       "uuid": "fbe5eaa3-b45d-44e8-8d3e-36abb493f3fa"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Dead": {
-      "time": 1717426779426.6602,
-      "uuid": "d4c600d8-f1ea-46cc-ae3a-45cbab99ec4c"
+      "time": 1717430220130.206,
+      "uuid": "ad91b66e-d20c-4473-b209-f23e6bc281a0"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle": {
-      "time": 1717426779427.5256,
-      "uuid": "475e4c0c-961d-4268-b1ec-47cb2b649af3"
+      "time": 1717430220131.2664,
+      "uuid": "3af768a0-2a19-4f97-91ca-46ff4528a490"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run": {
-      "time": 1717426779428.6187,
-      "uuid": "17aa92f7-63d9-4685-a43a-018a766f909f"
+      "time": 1717430220132.787,
+      "uuid": "1ede4403-b4a4-41c2-9f03-a8a2b4448b01"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead": {
-      "time": 1717426779429.2576,
-      "uuid": "437b5e2f-b4e6-450f-832d-88862e9a4b6a"
+      "time": 1717430220134.3298,
+      "uuid": "56d1a7b0-2ca2-4b94-8ef2-162b50d82ff8"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle": {
-      "time": 1717426779430.0227,
-      "uuid": "8976c8fe-07c1-42d5-8b8d-09bdf1c64ba3"
+      "time": 1717430220135.7566,
+      "uuid": "c7d99dd8-1e57-434a-9d7c-f75d5de82d69"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead": {
-      "time": 1717426779431.923,
-      "uuid": "993e77d1-0d5c-425f-901d-d60773225de3"
+      "time": 1717430220138.4736,
+      "uuid": "ab9b32e0-8931-48f0-8784-4693eca1c2bd"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle": {
-      "time": 1717426779433.1292,
-      "uuid": "2e79d1f2-3e52-49e3-87aa-bc5d4b985093"
+      "time": 1717430220140.3699,
+      "uuid": "7cd2ded3-ae26-4db9-92a0-703db98e18b7"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run": {
-      "time": 1717426779434.4512,
-      "uuid": "c14bb5f3-4df4-4875-8f12-516b6e12d6ef"
+      "time": 1717430220142.336,
+      "uuid": "aa902443-ee14-4c5a-9254-7b3c801452ea"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Dead": {
-      "time": 1717426779435.1157,
-      "uuid": "0c5b4cb5-a8fc-4d66-8aeb-eaa1871bfdb3"
+      "time": 1717430220143.4038,
+      "uuid": "f9e5f080-cd85-4a2e-b16a-aa43d8470bc4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle": {
-      "time": 1717426779435.9614,
-      "uuid": "cfdabf57-8151-4979-b054-2a6c9857873d"
+      "time": 1717430220144.8289,
+      "uuid": "a8a1eba5-e54e-492e-ba1e-15e2364fcef0"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run": {
-      "time": 1717426779437.3179,
-      "uuid": "14c167cd-2681-4388-9627-780d3284b757"
+      "time": 1717430220146.7075,
+      "uuid": "5080f780-20b3-44f7-ac3d-b9d81529df27"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map/map1source/Terrain/Water/Foam/Foam_split": {
       "time": 1717419769653.0938,
@@ -8920,7 +8920,7 @@
       "time": 1717419769690.0771
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/COUPON.pdf.meta": {
-      "time": 1717419769713.43
+      "time": 1717419769713.4297
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/COUPON.png.meta": {
       "time": 1717419769714.2349
@@ -9265,10 +9265,10 @@
       "time": 1717419769674.787
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Enchantress/Attack_2.png.meta": {
-      "time": 1717419769675.5151
+      "time": 1717419769675.5154
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Enchantress/Attack_3.png.meta": {
-      "time": 1717419769676.0608
+      "time": 1717419769676.061
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Enchantress/Attack_4.png.meta": {
       "time": 1717419769676.4993
@@ -9280,7 +9280,7 @@
       "time": 1717419769677.4377
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Enchantress/Idle.png.meta": {
-      "time": 1717419769677.9077
+      "time": 1717419769677.9075
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Enchantress/Jump.png.meta": {
       "time": 1717419769678.4045
@@ -9292,7 +9292,7 @@
       "time": 1717419769679.2566
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Attack_1.png.meta": {
-      "time": 1717419769680.609
+      "time": 1717419769680.6086
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Attack_2.png.meta": {
       "time": 1717419769681.02
@@ -9304,7 +9304,7 @@
       "time": 1717419769681.9124
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Dead.png.meta": {
-      "time": 1717419769682.3516
+      "time": 1717419769682.3518
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Hurt.png.meta": {
       "time": 1717419769682.67
@@ -9319,7 +9319,7 @@
       "time": 1717419769689.305
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Walk.png.meta": {
-      "time": 1717419769689.589
+      "time": 1717419769689.5894
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Attack_1.png.meta": {
       "time": 1717419769690.6196
@@ -9346,7 +9346,7 @@
       "time": 1717419769692.8152
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png.meta": {
-      "time": 1717426983433.189
+      "time": 1717430220136.3748
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Run.png.meta": {
       "time": 1717419769698.8936
@@ -9364,10 +9364,10 @@
       "time": 1717419769707.5002
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Archer/Arrow.png.meta": {
-      "time": 1717419769708.532
+      "time": 1717419769708.5317
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Archer/Attack_1.png.meta": {
-      "time": 1717419769708.7974
+      "time": 1717419769708.797
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Archer/Dead.png.meta": {
       "time": 1717419769709.0662
@@ -9376,7 +9376,7 @@
       "time": 1717419769709.4568
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Archer/Idle.png.meta": {
-      "time": 1717419769709.7522
+      "time": 1717419769709.7524
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Archer/Idle_2.png.meta": {
       "time": 1717419769710.0532
@@ -9397,10 +9397,10 @@
       "time": 1717419769712.5825
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/PSD/Archer_spritelist.psd.meta": {
-      "time": 1717419769718.1958
+      "time": 1717419769718.1956
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/PSD/Swordsman_spritelist.psd.meta": {
-      "time": 1717419769721.7004
+      "time": 1717419769721.7002
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/PSD/Wizard_spritelist.psd.meta": {
       "time": 1717419769724.6538
@@ -9415,7 +9415,7 @@
       "time": 1717419769727.4175
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Dead.png.meta": {
-      "time": 1717419769727.7168
+      "time": 1717419769727.717
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Hurt.png.meta": {
       "time": 1717419769728.2322
@@ -9511,217 +9511,217 @@
       "time": 1717419769659.504
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Dead/0.png.meta": {
-      "time": 1717426983472.5881
+      "time": 1717430227496.6187
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Dead/1.png.meta": {
-      "time": 1717426983471.6357
+      "time": 1717430227498.1519
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Dead/2.png.meta": {
-      "time": 1717426983473.9878
+      "time": 1717430227496.1724
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Dead/3.png.meta": {
-      "time": 1717426983477.949
+      "time": 1717430227499.7588
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/0.png.meta": {
-      "time": 1717426983477.6294
+      "time": 1717430227503.961
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/1.png.meta": {
-      "time": 1717426983478.9429
+      "time": 1717430227504.5742
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/2.png.meta": {
-      "time": 1717426983480.1191
+      "time": 1717430227505.6494
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/3.png.meta": {
-      "time": 1717426983480.409
+      "time": 1717430227507.879
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/4.png.meta": {
-      "time": 1717426983482.8638
+      "time": 1717430227514.141
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/5.png.meta": {
-      "time": 1717426983483.2664
+      "time": 1717430227515.3313
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/0.png.meta": {
-      "time": 1717426983485.5833
+      "time": 1717430227517.1306
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/1.png.meta": {
-      "time": 1717426983485.3232
+      "time": 1717430227517.8381
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/2.png.meta": {
-      "time": 1717426983485.9265
+      "time": 1717430227518.1091
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/3.png.meta": {
-      "time": 1717426983487.4714
+      "time": 1717430227523.8635
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/4.png.meta": {
-      "time": 1717426983488.6638
+      "time": 1717430227527.0078
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/5.png.meta": {
-      "time": 1717426983490.983
+      "time": 1717430227529.1108
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/6.png.meta": {
-      "time": 1717426983490.7036
+      "time": 1717430227531.03
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/0.png.meta": {
-      "time": 1717426983491.3145
+      "time": 1717430227532.033
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/1.png.meta": {
-      "time": 1717426983492.8335
+      "time": 1717430227537.9968
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/2.png.meta": {
-      "time": 1717426983493.9988
+      "time": 1717430227538.7788
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/3.png.meta": {
-      "time": 1717426983495.986
+      "time": 1717430227539.5647
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/0.png.meta": {
-      "time": 1717426983496.4502
+      "time": 1717430227540.53
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/1.png.meta": {
-      "time": 1717426983496.309
+      "time": 1717430227541.8677
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/2.png.meta": {
-      "time": 1717426983497.6533
+      "time": 1717430227552.51
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/3.png.meta": {
-      "time": 1717426983498.385
+      "time": 1717430227554.122
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/4.png.meta": {
-      "time": 1717426983501.326
+      "time": 1717430227555.9895
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/0.png.meta": {
-      "time": 1717426983501.74
+      "time": 1717430227555.386
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/1.png.meta": {
-      "time": 1717426983502.1716
+      "time": 1717430227557.842
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/2.png.meta": {
-      "time": 1717426983503.8762
+      "time": 1717430227562.4246
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/3.png.meta": {
-      "time": 1717426983504.2444
+      "time": 1717430227564.323
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/4.png.meta": {
-      "time": 1717426983506.1865
+      "time": 1717430227565.8774
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/5.png.meta": {
-      "time": 1717426983506.5442
+      "time": 1717430227565.6233
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/6.png.meta": {
-      "time": 1717426983507.6997
+      "time": 1717430227566.4653
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/7.png.meta": {
-      "time": 1717426983509.3237
+      "time": 1717430227574.1252
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/0.png.meta": {
-      "time": 1717426983510.4949
+      "time": 1717430227575.4045
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/1.png.meta": {
-      "time": 1717426983511.6025
+      "time": 1717430227577.3538
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/2.png.meta": {
-      "time": 1717426983511.7678
+      "time": 1717430227576.1067
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/0.png.meta": {
-      "time": 1717426983513.1785
+      "time": 1717430227577.537
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/1.png.meta": {
-      "time": 1717426983514.7302
+      "time": 1717430227586.2852
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/2.png.meta": {
-      "time": 1717426983515.7986
+      "time": 1717430227587.1797
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/3.png.meta": {
-      "time": 1717426983516.9487
+      "time": 1717430227587.5898
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/4.png.meta": {
-      "time": 1717426983517.317
+      "time": 1717430227588.3904
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/5.png.meta": {
-      "time": 1717426983518.372
+      "time": 1717430227589.3
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/6.png.meta": {
-      "time": 1717426983519.9158
+      "time": 1717430227596.32
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/7.png.meta": {
-      "time": 1717426983521.201
+      "time": 1717430227596.07
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/0.png.meta": {
-      "time": 1717426983522.0464
+      "time": 1717430227595.8223
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/1.png.meta": {
-      "time": 1717426983522.5625
+      "time": 1717430227597.5205
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/2.png.meta": {
-      "time": 1717426983523.6475
+      "time": 1717430227598.2432
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/3.png.meta": {
-      "time": 1717426983524.8762
+      "time": 1717430227607.851
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/4.png.meta": {
-      "time": 1717426983526.3862
+      "time": 1717430227606.6685
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/5.png.meta": {
-      "time": 1717426983527.7715
+      "time": 1717430227605.7217
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/6.png.meta": {
-      "time": 1717426983528.504
+      "time": 1717430227608.7822
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/7.png.meta": {
-      "time": 1717426983529.1978
+      "time": 1717430227608.142
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/0.png.meta": {
-      "time": 1717426983531.4722
+      "time": 1717430227615.3174
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/1.png.meta": {
-      "time": 1717426983532.2686
+      "time": 1717430227615.7446
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/2.png.meta": {
-      "time": 1717426983533.3623
+      "time": 1717430227618.1165
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/3.png.meta": {
-      "time": 1717426983534.5308
+      "time": 1717430227617.0156
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/0.png.meta": {
-      "time": 1717426983535.264
+      "time": 1717430227619.15
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/1.png.meta": {
-      "time": 1717426983537.1003
+      "time": 1717430227624.7612
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/2.png.meta": {
-      "time": 1717426983538.0054
+      "time": 1717430227627.039
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/3.png.meta": {
-      "time": 1717426983538.8025
+      "time": 1717430227626.8284
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/4.png.meta": {
-      "time": 1717426983539.5608
+      "time": 1717430227627.987
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/5.png.meta": {
-      "time": 1717426983540.7273
+      "time": 1717430227628.4229
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/0.png.meta": {
-      "time": 1717426983542.2852
+      "time": 1717430227635.3647
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/1.png.meta": {
-      "time": 1717426983543.1921
+      "time": 1717430227636.087
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/2.png.meta": {
-      "time": 1717426983544.9014
+      "time": 1717430227637.3596
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/3.png.meta": {
-      "time": 1717426983545.3174
+      "time": 1717430227636.8047
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/4.png.meta": {
-      "time": 1717426983545.8389
+      "time": 1717430227637.962
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/5.png.meta": {
-      "time": 1717426983547.053
+      "time": 1717430227644.3267
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/6.png.meta": {
-      "time": 1717426983547.85
+      "time": 1717430227645.741
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/7.png.meta": {
-      "time": 1717426983549.1216
+      "time": 1717430227646.6533
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map/map1source/Terrain/Water/Foam/Foam_split/0.png.meta": {
       "time": 1717419769650.0898
@@ -9756,7 +9756,7 @@
       "uuid": "5ae2fc90-0a1a-4910-a41f-8a09188887d0"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/player.prefab": {
-      "time": 1717427180258.3562,
+      "time": 1717430332998.7144,
       "uuid": "ebc65683-97fe-4824-b0b2-cd2d385462b4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/speedUp.prefab": {
@@ -10348,7 +10348,7 @@
       "uuid": "473aa2f0-c4c9-4954-aade-f48ad546b4c7"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Hurt.png": {
-      "time": 1717419769682.5286,
+      "time": 1717419769682.5288,
       "uuid": "3f284432-f2fb-4a9a-a916-43192d66a753"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Idle.png": {
@@ -10356,7 +10356,7 @@
       "uuid": "2fb4f974-824f-433f-883b-8c20d2645d1b"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Jump.png": {
-      "time": 1717419769683.2852,
+      "time": 1717419769683.285,
       "uuid": "f5236e31-d7e1-4ec1-b6b6-dcbd1f064b07"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Run.png": {
@@ -10364,7 +10364,7 @@
       "uuid": "e5747642-c3bd-46cd-a49f-01d396eabcea"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Walk.png": {
-      "time": 1717419769689.4631,
+      "time": 1717419769689.4634,
       "uuid": "65c3ff85-14d8-402f-9463-671d7ae9e362"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Attack_1.png": {
@@ -10380,12 +10380,12 @@
       "uuid": "e9bc1925-512c-43cf-916f-389952852c9a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Dead.png": {
-      "time": 1717419769691.8242,
+      "time": 1717419769691.824,
       "uuid": "f62f609c-f0f7-4204-8596-d4ebb5eb2b39"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png": {
-      "time": 1717426779431.1885,
-      "uuid": "1d6acc53-827a-4b48-ad18-3dd817cd2a9b"
+      "time": 1717430220137.3364,
+      "uuid": "f25c115f-88f6-4fc8-a14e-3496d1c84817"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Attack_4.png": {
       "time": 1717419769691.55,
@@ -10436,7 +10436,7 @@
       "uuid": "5fc513cf-029a-4368-97a8-2780b52380ce"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/PSD/Swordsman_spritelist.psd": {
-      "time": 1717419769707.0198,
+      "time": 1717419769707.02,
       "uuid": "5da5342d-fbf1-4020-b0cd-3a6564867b63"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Archer/Idle.png": {
@@ -10484,7 +10484,7 @@
       "uuid": "4f0afed7-e781-424d-9b16-697de9bcc575"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Attack_3.png": {
-      "time": 1717419769727.29,
+      "time": 1717419769727.2898,
       "uuid": "818ab103-6293-49f5-b99c-cdec49d13d0a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/PSD/Wizard_spritelist.psd": {
@@ -10532,7 +10532,7 @@
       "uuid": "f31c6dc6-cc31-43b2-a3fd-d85a9f9ba218"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Attack_3.png": {
-      "time": 1717419769737.8384,
+      "time": 1717419769737.8386,
       "uuid": "7609df52-461e-4b7c-ab18-31e1d66ab785"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Hurt.png": {
@@ -10621,287 +10621,287 @@
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Dead/0.png": {
       "time": 1717419769683.7642,
-      "uuid": "c0bf2aac-79e0-4ac3-ab6e-93f441eab71a"
+      "uuid": "bb7524b8-d7da-402d-bd2b-5f9c1f72b323"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Dead/1.png": {
       "time": 1717419769684.1396,
-      "uuid": "417975c4-c981-4e62-9d3c-852588e1b3cd"
+      "uuid": "bcfe4a00-70e5-455a-8597-150e6f9060d4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Dead/2.png": {
       "time": 1717419769684.3926,
-      "uuid": "0ff110da-3721-4b49-a10d-4b61542778d1"
+      "uuid": "56a970a2-43ea-4cd5-8c00-8fb8a420a4b0"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Dead/3.png": {
       "time": 1717419769684.67,
-      "uuid": "d405b8ed-07eb-47e8-9ab4-8b319d7b1758"
+      "uuid": "abb674ee-b9a0-4ea6-ab61-9d0cc500689a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/0.png": {
       "time": 1717419769685.1514,
-      "uuid": "71cfc2e9-be6b-4bfb-bee6-13907d582d95"
+      "uuid": "93d0d7c9-c3bc-4b99-83f2-e48ae4b19bdf"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/1.png": {
       "time": 1717419769685.5427,
-      "uuid": "f2ec625a-f3e0-4d40-a0bc-1f882ec22f02"
+      "uuid": "56c88e6b-e08e-461d-adeb-08a4c8a0a3b4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/2.png": {
       "time": 1717419769685.7974,
-      "uuid": "3dbca049-37f3-45ed-b6b7-08f3fcf0b68f"
+      "uuid": "2584daba-cd2a-4a96-95ea-2a04b74524df"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/3.png": {
       "time": 1717419769686.0798,
-      "uuid": "e3965029-a857-4c75-8edd-db5dfaf942d1"
+      "uuid": "0f6d30fc-4cb7-44b4-b84c-669076a90f74"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/4.png": {
       "time": 1717419769686.4194,
-      "uuid": "19274d43-a14f-47b6-b6af-bd63148a0bec"
+      "uuid": "c4bed9b5-cf71-441d-ac00-d522021ed564"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Idle/5.png": {
       "time": 1717419769686.6936,
-      "uuid": "a76913d3-9ee0-43d3-93f0-48145f43c5c4"
+      "uuid": "6db7ca6e-4e88-4edb-b95c-a053180ed2c9"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/0.png": {
       "time": 1717419769687.2485,
-      "uuid": "aaa1ab6e-12b1-47ad-8e7b-c7331f2e0757"
+      "uuid": "975f0c02-c654-4aa4-a503-b0b82ade754e"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/1.png": {
       "time": 1717419769687.511,
-      "uuid": "a2f77d7a-c96b-47eb-92a1-e95ac8fff975"
+      "uuid": "d5a46b88-2a69-452a-a1d5-6a670735abe6"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/2.png": {
-      "time": 1717419769687.756,
-      "uuid": "82c826d5-9e02-4237-97b6-2bf406dbaa6f"
+      "time": 1717419769687.7559,
+      "uuid": "2278c6e4-4c6e-443c-975c-5dac6654aac9"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/3.png": {
       "time": 1717419769688.03,
-      "uuid": "c935b205-04c7-4549-ac2f-cb1aeafd31b0"
+      "uuid": "83a28966-d2b0-4875-a072-c35a3f8ce4e9"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/4.png": {
       "time": 1717419769688.3904,
-      "uuid": "01dd2bef-4978-40fb-8171-9af80c6cde0c"
+      "uuid": "7e9e8c06-277d-42dd-a9fd-964db4178a95"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/5.png": {
-      "time": 1717419769688.639,
-      "uuid": "e5785f6b-0ecc-4aa6-8948-cd8d195f3d76"
+      "time": 1717419769688.6392,
+      "uuid": "aa276f56-bfae-412e-8309-216eb2790c39"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Knight/Knight_Run/6.png": {
       "time": 1717419769688.887,
-      "uuid": "354623c6-ecac-476d-983d-107662e74ba7"
+      "uuid": "ef715590-2d4a-40cf-8918-ba1ffc7f0bac"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/0.png": {
       "time": 1717419769693.2104,
-      "uuid": "0cd5d350-085b-4653-8362-1b0edb238b1a"
+      "uuid": "484b6dc3-ab5f-4ee7-96a0-d999a1192915"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/1.png": {
-      "time": 1717419769693.4766,
-      "uuid": "009b5c66-884d-4f3e-bb66-7d07cbfdf4b1"
+      "time": 1717419769693.4763,
+      "uuid": "b81687ef-e797-48b6-ba60-869d3c0466c7"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/2.png": {
-      "time": 1717419769693.7168,
-      "uuid": "3de4d988-30f7-4f85-acf9-fe811622fb0d"
+      "time": 1717419769693.7166,
+      "uuid": "6b705aa5-3ff0-4a48-80ff-c9d520c57799"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/3.png": {
-      "time": 1717419769693.9668,
-      "uuid": "3863d7bd-a139-405b-aab9-50be611d1f44"
+      "time": 1717419769693.9666,
+      "uuid": "f05da846-1494-4936-85d1-20f4bf8faa96"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/0.png": {
-      "time": 1717419769694.545,
-      "uuid": "22abfbf5-30e5-4062-960a-c9477086b581"
+      "time": 1717419769694.5447,
+      "uuid": "1dfbe9ec-281b-45cf-a6ad-edd736852fcf"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/1.png": {
       "time": 1717419769694.814,
-      "uuid": "9af3b7e4-16c6-4a03-a522-16fc3feade1a"
+      "uuid": "3aaaeec0-0af7-4f3f-a016-6dbb2ace8f50"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/2.png": {
       "time": 1717419769695.074,
-      "uuid": "c6a90932-718c-4ef3-9077-e4568b569568"
+      "uuid": "e9fc5cd4-987c-437f-a888-3ce2a7ac11fc"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/3.png": {
       "time": 1717419769695.338,
-      "uuid": "b977f1bf-7125-4f5e-bb1d-006b7b4bfeb3"
+      "uuid": "325fd7f5-0ecd-4e71-867c-187ec78543e4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/4.png": {
       "time": 1717419769695.629,
-      "uuid": "6df30bfc-6c23-416c-b22d-035223e13579"
+      "uuid": "9cf20619-a9ba-4085-bc94-307464c5439e"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/0.png": {
       "time": 1717419769696.1917,
-      "uuid": "12bf5002-845a-4d24-8cf6-d3c61a62f419"
+      "uuid": "6b32fbda-1186-46bc-8fec-ae8451cc4fd4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/1.png": {
       "time": 1717419769696.465,
-      "uuid": "243dfbb3-c69b-4537-a87f-c936375b0bc0"
+      "uuid": "42dda075-0ae9-4752-a1ef-8267e5501f82"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/2.png": {
       "time": 1717419769696.7327,
-      "uuid": "7d3914fe-7226-45b7-8316-bba67c0e6406"
+      "uuid": "ca279983-6a6d-4f09-917d-263647a361bc"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/3.png": {
       "time": 1717419769697.0085,
-      "uuid": "af58207f-34d9-4675-8a33-c65a81ff9529"
+      "uuid": "6c467066-9ab1-442c-aac5-0972fe7bf6c3"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/4.png": {
-      "time": 1717419769697.4592,
-      "uuid": "79a97847-c3d3-4668-ab4d-f3f6cd924f14"
+      "time": 1717419769697.459,
+      "uuid": "5bc324e6-31fa-4eb6-97b7-38ea692196d0"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/5.png": {
       "time": 1717419769697.747,
-      "uuid": "cd754f7e-5c29-440c-9e5b-52039b27dd68"
+      "uuid": "24add21f-6528-42a0-b5f6-07bee1cfcf44"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/6.png": {
       "time": 1717419769698.0337,
-      "uuid": "e13aff57-d868-4fc4-bf23-87862ae5036b"
+      "uuid": "961230e9-a8a0-403b-9b1f-f73614809c3a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/7.png": {
       "time": 1717419769698.307,
-      "uuid": "b3b73581-affd-4ab6-98e3-1255b28fcde8"
+      "uuid": "520dc400-44d2-49c3-b681-43ecf7340d43"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/0.png": {
-      "time": 1717419769730.266,
-      "uuid": "e4b6e9a2-31ab-41fd-b5f0-e17f97193c9e"
+      "time": 1717419769730.2659,
+      "uuid": "ee2b8fc3-5cd1-4a76-9982-d07a3764ecdc"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/1.png": {
       "time": 1717419769730.5479,
-      "uuid": "8425f029-3d4c-4c35-8a25-251c15950557"
+      "uuid": "ef3a8fe7-d744-4261-bbfd-920336e06345"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/2.png": {
       "time": 1717419769730.8196,
-      "uuid": "a75f9eed-ac42-43d6-85e3-453e5564f3ff"
+      "uuid": "2cfa3a24-3c84-47c4-a54c-2464d7b227d2"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/1.png": {
       "time": 1717419769731.6816,
-      "uuid": "4cac8973-736a-4d0b-bc6f-ccf7a526e45f"
+      "uuid": "2c8143b7-fee9-45b7-9229-f319e8967c2c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/0.png": {
       "time": 1717419769731.2935,
-      "uuid": "1b378d27-63c9-43e4-a348-c910372bb92b"
+      "uuid": "d2435f84-8259-40f2-8f0a-4b52ed5db3b3"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/2.png": {
       "time": 1717419769731.945,
-      "uuid": "b49cf6e4-823e-48dc-a709-b576a8b7ebdf"
+      "uuid": "8e085021-5707-42f9-9a77-830087fa10e6"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/3.png": {
       "time": 1717419769732.2397,
-      "uuid": "eecf8d2f-18e6-4cd2-934f-a55a742cecb9"
+      "uuid": "ad75ef02-e55d-480c-950a-3fcbc7a0c688"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/4.png": {
       "time": 1717419769732.507,
-      "uuid": "00ded221-3472-48b3-a56f-0ed7ed6e5d83"
+      "uuid": "9ec18510-475f-4eb4-9c3c-61402480102a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/5.png": {
       "time": 1717419769732.7788,
-      "uuid": "58b91a87-709d-4571-80a6-309e0ba87d98"
+      "uuid": "b2a742bf-7db2-4553-b562-0b9a726d19f1"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/0.png": {
       "time": 1717419769733.9006,
-      "uuid": "9ac5f54f-4f44-48bd-b8df-d7d94dd0541f"
+      "uuid": "a3aa7078-d2ab-4aa1-b975-4f6816d518ed"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/6.png": {
       "time": 1717419769733.1504,
-      "uuid": "d5ce7048-af0d-4836-958c-78ff5463fd2e"
+      "uuid": "76b304c0-b33a-4f2e-acbf-3089dad0135b"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/7.png": {
       "time": 1717419769733.4338,
-      "uuid": "6a4f55f5-c8fb-4725-b0e3-35f970003756"
+      "uuid": "eab2dfaf-f59f-45f4-9acd-786c39f1bdd9"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/1.png": {
       "time": 1717419769734.1675,
-      "uuid": "af1ea831-ed76-4f56-a77e-4965dfdae6ef"
+      "uuid": "0e823239-73f7-40b2-832d-00df4329ec4c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/2.png": {
       "time": 1717419769734.5735,
-      "uuid": "4c226174-0374-4c56-bf99-3915fa086f4b"
+      "uuid": "39daa083-3d92-4671-87f7-b4372030233a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/3.png": {
       "time": 1717419769734.8232,
-      "uuid": "3526fb0d-4deb-439c-a0fb-a9f58d23bc45"
+      "uuid": "e93a6a34-2916-476e-85b8-2ab0e8371378"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/4.png": {
       "time": 1717419769735.104,
-      "uuid": "1e38ef2b-28b6-4a7b-afdb-30527eee4bf6"
+      "uuid": "0d8c4b88-39f6-4013-87db-480a36e0b809"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/5.png": {
       "time": 1717419769735.4163,
-      "uuid": "fc39c2cb-3c63-4852-8194-f1168ac3932e"
+      "uuid": "5abd2b16-d523-456e-b1d6-e3648ea9e61b"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/6.png": {
       "time": 1717419769735.7073,
-      "uuid": "40a1f6e3-28c3-49ab-8ac5-0aa4c04d25d4"
+      "uuid": "348f8e56-7918-40d5-8975-fb2d1b6c6c61"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/7.png": {
       "time": 1717419769736.088,
-      "uuid": "0092c2de-ab5e-409a-ada0-cf83784d3a59"
+      "uuid": "b156eed0-03e7-47e0-bb1d-1497ecfa789f"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/0.png": {
       "time": 1717419769741.0112,
-      "uuid": "97f7eee4-6f2f-42fd-90fd-0f5ae341063a"
+      "uuid": "caa69854-b893-4f92-b902-a32e47a4689e"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/1.png": {
       "time": 1717419769741.3796,
-      "uuid": "67d9f04f-3b5b-41f8-88cf-4b006f1d11a9"
+      "uuid": "957d9bab-0a4c-4213-85ea-bd8d4c3b4a0a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/2.png": {
       "time": 1717419769741.6414,
-      "uuid": "3db58edf-00f3-4243-bce3-d691afc2f59d"
+      "uuid": "e6977d54-0a5b-45e8-bf92-f08ce5b74e00"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/3.png": {
       "time": 1717419769741.9343,
-      "uuid": "3cb89ace-8ed7-4569-bac1-19ac50601827"
+      "uuid": "2722714d-36b3-4eb8-a3a6-e29620f08374"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/0.png": {
       "time": 1717419769742.402,
-      "uuid": "8e56adc5-183d-4a5e-8b35-e0aa568dc311"
+      "uuid": "e50ca9cc-9da8-4427-9034-41e34e057f9b"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/1.png": {
       "time": 1717419769742.807,
-      "uuid": "87253210-696d-4e12-99db-6d2141ed48fc"
+      "uuid": "ca051870-cd04-44e4-8d84-c86dc62f3c1a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/2.png": {
       "time": 1717419769743.1013,
-      "uuid": "372ab382-814b-4631-95a9-dfe0f0caa667"
+      "uuid": "8af20e79-4e1c-46a6-b927-2e323cf4b0b1"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/3.png": {
       "time": 1717419769743.347,
-      "uuid": "4b97e694-b625-49e7-bade-30d0ba4af1c2"
+      "uuid": "6d0cbc10-29c1-409e-8a42-46df0d5cefb5"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/4.png": {
       "time": 1717419769743.5764,
-      "uuid": "0029c98a-8c56-4cbb-8782-cdbb7560dbab"
+      "uuid": "5a227028-8cf7-44d9-8554-47b71b841002"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/5.png": {
-      "time": 1717419769743.8232,
-      "uuid": "d84e63d3-26fc-467c-acf8-f88c760adc53"
+      "time": 1717419769743.8235,
+      "uuid": "611a1218-4703-44fa-bbd4-ca9e2bcfcb78"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/0.png": {
       "time": 1717419769745.14,
-      "uuid": "dfc35ffe-e1d2-4b59-af34-1f32a4170b96"
+      "uuid": "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/1.png": {
       "time": 1717419769745.3877,
-      "uuid": "5293764e-39a4-474a-a358-74c40752462f"
+      "uuid": "f9be807e-f681-42e6-837d-17db60b50126"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/2.png": {
       "time": 1717419769745.6348,
-      "uuid": "010c05ae-de77-4309-a79d-e66d52252059"
+      "uuid": "33027137-81c7-49b7-9e8e-648106a3a388"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/3.png": {
       "time": 1717419769745.8748,
-      "uuid": "4bf4c3e1-6636-4589-bd05-f4968fef7f9d"
+      "uuid": "929b0aef-1110-4843-906b-d5bf1bb434b3"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/4.png": {
       "time": 1717419769746.252,
-      "uuid": "ced64f03-9288-44ba-8f5f-3f40e3794816"
+      "uuid": "aabced1f-51d6-4ee0-a7b1-69c7221f992a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/5.png": {
       "time": 1717419769746.4985,
-      "uuid": "31990fc6-1251-427b-93bb-e94bb920cae2"
+      "uuid": "4c58f056-3354-4e7c-a650-e3c61772197c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/6.png": {
       "time": 1717419769746.7659,
-      "uuid": "caae0134-f52f-4f74-be64-8db3c56d79fb"
+      "uuid": "37b6006b-98bd-4486-847a-71e9114a6489"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Wizard_Run/7.png": {
       "time": 1717419769747.0068,
-      "uuid": "ccc774b6-7592-4e2a-bd18-375d23719a5e"
+      "uuid": "928fe169-8494-4fc0-bcab-b1d413d9e3e4"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map/map1source/Terrain/Water/Foam/Foam_split/0.png": {
       "time": 1717419769649.7744,
@@ -10943,80 +10943,80 @@
       "uuid": "cce86046-715a-4171-b258-33d33f7fd01a"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Dead.meta": {
-      "time": 1717426982139.754
+      "time": 1717430333028.913
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Idle.meta": {
-      "time": 1717426982140.1375
+      "time": 1717430333030.154
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Run.meta": {
-      "time": 1717426982140.3018
+      "time": 1717430333032.0242
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Dead.meta": {
-      "time": 1717426982140.4585
+      "time": 1717430333034.854
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Idle.meta": {
-      "time": 1717426982140.6794
+      "time": 1717430333036.0503
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Dead.meta": {
-      "time": 1717426982140.8372
+      "time": 1717430333041.895
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Idle.meta": {
-      "time": 1717426982141.1125
+      "time": 1717430333042.6616
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Run.meta": {
-      "time": 1717426982141.4507
+      "time": 1717430333046.2515
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Dead.meta": {
-      "time": 1717426982141.6797
+      "time": 1717430333048.8713
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Idle.meta": {
-      "time": 1717426982142.0273
+      "time": 1717430333049.9458
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Run.meta": {
-      "time": 1717426982142.4827
+      "time": 1717430333052.1355
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Dead": {
-      "time": 1717426779439.24,
+      "time": 1717430333029.7295,
       "uuid": "452071f6-51e3-483b-8d69-85d388d737be"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Idle": {
-      "time": 1717426779440.069,
+      "time": 1717430333031.564,
       "uuid": "7ec98e1d-002d-444a-b2e5-6579b187db92"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Run": {
-      "time": 1717426779441.1575,
+      "time": 1717430333034.2688,
       "uuid": "fde170f5-7d83-45f3-a298-55b54f219d01"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Dead": {
-      "time": 1717426779441.888,
+      "time": 1717430333035.5022,
       "uuid": "b731319e-3931-4f7a-9903-5b397ee7e77c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Idle": {
-      "time": 1717426779442.673,
+      "time": 1717430333037.0518,
       "uuid": "1797caf3-560f-4d9b-a1ec-e23c904078ab"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Dead": {
-      "time": 1717426779444.9475,
+      "time": 1717430333042.3572,
       "uuid": "833e1766-7caf-4a9a-ba94-658710894683"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Idle": {
-      "time": 1717426779446.016,
+      "time": 1717430333045.788,
       "uuid": "3a2e6ef7-6bba-4990-bc05-f6aac56d987b"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Run": {
-      "time": 1717426779447.1343,
+      "time": 1717430333048.5334,
       "uuid": "5cc78b4e-aeaf-429d-82ba-121b9c9fefb6"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Dead": {
-      "time": 1717426779447.6943,
+      "time": 1717430333049.6252,
       "uuid": "b775ef1f-f40d-424a-bcbd-f84483139d1c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Idle": {
-      "time": 1717426779448.455,
+      "time": 1717430333051.7349,
       "uuid": "824217ed-7b81-48a9-b6bd-467beecba92d"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Run": {
-      "time": 1717426779449.6475,
+      "time": 1717430333053.8137,
       "uuid": "9a6319ab-9743-41fb-9e3f-6d5aaffd9899"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/assets.zip.meta": {
@@ -11032,223 +11032,223 @@
       "time": 1717423156409.4177
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Run.png.meta": {
-      "time": 1717426983454.8818
+      "time": 1717430333038.2917
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Dead/0.png.meta": {
-      "time": 1717426983550.512
+      "time": 1717430333029.2659
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Dead/1.png.meta": {
-      "time": 1717426983551.062
+      "time": 1717430333029.5132
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Dead/2.png.meta": {
-      "time": 1717426983552.7166
+      "time": 1717430333029.6653
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Dead/3.png.meta": {
-      "time": 1717426983553.4438
+      "time": 1717430333029.9243
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Idle/0.png.meta": {
-      "time": 1717426983554.266
+      "time": 1717430333030.309
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Idle/1.png.meta": {
-      "time": 1717426983554.5532
+      "time": 1717430333030.5522
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Idle/2.png.meta": {
-      "time": 1717426983556.012
+      "time": 1717430333030.841
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Idle/3.png.meta": {
-      "time": 1717426983557.8015
+      "time": 1717430333031.045
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Idle/4.png.meta": {
-      "time": 1717426983558.6863
+      "time": 1717430333031.498
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Idle/5.png.meta": {
-      "time": 1717426983559.1123
+      "time": 1717430333031.774
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Run/0.png.meta": {
-      "time": 1717426983560.753
+      "time": 1717430333032.2886
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Run/1.png.meta": {
-      "time": 1717426983561.4756
+      "time": 1717430333032.4478
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Run/2.png.meta": {
-      "time": 1717426983562.8076
+      "time": 1717430333032.7595
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Run/3.png.meta": {
-      "time": 1717426983563.6768
+      "time": 1717430333033.0442
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Run/4.png.meta": {
-      "time": 1717426983564.1836
+      "time": 1717430333033.3984
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Run/5.png.meta": {
-      "time": 1717426983565.8486
+      "time": 1717430333034.174
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Run/6.png.meta": {
-      "time": 1717426983566.621
+      "time": 1717430333034.4905
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Dead/0.png.meta": {
-      "time": 1717426983567.3516
+      "time": 1717430333035.0396
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Dead/1.png.meta": {
-      "time": 1717426983568.5588
+      "time": 1717430333035.214
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Dead/2.png.meta": {
-      "time": 1717426983569.14
+      "time": 1717430333035.3958
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Dead/3.png.meta": {
-      "time": 1717426983570.7964
+      "time": 1717430333035.735
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Idle/0.png.meta": {
-      "time": 1717426983571.602
+      "time": 1717430333036.255
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Idle/1.png.meta": {
-      "time": 1717426983572.878
+      "time": 1717430333036.4578
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Idle/2.png.meta": {
-      "time": 1717426983573.097
+      "time": 1717430333036.648
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Idle/3.png.meta": {
-      "time": 1717426983574.1685
+      "time": 1717430333036.9607
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Idle/4.png.meta": {
-      "time": 1717426983575.63
+      "time": 1717430333037.3296
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/0.png.meta": {
-      "time": 1717426983576.6145
+      "time": 1717430333038.5974
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/1.png.meta": {
-      "time": 1717426983577.778
+      "time": 1717430333038.8862
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/2.png.meta": {
-      "time": 1717426983578.2075
+      "time": 1717430333039.2095
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/3.png.meta": {
-      "time": 1717426983579.348
+      "time": 1717430333039.4368
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/4.png.meta": {
-      "time": 1717426983580.7422
+      "time": 1717430333039.8364
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/5.png.meta": {
-      "time": 1717426983582.0205
+      "time": 1717430333040.0342
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/6.png.meta": {
-      "time": 1717426983582.9285
+      "time": 1717430333040.5525
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/7.png.meta": {
-      "time": 1717426983583.3818
+      "time": 1717430333040.8262
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Dead/0.png.meta": {
-      "time": 1717426983584.5955
+      "time": 1717430333042.1023
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Dead/1.png.meta": {
-      "time": 1717426983586.0034
+      "time": 1717430333042.2812
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Dead/2.png.meta": {
-      "time": 1717426983586.9783
+      "time": 1717430333042.4673
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Idle/0.png.meta": {
-      "time": 1717426983589.0166
+      "time": 1717430333043.806
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Idle/1.png.meta": {
-      "time": 1717426983589.4275
+      "time": 1717430333044.159
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Idle/2.png.meta": {
-      "time": 1717426983590.8
+      "time": 1717430333044.4832
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Idle/3.png.meta": {
-      "time": 1717426983592.052
+      "time": 1717430333044.7246
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Idle/4.png.meta": {
-      "time": 1717426983593.2905
+      "time": 1717430333045.1838
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Idle/5.png.meta": {
-      "time": 1717426983594.387
+      "time": 1717430333045.4817
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Idle/6.png.meta": {
-      "time": 1717426983594.8262
+      "time": 1717430333045.7021
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Idle/7.png.meta": {
-      "time": 1717426983596.1394
+      "time": 1717430333045.9028
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Run/0.png.meta": {
-      "time": 1717426983597.3535
+      "time": 1717430333046.4382
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Run/1.png.meta": {
-      "time": 1717426983598.144
+      "time": 1717430333046.7175
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Run/2.png.meta": {
-      "time": 1717426983599.9
+      "time": 1717430333047.1455
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Run/3.png.meta": {
-      "time": 1717426983600.9475
+      "time": 1717430333047.7915
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Run/4.png.meta": {
-      "time": 1717426983601.7563
+      "time": 1717430333048.0542
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Run/5.png.meta": {
-      "time": 1717426983603.0144
+      "time": 1717430333048.2664
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Run/6.png.meta": {
-      "time": 1717426983603.4963
+      "time": 1717430333048.45
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Swordsman/Swordsman_Run/7.png.meta": {
-      "time": 1717426983605.2373
+      "time": 1717430333048.6465
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Dead/0.png.meta": {
-      "time": 1717426983606.0017
+      "time": 1717430333049.0698
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Dead/1.png.meta": {
-      "time": 1717426983607.0598
+      "time": 1717430333049.2515
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Dead/2.png.meta": {
-      "time": 1717426983608.247
+      "time": 1717430333049.5474
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Dead/3.png.meta": {
-      "time": 1717426983608.855
+      "time": 1717430333049.7566
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Idle/0.png.meta": {
-      "time": 1717427051467.302
+      "time": 1717430333050.1538
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Idle/1.png.meta": {
-      "time": 1717426983611.1677
+      "time": 1717430333050.4363
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Idle/2.png.meta": {
-      "time": 1717426983612.0056
+      "time": 1717430333050.7732
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Idle/3.png.meta": {
-      "time": 1717426983613.183
+      "time": 1717430333051.3835
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Idle/4.png.meta": {
-      "time": 1717426983613.8098
+      "time": 1717430333051.6619
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Idle/5.png.meta": {
-      "time": 1717426983615.497
+      "time": 1717430333051.84
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Run/0.png.meta": {
-      "time": 1717426983616.2437
+      "time": 1717430333052.429
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Run/1.png.meta": {
-      "time": 1717426983617.0647
+      "time": 1717430333052.6113
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Run/2.png.meta": {
-      "time": 1717426983618.2356
+      "time": 1717430333052.8496
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Run/3.png.meta": {
-      "time": 1717426983618.8464
+      "time": 1717430333053.0688
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Run/4.png.meta": {
-      "time": 1717426983620.429
+      "time": 1717430333053.3784
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Run/5.png.meta": {
-      "time": 1717426983620.9292
+      "time": 1717430333053.5576
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Run/6.png.meta": {
-      "time": 1717426983621.824
+      "time": 1717430333053.7395
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/male/Wizard/Wizard_Run/7.png.meta": {
-      "time": 1717426983622.3652
+      "time": 1717430333053.9277
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Musketeer/Musketeer_Run.png": {
-      "time": 1717426779443.9875,
+      "time": 1717430333040.641,
       "uuid": "ff02cc2d-5dd5-435a-a5e5-178d8da84ecf"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/mapSelect.prefab": {
@@ -11552,10 +11552,10 @@
       "uuid": "f1e73da5-a95e-44c3-bc7c-7c4be80264eb"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/HealthBar.prefab.meta": {
-      "time": 1717426779425.6233
+      "time": 1717430332998.255
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/HealthBar.prefab": {
-      "time": 1717426779425.551,
+      "time": 1717430332998.1907,
       "uuid": "3f361310-5bb5-4c32-bfdf-98f0dd1dc911"
     }
   },
@@ -15244,6 +15244,11 @@
       "path": "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Character_cutted/male/Wizard/Walk.png",
       "time": 1717418070210.037,
       "removeTime": 1717419728485
+    },
+    "3f361310-5bb5-4c32-bfdf-98f0dd1dc911": {
+      "path": "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/HealthBar.prefab",
+      "time": 1717430113043.1301,
+      "removeTime": 1717430227441
     }
   }
 }
