@@ -22811,9 +22811,15 @@
     "value": {
       "depends": [
         "7651f7bc-8e6d-42e8-b513-f4a641220177",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "772008fa-fb3a-46e4-bbdd-8c430fe5b259@f9941",
+        "7f12ac8a-18a3-4599-af9a-ebe6dd0e2d11@f9941",
+        "dd354864-fa6f-4ca2-88d6-b8a135038158@f9941",
+        "141d60c5-12c5-41f4-a6e5-d081dadedfd6@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
+        "5a9134ca-655a-44db-97b1-0dccb5eca206@f9941",
+        "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941",
+        "08a956e6-50e0-4d53-940b-200e42a86b89",
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
       ],
       "dependScripts": [
@@ -44688,6 +44694,70 @@
       "depends": [
         "f68e647a-0361-45aa-b1ce-2a1f5db1e315@6c48a"
       ]
+    },
+    "versionCode": 0
+  },
+  "08a956e6-50e0-4d53-940b-200e42a86b89": {
+    "url": "db://assets/Animations/menuTitle.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "48a548e1-3927-436c-85de-5f8c92715609": {
+    "url": "db://assets/Image/menu_background.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "48a548e1-3927-436c-85de-5f8c92715609@6c48a": {
+    "url": "db://assets/Image/menu_background.png@6c48a",
+    "value": {
+      "depends": [
+        "48a548e1-3927-436c-85de-5f8c92715609"
+      ]
+    },
+    "versionCode": 0
+  },
+  "48a548e1-3927-436c-85de-5f8c92715609@f9941": {
+    "url": "db://assets/Image/menu_background.png@f9941",
+    "value": {
+      "depends": [
+        "48a548e1-3927-436c-85de-5f8c92715609@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "772008fa-fb3a-46e4-bbdd-8c430fe5b259": {
+    "url": "db://assets/Image/menu_backgroundblur.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "772008fa-fb3a-46e4-bbdd-8c430fe5b259@6c48a": {
+    "url": "db://assets/Image/menu_backgroundblur.png@6c48a",
+    "value": {
+      "depends": [
+        "772008fa-fb3a-46e4-bbdd-8c430fe5b259"
+      ]
+    },
+    "versionCode": 0
+  },
+  "772008fa-fb3a-46e4-bbdd-8c430fe5b259@f9941": {
+    "url": "db://assets/Image/menu_backgroundblur.png@f9941",
+    "value": {
+      "depends": [
+        "772008fa-fb3a-46e4-bbdd-8c430fe5b259@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bc6ad7af-27b6-4e2c-93d1-254782525670": {
+    "url": "db://assets/Animations/menu_bg.anim",
+    "value": {
+      "depends": []
     },
     "versionCode": 0
   }
