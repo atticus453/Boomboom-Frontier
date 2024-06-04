@@ -35,9 +35,7 @@ export class MultiSelect extends Component {
         this.creatRoomButton = find("Canvas/creatRoom").getComponent(Button);
         this.creatRoomButton.node.on(Node.EventType.MOUSE_UP, this.onCreateRoomClick, this);
         let returnButton = this.node.getChildByName("returnButton").getComponent(Button);
-        returnButton.node.on(Node.EventType.MOUSE_UP, () => { director.loadScene("Select"); }, this);
-
-        this.settingButton.node.on(Node.EventType.MOUSE_UP, this.onSettingClick, this);
+        returnButton.node.on(Node.EventType.MOUSE_UP, ()=>{director.loadScene("Menu");}, this);
 
         for (let i = 0; i < 6; i++) {
             const roomNode = instantiate(this.roomFramePrefab);

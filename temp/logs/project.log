@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 6-4-2024 17:56:35 - warn: /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/profiles/v2/packages/scene.json: Unexpected token < in JSON at position 6618SyntaxError: /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/profiles/v2/packages/scene.json: Unexpected token < in JSON at position 6618
     at JSON.parse (<anonymous>)
     at Object.readFileSync (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/jsonfile/index.js:63:17)
@@ -58,6 +59,23 @@ Require stack:
 - /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/init.ccc
 - /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/index.js
 - /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/index.js
+=======
+2024-6-4 17:56:52 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+2024-6-4 17:56:55 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+2024-6-4 17:56:55 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
+2024-6-4 17:57:17 - error: The plug-in main process failed to load. Error: Cannot find module 'fs-extra'
+Require stack:
+- C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\psd2cocos\dist\main.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\package\dist\browser\package.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\package\dist\browser\index.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\package\index.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\startup\protected\browser\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\startup\protected\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\startup\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\init.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\index.js
+>>>>>>> menu
 - 
     at Module._resolveFilename (internal/modules/cjs/loader.js:887:15)
     at Function.n._resolveFilename (electron/js2c/browser_init.js:257:921)
@@ -67,6 +85,7 @@ Require stack:
     at Function._load (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/cc/preload.ts:127:35)
     at Module.require (internal/modules/cjs/loader.js:959:19)
     at require (internal/modules/cjs/helpers.js:88:18)
+<<<<<<< HEAD
     at Object.<anonymous> (/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/extensions/psd2cocos/dist/main.js:9:36)
     at Module._compile (internal/modules/cjs/loader.js:1078:30)
 6-4-2024 17:56:52 - error: [Assets] /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/.internal-dependency.json: Unexpected token < in JSON at position 750306SyntaxError: /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/.internal-dependency.json: Unexpected token < in JSON at position 750306
@@ -96,6 +115,21 @@ at ParallelQueue._generate (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/C
 6-4-2024 17:57:23 - log: [Scene] Cocos Creator v3.8.2
 6-4-2024 17:57:23 - info: [Scene] Forward render pipeline initialized.
 6-4-2024 17:57:24 - warn: [Scene] 
+=======
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\psd2cocos\dist\main.js:9:36)
+2024-6-4 17:57:21 - error: [Assets] C:\Users\USER\Desktop\final\Boomboom-Frontier\library\.internal-dependency.json: Unexpected token < in JSON at position 750306SyntaxError: C:\Users\USER\Desktop\final\Boomboom-Frontier\library\.internal-dependency.json: Unexpected token < in JSON at position 750306
+    at JSON.parse (<anonymous>)
+    at readFileSync (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\jsonfile\index.js:63:17)
+    at DependencyManager.setRecordJSON (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\asset-db\libs\dependency.ccc:29:62)
+    at AssetDB.start (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:223:38)
+2024-6-4 17:57:44 - log: [Scene] meshopt wasm decoder initialized
+2024-6-4 17:57:44 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2024-6-4 17:57:45 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2024-6-4 17:57:46 - log: [Scene] [PHYSICS]: using builtin.
+2024-6-4 17:57:46 - log: [Scene] Cocos Creator v3.8.2
+2024-6-4 17:57:46 - info: [Scene] Forward render pipeline initialized.
+2024-6-4 17:57:47 - warn: [Scene] 
+>>>>>>> menu
 Warning: This is a browser-targeted Firebase bundle but it appears it is being
 run in a Node environment.  If running in a Node environment, make sure you
 are using the bundle specified by the "main" field in package.json.
@@ -120,6 +154,7 @@ If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
 to false and "main" to true:
 https://github.com/rollup/rollup-plugin-node-resolve
 
+<<<<<<< HEAD
     at /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:1743:21
     at /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:12:174
     at /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:13:6
@@ -128,6 +163,16 @@ https://github.com/rollup/rollup-plugin-node-resolve
     at Object.<anonymous> (/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
     at Module._compile (internal/modules/cjs/loader.js:1078:30)
 6-4-2024 17:57:28 - warn: [Scene] 
+=======
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:1743:21
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:12:174
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:13:6
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+2024-6-4 17:57:47 - warn: [Scene] 
+>>>>>>> menu
 It looks like you're using the development build of the Firebase JS SDK.
 When deploying Firebase apps to production, it is advisable to only import
 the individual SDK components you intend to use.
@@ -146,6 +191,7 @@ For the CDN builds, these are available in the following manner
 
 https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
 
+<<<<<<< HEAD
     at /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:25549:78
     at /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:12:174
     at /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:13:6
@@ -154,6 +200,16 @@ https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
     at Object.<anonymous> (/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
     at Module._compile (internal/modules/cjs/loader.js:1078:30)
 6-4-2024 17:57:28 - warn: [Scene] 
+=======
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:25549:78
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:12:174
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:13:6
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+2024-6-4 17:57:47 - warn: [Scene] 
+>>>>>>> menu
 Warning: This is a browser-targeted Firebase bundle but it appears it is being
 run in a Node environment.  If running in a Node environment, make sure you
 are using the bundle specified by the "main" field in package.json.
@@ -178,6 +234,7 @@ If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
 to false and "main" to true:
 https://github.com/rollup/rollup-plugin-node-resolve
 
+<<<<<<< HEAD
     at /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:26929:28
     at /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:25552:174
     at /Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:25553:6
@@ -272,6 +329,58 @@ Require stack:
 - /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/index.js
 - /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/main.js
 - /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/web/preload.js
+=======
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:26929:28
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:25552:174
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:25553:6
+    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+2024-6-4 17:57:47 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:57:48 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:57:48 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:57:48 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:57:48 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-6-4 17:57:51 - warn: [Scene] C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js Error: Cannot find module 'fs-extra'
+Require stack:
+- C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\public.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\init.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\main.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\web\preload.js
+>>>>>>> menu
 - electron/js2c/renderer_init
     at Module._resolveFilename (internal/modules/cjs/loader.js:887:15)
     at Function.o._resolveFilename (electron/js2c/renderer_init.js:33:917)
@@ -281,6 +390,7 @@ Require stack:
     at Function._load (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/cc/preload.ts:127:35)
     at Module.require (internal/modules/cjs/loader.js:959:19)
     at require (internal/modules/cjs/helpers.js:88:18)
+<<<<<<< HEAD
     at Object.<anonymous> (/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js:4:20)
     at Object.<anonymous> (/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js:146:3) {
   code: 'MODULE_NOT_FOUND',
@@ -305,12 +415,38 @@ Require stack:
 - /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/index.js
 - /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/main.js
 - /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/web/preload.js
+=======
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js:4:20) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\extensions\\plugin-import-2x\\dist\\scene-walker.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\public.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\index.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\index.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\init.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\index.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\main.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\web\\preload.js',
+    'electron/js2c/renderer_init'
+  ]
+}Error: [Scene] C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js Error: Cannot find module 'fs-extra'
+Require stack:
+- C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\public.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\init.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\main.js
+- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\web\preload.js
+>>>>>>> menu
 - electron/js2c/renderer_init
     at Module._load (internal/modules/cjs/loader.js:732:27)
     at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
     at Function._load (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/cc/preload.ts:127:35)
     at Module.require (internal/modules/cjs/loader.js:959:19)
     at require (internal/modules/cjs/helpers.js:88:18)
+<<<<<<< HEAD
     at Object.<anonymous> (/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js:4:20)
     at Object.<anonymous> (/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js:146:3) {
   code: 'MODULE_NOT_FOUND',
@@ -481,3 +617,485 @@ Class ID: "b4990i9Qt9BIb94PCtRxuny"
     at CallbacksInvoker.emit (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/callbacks-invoker.ccc:1:3080)
     at AssetWatcherManager.onAssetDeleted (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:6747)
     at AssetManager.onAssetDeleted (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/index.ccc:1:4650)
+=======
+    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js:4:20) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\extensions\\plugin-import-2x\\dist\\scene-walker.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\public.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\index.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\index.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\init.ccc',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\index.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\main.js',
+    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\web\\preload.js',
+    'electron/js2c/renderer_init'
+  ]
+}
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:492)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)
+    at attach (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\plugin.ccc:1:2946)
+    at Array.forEach (<anonymous>)
+    at PluginManager.init (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\plugin.ccc:1:1470)
+2024-6-4 17:59:02 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
+2024-6-4 17:59:23 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:59:23 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:59:23 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:59:23 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:59:46 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:59:46 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:59:46 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:59:46 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 17:59:46 - error: [Window] Cannot read property 'cancel' of undefinedTypeError: Cannot read property 'cancel' of undefined
+    at Object.close (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\editor\inspector\contributions\node.js:641:34)
+    at Object.close (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\editor\inspector\contributions\node.js:2169:27)
+    at HTMLElement._setPanel (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator-ui-kit\dist\renderer.ccc:2:1641746)
+    at HTMLElement.attributeChangedCallback (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator-ui-kit\dist\renderer.ccc:2:1642345)
+    at Object.sceneClose (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\modules\editor-extensions\extensions\inspector\dist\panels\inspector\index.ccc:1:3400)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5038
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:4999)
+    at EventEmitter.emit (events.js:315:20)
+    at EventEmitter.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3660)
+2024-6-4 18:01:23 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:01:23 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:01:23 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:01:23 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:02:24 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:02:24 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:02:24 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:02:24 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:04:50 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:04:50 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:04:50 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:04:50 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:09:28 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:09:28 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:09:28 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:09:28 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:12:47 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:12:47 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:12:47 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:12:47 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:15:35 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:15:35 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:15:35 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:15:35 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:21:40 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:21:40 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:21:40 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:21:40 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:24:07 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:24:07 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:24:07 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:24:07 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:24:50 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:24:50 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:24:50 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:24:50 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:25:30 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:25:30 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:25:30 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:25:30 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:26:01 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:26:01 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:26:01 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:26:01 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:30:30 - warn: [Scene] The type of "PhotonManager.appId" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appId" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:30:30 - warn: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.Error: [Scene] The type of "PhotonManager.appVersion" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:30:30 - warn: [Scene] The type of "PhotonManager.region" must be CCString, not String.Error: [Scene] The type of "PhotonManager.region" must be CCString, not String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274085:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274200:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129680:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+2024-6-4 18:30:30 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "PhotonManager.region", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273312:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129523:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129684:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:129709:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271932:21)
+>>>>>>> menu

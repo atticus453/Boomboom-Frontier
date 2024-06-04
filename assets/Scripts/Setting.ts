@@ -1,6 +1,6 @@
 import { _decorator, Component, Node, Slider, Button, director, AudioSourceComponent, AudioSource } from 'cc';
 const { ccclass, property } = _decorator;
-import { Select } from './Select';
+import { backPage } from './Menu';
 
 @ccclass('Setting')
 export class Setting extends Component {
@@ -49,7 +49,7 @@ export class Setting extends Component {
         this.BackBtn.getComponent(AudioSource).play();
         if (Select.backPage == 1) {
             this.scheduleOnce(() => {
-                director.loadScene("Select");
+                director.loadScene("Menu");
             }, 0.3);
         } else if(Select.backPage == 2){
             this.scheduleOnce(() => {
