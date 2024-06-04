@@ -260,7 +260,7 @@ export class PlayerPrefab extends Component {
   sendPosition() {
     const position = this.node.position;
     if (this.photonManager.getLoadBalancingClient().isJoinedToRoom()) {
-      this.photonManager.sendEvent(1, {
+      this.photonManager.sendEvent(4, {
         x: position.x,
         y: position.y,
         angle: this.angle,
@@ -399,6 +399,16 @@ export class PlayerPrefab extends Component {
     this.scheduleOnce(() => {
       this.node.destroy();
       director.loadScene("loseScene");
+    }, 1);
+  }
+
+  handleSupportPlayerDeath() {
+    this.gunNode.destroy();
+    this.getComponent(AudioSource).clip = this.deadAudio;
+    this.getComponent(AudioSource).play();
+    this.animation.play(this.character + "_Dead");
+    this.scheduleOnce(() => {
+      this.node.destroy();
     }, 1);
   }
 
@@ -570,7 +580,7 @@ export class PlayerPrefab extends Component {
   sendFaceDirection() {
     const photonManager = find("Canvas").getComponent("PhotonManager");
     if (this.photonManager) {
-      this.photonManager.sendEvent(5, {
+      this.photonManager.sendEvent(3, {
         PlayerIndex: this.playerIndex,
         face: this.node.scale.x,
       });
@@ -580,8 +590,8 @@ export class PlayerPrefab extends Component {
   //send Shoot Event
   sendShootEvent() {
     if (this.photonManager) {
-      this.photonManager.sendEvent(3, {
-        // 假设 '3' 是射击的事件代码
+      this.photonManager.sendEvent(1, {
+        // 假设 '1' 是射击的事件代码
         PlayerIndex: this.playerIndex,
       });
       console.log("Send Shoot Event");

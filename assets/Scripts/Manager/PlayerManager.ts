@@ -172,7 +172,8 @@ export class PlayerManager extends Component {
     }
 
     if (deadPlayerNode) {
-      deadPlayerNode.active = false;
+      const deadPlayerComponent = deadPlayerNode.getComponent(PlayerPrefab);
+      deadPlayerComponent.handleSupportPlayerDeath();
     }
   }
 

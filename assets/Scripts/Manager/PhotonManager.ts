@@ -191,15 +191,15 @@ export default class PhotonManager extends Component {
 
   onEvent(code: number, content: any, actorNr: number) {
     //console.log("Event:", code, "Content:", content, "Actor:", actorNr);
-    if (code === 1) {
+    if (code === 4) {
       // 假设 '1' 是位置更新的事件代码
       this.updatePlayerPosition(content);
     } else if (code === 2) {
       // 处理血量更新事件
       this.updatePlayerHealth(content);
-    } else if (code === 3) {
+    } else if (code === 1) {
       this.handleShootEvent(content);
-    } else if (code === 5) {
+    } else if (code === 3) {
       this.updatePlayerFace(content);
     } else if (code === 6) {
       this.playerDeadMessage(content);
