@@ -7,7 +7,14 @@ export default class GameManager extends Component {
     @property(Node)
     items: Node[] = [];
 
+    @property(Node)
+    itemBar: Node = null;
+
     static isPickup: boolean = false;
+    
+    onLoad() {
+        PlayerPrefab.itemBar = this.itemBar;
+    }
 
     start() {
         this.items = find('Canvas/items')!.children;

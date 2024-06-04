@@ -80,6 +80,8 @@ export class PlayerPrefab extends Component {
   @property(AudioClip)
   public deadAudio: AudioClip = null;
 
+  static itemBar: Node = null;
+
 
   // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
@@ -99,8 +101,6 @@ export class PlayerPrefab extends Component {
   private bulletSpeed = 25;
   private fireRate = 0.2;
   private shootInterval = 0;
-
-  static itemBar: Node = null;
 
   // The properties of the player
   private preDir: string = "RIGHT";
@@ -133,6 +133,10 @@ export class PlayerPrefab extends Component {
     this.initGunNode();
     this.initHealthBarNode();
     this.selectedPlayerIndex = GlobalManager.instance.selectedPlayerIndex;
+
+    // PlayerPrefab.itemBar = instantiate(this.itemPrefab);
+    // PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
+    // find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
     //string to number
   }
 
@@ -144,9 +148,9 @@ export class PlayerPrefab extends Component {
       this.node.getChildByName("SelfLabel").active = true;
       console.log("Player", this.playerIndex, "is selected");
 
-      PlayerPrefab.itemBar = instantiate(this.itemPrefab);
-      PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
-      find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
+    //   PlayerPrefab.itemBar = instantiate(this.itemPrefab);
+    //   PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
+    //   find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
     } else {
       this.node.getChildByName("SelfLabel").active = false;
       console.log("Player", this.playerIndex, "is not selected");
@@ -333,12 +337,14 @@ export class PlayerPrefab extends Component {
       .getComponent(Sprite).spriteFrame;
     if (item !== null) {
       if (item.name === "healing") {
+        console.log("healing");
         if (this.health + 50 > 100) {
           this.health = 100;
         } else {
           this.health += 50;
         }
       } else if (item.name === "speedUp") {
+        console.log("sppeedUp");
         this.playerSpeed = 15;
         this.scheduleOnce(() => {
           this.playerSpeed = 10;
