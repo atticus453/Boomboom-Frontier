@@ -197,19 +197,20 @@ export class MultiSelect extends Component {
     // if(this.node.getChildByName("roomPreview"))
     //     this.node.getChildByName("roomPreview").destroy();
     console.log("hi");
-    let roomPreview;
+    
     if (this.node.getChildByName("roomPreview"))
-      roomPreview = this.node.getChildByName("roomPreview");
-    else {
-      roomPreview = instantiate(this.mapPreviewPrefab);
-      this.node.addChild(roomPreview);
-      roomPreview.setPosition(400, 20);
-      roomPreview
-        .getChildByName("joinButton")
-        .on(Node.EventType.MOUSE_UP, () => {
-          this.handleShowingSideBar(roomName, map, mode, roomID);
-        });
-    }
+      this.node.getChildByName("roomPreview").destroy();
+    
+    let roomPreview = this.node.getChildByName("roomPreview");
+    roomPreview = instantiate(this.mapPreviewPrefab);
+    this.node.addChild(roomPreview);
+    roomPreview.setPosition(400, 20);
+    roomPreview
+      .getChildByName("joinButton")
+      .on(Node.EventType.MOUSE_UP, () => {
+        this.handleShowingSideBar(roomName, map, mode, roomID);
+      });
+    
     roomPreview.getChildByName("info").getComponent(Label).string =
       "Room: " + roomName + "\nMap: " + "XiaoJin" + "\nMode: " + "DeathMatch";
   }
@@ -236,11 +237,6 @@ export class MultiSelect extends Component {
     // 做一個async function，等待userCnt更新完再執行下面的程式碼
     MultiSelect.userIndex = userCnt;
 
-    // if room isnt exist, create room by photon
-    // else join room
-    // if (!PhotonManager.instance.joinRoom(roomName)) {
-    //   PhotonManager.instance.createRoom(roomName);
-    // }
     if (userList[1] == user.uid) {
       PhotonManager.instance.createRoom(roomName);
     } else {
