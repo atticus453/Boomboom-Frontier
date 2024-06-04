@@ -1,4 +1,5 @@
-import { _decorator, Component, Node, Button, director, Prefab, instantiate, EditBox} from 'cc';
+import { _decorator, Component, Node, Button, director, Prefab, instantiate, EditBox, AudioSource} from 'cc';
+import { Setting } from './Setting';
 const { ccclass, property } = _decorator;
 export let backPage: number = 0;
 
@@ -26,6 +27,10 @@ export class Menu extends Component {
     @property(Prefab)
     signUpPrefab: Prefab = null;
 
+    @property(Prefab)
+    settingPrefab: Prefab = null;
+
+
     static isLogin: boolean = false;
     private isLoginSet: Node = null;
     private isNotLoginSet: Node = null;
@@ -41,8 +46,10 @@ export class Menu extends Component {
     }
 
     onSetClick(){
-        backPage = 1;
-        director.loadScene("Setting");
+        // backPage = 1;
+        // director.loadScene("Setting");
+        let setting = instantiate(this.settingPrefab);
+        this.node.addChild(setting);
     }
 
     onPlayClick(){
@@ -101,12 +108,6 @@ export class Menu extends Component {
         }, this);
     }
 
-    onButtonClick(){
-        console.log("hi");
-        Menu.isLogin = !Menu.isLogin;
-        console.log(Menu.isLogin);
-    }
-
     writeUserData(mail, na, die, ki) {
         const currentUser = firebase.auth().currentUser;
         const usersRef = firebase.database().ref('users/' + currentUser.uid);
@@ -130,6 +131,9 @@ export class Menu extends Component {
         var user = firebase.auth().currentUser;
         this.isLoginSet.active = user ? true : false;
         this.isNotLoginSet.active = user ? false : true;
+
+        this.getComponent(AudioSource).volume = Setting.BGMvolume * 2;
+        console.log(Setting.BGMvolume);
     }
 }
 

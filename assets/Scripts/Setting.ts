@@ -1,6 +1,6 @@
 import { _decorator, Component, Node, Slider, Button, director, AudioSourceComponent, AudioSource } from 'cc';
 const { ccclass, property } = _decorator;
-import { backPage } from './Menu';
+import { Menu } from './Menu';
 
 @ccclass('Setting')
 export class Setting extends Component {
@@ -14,11 +14,10 @@ export class Setting extends Component {
     BackBtn: Button = null;
 
 
-    static BGMvolume: number = 0.5;
-    static EffectVolume: number = 0.5;
+    static BGMvolume: number = 1;
+    static EffectVolume: number = 1;
 
     start() {
-        this.getComponent(AudioSource).volume = Setting.BGMvolume * 2;
         this.BGMSlider.progress = Setting.BGMvolume;
         if (this.BGMSlider) {
             this.BGMSlider.node.on('slide', this.onBGMSliderChanged, this);
@@ -37,27 +36,17 @@ export class Setting extends Component {
     }
     onBGMSliderChanged(slider: Slider) {
         Setting.BGMvolume = slider.progress;
-        this.getComponent(AudioSource).volume = Setting.BGMvolume;
-        console.log(this.getComponent(AudioSource).volume);
     }
     onEffectSliderChanged(slider: Slider) {
         Setting.EffectVolume = slider.progress;
     }
+
     BackMenu() {
         this.BackBtn.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
-        console.log(this.BackBtn.getComponent(AudioSource));
         this.BackBtn.getComponent(AudioSource).play();
-        if (Select.backPage == 1) {
-            this.scheduleOnce(() => {
-                director.loadScene("Menu");
-            }, 0.3);
-        } else if(Select.backPage == 2){
-            this.scheduleOnce(() => {
-                director.loadScene("MultiSelect");
-            }, 0.3);
-        }
-
+        this.scheduleOnce(()=>{this.node.destroy()}, 0.3);
     }
+
     update(deltaTime: number) {
 
     }

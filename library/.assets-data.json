@@ -61,9 +61,12 @@
         "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
         "0a453836-7cdc-4178-8d21-76dde9b83f1d@f9941",
         "7f12ac8a-18a3-4599-af9a-ebe6dd0e2d11@f9941",
+        "a4ef3a56-8715-4a04-8e95-f74cb8a9e5bf",
         "9358b897-a199-479f-a24d-d84accfa49de",
         "ef6b44eb-5649-4915-bc96-b0df9aaf2a9a",
         "5f0762fa-52dc-464e-8f6e-70a620a601f9",
+        "e21dc8db-2854-4b72-8162-115c4d5e186d",
+        "aa6ea8e5-6a77-471e-adeb-890bf5d539dd",
         "d3c6a25c-4c36-4ac0-a0ff-4224068be85d@f9941",
         "fb1ffa4a-859b-42f6-ae27-e34cd4fb3b25@f9941",
         "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
@@ -345,7 +348,9 @@
         "7f12ac8a-18a3-4599-af9a-ebe6dd0e2d11@f9941",
         "9b8ee8b9-f714-491e-ba39-2a2ce4f5c8a1",
         "7ef8905c-e672-47b3-87a7-c773cf033008",
-        "2a84c5b7-8861-43d4-bd91-60de4d987fbc"
+        "2a84c5b7-8861-43d4-bd91-60de4d987fbc",
+        "e21dc8db-2854-4b72-8162-115c4d5e186d",
+        "aa6ea8e5-6a77-471e-adeb-890bf5d539dd"
       ],
       "dependScripts": [
         "47837149-e547-4500-8f1c-895cdb0fb1df"
@@ -20418,14 +20423,20 @@
       "depends": [
         "493b4de0-50f1-4243-823e-c2a8c2c65773",
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
-        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
+        "e21dc8db-2854-4b72-8162-115c4d5e186d",
         "5a9134ca-655a-44db-97b1-0dccb5eca206@f9941",
         "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "975573cb-1f19-4eda-bcb0-71c2eaa8975b",
-        "1fccba48-a386-4c0b-884f-a80faf68ea18",
+        "aa6ea8e5-6a77-471e-adeb-890bf5d539dd",
+        "650a8d1c-8449-489a-acf2-4273fe463e82@f9941",
+        "b37a34fd-7950-43f3-8d03-5f0088842547@f9941",
+        "2b3cb424-6817-4e66-9db0-f8cf4f30e06c@f9941",
+        "fa6441a8-4190-47a9-a1ef-3cfb25156ad5@f9941",
+        "dd354864-fa6f-4ca2-88d6-b8a135038158@f9941",
+        "141d60c5-12c5-41f4-a6e5-d081dadedfd6@f9941",
+        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
         "64d10a9a-f4b4-4acb-bc59-a3d161926068",
-        "aa6ea8e5-6a77-471e-adeb-890bf5d539dd"
+        "1fccba48-a386-4c0b-884f-a80faf68ea18"
       ],
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
@@ -22835,7 +22846,9 @@
         "5a9134ca-655a-44db-97b1-0dccb5eca206@f9941",
         "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941",
         "93c38065-3dd5-4dc2-b3b9-0f93571a8566",
-        "5474cb52-3b2c-45df-81f9-2ddcf1654d3a"
+        "5474cb52-3b2c-45df-81f9-2ddcf1654d3a",
+        "e21dc8db-2854-4b72-8162-115c4d5e186d",
+        "aa6ea8e5-6a77-471e-adeb-890bf5d539dd"
       ],
       "dependScripts": [
         "da8e3db9-9a4f-4e15-aadf-e2953001a0b5"
@@ -47016,6 +47029,30 @@
     "value": {
       "depends": [
         "b1598c65-5752-425d-976a-25610ead7d38@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e21dc8db-2854-4b72-8162-115c4d5e186d": {
+    "url": "db://assets/Prefabs/setting.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "650a8d1c-8449-489a-acf2-4273fe463e82@f9941",
+        "b37a34fd-7950-43f3-8d03-5f0088842547@f9941",
+        "2b3cb424-6817-4e66-9db0-f8cf4f30e06c@f9941",
+        "fa6441a8-4190-47a9-a1ef-3cfb25156ad5@f9941",
+        "dd354864-fa6f-4ca2-88d6-b8a135038158@f9941",
+        "141d60c5-12c5-41f4-a6e5-d081dadedfd6@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "a4ef3a56-8715-4a04-8e95-f74cb8a9e5bf",
+        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
+        "1fccba48-a386-4c0b-884f-a80faf68ea18",
+        "64d10a9a-f4b4-4acb-bc59-a3d161926068"
+      ],
+      "dependScripts": [
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "1911f4c1-566b-4ba6-8710-da802ab5eee3"
       ]
     },
     "versionCode": 0

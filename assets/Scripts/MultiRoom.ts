@@ -51,17 +51,8 @@ export class MultiRoom extends Component {
     @property(Prefab)
     setupSelectPrefab: Prefab = null;
 
-    @property(AnimationClip)
-    knightAnimationClip: AnimationClip = null;
-
-    @property(AnimationClip)
-    musketeerAnimationClip: AnimationClip = null;
-
-    @property(AnimationClip)
-    swordsmanAnimationClip: AnimationClip = null;
-
-    @property(AnimationClip)
-    wizardAnimationClip: AnimationClip = null;
+    @property(Prefab)
+    settingPrefab: Prefab = null;
 
     start() {
         try {
@@ -145,15 +136,12 @@ export class MultiRoom extends Component {
     }
 
     update(deltaTime: number) {
-
+        this.getComponent(AudioSource).volume = Setting.BGMvolume * 2;
     }
 
     onSettingClick() {
-        this.settingButton.node.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
-        this.settingButton.node.getComponent(AudioSource).play();
-        this.scheduleOnce(() => {
-            director.loadScene("Setting");
-        }, 0.5);
+        let setting = instantiate(this.settingPrefab);
+        this.node.addChild(setting);
     }
 
     onBagClick() {

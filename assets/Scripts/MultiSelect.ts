@@ -26,6 +26,10 @@ export class MultiSelect extends Component {
     @property(Button)
     settingButton: Button = null;
 
+    @property(Prefab)
+    settingPrefab: Prefab = null;
+
+
     static roomNodeList: Node[] = null;
 
     private updateData = null;
@@ -114,8 +118,7 @@ export class MultiSelect extends Component {
     }
 
     update(deltaTime: number) {
-        // const roomRef = firebase.database().ref('rooms/');
-
+        this.getComponent(AudioSource).volume = Setting.BGMvolume * 2;
     }
 
     onCreateRoomClick() {
@@ -170,13 +173,16 @@ export class MultiSelect extends Component {
             director.loadScene("MultiRoom");
         })
     }
+
     onSettingClick() {
         this.settingButton.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
         this.settingButton.getComponent(AudioSource).play();
-        this.scheduleOnce(() => {
-            Menu.backPage = 2;
-            director.loadScene("Setting");
-        }, 0.3);
+        let setting = instantiate(this.settingPrefab);
+        this.node.addChild(setting);
+        // this.scheduleOnce(() => {
+        //     Menu.backPage = 2;
+        //     director.loadScene("Setting");
+        // }, 0.3);
     }
 }
 
