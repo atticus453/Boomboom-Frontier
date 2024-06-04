@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "map": {
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs": {
-      "time": 1717436300324.5193,
+      "time": 1717491317948.9592,
       "uuid": "7b198bfb-549c-45d7-95dc-5dafa1bc45e7"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes": {
@@ -11260,7 +11260,7 @@
       "uuid": "2a84c5b7-8861-43d4-bd91-60de4d987fbc"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/test.scene": {
-      "time": 1717423156409.1733,
+      "time": 1717491841802.585,
       "uuid": "767dda11-2db8-4855-b97b-1bdbf031747e"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/charactor/female/Knight/Knight_Dead/0.png": {
@@ -12439,6 +12439,13 @@
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Audio/SoundEffect/laserShoot.wav": {
       "time": 1717488748488.3262,
       "uuid": "a4ef3a56-8715-4a04-8e95-f74cb8a9e5bf"
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/loadingGame.prefab.meta": {
+      "time": 1717491317952.1475
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/loadingGame.prefab": {
+      "time": 1717491800997.2493,
+      "uuid": "8a1185f6-0604-4c87-a530-19f568e28fcb"
     }
   },
   "missing": {

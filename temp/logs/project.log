@@ -31402,3 +31402,59 @@ Require stack:
     at declareProperties (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:138402:11)
     at CCClass (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:138427:5)
     at eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:271455:21)
+6-4-2024 16:56:31 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at markAsWarningLog (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166503:11)
+    at LabelShadow.eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166513:15)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4328)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:2151
+6-4-2024 16:56:31 - warn: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)Error: [Scene] 'LabelShadow.color' is deprecated. (Please use Label.shadowColor instead.)
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at markAsWarningLog (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166503:11)
+    at LabelShadow.eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166513:15)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4328)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:2151
+6-4-2024 16:56:31 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at markAsWarningLog (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166503:11)
+    at LabelShadow.eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166513:15)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4328)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:2151
+6-4-2024 16:56:31 - warn: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)Error: [Scene] 'LabelShadow.offset' is deprecated. (Please use Label.shadowOffset instead.)
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at markAsWarningLog (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166503:11)
+    at LabelShadow.eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166513:15)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4328)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:2151
+6-4-2024 16:56:31 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at markAsWarningLog (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166503:11)
+    at LabelShadow.eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166513:15)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4409
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4328)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:2151
+6-4-2024 16:56:31 - warn: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)Error: [Scene] 'LabelShadow.blur' is deprecated. (Please use Label.shadowBlur instead.)
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at markAsWarningLog (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166503:11)
+    at LabelShadow.eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166513:15)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4487
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:4328)
+    at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/encode.ccc:1:2151
+6-4-2024 17:03:44 - warn: [Scene] You are trying to destroy a object twice or more.Error: [Scene] You are trying to destroy a object twice or more.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at Node.destroy (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139518:13)
+    at Node.destroy (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:50831:21)
+    at MiniPreview.clearByComponent (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/mini-preview/index.ccc:1:3654)
+    at MiniPreview.createPreviewNode (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/mini-preview/index.ccc:1:4018)
+    at MiniPreview.handleSelect (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/mini-preview/index.ccc:1:3235)

@@ -38686,10 +38686,7 @@
     "value": {
       "depends": [
         "767dda11-2db8-4855-b97b-1bdbf031747e",
-        "2a84c5b7-8861-43d4-bd91-60de4d987fbc",
-        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
-        "b37a34fd-7950-43f3-8d03-5f0088842547@f9941",
-        "2b3cb424-6817-4e66-9db0-f8cf4f30e06c@f9941"
+        "8a1185f6-0604-4c87-a530-19f568e28fcb"
       ],
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
@@ -46815,6 +46812,25 @@
     "url": "db://assets/Audio/SoundEffect/laserShoot.wav",
     "value": {
       "depends": []
+    },
+    "versionCode": 0
+  },
+  "8a1185f6-0604-4c87-a530-19f568e28fcb": {
+    "url": "db://assets/Prefabs/loadingGame.prefab",
+    "value": {
+      "depends": [
+        "772008fa-fb3a-46e4-bbdd-8c430fe5b259@f9941",
+        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
+        "d8ec88b8-ed16-4c4f-9b48-b219cd2101c6@f9941",
+        "5dc29b95-0507-423d-8af3-797b82d3ec05",
+        "a3aa7078-d2ab-4aa1-b975-4f6816d518ed@f9941",
+        "0c209352-0df1-4990-a294-70ef30d63d8d",
+        "6b32fbda-1186-46bc-8fec-ae8451cc4fd4@f9941",
+        "96f9e108-d504-4d1f-a47d-c15d483b7304",
+        "975f0c02-c654-4aa4-a503-b0b82ade754e@f9941",
+        "5e0ddd02-3e99-4d71-98f7-4b86a0702044"
+      ],
+      "dependScripts": []
     },
     "versionCode": 0
   }
