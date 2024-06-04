@@ -1187,9 +1187,14 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/spriteRender-fs.chunk"
     ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-clear-stencil.effect": [
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/for2d/builtin-sprite.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-vs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-fs.chunk"
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-fs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/embedded-alpha.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/alpha-test.chunk"
     ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-camera-texture.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/camera-texture-vs.chunk",
@@ -1213,14 +1218,9 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk"
     ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/for2d/builtin-sprite.effect": [
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-clear-stencil.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-vs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-fs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/embedded-alpha.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/alpha-test.chunk"
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-fs.chunk"
     ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-debug-renderer.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/debug-renderer-vs.chunk",
@@ -1229,6 +1229,17 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/debug-renderer-fs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk"
+    ],
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-geometry-renderer.effect": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/line-vs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/line-fs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/dashed-line-vs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/dashed-line-fs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/triangle-vs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/triangle-fs.chunk"
     ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-graphics.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vs.chunk",
@@ -1241,17 +1252,6 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-world-bound.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/occlusion-query-fs.chunk"
-    ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-geometry-renderer.effect": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/line-vs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/line-fs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/dashed-line-vs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/dashed-line-fs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/triangle-vs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/triangle-fs.chunk"
     ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-reflection-deferred.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/standard-vs.chunk",
@@ -1455,17 +1455,6 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/shadow-caster-vs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/shadow-caster-fs.chunk"
     ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-billboard.effect": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vert.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/particle-common.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/math/transform.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/tinted-fs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/no-tint-fs.chunk"
-    ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/legacy/toon.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/main-functions/outline-vs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/input-standard.chunk",
@@ -1514,12 +1503,34 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/lighting/functions.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/planar-shadow-fs.chunk"
     ],
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-billboard.effect": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vert.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/particle-common.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/math/transform.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/tinted-fs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/no-tint-fs.chunk"
+    ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-particle-gpu.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/particle-vs-gpu.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/math/transform.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/particle-common.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/tinted-fs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/no-tint-fs.chunk"
+    ],
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-particle-trail.effect": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/particle-trail.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/particle-common.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/math/transform.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/tinted-fs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
@@ -1535,17 +1546,6 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk"
     ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-particle-trail.effect": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/particle-trail.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/particle-common.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/math/transform.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/tinted-fs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/no-tint-fs.chunk"
-    ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-particle.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/particle-vs-legacy.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/math/transform.chunk",
@@ -1560,6 +1560,9 @@
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/cluster-build.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/cluster-main.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/math/coordinates.chunk"
+    ],
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/cluster-culling.effect": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/cluster-main.chunk"
     ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/copy-pass.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/copy-pass-vs.chunk",
@@ -1610,9 +1613,6 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/effect/fog.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/math/octahedron-transform.chunk"
     ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/cluster-culling.effect": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/cluster-main.chunk"
-    ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/float-output-process.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/tonemap-vs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/chunks/vs.chunk",
@@ -1655,6 +1655,18 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk"
     ],
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process.effect": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process-vs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-standard.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-base.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process-fs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process/anti-aliasing.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process/fxaa.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process/fxaa-hq.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/texture/texture-lod.chunk"
+    ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/skybox.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sky-vs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
@@ -1670,18 +1682,6 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/aces.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output-standard.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/math/coordinates.chunk"
-    ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process.effect": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process-vs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-standard.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-base.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process-fs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process/anti-aliasing.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process/fxaa.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process/fxaa-hq.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/texture/texture-lod.chunk"
     ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/smaa.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/smaa-edge-vs.chunk",
@@ -1871,17 +1871,6 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fs.chunk"
     ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/color-grading.effect": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/color-grading-vs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/chunks/vs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-standard.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-base.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/color-grading-nx1-fs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/ubo.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/color-grading-8x8-fs.chunk"
-    ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/bloom.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/bloom-vs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/input-standard.chunk",
@@ -1902,22 +1891,16 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/upsample-fs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/combine-fs.chunk"
     ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/fsr.effect": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vs.chunk",
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/color-grading.effect": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/color-grading-vs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/chunks/vs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-standard.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-base.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fs-easu.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output-standard.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/aces.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/data/unpack.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/unpack.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/chunks/fsr.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/color-grading-nx1-fs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/ubo.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fs-rcas.chunk"
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/color-grading-8x8-fs.chunk"
     ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/dof.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/dof-vs.chunk",
@@ -1937,6 +1920,23 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/dof-filter-fs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/dof-combine-fs.chunk"
     ],
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/fsr.effect": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/chunks/vs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-standard.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-base.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fs-easu.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output-standard.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/aces.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/data/unpack.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/unpack.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/chunks/fsr.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/ubo.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fs-rcas.chunk"
+    ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/fxaa-hq.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fxaa-vs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/chunks/vs.chunk",
@@ -1947,15 +1947,6 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fxaa-edge-fs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process/fxaa-hq.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/texture/texture-lod.chunk"
-    ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/post-final.effect": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/chunks/vs.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-standard.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-base.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fs.chunk"
     ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/hbao.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/hbao-vs.chunk",
@@ -1973,6 +1964,15 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/blurx-fs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/blury-fs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/combine-fs.chunk"
+    ],
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/post-final.effect": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/chunks/vs.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-standard.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-base.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fs.chunk"
     ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/taa.effect": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vs.chunk",
@@ -2508,8 +2508,11 @@
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/reflect-map-fs.chunk",
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/shading-entries/main-functions/render-to-reflectmap/fs.chunk"
     ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Italic.fnt": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Italic_0.png"
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/atom_new.plist": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/atom.png"
+    ],
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Regular.fnt": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Regular_0.png"
     ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-BoldItalic.fnt": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-BoldItalic_0.png"
@@ -2517,14 +2520,11 @@
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Bold.fnt": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Bold_0.png"
     ],
+    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Italic.fnt": [
+      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Italic_0.png"
+    ],
     "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/atom.plist": [
       "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/atom.png"
-    ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/atom_new.plist": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/atom.png"
-    ],
-    "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Regular.fnt": [
-      "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Regular_0.png"
     ]
   },
   "uuid": {

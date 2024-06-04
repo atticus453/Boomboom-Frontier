@@ -26,7 +26,7 @@ import {
   AnimationComponent,
   AudioSource,
   AudioClip,
-  director
+  director,
 } from "cc";
 
 import GlobalManager from "./Manager/GlobalManager";
@@ -50,7 +50,6 @@ export class PlayerPrefab extends Component {
 
   @property({ type: AnimationComponent })
   animation: AnimationComponent = null;
-
 
   @property(Prefab)
   public weapon_1: Prefab = null;
@@ -92,7 +91,7 @@ export class PlayerPrefab extends Component {
   private selectedPlayerIndex = 0;
 
   //private PlayerIndex: number = 0;
-  private character: string = "Wizard";
+  public character: string = "Wizard";
 
   // The properties of the bullet
   private bulletSpeed = 25;
@@ -125,9 +124,8 @@ export class PlayerPrefab extends Component {
       PlayerManager
     );
 
-    this.photonManager = find(this.photonManagerPath).getComponent(
-      PhotonManager
-    );
+    this.photonManager = PhotonManager.instance;
+    console.log(this.photonManager.getLoadBalancingClient());
 
     this.isNodePooling = this.playerManager.PoolMode;
     this.initGunNode();
@@ -156,6 +154,9 @@ export class PlayerPrefab extends Component {
     if (this.dirX === 0 && this.dirY === 0) {
       this.animation.play(this.character + "_Idle");
     }
+
+    console.log(this.photonManager.getLoadBalancingClient().myRoom());
+    console.log(this.photonManager.getLoadBalancingClient().isJoinedToRoom());
   }
 
   onDestroy() {
@@ -221,9 +222,9 @@ export class PlayerPrefab extends Component {
     const healthBar = this.healthBarNode.getComponent(ProgressBar);
     try {
       healthBar.progress = this.health / 100;
-      // console.log("Health Bar Updated");
+      console.log("Health Bar Updated");
     } catch (error) {
-      // console.log("Health Bar Node not found");
+      console.log("Health Bar Node not found");
     }
   }
 
@@ -248,7 +249,7 @@ export class PlayerPrefab extends Component {
 
   sendPosition() {
     const position = this.node.position;
-    if (this.photonManager) {
+    if (this.photonManager.getLoadBalancingClient().isJoinedToRoom()) {
       this.photonManager.sendEvent(1, {
         x: position.x,
         y: position.y,
@@ -376,7 +377,7 @@ export class PlayerPrefab extends Component {
     console.log("Player", this.playerIndex, "is dead");
     this.gunNode.destroy();
     this.getComponent(AudioSource).clip = this.deadAudio;
-          this.getComponent(AudioSource).play();
+    this.getComponent(AudioSource).play();
     this.animation.play(this.character + "_Dead");
     this.scheduleOnce(() => {
       this.node.destroy();
