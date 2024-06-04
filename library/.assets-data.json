@@ -36264,9 +36264,7 @@
         "7dfd35cd-328d-4d5c-83a7-9bf4398717fc@f9941",
         "28ad44da-8448-49c3-9ffc-8cdbbbc01b63"
       ],
-      "dependScripts": [
-        "47837149-e547-4500-8f1c-895cdb0fb1df"
-      ]
+      "dependScripts": []
     },
     "versionCode": 0
   },
@@ -45739,6 +45737,11 @@
         "928bf1a9-9ead-45b4-8ace-8146e10d80b0"
       ]
     },
+    "versionCode": 0
+  },
+  "8a868580-ab77-4778-acb7-6153b96b3d33": {
+    "url": "db://assets/Scripts/RoomPreview.ts",
+    "value": {},
     "versionCode": 0
   }
 }
