@@ -80,6 +80,7 @@ export class PlayerPrefab extends Component {
   @property(AudioClip)
   public deadAudio: AudioClip = null;
 
+
   // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
   private playerManagerPath: string = "Canvas/PlayerManager";
@@ -89,6 +90,7 @@ export class PlayerPrefab extends Component {
   private photonManager = null;
   private playerManager = null;
   private selectedPlayerIndex = 0;
+  private deathCount = 0;
 
   //private PlayerIndex: number = 0;
   public character: string = "Wizard";
@@ -126,7 +128,7 @@ export class PlayerPrefab extends Component {
 
     this.photonManager = PhotonManager.instance;
     console.log(this.photonManager.getLoadBalancingClient());
-
+    this.deathCount = 0;
     this.isNodePooling = this.playerManager.PoolMode;
     this.initGunNode();
     this.initHealthBarNode();
@@ -161,6 +163,14 @@ export class PlayerPrefab extends Component {
 
   onDestroy() {
     this.handleListener("UNLOAD");
+  }
+
+  receiveDeathEvent() {
+    this.deathCount++;
+    console.log("Death Count: " + this.deathCount);
+    if (this.deathCount == PlayerManager.userNumber - 1) {
+      director.loadScene("winScene");
+    }
   }
 
   update(deltaTime: number) {
@@ -374,6 +384,13 @@ export class PlayerPrefab extends Component {
   }
 
   handlePlayerDeath() {
+    
+    if (this.photonManager.getLoadBalancingClient().isJoinedToRoom()) {
+      this.photonManager.sendEvent(6, {
+        PlayerIndex: this.playerIndex,
+        Death: true,
+      });
+    }
     console.log("Player", this.playerIndex, "is dead");
     this.gunNode.destroy();
     this.getComponent(AudioSource).clip = this.deadAudio;

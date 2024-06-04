@@ -38,6 +38,8 @@ export class PlayerManager extends Component {
 
   private bulletPool: NodePool = null;
 
+  static userNumber: number = 0;
+
   onLoad() {
     this.playerParent = find(this.playerParentPath);
     this.roomId = MultiRoom.roomID;
@@ -86,6 +88,7 @@ export class PlayerManager extends Component {
       //player.name = `Player${index + 1}`;
       console.log("Now index is ", index);
       console.log("USER LENGTH IS ", userIds.length);
+      PlayerManager.userNumber = userIds.length-1;
 
       if (userId !== "dummy" && index < userIds.length) {
         try {
@@ -153,6 +156,23 @@ export class PlayerManager extends Component {
       }
     } else {
       console.log("Player node not found for index: ", playerIndex);
+    }
+  }
+
+  playerDeadMessage(playerIndex: number) {
+    const playerNode = this.players[this.currentUserIndex - 1]; // 假设playerIndex是从1开始的
+    const deadPlayerNode = this.players[playerIndex - 1];
+    if (playerNode) {
+      const playerComponent = playerNode.getComponent(PlayerPrefab);
+      if (playerComponent) {
+        playerComponent.receiveDeathEvent();
+      }
+    } else {
+      console.log("Player node not found for index: ", playerIndex);
+    }
+
+    if (deadPlayerNode) {
+      deadPlayerNode.active = false;
     }
   }
 

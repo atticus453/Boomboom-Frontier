@@ -201,6 +201,18 @@ export default class PhotonManager extends Component {
       this.handleShootEvent(content);
     } else if (code === 5) {
       this.updatePlayerFace(content);
+    } else if (code === 6) {
+      this.playerDeadMessage(content);
+    }
+  }
+
+  playerDeadMessage(content: any) {
+    const playerManagerNode = find(`Canvas/PlayerManager`);
+    if (playerManagerNode) {
+      const playerManager = playerManagerNode.getComponent(PlayerManager);
+      if (playerManager) {
+        playerManager.playerDeadMessage(content.PlayerIndex);
+      }
     }
   }
 
