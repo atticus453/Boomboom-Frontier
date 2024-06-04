@@ -6,11 +6,19 @@
       "uuid": "7b198bfb-549c-45d7-95dc-5dafa1bc45e7"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes": {
+<<<<<<< HEAD
       "time": 1717431215097.265,
       "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts": {
       "time": 1717431215099.401,
+=======
+      "time": 1717495002937.8552,
+      "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts": {
+      "time": 1717496639368.283,
+>>>>>>> winScene
       "uuid": "aa56c93b-3412-48f6-b7e7-04f207946720"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs.meta": {
@@ -8717,7 +8725,11 @@
       "uuid": "4237c686-18c7-48c2-8a81-4c68d491026b"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/PlayerPrefab.ts": {
+<<<<<<< HEAD
       "time": 1717431215099.333,
+=======
+      "time": 1717495625858.1572,
+>>>>>>> winScene
       "uuid": "3a5613d4-a234-47e7-8f0c-dfb046555afe"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Resources/Pixel Art Icon Pack - RPG/Material": {
@@ -24063,12 +24075,46 @@
       "time": 1717497186752.524,
       "uuid": "ff96bb9b-50f2-44fb-a1f0-dc5ab5f491f2"
     },
+<<<<<<< HEAD
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Menu.ts.meta": {
       "time": 1717497538562.0728
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Menu.ts": {
       "time": 1717497204011.353,
       "uuid": "da8e3db9-9a4f-4e15-aadf-e2953001a0b5"
+=======
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/loadingGame.prefab": {
+      "time": 1717495482032.9924,
+      "uuid": "8a1185f6-0604-4c87-a530-19f568e28fcb"
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/loseScene.scene.meta": {
+      "time": 1717494769942.6113
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/loseScene.scene": {
+      "time": 1717496551838.255,
+      "uuid": "a9a351b0-603b-4132-9178-16999223045a"
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/winScene.scene.meta": {
+      "time": 1717495002940.145
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/winScene.scene": {
+      "time": 1717495493684.105,
+      "uuid": "c8d50368-e0ec-4e17-b4dd-ef0b75c77d1e"
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/LoseScene.ts.meta": {
+      "time": 1717495562544.8337
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/LoseScene.ts": {
+      "time": 1717495593440.944,
+      "uuid": "281f9af3-0d79-4a29-b416-b3e9f707c2c3"
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/WinScene.ts.meta": {
+      "time": 1717496639369.61
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/WinScene.ts": {
+      "time": 1717496663209.023,
+      "uuid": "e047fcd8-b8b0-4a7f-bda0-3964b17d70b7"
+>>>>>>> winScene
     }
   },
   "missing": {
@@ -27803,6 +27849,7 @@
       "removeTime": 1717437601017
     },
     "aa6ea8e5-6a77-471e-adeb-890bf5d539dd": {
+<<<<<<< HEAD
       "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Audio\\BGM\\menu_music.mp3",
       "time": 1717437446187.954,
       "removeTime": 1717437601017
@@ -28401,6 +28448,16 @@
       "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\menu.ts",
       "time": 1717497204011.353,
       "removeTime": 1717497809730
+=======
+      "path": "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Audio/BGM/Y2DL_Mega_Man_3__Hard_Man__OST.mp3",
+      "time": 1717433907273.6558,
+      "removeTime": 1717434983728
+    },
+    "33851a3d-29e4-4d59-a370-33a6d0d091c3": {
+      "path": "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/loseScene.prefab",
+      "time": 1717494756630.7383,
+      "removeTime": 1717494764415
+>>>>>>> winScene
     }
   }
 }

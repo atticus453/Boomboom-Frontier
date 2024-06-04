@@ -185,7 +185,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 245.252,
+    "_orthoHeight": 378.9680589680589,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -499,7 +499,7 @@
       "a": 255
     },
     "_outlineWidth": 2,
-    "_enableShadow": false,
+    "_enableShadow": true,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 0,
@@ -509,8 +509,8 @@
     },
     "_shadowOffset": {
       "__type__": "cc.Vec2",
-      "x": 2,
-      "y": 2
+      "x": 3,
+      "y": -3.3
     },
     "_shadowBlur": 2,
     "_id": ""
@@ -756,6 +756,8 @@
       "__id__": 0
     },
     "fileId": "8f/i9AEVJHtK0PJNu0YxJm",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
@@ -1098,6 +1100,8 @@
       "__id__": 0
     },
     "fileId": "eel/3Zi1VNNbb37+OAWg+I",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
@@ -1126,7 +1130,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 165,
+      "x": 185,
       "y": 0,
       "z": 0
     },

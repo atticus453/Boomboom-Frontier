@@ -25,7 +25,8 @@ import {
   Game,
   AnimationComponent,
   AudioSource,
-  AudioClip
+  AudioClip,
+  director
 } from "cc";
 
 import GlobalManager from "./Manager/GlobalManager";
@@ -379,6 +380,7 @@ export class PlayerPrefab extends Component {
     this.animation.play(this.character + "_Dead");
     this.scheduleOnce(() => {
       this.node.destroy();
+      director.loadScene("loseScene");
     }, 1);
   }
 
