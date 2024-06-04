@@ -290,7 +290,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 360,
+    "_orthoHeight": 378.9680589680589,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -1426,7 +1426,7 @@
     "_string": "Enter Room Name",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 26.555555555555554,
+    "_actualFontSize": 25.4375,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -2234,7 +2234,7 @@
     "_enabled": true,
     "__prefab": null,
     "_clip": {
-      "__uuid__": "a4ef3a56-8715-4a04-8e95-f74cb8a9e5bf",
+      "__uuid__": "975573cb-1f19-4eda-bcb0-71c2eaa8975b",
       "__expectedType__": "cc.AudioClip"
     },
     "_loop": false,

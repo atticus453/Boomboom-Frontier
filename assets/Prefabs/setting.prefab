@@ -1774,7 +1774,7 @@
       "__expectedType__": "cc.AudioClip"
     },
     "_loop": false,
-    "_playOnAwake": true,
+    "_playOnAwake": false,
     "_volume": 1,
     "_id": ""
   },
@@ -1859,7 +1859,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 201.03515625,
+      "width": 201.02678354350365,
       "height": 88.2
     },
     "_anchorPoint": {
@@ -1898,7 +1898,7 @@
     "_string": "Setting",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 60,
+    "_actualFontSize": 80.33333333333333,
     "_fontSize": 60,
     "_fontFamily": "Arial",
     "_lineHeight": 70,
@@ -2085,8 +2085,8 @@
     ],
     "value": {
       "__type__": "cc.Size",
-      "width": 75.8984375,
-      "height": 50.4
+      "width": 75.89053458692622,
+      "height": 50.400000000000006
     }
   },
   {
@@ -2233,8 +2233,8 @@
     ],
     "value": {
       "__type__": "cc.Size",
-      "width": 231.5625,
-      "height": 50.4
+      "width": 231.5383239999352,
+      "height": 50.400000000000006
     }
   },
   {

@@ -159,7 +159,9 @@ export class MultiSelect extends Component {
   }
 
   update(deltaTime: number) {
-    this.getComponent(AudioSource).volume = Setting.BGMvolume * 2;
+    if(this.getComponent(AudioSource)) {
+        this.getComponent(AudioSource).volume = Setting.BGMvolume * 2;
+    }
   }
 
   onCreateRoomClick() {
@@ -249,8 +251,7 @@ export class MultiSelect extends Component {
   }
 
   onSettingClick() {
-    this.settingButton.getComponent(AudioSource).volume =
-      Setting.EffectVolume * 2;
+    this.settingButton.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
     this.settingButton.getComponent(AudioSource).play();
     let setting = instantiate(this.settingPrefab);
     this.node.addChild(setting);

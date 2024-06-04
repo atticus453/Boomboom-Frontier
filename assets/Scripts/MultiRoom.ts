@@ -173,7 +173,9 @@ export class MultiRoom extends Component {
   }
 
   update(deltaTime: number) {
-    this.getComponent(AudioSource).volume = Setting.BGMvolume * 2;
+    if(this.getComponent(AudioSource)) {
+        this.getComponent(AudioSource).volume = Setting.BGMvolume * 2;
+    }
   }
 
   onSettingClick() {
