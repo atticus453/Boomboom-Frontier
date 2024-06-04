@@ -11575,7 +11575,7 @@
       "uuid": "25de3770-3720-4d02-882b-89f274118346"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs": {
-      "time": 1717498552294.879,
+      "time": 1717501475919.85,
       "uuid": "7b198bfb-549c-45d7-95dc-5dafa1bc45e7"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources": {
@@ -11583,11 +11583,11 @@
       "uuid": "1e33fc8c-f302-40e0-942d-0f1ab77735c0"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes": {
-      "time": 1717497204009.345,
+      "time": 1717501475922.9155,
       "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts": {
-      "time": 1717497809731.195,
+      "time": 1717501537353.0251,
       "uuid": "aa56c93b-3412-48f6-b7e7-04f207946720"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Knight": {
@@ -12199,15 +12199,15 @@
       "uuid": "6e33bf17-db7f-4cb8-8136-8c79799a4155"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\MultiRoom.ts": {
-      "time": 1717501177261.6113,
+      "time": 1717501420780.7185,
       "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\MultiSelect.ts": {
-      "time": 1717501165452.216,
+      "time": 1717501420781.7207,
       "uuid": "1d782875-d5d9-447d-8b42-6c785c4e3b29"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\PlayerPrefab.ts": {
-      "time": 1717497186769.9536,
+      "time": 1717501475923.9185,
       "uuid": "3a5613d4-a234-47e7-8f0c-dfb046555afe"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Ranking.ts": {
@@ -12215,7 +12215,7 @@
       "uuid": "a6217c36-0a5a-4e6d-b98e-be70605fd08c"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Setting.ts": {
-      "time": 1717500722033.3057,
+      "time": 1717501420782.726,
       "uuid": "1911f4c1-566b-4ba6-8710-da802ab5eee3"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\signIn.ts": {
@@ -12937,11 +12937,11 @@
       "uuid": "70774282-0f2c-4340-8714-aa5ba35f0da7"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MultiRoom.scene": {
-      "time": 1717501116757.5598,
+      "time": 1717501420777.7107,
       "uuid": "4f582775-4c22-4853-9900-f661cf1f2470"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MultiSelect.scene": {
-      "time": 1717500840135.4114,
+      "time": 1717501420778.7134,
       "uuid": "d1e81e9d-ab3a-407d-931f-acb9135b2694"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\ScoreBoard.scene": {
@@ -12953,7 +12953,7 @@
       "uuid": "1535bc81-7719-444a-be67-2c0014e4261f"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Setting.scene": {
-      "time": 1717498676766.7576,
+      "time": 1717501420779.7158,
       "uuid": "493b4de0-50f1-4243-823e-c2a8c2c65773"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\signIn.scene": {
@@ -23955,7 +23955,7 @@
       "time": 1717497204005.2854
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Menu.scene": {
-      "time": 1717500268043.7249,
+      "time": 1717501560847.8672,
       "uuid": "7651f7bc-8e6d-42e8-b513-f4a641220177"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\signUp.prefab.meta": {
@@ -24040,7 +24040,7 @@
       "uuid": "5d14f68b-d3a1-4e33-8f21-f486773bca00"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\loadingGame.prefab": {
-      "time": 1717497186758.4756,
+      "time": 1717501475920.854,
       "uuid": "8a1185f6-0604-4c87-a530-19f568e28fcb"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\Particle2D-004.prefab": {
@@ -24063,19 +24063,47 @@
       "time": 1717497186752.524,
       "uuid": "ff96bb9b-50f2-44fb-a1f0-dc5ab5f491f2"
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Menu.ts.meta": {
-      "time": 1717497538562.0728
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\LoseScene.ts.meta": {
+      "time": 1717501475923.9185
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Menu.ts": {
-      "time": 1717500755591.6548,
-      "uuid": "da8e3db9-9a4f-4e15-aadf-e2953001a0b5"
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\WinScene.ts.meta": {
+      "time": 1717501475925.167
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\LoseScene.ts": {
+      "time": 1717501475922.9155,
+      "uuid": "281f9af3-0d79-4a29-b416-b3e9f707c2c3"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\WinScene.ts": {
+      "time": 1717501475923.9185,
+      "uuid": "e047fcd8-b8b0-4a7f-bda0-3964b17d70b7"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\loseScene.scene.meta": {
+      "time": 1717501475921.9097
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\winScene.scene.meta": {
+      "time": 1717501475922.9155
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\winScene.scene": {
+      "time": 1717501475921.9097,
+      "uuid": "c8d50368-e0ec-4e17-b4dd-ef0b75c77d1e"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\loseScene.scene": {
+      "time": 1717501475920.854,
+      "uuid": "a9a351b0-603b-4132-9178-16999223045a"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\setting.prefab.meta": {
-      "time": 1717498552307.0608
+      "time": 1717501420775.705
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\setting.prefab": {
-      "time": 1717499760163.4102,
+      "time": 1717501420775.705,
       "uuid": "e21dc8db-2854-4b72-8162-115c4d5e186d"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Menu.ts.meta": {
+      "time": 1717501417424.532
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Menu.ts": {
+      "time": 1717501420782.726,
+      "uuid": "da8e3db9-9a4f-4e15-aadf-e2953001a0b5"
     }
   },
   "missing": {
@@ -28406,8 +28434,13 @@
     },
     "da8e3db9-9a4f-4e15-aadf-e2953001a0b5": {
       "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\menu.ts",
-      "time": 1717497204011.353,
-      "removeTime": 1717497809730
+      "time": 1717501420782.726,
+      "removeTime": 1717501537351
+    },
+    "e21dc8db-2854-4b72-8162-115c4d5e186d": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\setting.prefab",
+      "time": 1717499760163.4102,
+      "removeTime": 1717501357423
     }
   }
 }

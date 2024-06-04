@@ -47056,5 +47056,52 @@
       ]
     },
     "versionCode": 0
+  },
+  "281f9af3-0d79-4a29-b416-b3e9f707c2c3": {
+    "url": "db://assets/Scripts/LoseScene.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f0a84e25-ac2d-43e8-9480-39245ed6aec3": {
+    "url": "db://assets/Scripts/menu.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e047fcd8-b8b0-4a7f-bda0-3964b17d70b7": {
+    "url": "db://assets/Scripts/WinScene.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a9a351b0-603b-4132-9178-16999223045a": {
+    "url": "db://assets/Scenes/loseScene.scene",
+    "value": {
+      "depends": [
+        "a9a351b0-603b-4132-9178-16999223045a",
+        "8a1185f6-0604-4c87-a530-19f568e28fcb",
+        "73e95c1a-4958-40dd-aea0-6a9fdf1b2bc1",
+        "4f4eef7c-20eb-46a1-a612-da810dc6c158",
+        "ed80f925-90c0-4ec3-9d5c-a750558302c6",
+        "38e7ed46-b70e-4601-85c3-504a871a9f35"
+      ],
+      "dependScripts": [
+        "281f9af3-0d79-4a29-b416-b3e9f707c2c3",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c8d50368-e0ec-4e17-b4dd-ef0b75c77d1e": {
+    "url": "db://assets/Scenes/winScene.scene",
+    "value": {
+      "depends": [
+        "c8d50368-e0ec-4e17-b4dd-ef0b75c77d1e",
+        "8a1185f6-0604-4c87-a530-19f568e28fcb",
+        "08a956e6-50e0-4d53-940b-200e42a86b89"
+      ],
+      "dependScripts": [
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+      ]
+    },
+    "versionCode": 0
   }
 }
