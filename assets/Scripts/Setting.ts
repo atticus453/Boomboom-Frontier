@@ -1,6 +1,6 @@
 import { _decorator, Component, Node, Slider, Button, director, AudioSourceComponent, AudioSource } from 'cc';
 const { ccclass, property } = _decorator;
-import { backPage } from './Select';
+import { Select } from './Select';
 
 @ccclass('Setting')
 export class Setting extends Component {
@@ -44,16 +44,16 @@ export class Setting extends Component {
         Setting.EffectVolume = slider.progress;
     }
     BackMenu() {
-        this.BackBtn.getComponent(AudioSource).volume = Setting.EffectVolume;
+        this.BackBtn.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
         console.log(this.BackBtn.getComponent(AudioSource));
         this.BackBtn.getComponent(AudioSource).play();
-        if (backPage == 1) {
+        if (Select.backPage == 1) {
             this.scheduleOnce(() => {
                 director.loadScene("Select");
             }, 0.3);
-        } else {
+        } else if(Select.backPage == 2){
             this.scheduleOnce(() => {
-                director.loadScene("MultiRoom");
+                director.loadScene("MultiSelect");
             }, 0.3);
         }
 

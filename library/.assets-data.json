@@ -55,6 +55,7 @@
         "dd354864-fa6f-4ca2-88d6-b8a135038158@f9941",
         "141d60c5-12c5-41f4-a6e5-d081dadedfd6@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "975573cb-1f19-4eda-bcb0-71c2eaa8975b",
         "9fd7f633-405c-4891-9e48-40d517acbf63@f9941",
         "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
         "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
@@ -324,8 +325,11 @@
         "dd354864-fa6f-4ca2-88d6-b8a135038158@f9941",
         "141d60c5-12c5-41f4-a6e5-d081dadedfd6@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "a4ef3a56-8715-4a04-8e95-f74cb8a9e5bf",
         "5a9134ca-655a-44db-97b1-0dccb5eca206@f9941",
         "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941",
+        "967f0b23-2489-4345-8406-77f639b556a5",
+        "975573cb-1f19-4eda-bcb0-71c2eaa8975b",
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
         "650a8d1c-8449-489a-acf2-4273fe463e82@f9941",
         "1a7e3efd-4ffc-4ba9-9900-5c487c335083@f9941",
@@ -20417,9 +20421,7 @@
         "975573cb-1f19-4eda-bcb0-71c2eaa8975b",
         "1fccba48-a386-4c0b-884f-a80faf68ea18",
         "64d10a9a-f4b4-4acb-bc59-a3d161926068",
-        "1cad3953-879f-4cd7-aa28-89a135d40b24@f9941",
-        "fb1ffa4a-859b-42f6-ae27-e34cd4fb3b25@f9941",
-        "a1560f4d-7b36-4e54-a9fc-3a3f1abebe86"
+        "aa6ea8e5-6a77-471e-adeb-890bf5d539dd"
       ],
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
@@ -38646,7 +38648,8 @@
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
         "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
         "cb35d831-16a9-44bb-b4d4-7fd70b6aa376@f9941",
-        "66d97b1a-61b5-43ff-80ba-380e67f89441@f9941"
+        "66d97b1a-61b5-43ff-80ba-380e67f89441@f9941",
+        "a4ef3a56-8715-4a04-8e95-f74cb8a9e5bf"
       ],
       "dependScripts": []
     },
@@ -46803,6 +46806,13 @@
   },
   "ff96bb9b-50f2-44fb-a1f0-dc5ab5f491f2": {
     "url": "db://assets/Audio/SoundEffect/male-death-sound-128357.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a4ef3a56-8715-4a04-8e95-f74cb8a9e5bf": {
+    "url": "db://assets/Audio/SoundEffect/laserShoot.wav",
     "value": {
       "depends": []
     },

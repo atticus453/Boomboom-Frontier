@@ -33,14 +33,14 @@
       "time": 1716204288925.449
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiSelect.scene": {
-      "time": 1717423156408.2136,
+      "time": 1717490826363.6099,
       "uuid": "d1e81e9d-ab3a-407d-931f-acb9135b2694"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.ts.meta": {
       "time": 1717419769899.8567
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiSelect.ts": {
-      "time": 1717423156410.0022,
+      "time": 1717490866056.1428,
       "uuid": "1d782875-d5d9-447d-8b42-6c785c4e3b29"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/multiRoom.prefab.meta": {
@@ -75,7 +75,7 @@
       "time": 1716204288925.8179
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/MultiRoom.ts": {
-      "time": 1717431215098.895,
+      "time": 1717489723978.2046,
       "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Player": {
@@ -145,7 +145,7 @@
       "uuid": "37e68e28-035d-421d-82c0-acf9c1232c8d"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/MultiRoom.scene": {
-      "time": 1717423156407.971,
+      "time": 1717489561849.569,
       "uuid": "4f582775-4c22-4853-9900-f661cf1f2470"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Map.meta": {
@@ -8365,11 +8365,11 @@
       "time": 1717419769908.1885
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/Select.ts": {
-      "time": 1717436300326.6772,
+      "time": 1717490745730.1423,
       "uuid": "cff5eb04-f641-4967-9973-67717a9f2045"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/Setting.ts": {
-      "time": 1717436300327.043,
+      "time": 1717490721671.5881,
       "uuid": "1911f4c1-566b-4ba6-8710-da802ab5eee3"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/menu.ts": {
@@ -8394,7 +8394,7 @@
       "uuid": "7651f7bc-8e6d-42e8-b513-f4a641220177"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Setting.scene": {
-      "time": 1717438166971.914,
+      "time": 1717490957929.8738,
       "uuid": "493b4de0-50f1-4243-823e-c2a8c2c65773"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/signUp.scene": {
@@ -8673,7 +8673,7 @@
       "uuid": "7a5b69b6-8643-4e6b-a106-790f5bd33f90"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Audio/SoundEffect": {
-      "time": 1717487029312.6958,
+      "time": 1717488749627.113,
       "uuid": "6d01cc15-086c-4e57-a89d-504aad3403d5"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/Weapons": {
@@ -11252,7 +11252,7 @@
       "uuid": "4ba0c8ad-ee32-4d5c-9068-f1685e836014"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/mapSelect.prefab": {
-      "time": 1717423156372.8257,
+      "time": 1717489728502.6975,
       "uuid": "7ef8905c-e672-47b3-87a7-c773cf033008"
     },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Prefabs/setupSelect.prefab": {
@@ -12432,6 +12432,13 @@
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Audio/SoundEffect/male-death-sound-128357.mp3": {
       "time": 1717487027856.643,
       "uuid": "ff96bb9b-50f2-44fb-a1f0-dc5ab5f491f2"
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Audio/SoundEffect/laserShoot.wav.meta": {
+      "time": 1717488749653.2969
+    },
+    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Audio/SoundEffect/laserShoot.wav": {
+      "time": 1717488748488.3262,
+      "uuid": "a4ef3a56-8715-4a04-8e95-f74cb8a9e5bf"
     }
   },
   "missing": {

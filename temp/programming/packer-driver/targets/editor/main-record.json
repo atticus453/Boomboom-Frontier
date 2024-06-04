@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 49918425.34149933,
+      "mTimestamp": 52669649.38449955,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -3507,11 +3507,15 @@
     },
     "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/MultiRoom.ts": {
       "mTimestamp": {
-        "mtime": 1717431215098.895,
+        "mtime": 1717489723978.2046,
         "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
       },
       "chunkId": "1da053d1857915a29ec38362b5a8598a78ee42db",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -3523,11 +3527,25 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 134
+              "column": 147
             },
             "end": {
               "line": 1,
-              "column": 138
+              "column": 151
+            }
+          }
+        },
+        {
+          "value": "./Setting",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
             }
           }
         }
@@ -3537,7 +3555,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -3552,6 +3570,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Setting.ts"
           },
           "messages": []
         }
@@ -3559,7 +3591,7 @@
     },
     "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/MultiSelect.ts": {
       "mTimestamp": {
-        "mtime": 1717423156410.0022,
+        "mtime": 1717490866056.1428,
         "uuid": "1d782875-d5d9-447d-8b42-6c785c4e3b29"
       },
       "chunkId": "4840064f1c8314bacaf28f88f24c72e3ddc0f6c4",
@@ -3579,11 +3611,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 159
+              "column": 172
             },
             "end": {
               "line": 1,
-              "column": 163
+              "column": 176
             }
           }
         },
@@ -3598,6 +3630,34 @@
             "end": {
               "line": 2,
               "column": 39
+            }
+          }
+        },
+        {
+          "value": "./Setting",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./Select",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 23
+            },
+            "end": {
+              "line": 4,
+              "column": 33
             }
           }
         }
@@ -3636,6 +3696,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/MultiRoom.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Setting.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Select.ts"
           },
           "messages": []
         }
@@ -3685,7 +3759,7 @@
     },
     "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Select.ts": {
       "mTimestamp": {
-        "mtime": 1717436300326.6772,
+        "mtime": 1717490745730.1423,
         "uuid": "cff5eb04-f641-4967-9973-67717a9f2045"
       },
       "chunkId": "6e18b677fc63677f83cd39fa7d25fb55ab8f8b17",
@@ -3737,7 +3811,7 @@
     },
     "file:///Users/joan/Desktop/%E6%B8%85%E5%A4%A7/%E8%BB%9F%E9%AB%94%E5%AF%A6%E9%A9%97%E8%A8%AD%E8%A8%88/Boomboom-Frontier/assets/Scripts/Setting.ts": {
       "mTimestamp": {
-        "mtime": 1717436300327.043,
+        "mtime": 1717490721671.5881,
         "uuid": "1911f4c1-566b-4ba6-8710-da802ab5eee3"
       },
       "chunkId": "b99491f9bb343a8317d1c0db2099d56d4d6a92ed",
@@ -3771,11 +3845,11 @@
           "loc": {
             "start": {
               "line": 3,
-              "column": 25
+              "column": 23
             },
             "end": {
               "line": 3,
-              "column": 35
+              "column": 33
             }
           }
         }

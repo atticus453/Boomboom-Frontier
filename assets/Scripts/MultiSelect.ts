@@ -1,5 +1,7 @@
-import { _decorator, Component, Node, Button, find, director, log, EditBox, Prefab, instantiate, resources, Label, NodeEventType, labelAssembler, macro } from 'cc';
+import { _decorator, Component, Node, Button, find, director, log, EditBox, Prefab, instantiate, resources, Label, NodeEventType, labelAssembler, macro, AudioSource } from 'cc';
 import { MultiRoom } from './MultiRoom';
+import { Setting } from './Setting';
+import { Select } from './Select';
 const { ccclass, property } = _decorator;
 
 @ccclass('MultiSelect')
@@ -18,18 +20,26 @@ export class MultiSelect extends Component {
     @property(Prefab)
     mapPreviewPrefab: Prefab = null;
 
+    @property(Button)
+    creatRoomButton: Button = null;
+
+    @property(Button)
+    settingButton: Button = null;
+
     static roomNodeList: Node[] = null;
 
     private updateData = null;
 
     onLoad() {
         MultiSelect.roomNodeList = [];
-        let creatRoomButton = find("Canvas/creatRoom").getComponent(Button);
-        creatRoomButton.node.on(Node.EventType.MOUSE_UP, this.onCreateRoomClick, this);
+        this.creatRoomButton = find("Canvas/creatRoom").getComponent(Button);
+        this.creatRoomButton.node.on(Node.EventType.MOUSE_UP, this.onCreateRoomClick, this);
         let returnButton = this.node.getChildByName("returnButton").getComponent(Button);
-        returnButton.node.on(Node.EventType.MOUSE_UP, ()=>{director.loadScene("Select");}, this);
+        returnButton.node.on(Node.EventType.MOUSE_UP, () => { director.loadScene("Select"); }, this);
 
-        for(let i=0; i<6; i++){
+        this.settingButton.node.on(Node.EventType.MOUSE_UP, this.onSettingClick, this);
+
+        for (let i = 0; i < 6; i++) {
             const roomNode = instantiate(this.roomFramePrefab);
             MultiSelect.roomNodeList.push(roomNode);
             roomNode.setPosition(-90, this.roomPosY, 0);
@@ -39,10 +49,10 @@ export class MultiSelect extends Component {
         const roomRef = firebase.database().ref('rooms/');
         roomRef.off();
         roomRef.on('value', (snapshot) => {
-            if (!snapshot.exists()){
+            if (!snapshot.exists()) {
                 console.log("No rooms found.");
                 return;
-            } 
+            }
 
             let roomArr = [];
             snapshot.forEach(childSnapshot => {
@@ -52,10 +62,10 @@ export class MultiSelect extends Component {
             });
             // console.log(roomArr);
             this.roomPosY = 185;
-            
-            for (let i=0; i<6; i++) {
-                
-                if(i < roomArr.length){
+
+            for (let i = 0; i < 6; i++) {
+
+                if (i < roomArr.length) {
                     MultiSelect.roomNodeList[i].getChildByName("playerCount").getComponent(Label).string = roomArr[i].userCnt + "/" + 4;
                     MultiSelect.roomNodeList[i].getChildByName("roomName").getComponent(Label).string = roomArr[i].roomName;
                     find("Canvas/Rooms").addChild(MultiSelect.roomNodeList[i]);
@@ -63,7 +73,7 @@ export class MultiSelect extends Component {
                         this.onJoinClick(roomArr[i].roomName, roomArr[i].map, roomArr[i].mode, roomArr[i].key);
                     }, this);
                 }
-                else if(MultiSelect.roomNodeList[i].getParent()){
+                else if (MultiSelect.roomNodeList[i].getParent()) {
                     MultiSelect.roomNodeList[i].removeFromParent();
                 }
             }
@@ -84,7 +94,7 @@ export class MultiSelect extends Component {
     async addRoom(roomName: string) {
         try {
             if (!roomName) return;
-                
+
             const roomsRef = firebase.database().ref('rooms');
             const newRoomRef = roomsRef.push();
             this.roomID = newRoomRef.key;
@@ -107,41 +117,44 @@ export class MultiSelect extends Component {
 
     update(deltaTime: number) {
         // const roomRef = firebase.database().ref('rooms/');
-        
+
     }
 
-    onCreateRoomClick(){
+    onCreateRoomClick() {
+        this.creatRoomButton.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
+        this.creatRoomButton.getComponent(AudioSource).play();
+
         let popUp = instantiate(this.createRoomPopUpPrefab);
         let cancel = popUp.getChildByName("cancel").getComponent(Button);
         let create = popUp.getChildByName("create").getComponent(Button);
         let roomName = popUp.getChildByName("roomName").getComponent(EditBox);
-        cancel.node.on(Node.EventType.MOUSE_UP, ()=>{
+        cancel.node.on(Node.EventType.MOUSE_UP, () => {
             popUp.destroy();
         }, this);
-        create.node.on(Node.EventType.MOUSE_UP, ()=>{
+        create.node.on(Node.EventType.MOUSE_UP, () => {
             console.log("CREATE ROOM " + roomName.string);
             this.addRoom(roomName.string);
             popUp.destroy();
         }, this);
         popUp.setPosition(0, 0, 0);
-        this.node.addChild(popUp);       
+        this.node.addChild(popUp);
     }
 
-    onJoinClick(roomName: string, map: string, mode: string, roomID:number){
+    onJoinClick(roomName: string, map: string, mode: string, roomID: number) {
         // if(this.node.getChildByName("roomPreview"))
         //     this.node.getChildByName("roomPreview").destroy();
         console.log("hi");
         let roomPreview;
-        if(this.node.getChildByName("roomPreview"))
+        if (this.node.getChildByName("roomPreview"))
             roomPreview = this.node.getChildByName("roomPreview");
-        else{
+        else {
             roomPreview = instantiate(this.mapPreviewPrefab);
             this.node.addChild(roomPreview);
             roomPreview.setPosition(400, 20);
         }
         roomPreview.getChildByName("info").getComponent(Label).string = "Room: " + roomName +
-                                                                    "\nMap: " + "XiaoJin" +
-                                                                    "\nMode: " + "DeathMatch";
+            "\nMap: " + "XiaoJin" +
+            "\nMode: " + "DeathMatch";
         roomPreview.getChildByName("joinButton").on(Node.EventType.MOUSE_UP, () => {
             MultiRoom.roomID = roomID;
             const roomRef = firebase.database().ref('rooms/' + roomID);
@@ -153,11 +166,19 @@ export class MultiSelect extends Component {
                 userCnt = snapshot.val().userCnt + 1;
                 userList = snapshot.val().users;
                 userList.push(user.uid);
-                roomRef.update({userCnt: userCnt, users: userList});
+                roomRef.update({ userCnt: userCnt, users: userList });
             });
-            
+
             director.loadScene("MultiRoom");
         })
+    }
+    onSettingClick() {
+        this.settingButton.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
+        this.settingButton.getComponent(AudioSource).play();
+        this.scheduleOnce(() => {
+            Select.backPage = 2;
+            director.loadScene("Setting");
+        }, 0.3);
     }
 }
 

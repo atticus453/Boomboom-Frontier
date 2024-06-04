@@ -1,6 +1,5 @@
 import { _decorator, Component, Node, Button, director} from 'cc';
 const { ccclass, property } = _decorator;
-export let backPage: number = 0;
 
 @ccclass('Select')
 export class Select extends Component {
@@ -8,6 +7,8 @@ export class Select extends Component {
     @property(Button) singleBtn: Button = null;
     @property(Button) multiBtn: Button = null;
     @property(Button) signOutBtn: Button = null;
+
+    static backPage: number = 0;
     start() {
         let SetButton = new Component.EventHandler();
         SetButton.target = this.node;
@@ -34,7 +35,7 @@ export class Select extends Component {
         this.signOutBtn.clickEvents.push(SignOutButton);
     }
     LoadSet(){
-        backPage = 1;
+        Select.backPage = 1;
         director.loadScene("Setting");
     }
     LoadMulti(){
