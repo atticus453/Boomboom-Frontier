@@ -236,10 +236,13 @@
         "48939222-f916-4102-a061-fa566b059c3a",
         "3f361310-5bb5-4c32-bfdf-98f0dd1dc911",
         "8f224486-550e-4bd5-9caf-b01a6b2ae0fd",
-        "e74eaed0-3b3c-41e4-8248-952c9f7e5882@f9941"
+        "e74eaed0-3b3c-41e4-8248-952c9f7e5882@f9941",
+        "5d14f68b-d3a1-4e33-8f21-f486773bca00"
       ],
       "dependScripts": [
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "fa71dd6d-2be8-44d1-8882-f714b4c152e4",
+        "bfd5db55-3a28-435f-a3c2-d75a8f8ae6c6"
       ]
     },
     "versionCode": 0
@@ -4861,7 +4864,8 @@
     "url": "db://assets/Prefabs/Bullet.prefab",
     "value": {
       "depends": [
-        "db341962-c9da-41b7-8b8c-0fbd138ceb19@f9941"
+        "db341962-c9da-41b7-8b8c-0fbd138ceb19@f9941",
+        "224ec40a-8363-4af5-aea5-18c84724e6e9"
       ],
       "dependScripts": [
         "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
@@ -44703,9 +44707,24 @@
         "75d98f26-872f-4dca-a574-fa2ea2d42b67@f9941",
         "13a8c3ab-7db6-4846-8273-89b0f517572b@f9941",
         "c889fc05-7787-4da2-849d-b87d6c851746@f9941",
-        "84713be9-8bea-42e2-9567-f713b192970d"
+        "e74eaed0-3b3c-41e4-8248-952c9f7e5882@f9941",
+        "84713be9-8bea-42e2-9567-f713b192970d",
+        "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
+        "5d14f68b-d3a1-4e33-8f21-f486773bca00",
+        "234b5123-daa3-457a-a6e7-dba12502de1b",
+        "224ec40a-8363-4af5-aea5-18c84724e6e9",
+        "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+        "9b4f2d91-3141-45ba-9b22-9060dce5a9be@f9941",
+        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "80f3e55b-3ce0-439e-a5c3-d53832f76c9e",
+        "fa71dd6d-2be8-44d1-8882-f714b4c152e4",
+        "7fad07f1-2c61-4914-9cd7-ac62763b5b62",
+        "bfd5db55-3a28-435f-a3c2-d75a8f8ae6c6",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
+      ]
     },
     "versionCode": 0
   },
@@ -46666,6 +46685,120 @@
   "80f3e55b-3ce0-439e-a5c3-d53832f76c9e": {
     "url": "db://assets/Scripts/tree.ts",
     "value": {},
+    "versionCode": 0
+  },
+  "bfd5db55-3a28-435f-a3c2-d75a8f8ae6c6": {
+    "url": "db://assets/Scripts/GameMgr.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fa71dd6d-2be8-44d1-8882-f714b4c152e4": {
+    "url": "db://assets/Scripts/Player.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b4c3f7a0-5647-48b8-af08-e80283780307": {
+    "url": "db://assets/Animations/grassA.anim",
+    "value": {
+      "depends": [
+        "9f84ad94-760c-44ed-b49f-d82de0183d9e@f9941",
+        "4dfdb94c-c985-45f3-bb52-eadf52204f36@f9941",
+        "b786b83d-58d3-4696-9e9a-e95f8767a227@f9941",
+        "5358d946-680f-434a-8027-1bfbc9d59390@f9941"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bebeaf61-9c6c-4a97-94e4-e3bbe694cf65": {
+    "url": "db://assets/Animations/grassH.anim",
+    "value": {
+      "depends": [
+        "ab0ef659-d5cc-4883-91ab-296e8a6b9559@f9941",
+        "e669081f-e7fc-4c81-8095-6cae07cbd5c5@f9941",
+        "997c419b-0bb9-430f-9cb6-26770095c0e2@f9941",
+        "53937d13-6683-44db-8366-ffd172f795b0@f9941"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b1598c65-5752-425d-976a-25610ead7d38": {
+    "url": "db://assets/Image/fire.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b1598c65-5752-425d-976a-25610ead7d38@6c48a": {
+    "url": "db://assets/Image/fire.png@6c48a",
+    "value": {
+      "depends": [
+        "b1598c65-5752-425d-976a-25610ead7d38"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b1598c65-5752-425d-976a-25610ead7d38@f9941": {
+    "url": "db://assets/Image/fire.png@f9941",
+    "value": {
+      "depends": [
+        "b1598c65-5752-425d-976a-25610ead7d38@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "234b5123-daa3-457a-a6e7-dba12502de1b": {
+    "url": "db://assets/Prefabs/explode1.prefab",
+    "value": {
+      "depends": [
+        "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+        "b1598c65-5752-425d-976a-25610ead7d38@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "5d14f68b-d3a1-4e33-8f21-f486773bca00": {
+    "url": "db://assets/Prefabs/Particle1.prefab",
+    "value": {
+      "depends": [
+        "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941",
+        "234b5123-daa3-457a-a6e7-dba12502de1b"
+      ],
+      "dependScripts": [
+        "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "45f60466-fd55-46d8-ae19-842044a9e5f7": {
+    "url": "db://assets/Prefabs/Weapons/Particle2D-004.prefab",
+    "value": {},
+    "versionCode": 0
+  },
+  "13dd55e8-5532-4956-9ca1-2469acdefa4d": {
+    "url": "db://assets/Prefabs/Particle2D-004.prefab",
+    "value": {
+      "depends": [
+        "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941",
+        "234b5123-daa3-457a-a6e7-dba12502de1b"
+      ],
+      "dependScripts": [
+        "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "224ec40a-8363-4af5-aea5-18c84724e6e9": {
+    "url": "db://assets/Prefabs/explode.prefab",
+    "value": {
+      "depends": [
+        "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941"
+      ],
+      "dependScripts": []
+    },
     "versionCode": 0
   }
 }

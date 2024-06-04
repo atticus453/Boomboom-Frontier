@@ -217,9 +217,9 @@ export class PlayerPrefab extends Component {
     const healthBar = this.healthBarNode.getComponent(ProgressBar);
     try {
       healthBar.progress = this.health / 100;
-      console.log("Health Bar Updated");
+      // console.log("Health Bar Updated");
     } catch (error) {
-      console.log("Health Bar Node not found");
+      // console.log("Health Bar Node not found");
     }
     
   }
