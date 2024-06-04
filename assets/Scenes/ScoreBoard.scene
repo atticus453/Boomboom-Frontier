@@ -954,7 +954,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 59.43753342756724,
+      "width": 79.97263714853301,
       "height": 50.400000000000006
     },
     "_anchorPoint": {
@@ -984,7 +984,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "KILL",
+    "_string": "Death",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 38.34375,
