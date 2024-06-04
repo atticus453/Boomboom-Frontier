@@ -43,7 +43,24 @@ export default class PhotonManager extends Component {
 
   private loadBalancingClient: Photon.LoadBalancing.LoadBalancingClient = null;
 
+  static instance: PhotonManager;;
+
+  // private constructor() {
+  //   super();
+  //   // Prevent direct instantiation
+  // }
+
+  // public static get instance(): PhotonManager {
+  //   if (!PhotonManager._instance) {
+  //     const node = new Node("PhotonManager");
+  //     PhotonManager._instance = node.addComponent(PhotonManager);
+  //     find("Canvas").addChild(node); // 将 PhotonManager 节点添加到 Canvas
+  //   }
+  //   return PhotonManager._instance;
+  // }
+
   onLoad() {
+    PhotonManager.instance = this;
     this.initializePhoton();
     console.log("PhotonManager loaded");
     this.createRoomButton.node.on("click", this.onCreateRoomClicked, this);

@@ -80,8 +80,8 @@ export class PlayerPrefab extends Component {
   private playerManager = null;
   private selectedPlayerIndex = 0;
 
-  //private PlayerIndex: number = 0;
-  private character: string = "Wizard";
+
+  public character: string = "Wizard";
 
   // The properties of the bullet
   private bulletSpeed = 25;
@@ -112,9 +112,7 @@ export class PlayerPrefab extends Component {
       PlayerManager
     );
 
-    this.photonManager = find(this.photonManagerPath).getComponent(
-      PhotonManager
-    );
+    this.photonManager = PhotonManager.instance;
 
     let collider = this.node.getComponent(BoxCollider2D);
 
@@ -134,6 +132,7 @@ export class PlayerPrefab extends Component {
     if(this.playerIndex === this.selectedPlayerIndex){
       this.node.getChildByName("SelfLabel").active = true;
       console.log("Player", this.playerIndex, "is selected");
+      console.log("Player selected is ", this.selectedPlayerIndex);
     } else {
       this.node.getChildByName("SelfLabel").active = false;
       console.log("Player", this.playerIndex, "is not selected");

@@ -62,6 +62,13 @@ export class MultiRoom extends Component {
     @property(AnimationClip)
     wizardAnimationClip: AnimationClip = null;
 
+    onLoad() {
+        this.settingButton.node.on(Node.EventType.MOUSE_UP, this.onSettingClick, this);
+        this.startButton.node.on(Node.EventType.MOUSE_UP, this.onStartClick, this);
+        this.mapButton.node.on(Node.EventType.MOUSE_UP, this.onMapClick, this);
+        this.bagButton.node.on(Node.EventType.MOUSE_UP, this.onBagClick, this);
+    }
+
     start() {
         try {
             this.roomRef = firebase.database().ref('rooms/' + MultiRoom.roomID.toString());
@@ -146,6 +153,10 @@ export class MultiRoom extends Component {
 
     onSettingClick(){
         director.loadScene("Setting");
+    }
+
+    onStartClick(){
+        director.loadScene("map1Scene");
     }
 
     onBagClick(){

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5936.7828750014305,
+      "mTimestamp": 6236.94620898366,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 9585135.313125,
+      "mTimestamp": 8261.297041982412,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -953,7 +953,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1717417601826,
+      "mTimestamp": 1717487542815,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -961,7 +961,7 @@
     },
     "file:///Users/atticus/Desktop/Boom/Boomboom-Frontier/assets/Scripts/Manager/PlayerManager.ts": {
       "mTimestamp": {
-        "mtime": 1717423584912.565,
+        "mtime": 1717440738279.2095,
         "uuid": "5c1808f3-2280-443f-a522-4e7758f33809"
       },
       "chunkId": "f7d61b9443dc6f551027cf90632672423a4146cc",
@@ -1016,6 +1016,34 @@
               "column": 46
             }
           }
+        },
+        {
+          "value": "../MultiRoom",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 26
+            },
+            "end": {
+              "line": 13,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "../MultiSelect",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 28
+            },
+            "end": {
+              "line": 14,
+              "column": 44
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1059,6 +1087,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/atticus/Desktop/Boom/Boomboom-Frontier/assets/Scripts/PlayerPrefab.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/atticus/Desktop/Boom/Boomboom-Frontier/assets/Scripts/MultiRoom.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/atticus/Desktop/Boom/Boomboom-Frontier/assets/Scripts/MultiSelect.ts"
           },
           "messages": []
         }
@@ -1118,7 +1160,7 @@
     },
     "file:///Users/atticus/Desktop/Boom/Boomboom-Frontier/assets/Scripts/PlayerPrefab.ts": {
       "mTimestamp": {
-        "mtime": 1717425607355.2607,
+        "mtime": 1717435932104.1448,
         "uuid": "3a5613d4-a234-47e7-8f0c-dfb046555afe"
       },
       "chunkId": "067a95337243868adfb25bf23cfe6bb848df1f25",
@@ -1265,7 +1307,7 @@
     },
     "file:///Users/atticus/Desktop/Boom/Boomboom-Frontier/assets/Scripts/Manager/PhotonManager.ts": {
       "mTimestamp": {
-        "mtime": 1717424553673.153,
+        "mtime": 1717433357383.9854,
         "uuid": "485e5726-6ec1-4cb5-8616-97b0814847ce"
       },
       "chunkId": "d7bd867c99db70cfd9fd35a25847819ba4d20f91",
@@ -1580,7 +1622,7 @@
     },
     "file:///Users/atticus/Desktop/Boom/Boomboom-Frontier/assets/Scripts/MultiRoom.ts": {
       "mTimestamp": {
-        "mtime": 1717424696309.1982,
+        "mtime": 1717434854376.041,
         "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
       },
       "chunkId": "6f1f73b2cc93c1ae669970b83a7ffbde04f07903",
@@ -1632,7 +1674,7 @@
     },
     "file:///Users/atticus/Desktop/Boom/Boomboom-Frontier/assets/Scripts/MultiSelect.ts": {
       "mTimestamp": {
-        "mtime": 1717424696309.7476,
+        "mtime": 1717442193379.7102,
         "uuid": "1d782875-d5d9-447d-8b42-6c785c4e3b29"
       },
       "chunkId": "13715d28fec1c041df87cd22706bd9fe7a06c1aa",
@@ -1673,6 +1715,20 @@
               "column": 39
             }
           }
+        },
+        {
+          "value": "./Manager/PhotonManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 51
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1709,6 +1765,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/atticus/Desktop/Boom/Boomboom-Frontier/assets/Scripts/MultiRoom.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/atticus/Desktop/Boom/Boomboom-Frontier/assets/Scripts/Manager/PhotonManager.ts"
           },
           "messages": []
         }

@@ -1,5 +1,6 @@
 import { _decorator, Component, Node, Button, find, director, log, EditBox, Prefab, instantiate, resources, Label, NodeEventType, labelAssembler, macro } from 'cc';
 import { MultiRoom } from './MultiRoom';
+import PhotonManager from './Manager/PhotonManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('MultiSelect')
@@ -8,6 +9,8 @@ export class MultiSelect extends Component {
     roomPosY: number = 185;
 
     roomID: number = 0;
+
+    
 
     @property(Prefab)
     roomFramePrefab: Prefab = null;
@@ -19,7 +22,9 @@ export class MultiSelect extends Component {
     mapPreviewPrefab: Prefab = null;
 
     static roomNodeList: Node[] = null;
+    static userIndex: number = 0;
 
+    private joinFlag: boolean = false;
     private updateData = null;
 
     onLoad() {
@@ -121,6 +126,8 @@ export class MultiSelect extends Component {
         create.node.on(Node.EventType.MOUSE_UP, ()=>{
             console.log("CREATE ROOM " + roomName.string);
             this.addRoom(roomName.string);
+            // add room in photon
+            //
             popUp.destroy();
         }, this);
         popUp.setPosition(0, 0, 0);
@@ -142,22 +149,40 @@ export class MultiSelect extends Component {
         roomPreview.getChildByName("info").getComponent(Label).string = "Room: " + roomName +
                                                                     "\nMap: " + "XiaoJin" +
                                                                     "\nMode: " + "DeathMatch";
-        roomPreview.getChildByName("joinButton").on(Node.EventType.MOUSE_UP, () => {
-            MultiRoom.roomID = roomID;
+        roomPreview.getChildByName("joinButton").on(Node.EventType.MOUSE_UP, this.handleAddingRoom(roomName, map, mode, roomID));
+    }
+
+    async handleAddingRoom(roomName: string, map: string, mode: string, roomID:number){
+        MultiRoom.roomID = roomID;
             const roomRef = firebase.database().ref('rooms/' + roomID);
             const user = firebase.auth().currentUser;
             let userCnt: number = 0;
             let userList: string[] = [];
             // this.unschedule(this.updateData);
-            roomRef.once('value', (snapshot) => {
+
+            await roomRef.once('value', (snapshot) => {
                 userCnt = snapshot.val().userCnt + 1;
                 userList = snapshot.val().users;
                 userList.push(user.uid);
                 roomRef.update({userCnt: userCnt, users: userList});
             });
+            // 做一個async function，等待userCnt更新完再執行下面的程式碼
+            MultiSelect.userIndex = userCnt;
+
+
+            // if room isnt exist, create room by photon
+            // else join room
+            try {
+                
+                PhotonManager.instance.createRoom(roomName);
+            } catch (error) {
+                console.log(error);
+                PhotonManager.instance.joinRoom(roomName);
+            }
             
+    
             director.loadScene("MultiRoom");
-        })
     }
 }
+
 

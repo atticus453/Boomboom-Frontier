@@ -1084,6 +1084,7 @@
     "value": {
       "depends": [
         "d1e81e9d-ab3a-407d-931f-acb9135b2694",
+        "db787735-3afa-454d-804f-04814bf4b429",
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
         "3994aef4-1e75-4b9b-a2da-6b197481b14f@f9941",
         "51402d68-66e9-41a7-963e-14738c8d20c4@f9941",
@@ -1103,6 +1104,7 @@
         "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
       ],
       "dependScripts": [
+        "485e5726-6ec1-4cb5-8616-97b0814847ce",
         "1d782875-d5d9-447d-8b42-6c785c4e3b29"
       ]
     },
@@ -1180,11 +1182,6 @@
     "value": {
       "depends": [
         "70774282-0f2c-4340-8714-aa5ba35f0da7",
-        "db787735-3afa-454d-804f-04814bf4b429",
-        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
         "ebc65683-97fe-4824-b0b2-cd2d385462b4",
         "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
         "eec30637-0508-4758-b965-0111fc4ae26a@f9941",
@@ -1196,6 +1193,10 @@
         "2f8acb9b-3afe-461b-87b3-8a3070d915dc",
         "f2442aec-6e58-4bed-8571-26dd46376607@f9941",
         "b0bbd7dc-0f2a-4905-8da7-8209392ed5f0",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
         "e91380b6-829c-4d25-9432-546e7c9f2e9b",
         "d0bbf0a1-e90a-479b-9fe8-0b8c6e538874",
         "7d8bd525-6a99-441e-9064-2d1a0b046702",
@@ -1203,10 +1204,9 @@
       ],
       "dependScripts": [
         "af1faa49-61ea-4cdf-ab5a-73b1f91a2557",
-        "485e5726-6ec1-4cb5-8616-97b0814847ce",
-        "86657e47-924a-4d55-a9af-d1066ae23072",
         "5c1808f3-2280-443f-a522-4e7758f33809",
         "7fad07f1-2c61-4914-9cd7-ac62763b5b62",
+        "86657e47-924a-4d55-a9af-d1066ae23072",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
       ]
     },
@@ -43286,6 +43286,2457 @@
     "value": {
       "depends": [
         "4b105e2d-cc22-4310-8376-7c7bb75c2146"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3c7dcae8-8b0a-49cb-9700-5cda20b6cf1d": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle",
+    "value": {},
+    "versionCode": 0
+  },
+  "0bdacc1e-1c0c-4947-913d-970b75bcbedd": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run",
+    "value": {},
+    "versionCode": 0
+  },
+  "243abf4e-4fde-4e9e-be07-d9822495cbc4": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead",
+    "value": {},
+    "versionCode": 0
+  },
+  "a92d6930-80a9-4199-8187-6e90a01f4470": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle",
+    "value": {},
+    "versionCode": 0
+  },
+  "d6785438-763f-4dc4-abd5-130a468726b7": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead",
+    "value": {},
+    "versionCode": 0
+  },
+  "d15dbfe3-2008-4fa6-a1d1-5493324f9c87": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle",
+    "value": {},
+    "versionCode": 0
+  },
+  "082e2fbc-d337-4c57-9d55-fc0bb03ce0b1": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run",
+    "value": {},
+    "versionCode": 0
+  },
+  "b5901f4f-e600-4439-a035-3f9fa69c7b99": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Dead",
+    "value": {},
+    "versionCode": 0
+  },
+  "9dca3547-7ab4-4346-b768-8de567307750": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle",
+    "value": {},
+    "versionCode": 0
+  },
+  "be3489eb-7d66-4eeb-b24a-d6f3a67dc9c6": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run",
+    "value": {},
+    "versionCode": 0
+  },
+  "0f87e21d-54d5-48df-a39e-c7858fc77a2a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead",
+    "value": {},
+    "versionCode": 0
+  },
+  "c75bba60-79b9-41b0-8489-75d06093758a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle",
+    "value": {},
+    "versionCode": 0
+  },
+  "15049fcd-5ce8-43d9-9921-faf96f744e1f": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run",
+    "value": {},
+    "versionCode": 0
+  },
+  "48ac2330-1a53-41e9-9a25-88e280167895": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead",
+    "value": {},
+    "versionCode": 0
+  },
+  "de9e28c6-94c6-48d7-b2d0-a2b9307b7fb6": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle",
+    "value": {},
+    "versionCode": 0
+  },
+  "af314888-998d-4b69-925a-99f5029e664b": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Dead",
+    "value": {},
+    "versionCode": 0
+  },
+  "f2d9999a-c47f-4283-a481-830fbdbb7053": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle",
+    "value": {},
+    "versionCode": 0
+  },
+  "9042de8d-1522-4eeb-bbba-4e287ca89165": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run",
+    "value": {},
+    "versionCode": 0
+  },
+  "3e7f3bfe-4b18-430b-91df-607cf15b7c32": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Dead",
+    "value": {},
+    "versionCode": 0
+  },
+  "09cff8d0-d514-4dac-bc99-8b845afe24d6": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle",
+    "value": {},
+    "versionCode": 0
+  },
+  "9301d256-f05e-4716-9493-c4d4b00fe126": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run",
+    "value": {},
+    "versionCode": 0
+  },
+  "5d43a064-8409-4450-9c10-feb175e4f1ab": {
+    "url": "db://assets/Resources/GUI/2 Bars/Button1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "96a7debf-e965-4e14-a211-47b82d321fc0": {
+    "url": "db://assets/Resources/GUI/2 Bars/Button2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5d43a064-8409-4450-9c10-feb175e4f1ab@6c48a": {
+    "url": "db://assets/Resources/GUI/2 Bars/Button1.png@6c48a",
+    "value": {
+      "depends": [
+        "5d43a064-8409-4450-9c10-feb175e4f1ab"
+      ]
+    },
+    "versionCode": 0
+  },
+  "96a7debf-e965-4e14-a211-47b82d321fc0@6c48a": {
+    "url": "db://assets/Resources/GUI/2 Bars/Button2.png@6c48a",
+    "value": {
+      "depends": [
+        "96a7debf-e965-4e14-a211-47b82d321fc0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f4b32c8c-081d-4a74-b2a1-7de47094b89f": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "31fe7a68-0d14-4087-8993-a81139fac81f": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "2a93409c-a89c-4209-8bf1-b0f4deee8b2e": {
+    "url": "db://assets/Resources/charactor/male/Archer/Idle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1ee44517-c096-4173-b587-3debbcba37ae": {
+    "url": "db://assets/Resources/charactor/male/Archer/Idle_2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9958d8d3-e193-41de-9822-cf43468efa3a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Dead/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "00a884f1-d95d-45e7-bb3a-47b093ed2f2f": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Dead/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "699cf619-ce88-4a3d-8ed1-31527dd019a2": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Dead/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9958d8d3-e193-41de-9822-cf43468efa3a@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Dead/0.png@6c48a",
+    "value": {
+      "depends": [
+        "9958d8d3-e193-41de-9822-cf43468efa3a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d25f9dfd-0fd1-4fd0-b474-761b55dbf835": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Dead/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "00a884f1-d95d-45e7-bb3a-47b093ed2f2f@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Dead/1.png@6c48a",
+    "value": {
+      "depends": [
+        "00a884f1-d95d-45e7-bb3a-47b093ed2f2f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d2cbc57a-07b7-4aa7-b614-a181b49d76ee": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "699cf619-ce88-4a3d-8ed1-31527dd019a2@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Dead/2.png@6c48a",
+    "value": {
+      "depends": [
+        "699cf619-ce88-4a3d-8ed1-31527dd019a2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "89ac1570-43f4-43b8-b4ae-2d6ed1e7a9f9": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1ee44517-c096-4173-b587-3debbcba37ae@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Archer/Idle_2.png@6c48a",
+    "value": {
+      "depends": [
+        "1ee44517-c096-4173-b587-3debbcba37ae"
+      ]
+    },
+    "versionCode": 0
+  },
+  "dc6eff82-06ad-4ae7-b6cd-f6c8ada25b9f": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "2a93409c-a89c-4209-8bf1-b0f4deee8b2e@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Archer/Idle.png@6c48a",
+    "value": {
+      "depends": [
+        "2a93409c-a89c-4209-8bf1-b0f4deee8b2e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0ab3b230-7bfb-42d6-84ad-e2bf5853a652": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d25f9dfd-0fd1-4fd0-b474-761b55dbf835@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Dead/3.png@6c48a",
+    "value": {
+      "depends": [
+        "d25f9dfd-0fd1-4fd0-b474-761b55dbf835"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6017fbf1-5da5-4b72-aec8-471661890c3b": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d2cbc57a-07b7-4aa7-b614-a181b49d76ee@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/0.png@6c48a",
+    "value": {
+      "depends": [
+        "d2cbc57a-07b7-4aa7-b614-a181b49d76ee"
+      ]
+    },
+    "versionCode": 0
+  },
+  "650135dc-7003-4ac1-a557-6377fb277b66": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "89ac1570-43f4-43b8-b4ae-2d6ed1e7a9f9@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/1.png@6c48a",
+    "value": {
+      "depends": [
+        "89ac1570-43f4-43b8-b4ae-2d6ed1e7a9f9"
+      ]
+    },
+    "versionCode": 0
+  },
+  "89be8737-f6c2-443c-9478-ae0c5f2ba0b8": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "dc6eff82-06ad-4ae7-b6cd-f6c8ada25b9f@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/2.png@6c48a",
+    "value": {
+      "depends": [
+        "dc6eff82-06ad-4ae7-b6cd-f6c8ada25b9f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3dde0ec7-c400-4504-be41-47942ea58437": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0ab3b230-7bfb-42d6-84ad-e2bf5853a652@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/3.png@6c48a",
+    "value": {
+      "depends": [
+        "0ab3b230-7bfb-42d6-84ad-e2bf5853a652"
+      ]
+    },
+    "versionCode": 0
+  },
+  "21f39eb9-4321-4b47-b7ea-9012a412ed8c": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "650135dc-7003-4ac1-a557-6377fb277b66@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/5.png@6c48a",
+    "value": {
+      "depends": [
+        "650135dc-7003-4ac1-a557-6377fb277b66"
+      ]
+    },
+    "versionCode": 0
+  },
+  "68bd9283-fa64-4c22-b6b9-6c1366819c8f": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "6017fbf1-5da5-4b72-aec8-471661890c3b@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Idle/4.png@6c48a",
+    "value": {
+      "depends": [
+        "6017fbf1-5da5-4b72-aec8-471661890c3b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6ed7ef2c-25bf-4db0-ac37-3e9255192e9a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "89be8737-f6c2-443c-9478-ae0c5f2ba0b8@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/0.png@6c48a",
+    "value": {
+      "depends": [
+        "89be8737-f6c2-443c-9478-ae0c5f2ba0b8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ea05dce8-13bb-416e-8252-2824136a6b3f": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "3dde0ec7-c400-4504-be41-47942ea58437@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/1.png@6c48a",
+    "value": {
+      "depends": [
+        "3dde0ec7-c400-4504-be41-47942ea58437"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ccce4bb2-0af4-4ddc-b976-6462df855a02": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "21f39eb9-4321-4b47-b7ea-9012a412ed8c@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/2.png@6c48a",
+    "value": {
+      "depends": [
+        "21f39eb9-4321-4b47-b7ea-9012a412ed8c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4b12924b-86dc-413d-aa13-f105f2565c02": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "6ed7ef2c-25bf-4db0-ac37-3e9255192e9a@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/4.png@6c48a",
+    "value": {
+      "depends": [
+        "6ed7ef2c-25bf-4db0-ac37-3e9255192e9a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e41fc723-4d32-4dcd-909a-5a10c4576844": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "68bd9283-fa64-4c22-b6b9-6c1366819c8f@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/3.png@6c48a",
+    "value": {
+      "depends": [
+        "68bd9283-fa64-4c22-b6b9-6c1366819c8f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "17c86378-33b1-4bc8-b97e-8836c0781402": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ea05dce8-13bb-416e-8252-2824136a6b3f@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/5.png@6c48a",
+    "value": {
+      "depends": [
+        "ea05dce8-13bb-416e-8252-2824136a6b3f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "8aeaba2a-3a5f-4bda-b173-f5e1eb34feea": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ccce4bb2-0af4-4ddc-b976-6462df855a02@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Knight/Knight_Run/6.png@6c48a",
+    "value": {
+      "depends": [
+        "ccce4bb2-0af4-4ddc-b976-6462df855a02"
+      ]
+    },
+    "versionCode": 0
+  },
+  "08bd7d4d-fbed-4616-b392-f2418a72142b": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "4b12924b-86dc-413d-aa13-f105f2565c02@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/0.png@6c48a",
+    "value": {
+      "depends": [
+        "4b12924b-86dc-413d-aa13-f105f2565c02"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e53858c3-1ac2-4f15-9d68-e0998ee079e2": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "17c86378-33b1-4bc8-b97e-8836c0781402@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/2.png@6c48a",
+    "value": {
+      "depends": [
+        "17c86378-33b1-4bc8-b97e-8836c0781402"
+      ]
+    },
+    "versionCode": 0
+  },
+  "deab1ac2-c828-4c92-a381-52eeb195e7fd": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e41fc723-4d32-4dcd-909a-5a10c4576844@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/1.png@6c48a",
+    "value": {
+      "depends": [
+        "e41fc723-4d32-4dcd-909a-5a10c4576844"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7def3271-5dbb-469d-ab58-5ca0e026b78f": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "8aeaba2a-3a5f-4bda-b173-f5e1eb34feea@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Dead/3.png@6c48a",
+    "value": {
+      "depends": [
+        "8aeaba2a-3a5f-4bda-b173-f5e1eb34feea"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c1dbf6e9-3cbd-469c-b481-457ab4d7bc06": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "08bd7d4d-fbed-4616-b392-f2418a72142b@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/0.png@6c48a",
+    "value": {
+      "depends": [
+        "08bd7d4d-fbed-4616-b392-f2418a72142b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ff3bd3c8-38eb-4b8a-8c78-19a57aa61efd": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e53858c3-1ac2-4f15-9d68-e0998ee079e2@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/1.png@6c48a",
+    "value": {
+      "depends": [
+        "e53858c3-1ac2-4f15-9d68-e0998ee079e2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "61856b93-298a-40f9-97cb-95f10d5f48e5": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7def3271-5dbb-469d-ab58-5ca0e026b78f@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/3.png@6c48a",
+    "value": {
+      "depends": [
+        "7def3271-5dbb-469d-ab58-5ca0e026b78f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b662bea1-af67-4c32-aba6-5089d1598ccb": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "deab1ac2-c828-4c92-a381-52eeb195e7fd@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/2.png@6c48a",
+    "value": {
+      "depends": [
+        "deab1ac2-c828-4c92-a381-52eeb195e7fd"
+      ]
+    },
+    "versionCode": 0
+  },
+  "747567bd-1c36-4dde-9887-c886a5f08fe7": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c1dbf6e9-3cbd-469c-b481-457ab4d7bc06@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Idle/4.png@6c48a",
+    "value": {
+      "depends": [
+        "c1dbf6e9-3cbd-469c-b481-457ab4d7bc06"
+      ]
+    },
+    "versionCode": 0
+  },
+  "dfe21207-4076-43e3-8da8-8f52c34a2879": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ff3bd3c8-38eb-4b8a-8c78-19a57aa61efd@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/0.png@6c48a",
+    "value": {
+      "depends": [
+        "ff3bd3c8-38eb-4b8a-8c78-19a57aa61efd"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ba35de85-d6a7-48b2-9734-52d8f257eb64": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "61856b93-298a-40f9-97cb-95f10d5f48e5@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/1.png@6c48a",
+    "value": {
+      "depends": [
+        "61856b93-298a-40f9-97cb-95f10d5f48e5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "93ddf7bf-5ddf-487c-bfef-0616fc014c85": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b662bea1-af67-4c32-aba6-5089d1598ccb@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/2.png@6c48a",
+    "value": {
+      "depends": [
+        "b662bea1-af67-4c32-aba6-5089d1598ccb"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b0fdb761-a2c4-45d7-9ebc-8edd27ae2279": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/7.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "747567bd-1c36-4dde-9887-c886a5f08fe7@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/3.png@6c48a",
+    "value": {
+      "depends": [
+        "747567bd-1c36-4dde-9887-c886a5f08fe7"
+      ]
+    },
+    "versionCode": 0
+  },
+  "90ad6430-2e29-4a0e-a627-222ec9581f9d": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "dfe21207-4076-43e3-8da8-8f52c34a2879@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/4.png@6c48a",
+    "value": {
+      "depends": [
+        "dfe21207-4076-43e3-8da8-8f52c34a2879"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2e44c4dd-fd90-4e1c-906f-287ff4bead8f": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ba35de85-d6a7-48b2-9734-52d8f257eb64@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/5.png@6c48a",
+    "value": {
+      "depends": [
+        "ba35de85-d6a7-48b2-9734-52d8f257eb64"
+      ]
+    },
+    "versionCode": 0
+  },
+  "57271505-9d0a-4a43-a281-72cd81f3a50d": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "93ddf7bf-5ddf-487c-bfef-0616fc014c85@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/6.png@6c48a",
+    "value": {
+      "depends": [
+        "93ddf7bf-5ddf-487c-bfef-0616fc014c85"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ace5e574-0336-46b6-be44-bff2cc71ec97": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b0fdb761-a2c4-45d7-9ebc-8edd27ae2279@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/female/Musketeer/Musketeer_Run.png/7.png@6c48a",
+    "value": {
+      "depends": [
+        "b0fdb761-a2c4-45d7-9ebc-8edd27ae2279"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4d988f30-95ff-4100-9e5e-a0b0f92341e5": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "90ad6430-2e29-4a0e-a627-222ec9581f9d@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/0.png@6c48a",
+    "value": {
+      "depends": [
+        "90ad6430-2e29-4a0e-a627-222ec9581f9d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "72750da4-cc03-4b83-b240-989ba34679b0": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "2e44c4dd-fd90-4e1c-906f-287ff4bead8f@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/1.png@6c48a",
+    "value": {
+      "depends": [
+        "2e44c4dd-fd90-4e1c-906f-287ff4bead8f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "cc4b6697-a1da-4d11-8ac5-2b0ffd308c3f": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "57271505-9d0a-4a43-a281-72cd81f3a50d@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Dead/2.png@6c48a",
+    "value": {
+      "depends": [
+        "57271505-9d0a-4a43-a281-72cd81f3a50d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "de7b49e0-4591-4136-a41a-89b5c627cf08": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ace5e574-0336-46b6-be44-bff2cc71ec97@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/0.png@6c48a",
+    "value": {
+      "depends": [
+        "ace5e574-0336-46b6-be44-bff2cc71ec97"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c41b7a60-63a4-46ff-9985-359ef7158c37": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "cc4b6697-a1da-4d11-8ac5-2b0ffd308c3f@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/3.png@6c48a",
+    "value": {
+      "depends": [
+        "cc4b6697-a1da-4d11-8ac5-2b0ffd308c3f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "348143fa-dae3-4edb-a2d8-1cb8df2c2513": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "72750da4-cc03-4b83-b240-989ba34679b0@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/2.png@6c48a",
+    "value": {
+      "depends": [
+        "72750da4-cc03-4b83-b240-989ba34679b0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fa72383a-87b3-467d-81ef-3e0475565179": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/7.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "4d988f30-95ff-4100-9e5e-a0b0f92341e5@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/1.png@6c48a",
+    "value": {
+      "depends": [
+        "4d988f30-95ff-4100-9e5e-a0b0f92341e5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2c3b4fcc-806f-41fa-add0-cc63c222f3c3": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c41b7a60-63a4-46ff-9985-359ef7158c37@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/5.png@6c48a",
+    "value": {
+      "depends": [
+        "c41b7a60-63a4-46ff-9985-359ef7158c37"
+      ]
+    },
+    "versionCode": 0
+  },
+  "eef1cd77-77d2-473f-9b5c-8e3bf198e303": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "de7b49e0-4591-4136-a41a-89b5c627cf08@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/4.png@6c48a",
+    "value": {
+      "depends": [
+        "de7b49e0-4591-4136-a41a-89b5c627cf08"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c2131d4f-aa69-45fd-ba5f-8dec3f47fff5": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "348143fa-dae3-4edb-a2d8-1cb8df2c2513@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/6.png@6c48a",
+    "value": {
+      "depends": [
+        "348143fa-dae3-4edb-a2d8-1cb8df2c2513"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b73db8d1-6449-4b05-b2f5-4fd89ee89211": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "fa72383a-87b3-467d-81ef-3e0475565179@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Idle/7.png@6c48a",
+    "value": {
+      "depends": [
+        "fa72383a-87b3-467d-81ef-3e0475565179"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2c3b4fcc-806f-41fa-add0-cc63c222f3c3@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/0.png@6c48a",
+    "value": {
+      "depends": [
+        "2c3b4fcc-806f-41fa-add0-cc63c222f3c3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1d87789a-0b99-43f6-9fbc-03f275ad9f2a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f1284fa7-5efd-4885-9199-cca12085555e": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "eef1cd77-77d2-473f-9b5c-8e3bf198e303@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/1.png@6c48a",
+    "value": {
+      "depends": [
+        "eef1cd77-77d2-473f-9b5c-8e3bf198e303"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1552f553-c170-478e-9861-e55d75c3f44c": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c2131d4f-aa69-45fd-ba5f-8dec3f47fff5@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/2.png@6c48a",
+    "value": {
+      "depends": [
+        "c2131d4f-aa69-45fd-ba5f-8dec3f47fff5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d9279794-523e-4303-b86a-271b1d1ad0e1": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/7.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b73db8d1-6449-4b05-b2f5-4fd89ee89211@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/3.png@6c48a",
+    "value": {
+      "depends": [
+        "b73db8d1-6449-4b05-b2f5-4fd89ee89211"
+      ]
+    },
+    "versionCode": 0
+  },
+  "82ba748b-519c-4fe4-a341-bd504ee084dc": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1d87789a-0b99-43f6-9fbc-03f275ad9f2a@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/4.png@6c48a",
+    "value": {
+      "depends": [
+        "1d87789a-0b99-43f6-9fbc-03f275ad9f2a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f1284fa7-5efd-4885-9199-cca12085555e@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/5.png@6c48a",
+    "value": {
+      "depends": [
+        "f1284fa7-5efd-4885-9199-cca12085555e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0cb9588f-be15-442f-88b1-f6de7394f7bf": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "422feb21-0dfc-4896-9b5c-edbd2e296054": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1552f553-c170-478e-9861-e55d75c3f44c@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/6.png@6c48a",
+    "value": {
+      "depends": [
+        "1552f553-c170-478e-9861-e55d75c3f44c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d41e6905-77de-45cc-ba10-d44c00b6ad36": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d9279794-523e-4303-b86a-271b1d1ad0e1@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Swordsman/Swordsman_Run/7.png@6c48a",
+    "value": {
+      "depends": [
+        "d9279794-523e-4303-b86a-271b1d1ad0e1"
+      ]
+    },
+    "versionCode": 0
+  },
+  "182e6393-faf0-4f43-83bc-1240977184ba": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0cb9588f-be15-442f-88b1-f6de7394f7bf@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/1.png@6c48a",
+    "value": {
+      "depends": [
+        "0cb9588f-be15-442f-88b1-f6de7394f7bf"
+      ]
+    },
+    "versionCode": 0
+  },
+  "16306f35-490d-4eac-97e5-1a1944f30340": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "82ba748b-519c-4fe4-a341-bd504ee084dc@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/0.png@6c48a",
+    "value": {
+      "depends": [
+        "82ba748b-519c-4fe4-a341-bd504ee084dc"
+      ]
+    },
+    "versionCode": 0
+  },
+  "422feb21-0dfc-4896-9b5c-edbd2e296054@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/2.png@6c48a",
+    "value": {
+      "depends": [
+        "422feb21-0dfc-4896-9b5c-edbd2e296054"
+      ]
+    },
+    "versionCode": 0
+  },
+  "32479ca6-0d03-489b-8088-45b78ea2bcb8": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "05100593-d8ff-48e4-ab29-e9ee25be28bf": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d41e6905-77de-45cc-ba10-d44c00b6ad36@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Dead/3.png@6c48a",
+    "value": {
+      "depends": [
+        "d41e6905-77de-45cc-ba10-d44c00b6ad36"
+      ]
+    },
+    "versionCode": 0
+  },
+  "862d1cb1-181e-4019-8c57-57361a6dbd3c": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "182e6393-faf0-4f43-83bc-1240977184ba@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/0.png@6c48a",
+    "value": {
+      "depends": [
+        "182e6393-faf0-4f43-83bc-1240977184ba"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1959e32b-5fc6-4055-9633-8b1c1c345a2b": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "16306f35-490d-4eac-97e5-1a1944f30340@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/1.png@6c48a",
+    "value": {
+      "depends": [
+        "16306f35-490d-4eac-97e5-1a1944f30340"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7c11dd9f-0fa9-44b3-a2b8-03c299ada498": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "05100593-d8ff-48e4-ab29-e9ee25be28bf@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/3.png@6c48a",
+    "value": {
+      "depends": [
+        "05100593-d8ff-48e4-ab29-e9ee25be28bf"
+      ]
+    },
+    "versionCode": 0
+  },
+  "32479ca6-0d03-489b-8088-45b78ea2bcb8@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/2.png@6c48a",
+    "value": {
+      "depends": [
+        "32479ca6-0d03-489b-8088-45b78ea2bcb8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "67804c93-a4d7-4947-b7c5-203b4af8ba87": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "3d6d3788-bd33-4ae5-81ba-3d824ef9e33d": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "862d1cb1-181e-4019-8c57-57361a6dbd3c@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/4.png@6c48a",
+    "value": {
+      "depends": [
+        "862d1cb1-181e-4019-8c57-57361a6dbd3c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e00dd9a2-5a4f-4806-aafd-0912ad58a95d": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1959e32b-5fc6-4055-9633-8b1c1c345a2b@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Idle/5.png@6c48a",
+    "value": {
+      "depends": [
+        "1959e32b-5fc6-4055-9633-8b1c1c345a2b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5f8b1e31-f100-48b8-b259-8c7ee0447dc1": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "3d6d3788-bd33-4ae5-81ba-3d824ef9e33d@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/2.png@6c48a",
+    "value": {
+      "depends": [
+        "3d6d3788-bd33-4ae5-81ba-3d824ef9e33d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fc98da6a-b1f7-4773-817c-254e37ca5050": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "67804c93-a4d7-4947-b7c5-203b4af8ba87@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/1.png@6c48a",
+    "value": {
+      "depends": [
+        "67804c93-a4d7-4947-b7c5-203b4af8ba87"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7c11dd9f-0fa9-44b3-a2b8-03c299ada498@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/0.png@6c48a",
+    "value": {
+      "depends": [
+        "7c11dd9f-0fa9-44b3-a2b8-03c299ada498"
+      ]
+    },
+    "versionCode": 0
+  },
+  "750a3791-4e16-4d3d-b100-e84609c3f38f": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "71af17ae-dce5-44ed-95a6-20dab9f86130": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/7.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e00dd9a2-5a4f-4806-aafd-0912ad58a95d@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/3.png@6c48a",
+    "value": {
+      "depends": [
+        "e00dd9a2-5a4f-4806-aafd-0912ad58a95d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "15b16bde-b639-44c5-8374-0fb9848542cb": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5f8b1e31-f100-48b8-b259-8c7ee0447dc1@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/4.png@6c48a",
+    "value": {
+      "depends": [
+        "5f8b1e31-f100-48b8-b259-8c7ee0447dc1"
+      ]
+    },
+    "versionCode": 0
+  },
+  "52de256a-2015-4957-a77f-40abe5afb7d8": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "15b16bde-b639-44c5-8374-0fb9848542cb@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/0.png@6c48a",
+    "value": {
+      "depends": [
+        "15b16bde-b639-44c5-8374-0fb9848542cb"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f65aa648-e852-4118-a9c9-28c5cd49d692": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "fc98da6a-b1f7-4773-817c-254e37ca5050@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/5.png@6c48a",
+    "value": {
+      "depends": [
+        "fc98da6a-b1f7-4773-817c-254e37ca5050"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a04e8805-3129-4530-8e64-41a41a2d1442": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "71af17ae-dce5-44ed-95a6-20dab9f86130@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/7.png@6c48a",
+    "value": {
+      "depends": [
+        "71af17ae-dce5-44ed-95a6-20dab9f86130"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b6e1cfaa-0416-4adf-a2fe-60e2d305528c": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "750a3791-4e16-4d3d-b100-e84609c3f38f@6c48a": {
+    "url": "db://assets/Resources/Character_cutted/male/Wizard/Wizard_Run/6.png@6c48a",
+    "value": {
+      "depends": [
+        "750a3791-4e16-4d3d-b100-e84609c3f38f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a37f880d-171f-40e0-a22f-f77ef18c5d0c": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "52de256a-2015-4957-a77f-40abe5afb7d8@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/1.png@6c48a",
+    "value": {
+      "depends": [
+        "52de256a-2015-4957-a77f-40abe5afb7d8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "098be66d-28f5-404f-b25e-d31d5fdf2671": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f65aa648-e852-4118-a9c9-28c5cd49d692@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/2.png@6c48a",
+    "value": {
+      "depends": [
+        "f65aa648-e852-4118-a9c9-28c5cd49d692"
+      ]
+    },
+    "versionCode": 0
+  },
+  "54f32098-a6e8-45ea-a399-652e82119084": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a04e8805-3129-4530-8e64-41a41a2d1442@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Dead/3.png@6c48a",
+    "value": {
+      "depends": [
+        "a04e8805-3129-4530-8e64-41a41a2d1442"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b6e1cfaa-0416-4adf-a2fe-60e2d305528c@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/0.png@6c48a",
+    "value": {
+      "depends": [
+        "b6e1cfaa-0416-4adf-a2fe-60e2d305528c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "205772db-8cff-400c-8ba2-a96376680890": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "49ec36d6-dbc7-4b31-8cae-9e587db8a063": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a37f880d-171f-40e0-a22f-f77ef18c5d0c@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/1.png@6c48a",
+    "value": {
+      "depends": [
+        "a37f880d-171f-40e0-a22f-f77ef18c5d0c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f4bc7c01-3ff4-4f08-8cc6-9e054585e362": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "098be66d-28f5-404f-b25e-d31d5fdf2671@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/2.png@6c48a",
+    "value": {
+      "depends": [
+        "098be66d-28f5-404f-b25e-d31d5fdf2671"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6059489c-7c53-4670-9520-9c2f01e62a4e": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "54f32098-a6e8-45ea-a399-652e82119084@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/3.png@6c48a",
+    "value": {
+      "depends": [
+        "54f32098-a6e8-45ea-a399-652e82119084"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0befaeb7-926d-40a3-a0f7-f149c2ef3fed": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "49ec36d6-dbc7-4b31-8cae-9e587db8a063@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/5.png@6c48a",
+    "value": {
+      "depends": [
+        "49ec36d6-dbc7-4b31-8cae-9e587db8a063"
+      ]
+    },
+    "versionCode": 0
+  },
+  "205772db-8cff-400c-8ba2-a96376680890@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Idle/4.png@6c48a",
+    "value": {
+      "depends": [
+        "205772db-8cff-400c-8ba2-a96376680890"
+      ]
+    },
+    "versionCode": 0
+  },
+  "84a0b8e0-de39-4e52-9c8a-fc4e8a2d61ea": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c99d0d60-12f6-48a0-9e69-0563bb517d6c": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f4bc7c01-3ff4-4f08-8cc6-9e054585e362@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/0.png@6c48a",
+    "value": {
+      "depends": [
+        "f4bc7c01-3ff4-4f08-8cc6-9e054585e362"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9371aeb8-84a7-4832-a758-94fe16132e7d": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "6059489c-7c53-4670-9520-9c2f01e62a4e@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/1.png@6c48a",
+    "value": {
+      "depends": [
+        "6059489c-7c53-4670-9520-9c2f01e62a4e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "36352a6c-9fea-473a-8229-7b9708d246d2": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "84a0b8e0-de39-4e52-9c8a-fc4e8a2d61ea@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/3.png@6c48a",
+    "value": {
+      "depends": [
+        "84a0b8e0-de39-4e52-9c8a-fc4e8a2d61ea"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0befaeb7-926d-40a3-a0f7-f149c2ef3fed@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/2.png@6c48a",
+    "value": {
+      "depends": [
+        "0befaeb7-926d-40a3-a0f7-f149c2ef3fed"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e4d1163d-53c7-422c-813b-0090444cb487": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "22e1067a-c4fe-4c06-8ab5-0fed63e915bf": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c99d0d60-12f6-48a0-9e69-0563bb517d6c@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/4.png@6c48a",
+    "value": {
+      "depends": [
+        "c99d0d60-12f6-48a0-9e69-0563bb517d6c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d861066c-7057-40e0-80fe-3c69e6bc2e93": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9371aeb8-84a7-4832-a758-94fe16132e7d@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/5.png@6c48a",
+    "value": {
+      "depends": [
+        "9371aeb8-84a7-4832-a758-94fe16132e7d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "85d7c3ee-7bc6-4e31-abb8-94b90cb6face": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "36352a6c-9fea-473a-8229-7b9708d246d2@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Knight/Knight_Run/6.png@6c48a",
+    "value": {
+      "depends": [
+        "36352a6c-9fea-473a-8229-7b9708d246d2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d8a8c028-c119-464b-bf4e-b39429783903": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e4d1163d-53c7-422c-813b-0090444cb487@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/0.png@6c48a",
+    "value": {
+      "depends": [
+        "e4d1163d-53c7-422c-813b-0090444cb487"
+      ]
+    },
+    "versionCode": 0
+  },
+  "11330d2a-5f71-4027-88bc-fe1fe50b68b0": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "22e1067a-c4fe-4c06-8ab5-0fed63e915bf@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/1.png@6c48a",
+    "value": {
+      "depends": [
+        "22e1067a-c4fe-4c06-8ab5-0fed63e915bf"
+      ]
+    },
+    "versionCode": 0
+  },
+  "343dbaad-1974-4464-9d56-5fced8dca9a6": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d861066c-7057-40e0-80fe-3c69e6bc2e93@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/2.png@6c48a",
+    "value": {
+      "depends": [
+        "d861066c-7057-40e0-80fe-3c69e6bc2e93"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bf2f029a-ba68-4fc8-8051-5b98dc774d61": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "85d7c3ee-7bc6-4e31-abb8-94b90cb6face@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Dead/3.png@6c48a",
+    "value": {
+      "depends": [
+        "85d7c3ee-7bc6-4e31-abb8-94b90cb6face"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c60c90d8-1dc1-4df2-9ce0-71663524f425": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d8a8c028-c119-464b-bf4e-b39429783903@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/0.png@6c48a",
+    "value": {
+      "depends": [
+        "d8a8c028-c119-464b-bf4e-b39429783903"
+      ]
+    },
+    "versionCode": 0
+  },
+  "869e3a1e-a9ea-4e36-8bda-30b34d88a5ad": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "11330d2a-5f71-4027-88bc-fe1fe50b68b0@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/1.png@6c48a",
+    "value": {
+      "depends": [
+        "11330d2a-5f71-4027-88bc-fe1fe50b68b0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6468da4e-d5af-4a44-8ad9-e604e5172744": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "343dbaad-1974-4464-9d56-5fced8dca9a6@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/2.png@6c48a",
+    "value": {
+      "depends": [
+        "343dbaad-1974-4464-9d56-5fced8dca9a6"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d498a9ef-9a05-4be7-b2e7-394749299a39": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "bf2f029a-ba68-4fc8-8051-5b98dc774d61@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/3.png@6c48a",
+    "value": {
+      "depends": [
+        "bf2f029a-ba68-4fc8-8051-5b98dc774d61"
+      ]
+    },
+    "versionCode": 0
+  },
+  "058abab2-e3cf-419e-a784-6a4537024086": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c60c90d8-1dc1-4df2-9ce0-71663524f425@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Idle/4.png@6c48a",
+    "value": {
+      "depends": [
+        "c60c90d8-1dc1-4df2-9ce0-71663524f425"
+      ]
+    },
+    "versionCode": 0
+  },
+  "62fb3333-acc7-4088-b322-1678dea7740a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "869e3a1e-a9ea-4e36-8bda-30b34d88a5ad@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/0.png@6c48a",
+    "value": {
+      "depends": [
+        "869e3a1e-a9ea-4e36-8bda-30b34d88a5ad"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1a138118-9a76-4132-9f99-84dfff8764d3": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d498a9ef-9a05-4be7-b2e7-394749299a39@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/2.png@6c48a",
+    "value": {
+      "depends": [
+        "d498a9ef-9a05-4be7-b2e7-394749299a39"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6468da4e-d5af-4a44-8ad9-e604e5172744@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/1.png@6c48a",
+    "value": {
+      "depends": [
+        "6468da4e-d5af-4a44-8ad9-e604e5172744"
+      ]
+    },
+    "versionCode": 0
+  },
+  "debe690c-16c7-4e99-ae31-20f69096ffba": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "dffe6f3d-1799-4d12-9061-39e54e9f6b5a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/7.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "058abab2-e3cf-419e-a784-6a4537024086@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/3.png@6c48a",
+    "value": {
+      "depends": [
+        "058abab2-e3cf-419e-a784-6a4537024086"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ec320829-a6c2-456a-960d-d2edddc6b2a6": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Dead/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "62fb3333-acc7-4088-b322-1678dea7740a@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/4.png@6c48a",
+    "value": {
+      "depends": [
+        "62fb3333-acc7-4088-b322-1678dea7740a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "04967683-f597-49c2-99f6-603b3f4421e7": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Dead/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1a138118-9a76-4132-9f99-84dfff8764d3@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/5.png@6c48a",
+    "value": {
+      "depends": [
+        "1a138118-9a76-4132-9f99-84dfff8764d3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d51a6ddf-9fec-4a49-8746-e1145f90529d": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Dead/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "debe690c-16c7-4e99-ae31-20f69096ffba@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/6.png@6c48a",
+    "value": {
+      "depends": [
+        "debe690c-16c7-4e99-ae31-20f69096ffba"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5fd28ec9-8c89-4298-99ec-85a26d4fb276": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "dffe6f3d-1799-4d12-9061-39e54e9f6b5a@6c48a": {
+    "url": "db://assets/Resources/charactor/female/Musketeer/Musketeer_Run.png/7.png@6c48a",
+    "value": {
+      "depends": [
+        "dffe6f3d-1799-4d12-9061-39e54e9f6b5a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6bc063a3-0925-4bbc-a3d1-8af0ca07d4b8": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ec320829-a6c2-456a-960d-d2edddc6b2a6@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Dead/0.png@6c48a",
+    "value": {
+      "depends": [
+        "ec320829-a6c2-456a-960d-d2edddc6b2a6"
+      ]
+    },
+    "versionCode": 0
+  },
+  "268cd39a-9ac7-4eb4-8e66-69fd272de525": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "04967683-f597-49c2-99f6-603b3f4421e7@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Dead/1.png@6c48a",
+    "value": {
+      "depends": [
+        "04967683-f597-49c2-99f6-603b3f4421e7"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1cb473c8-8936-4289-b4b3-91395925f6ad": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d51a6ddf-9fec-4a49-8746-e1145f90529d@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Dead/2.png@6c48a",
+    "value": {
+      "depends": [
+        "d51a6ddf-9fec-4a49-8746-e1145f90529d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b25ea097-0039-4668-8dee-7a1ed7cce6ef": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5fd28ec9-8c89-4298-99ec-85a26d4fb276@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/0.png@6c48a",
+    "value": {
+      "depends": [
+        "5fd28ec9-8c89-4298-99ec-85a26d4fb276"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d6613ea8-f0b7-4944-8c58-311733998e09": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "6bc063a3-0925-4bbc-a3d1-8af0ca07d4b8@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/1.png@6c48a",
+    "value": {
+      "depends": [
+        "6bc063a3-0925-4bbc-a3d1-8af0ca07d4b8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "870b5f18-eb5d-4881-97dc-590fe26053d3": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "268cd39a-9ac7-4eb4-8e66-69fd272de525@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/2.png@6c48a",
+    "value": {
+      "depends": [
+        "268cd39a-9ac7-4eb4-8e66-69fd272de525"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ef869f23-2f73-4aba-9a19-992e6a0c4c5d": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/7.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1cb473c8-8936-4289-b4b3-91395925f6ad@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/3.png@6c48a",
+    "value": {
+      "depends": [
+        "1cb473c8-8936-4289-b4b3-91395925f6ad"
+      ]
+    },
+    "versionCode": 0
+  },
+  "08de0d33-3549-44e1-a00a-2f76c4326b1b": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b25ea097-0039-4668-8dee-7a1ed7cce6ef@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/4.png@6c48a",
+    "value": {
+      "depends": [
+        "b25ea097-0039-4668-8dee-7a1ed7cce6ef"
+      ]
+    },
+    "versionCode": 0
+  },
+  "98036911-381c-4f9a-9fab-fb3e6defc2c8": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d6613ea8-f0b7-4944-8c58-311733998e09@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/5.png@6c48a",
+    "value": {
+      "depends": [
+        "d6613ea8-f0b7-4944-8c58-311733998e09"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c4582378-f909-4771-8bd0-f5a94e40c5bc": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "870b5f18-eb5d-4881-97dc-590fe26053d3@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/6.png@6c48a",
+    "value": {
+      "depends": [
+        "870b5f18-eb5d-4881-97dc-590fe26053d3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "db6bd151-4e9c-4acc-ba75-e6ff19e1ce3d": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "ef869f23-2f73-4aba-9a19-992e6a0c4c5d@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Idle/7.png@6c48a",
+    "value": {
+      "depends": [
+        "ef869f23-2f73-4aba-9a19-992e6a0c4c5d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "224a72b4-ac76-42dc-bad8-3f81a51ea650": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "08de0d33-3549-44e1-a00a-2f76c4326b1b@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/0.png@6c48a",
+    "value": {
+      "depends": [
+        "08de0d33-3549-44e1-a00a-2f76c4326b1b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "408e0765-94c1-42b7-b8f6-337dada291b8": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "98036911-381c-4f9a-9fab-fb3e6defc2c8@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/1.png@6c48a",
+    "value": {
+      "depends": [
+        "98036911-381c-4f9a-9fab-fb3e6defc2c8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f6365802-0316-46fe-b874-7d803a364e37": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c4582378-f909-4771-8bd0-f5a94e40c5bc@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/2.png@6c48a",
+    "value": {
+      "depends": [
+        "c4582378-f909-4771-8bd0-f5a94e40c5bc"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b7630b61-58f5-4def-a15a-d872c2ef280c": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/7.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "db6bd151-4e9c-4acc-ba75-e6ff19e1ce3d@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/3.png@6c48a",
+    "value": {
+      "depends": [
+        "db6bd151-4e9c-4acc-ba75-e6ff19e1ce3d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "be71c6e6-bbf6-44bc-a0d0-7d0539910e61": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Dead/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "224a72b4-ac76-42dc-bad8-3f81a51ea650@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/4.png@6c48a",
+    "value": {
+      "depends": [
+        "224a72b4-ac76-42dc-bad8-3f81a51ea650"
+      ]
+    },
+    "versionCode": 0
+  },
+  "95c69f4f-d0e1-47fe-bc7f-5f7355b137b7": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Dead/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "408e0765-94c1-42b7-b8f6-337dada291b8@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/5.png@6c48a",
+    "value": {
+      "depends": [
+        "408e0765-94c1-42b7-b8f6-337dada291b8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "02d5f7a1-db30-4ec6-ba9e-3e2dbe8f118b": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Dead/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f6365802-0316-46fe-b874-7d803a364e37@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/6.png@6c48a",
+    "value": {
+      "depends": [
+        "f6365802-0316-46fe-b874-7d803a364e37"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c31609d5-5dd8-43fa-9baa-cf92a6d9fe27": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Dead/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "b7630b61-58f5-4def-a15a-d872c2ef280c@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Swordsman/Swordsman_Run/7.png@6c48a",
+    "value": {
+      "depends": [
+        "b7630b61-58f5-4def-a15a-d872c2ef280c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "729ba3a9-7b72-4b0a-9269-03d011f8b548": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "be71c6e6-bbf6-44bc-a0d0-7d0539910e61@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Dead/0.png@6c48a",
+    "value": {
+      "depends": [
+        "be71c6e6-bbf6-44bc-a0d0-7d0539910e61"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5c0a93c3-d5f9-498a-b2f6-04249194c02d": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "95c69f4f-d0e1-47fe-bc7f-5f7355b137b7@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Dead/1.png@6c48a",
+    "value": {
+      "depends": [
+        "95c69f4f-d0e1-47fe-bc7f-5f7355b137b7"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fe84e29c-10fa-4543-869c-734e29ea09b4": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "02d5f7a1-db30-4ec6-ba9e-3e2dbe8f118b@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Dead/2.png@6c48a",
+    "value": {
+      "depends": [
+        "02d5f7a1-db30-4ec6-ba9e-3e2dbe8f118b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fd798be8-8b04-4637-9cba-73df05f69854": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "729ba3a9-7b72-4b0a-9269-03d011f8b548@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/0.png@6c48a",
+    "value": {
+      "depends": [
+        "729ba3a9-7b72-4b0a-9269-03d011f8b548"
+      ]
+    },
+    "versionCode": 0
+  },
+  "6afabf1b-9957-4ba3-9820-b4245809129e": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "c31609d5-5dd8-43fa-9baa-cf92a6d9fe27@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Dead/3.png@6c48a",
+    "value": {
+      "depends": [
+        "c31609d5-5dd8-43fa-9baa-cf92a6d9fe27"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e55a5971-68d4-421a-ace3-d35687407b35": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5c0a93c3-d5f9-498a-b2f6-04249194c02d@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/1.png@6c48a",
+    "value": {
+      "depends": [
+        "5c0a93c3-d5f9-498a-b2f6-04249194c02d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9fcf709e-6f02-40dc-90eb-0502387a630f": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/0.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "fe84e29c-10fa-4543-869c-734e29ea09b4@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/2.png@6c48a",
+    "value": {
+      "depends": [
+        "fe84e29c-10fa-4543-869c-734e29ea09b4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1b8e4d80-2e3c-48ce-ae58-cda20d2b2268": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "fd798be8-8b04-4637-9cba-73df05f69854@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/3.png@6c48a",
+    "value": {
+      "depends": [
+        "fd798be8-8b04-4637-9cba-73df05f69854"
+      ]
+    },
+    "versionCode": 0
+  },
+  "77f33cb7-e727-49b3-a23f-a2ac9d60b529": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "6afabf1b-9957-4ba3-9820-b4245809129e@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/4.png@6c48a",
+    "value": {
+      "depends": [
+        "6afabf1b-9957-4ba3-9820-b4245809129e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1c957712-8632-4b15-b7e6-fdd43d5f1af0": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e55a5971-68d4-421a-ace3-d35687407b35@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Idle/5.png@6c48a",
+    "value": {
+      "depends": [
+        "e55a5971-68d4-421a-ace3-d35687407b35"
+      ]
+    },
+    "versionCode": 0
+  },
+  "caf7cc08-49c2-44b3-9e5c-7d402d753bd4": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "9fcf709e-6f02-40dc-90eb-0502387a630f@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/0.png@6c48a",
+    "value": {
+      "depends": [
+        "9fcf709e-6f02-40dc-90eb-0502387a630f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "17a6b33a-dced-4c26-99dc-cac4566ec12a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1b8e4d80-2e3c-48ce-ae58-cda20d2b2268@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/1.png@6c48a",
+    "value": {
+      "depends": [
+        "1b8e4d80-2e3c-48ce-ae58-cda20d2b2268"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c64a0460-1dae-4fb5-b055-c4008ee2693f": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "77f33cb7-e727-49b3-a23f-a2ac9d60b529@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/2.png@6c48a",
+    "value": {
+      "depends": [
+        "77f33cb7-e727-49b3-a23f-a2ac9d60b529"
+      ]
+    },
+    "versionCode": 0
+  },
+  "928bf1a9-9ead-45b4-8ace-8146e10d80b0": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/7.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "1c957712-8632-4b15-b7e6-fdd43d5f1af0@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/3.png@6c48a",
+    "value": {
+      "depends": [
+        "1c957712-8632-4b15-b7e6-fdd43d5f1af0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "caf7cc08-49c2-44b3-9e5c-7d402d753bd4@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/4.png@6c48a",
+    "value": {
+      "depends": [
+        "caf7cc08-49c2-44b3-9e5c-7d402d753bd4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "17a6b33a-dced-4c26-99dc-cac4566ec12a@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/5.png@6c48a",
+    "value": {
+      "depends": [
+        "17a6b33a-dced-4c26-99dc-cac4566ec12a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "c64a0460-1dae-4fb5-b055-c4008ee2693f@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/6.png@6c48a",
+    "value": {
+      "depends": [
+        "c64a0460-1dae-4fb5-b055-c4008ee2693f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "928bf1a9-9ead-45b4-8ace-8146e10d80b0@6c48a": {
+    "url": "db://assets/Resources/charactor/male/Wizard/Wizard_Run/7.png@6c48a",
+    "value": {
+      "depends": [
+        "928bf1a9-9ead-45b4-8ace-8146e10d80b0"
       ]
     },
     "versionCode": 0

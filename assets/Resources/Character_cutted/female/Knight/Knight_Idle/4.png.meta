@@ -2,11 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-<<<<<<< HEAD
-  "uuid": "863f8183-1203-4f95-9be7-72f9ebe645fa",
-=======
-  "uuid": "c4bed9b5-cf71-441d-ac00-d522021ed564",
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
+  "uuid": "6017fbf1-5da5-4b72-aec8-471661890c3b",
   "files": [
     ".json",
     ".png"
@@ -14,130 +10,22 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-<<<<<<< HEAD
-      "uuid": "863f8183-1203-4f95-9be7-72f9ebe645fa@6c48a",
-=======
-      "uuid": "c4bed9b5-cf71-441d-ac00-d522021ed564@6c48a",
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
+      "uuid": "6017fbf1-5da5-4b72-aec8-471661890c3b@6c48a",
       "displayName": "4",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "clamp-to-edge",
-        "wrapModeT": "clamp-to-edge",
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-<<<<<<< HEAD
-        "imageUuidOrDatabaseUri": "863f8183-1203-4f95-9be7-72f9ebe645fa",
-=======
-        "imageUuidOrDatabaseUri": "c4bed9b5-cf71-441d-ac00-d522021ed564",
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
+        "imageUuidOrDatabaseUri": "6017fbf1-5da5-4b72-aec8-471661890c3b",
         "visible": false
       },
       "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
-    "f9941": {
-      "importer": "sprite-frame",
-<<<<<<< HEAD
-      "uuid": "863f8183-1203-4f95-9be7-72f9ebe645fa@f9941",
-=======
-      "uuid": "c4bed9b5-cf71-441d-ac00-d522021ed564@f9941",
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
-      "displayName": "4",
-      "id": "f9941",
-      "name": "spriteFrame",
-      "userData": {
-        "trimType": "none",
-        "trimThreshold": 1,
-        "rotated": false,
-        "offsetX": 0,
-        "offsetY": 0,
-        "trimX": 0,
-        "trimY": 0,
-        "width": 128,
-        "height": 128,
-        "rawWidth": 128,
-        "rawHeight": 128,
-        "borderTop": 0,
-        "borderBottom": 0,
-        "borderLeft": 0,
-        "borderRight": 0,
-        "packable": true,
-        "pixelsToUnit": 100,
-        "pivotX": 0.5,
-        "pivotY": 0.5,
-        "meshType": 0,
-        "vertices": {
-          "rawPosition": [
-            -64,
-            -64,
-            0,
-            64,
-            -64,
-            0,
-            -64,
-            64,
-            0,
-            64,
-            64,
-            0
-          ],
-          "indexes": [
-            0,
-            1,
-            2,
-            2,
-            1,
-            3
-          ],
-          "uv": [
-            0,
-            128,
-            128,
-            128,
-            0,
-            0,
-            128,
-            0
-          ],
-          "nuv": [
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            1,
-            1
-          ],
-          "minPos": [
-            -64,
-            -64,
-            0
-          ],
-          "maxPos": [
-            64,
-            64,
-            0
-          ]
-        },
-        "isUuid": true,
-<<<<<<< HEAD
-        "imageUuidOrDatabaseUri": "863f8183-1203-4f95-9be7-72f9ebe645fa@6c48a",
-=======
-        "imageUuidOrDatabaseUri": "c4bed9b5-cf71-441d-ac00-d522021ed564@6c48a",
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
-        "atlasUuid": ""
-      },
-      "ver": "1.0.12",
       "imported": true,
       "files": [
         ".json"
@@ -147,12 +35,8 @@
   },
   "userData": {
     "hasAlpha": true,
-    "type": "sprite-frame",
+    "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-<<<<<<< HEAD
-    "redirect": "863f8183-1203-4f95-9be7-72f9ebe645fa@f9941"
-=======
-    "redirect": "c4bed9b5-cf71-441d-ac00-d522021ed564@f9941"
->>>>>>> c6022765ef0dcea8374c58002986b18d3f5f8626
+    "redirect": "6017fbf1-5da5-4b72-aec8-471661890c3b@6c48a"
   }
 }
