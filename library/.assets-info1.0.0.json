@@ -8372,10 +8372,6 @@
       "time": 1717419702438.8809,
       "uuid": "1911f4c1-566b-4ba6-8710-da802ab5eee3"
     },
-    "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/menu.ts": {
-      "time": 1717156352827.5789,
-      "uuid": "c14c4976-d7bd-474b-b734-2cdcb004c028"
-    },
     "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/signUp.ts": {
       "time": 1717431215099.7014,
       "uuid": "c4860c91-7fe6-4120-8d54-a256798f642a"
@@ -11579,7 +11575,7 @@
       "uuid": "25de3770-3720-4d02-882b-89f274118346"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs": {
-      "time": 1717437905953.1768,
+      "time": 1717495983775.6611,
       "uuid": "7b198bfb-549c-45d7-95dc-5dafa1bc45e7"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources": {
@@ -11587,11 +11583,11 @@
       "uuid": "1e33fc8c-f302-40e0-942d-0f1ab77735c0"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes": {
-      "time": 1717437905956.1853,
+      "time": 1717439143691.9304,
       "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts": {
-      "time": 1717437905958.9473,
+      "time": 1717439835963.037,
       "uuid": "aa56c93b-3412-48f6-b7e7-04f207946720"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Animations\\Knight": {
@@ -12202,16 +12198,12 @@
       "time": 1717431338865.8433,
       "uuid": "6e33bf17-db7f-4cb8-8136-8c79799a4155"
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\menu.ts": {
-      "time": 1717437905958.9473,
-      "uuid": "c14c4976-d7bd-474b-b734-2cdcb004c028"
-    },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\MultiRoom.ts": {
       "time": 1717431338854.7761,
       "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\MultiSelect.ts": {
-      "time": 1717431338854.7761,
+      "time": 1717497017367.8767,
       "uuid": "1d782875-d5d9-447d-8b42-6c785c4e3b29"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\PlayerPrefab.ts": {
@@ -12222,12 +12214,8 @@
       "time": 1717431338863.6035,
       "uuid": "a6217c36-0a5a-4e6d-b98e-be70605fd08c"
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Select.ts": {
-      "time": 1717437905957.4404,
-      "uuid": "cff5eb04-f641-4967-9973-67717a9f2045"
-    },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Setting.ts": {
-      "time": 1717437905957.4404,
+      "time": 1717439882478.4429,
       "uuid": "1911f4c1-566b-4ba6-8710-da802ab5eee3"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\signIn.ts": {
@@ -12745,9 +12733,6 @@
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\CreateUser.ts.meta": {
       "time": 1717431338850.1133
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\menu.ts.meta": {
-      "time": 1717431338866.8481
-    },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\MultiRoom.ts.meta": {
       "time": 1717431338854.7761
     },
@@ -12758,9 +12743,6 @@
       "time": 1717431338855.8215
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Ranking.ts.meta": {
-      "time": 1717431338863.6035
-    },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Select.ts.meta": {
       "time": 1717431338863.6035
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Setting.ts.meta": {
@@ -12954,25 +12936,17 @@
       "time": 1717437905955.1846,
       "uuid": "70774282-0f2c-4340-8714-aa5ba35f0da7"
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Menu.scene": {
-      "time": 1717431338838.9167,
-      "uuid": "b6bfc790-f61d-428b-b5d1-bf55883bb5f1"
-    },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MultiRoom.scene": {
-      "time": 1717431338839.9824,
+      "time": 1717441963168.1038,
       "uuid": "4f582775-4c22-4853-9900-f661cf1f2470"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MultiSelect.scene": {
-      "time": 1717431338840.486,
+      "time": 1717442223139.0417,
       "uuid": "d1e81e9d-ab3a-407d-931f-acb9135b2694"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\ScoreBoard.scene": {
       "time": 1717431338841.6436,
       "uuid": "2911e213-bac8-4bff-ae53-1c723d10b778"
-    },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Select.scene": {
-      "time": 1717437732711.7107,
-      "uuid": "7651f7bc-8e6d-42e8-b513-f4a641220177"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\SelectPlayer.scene": {
       "time": 1717431338842.6445,
@@ -18816,17 +18790,11 @@
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MultiRoom.scene.meta": {
       "time": 1717431338839.9824
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Menu.scene.meta": {
-      "time": 1717431338838.9167
-    },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MultiSelect.scene.meta": {
       "time": 1717431338840.486
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\SelectPlayer.scene.meta": {
       "time": 1717431338843.7039
-    },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Select.scene.meta": {
-      "time": 1717437765467.5688
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\ScoreBoard.scene.meta": {
       "time": 1717431338841.6436
@@ -23975,6 +23943,41 @@
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Map\\map2Source\\Grass_anim\\grassM.psd": {
       "time": 1717437905935.5378,
       "uuid": "94de1c57-3495-4f54-a9ca-41a8f14a5e00"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\login.scene.meta": {
+      "time": 1717431338838.9167
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\login.scene": {
+      "time": 1717438274610.2483,
+      "uuid": "b6bfc790-f61d-428b-b5d1-bf55883bb5f1"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Menu.scene.meta": {
+      "time": 1717437765467.5688
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Menu.scene": {
+      "time": 1717497035680.322,
+      "uuid": "7651f7bc-8e6d-42e8-b513-f4a641220177"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Menu.ts.meta": {
+      "time": 1717431338863.6035
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Menu.ts": {
+      "time": 1717496851122.0051,
+      "uuid": "cff5eb04-f641-4967-9973-67717a9f2045"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\signUp.prefab.meta": {
+      "time": 1717494707495.9563
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\signUp.prefab": {
+      "time": 1717495452075.0474,
+      "uuid": "5474cb52-3b2c-45df-81f9-2ddcf1654d3a"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\signIn.prefab.meta": {
+      "time": 1717495983783.2397
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\signIn.prefab": {
+      "time": 1717496604954.3616,
+      "uuid": "93c38065-3dd5-4dc2-b3b9-0f93571a8566"
     }
   },
   "missing": {
@@ -25869,9 +25872,9 @@
       "removeTime": 1717156283923
     },
     "b6bfc790-f61d-428b-b5d1-bf55883bb5f1": {
-      "path": "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Menu2.scene",
-      "time": 1717238712764.2905,
-      "removeTime": 1717251375006
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Menu.scene",
+      "time": 1717431338838.9167,
+      "removeTime": 1717438274595
     },
     "eafc482f-074d-4f87-be04-c0fb1a1583f3": {
       "path": "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scenes/Select.scene",
@@ -28262,6 +28265,46 @@
       "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Map\\map2Source\\Grass_anim\\grassM03.png",
       "time": 1717437446272.6577,
       "removeTime": 1717437601022
+    },
+    "7651f7bc-8e6d-42e8-b513-f4a641220177": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Select.scene",
+      "time": 1717437732711.7107,
+      "removeTime": 1717438281560
+    },
+    "748fb865-0638-4e9d-a09b-e88c7568eb12": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\Menu-001.scene",
+      "time": 1717438708444.7546,
+      "removeTime": 1717439143702
+    },
+    "c14c4976-d7bd-474b-b734-2cdcb004c028": {
+      "path": "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/Scripts/menu.ts",
+      "time": 1717156352827.5789,
+      "removeTime": 1717439711763
+    },
+    "cff5eb04-f641-4967-9973-67717a9f2045": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Select.ts",
+      "time": 1717438694936.7874,
+      "removeTime": 1717439378717
+    },
+    "1c086a5c-7a46-46dc-845b-43c4e4ca8162": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Select.ts",
+      "time": 1717439808053.9788,
+      "removeTime": 1717439835971
+    },
+    "5474cb52-3b2c-45df-81f9-2ddcf1654d3a": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\signIn.prefab",
+      "time": 1717493522935.8398,
+      "removeTime": 1717494707481
+    },
+    "4ae4dee6-2c25-45b9-b60a-ed15f3bf61b6": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\signIn.prefab",
+      "time": 1717494952583.415,
+      "removeTime": 1717495979148
+    },
+    "93c38065-3dd5-4dc2-b3b9-0f93571a8566": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\signUp-001.prefab",
+      "time": 1717495974614.708,
+      "removeTime": 1717495983777
     }
   }
 }

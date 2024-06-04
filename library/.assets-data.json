@@ -20372,7 +20372,7 @@
     "versionCode": 0
   },
   "b6bfc790-f61d-428b-b5d1-bf55883bb5f1": {
-    "url": "db://assets/Scenes/Menu.scene",
+    "url": "db://assets/Scenes/login.scene",
     "value": {
       "depends": [
         "b6bfc790-f61d-428b-b5d1-bf55883bb5f1",
@@ -22814,20 +22814,21 @@
     "versionCode": 0
   },
   "7651f7bc-8e6d-42e8-b513-f4a641220177": {
-    "url": "db://assets/Scenes/Select.scene",
+    "url": "db://assets/Scenes/Menu.scene",
     "value": {
       "depends": [
         "7651f7bc-8e6d-42e8-b513-f4a641220177",
         "772008fa-fb3a-46e4-bbdd-8c430fe5b259@f9941",
+        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
+        "08a956e6-50e0-4d53-940b-200e42a86b89",
         "7f12ac8a-18a3-4599-af9a-ebe6dd0e2d11@f9941",
         "dd354864-fa6f-4ca2-88d6-b8a135038158@f9941",
         "141d60c5-12c5-41f4-a6e5-d081dadedfd6@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
         "5a9134ca-655a-44db-97b1-0dccb5eca206@f9941",
         "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941",
-        "08a956e6-50e0-4d53-940b-200e42a86b89",
-        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+        "93c38065-3dd5-4dc2-b3b9-0f93571a8566",
+        "5474cb52-3b2c-45df-81f9-2ddcf1654d3a"
       ],
       "dependScripts": [
         "cff5eb04-f641-4967-9973-67717a9f2045"
@@ -22904,7 +22905,7 @@
     "versionCode": 0
   },
   "cff5eb04-f641-4967-9973-67717a9f2045": {
-    "url": "db://assets/Scripts/Select.ts",
+    "url": "db://assets/Scripts/Menu.ts",
     "value": {},
     "versionCode": 0
   },
@@ -46785,6 +46786,63 @@
       "depends": [
         "b43a1f3c-4c6f-4b62-990e-b6260e9906e6"
       ]
+    },
+    "versionCode": 0
+  },
+  "748fb865-0638-4e9d-a09b-e88c7568eb12": {
+    "url": "db://assets/Scenes/Menu-001.scene",
+    "value": {},
+    "versionCode": 0
+  },
+  "1c086a5c-7a46-46dc-845b-43c4e4ca8162": {
+    "url": "db://assets/Scripts/Select.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5474cb52-3b2c-45df-81f9-2ddcf1654d3a": {
+    "url": "db://assets/Prefabs/signUp.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "650a8d1c-8449-489a-acf2-4273fe463e82@f9941",
+        "2b3cb424-6817-4e66-9db0-f8cf4f30e06c@f9941",
+        "b37a34fd-7950-43f3-8d03-5f0088842547@f9941",
+        "fa6441a8-4190-47a9-a1ef-3cfb25156ad5@f9941",
+        "dd354864-fa6f-4ca2-88d6-b8a135038158@f9941",
+        "141d60c5-12c5-41f4-a6e5-d081dadedfd6@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
+        "5a9134ca-655a-44db-97b1-0dccb5eca206@f9941",
+        "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "4ae4dee6-2c25-45b9-b60a-ed15f3bf61b6": {
+    "url": "db://assets/Prefabs/signIn.prefab",
+    "value": {},
+    "versionCode": 0
+  },
+  "93c38065-3dd5-4dc2-b3b9-0f93571a8566": {
+    "url": "db://assets/Prefabs/signIn.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "650a8d1c-8449-489a-acf2-4273fe463e82@f9941",
+        "2b3cb424-6817-4e66-9db0-f8cf4f30e06c@f9941",
+        "b37a34fd-7950-43f3-8d03-5f0088842547@f9941",
+        "fa6441a8-4190-47a9-a1ef-3cfb25156ad5@f9941",
+        "dd354864-fa6f-4ca2-88d6-b8a135038158@f9941",
+        "141d60c5-12c5-41f4-a6e5-d081dadedfd6@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
+        "5a9134ca-655a-44db-97b1-0dccb5eca206@f9941",
+        "f99e6112-e619-4a05-baaf-db73e7518b2b@f9941"
+      ],
+      "dependScripts": []
     },
     "versionCode": 0
   }
