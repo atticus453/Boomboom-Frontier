@@ -1,7 +1,7 @@
 import { _decorator, Component, Node, Button, find, director, log, EditBox, Prefab, instantiate, resources, Label, NodeEventType, labelAssembler, macro, AudioSource } from 'cc';
 import { MultiRoom } from './MultiRoom';
 import { Setting } from './Setting';
-import { Select } from './Select';
+import { Menu } from './Menu';
 const { ccclass, property } = _decorator;
 
 @ccclass('MultiSelect')
@@ -174,7 +174,7 @@ export class MultiSelect extends Component {
         this.settingButton.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
         this.settingButton.getComponent(AudioSource).play();
         this.scheduleOnce(() => {
-            Select.backPage = 2;
+            Menu.backPage = 2;
             director.loadScene("Setting");
         }, 0.3);
     }
