@@ -23,7 +23,7 @@ import {
   Color,
   ProgressBar,
   Game,
-  AnimationComponent
+  AnimationComponent,
 } from "cc";
 
 import GlobalManager from "./Manager/GlobalManager";
@@ -80,7 +80,6 @@ export class PlayerPrefab extends Component {
   private playerManager = null;
   private selectedPlayerIndex = 0;
 
-
   public character: string = "Wizard";
 
   // The properties of the bullet
@@ -113,23 +112,19 @@ export class PlayerPrefab extends Component {
     );
 
     this.photonManager = PhotonManager.instance;
-
-    let collider = this.node.getComponent(BoxCollider2D);
+    console.log(this.photonManager.getLoadBalancingClient());
 
     this.isNodePooling = this.playerManager.PoolMode;
     this.initGunNode();
     this.initHealthBarNode();
     this.selectedPlayerIndex = GlobalManager.instance.selectedPlayerIndex;
     //string to number
-
-
-
   }
 
   start() {
     this.handleListener("LOAD");
 
-    if(this.playerIndex === this.selectedPlayerIndex){
+    if (this.playerIndex === this.selectedPlayerIndex) {
       this.node.getChildByName("SelfLabel").active = true;
       console.log("Player", this.playerIndex, "is selected");
       console.log("Player selected is ", this.selectedPlayerIndex);
@@ -139,14 +134,16 @@ export class PlayerPrefab extends Component {
     }
 
     this.animation = this.node.getComponent(AnimationComponent);
-    if(this.dirX === 0 && this.dirY === 0) {
-        this.animation.play(this.character+"_Idle");
+    if (this.dirX === 0 && this.dirY === 0) {
+      this.animation.play(this.character + "_Idle");
     }
-
 
     PlayerPrefab.itemBar = instantiate(this.itemPrefab);
     PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
     find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
+
+    console.log(this.photonManager.getLoadBalancingClient().myRoom());
+    console.log(this.photonManager.getLoadBalancingClient().isJoinedToRoom());
   }
 
   onDestroy() {
@@ -154,27 +151,26 @@ export class PlayerPrefab extends Component {
   }
 
   update(deltaTime: number) {
-
-    if(this.playerIndex === this.selectedPlayerIndex){
+    if (this.playerIndex === this.selectedPlayerIndex) {
       //console.log("this player index is" + this.playerIndex + "selected player index is" + this.selectedPlayerIndex);
       let playerBody = this.node.getComponent(RigidBody2D);
       if (playerBody) {
         this.handlePlayerPosition();
         this.sendPosition();
-  
+
         if (this.isShooting) {
           this.shootInterval -= deltaTime;
           if (this.shootInterval <= 0) {
             this.handlePlayerShoot();
             this.shootInterval = this.fireRate;
           }
-        }else {
+        } else {
           let playerBody = this.node.getComponent(RigidBody2D);
           if (playerBody) {
             this.handlePlayerPosition();
           }
         }
-  
+
         if (this.curItem === 0) {
           PlayerPrefab.itemBar
             .getChildByPath("Weapon/WeaponBack")
@@ -209,7 +205,6 @@ export class PlayerPrefab extends Component {
       }
     }
     this.updateHealthBar();
-
   }
 
   updateHealthBar() {
@@ -220,10 +215,7 @@ export class PlayerPrefab extends Component {
     } catch (error) {
       console.log("Health Bar Node not found");
     }
-    
   }
-
-
 
   initGunNode() {
     this.gunNode = instantiate(this.weapon_5);
@@ -234,20 +226,12 @@ export class PlayerPrefab extends Component {
 
   initHealthBarNode() {
     this.healthBarNode = this.node.getChildByName("HealthBar");
-     // player position + offset
-    //this.healthBarNode.setPosition(this.node.position.x, this.node.position.y);
   }
-
-  // initGunNode() {
-  //   this.gunNode = instantiate(this.weapon_5);
-  //   this.gunNode.parent = this.node;
-  //   this.gunNode.name = "Gun";
-  //   this.gunNode.setPosition(0, -40);
-  // }
 
   sendPosition() {
     const position = this.node.position;
-    if (this.photonManager) {
+
+    if (this.photonManager.getLoadBalancingClient().isJoinedToRoom()) {
       this.photonManager.sendEvent(1, {
         x: position.x,
         y: position.y,
@@ -282,7 +266,7 @@ export class PlayerPrefab extends Component {
   handlePlayerShoot() {
     // First create a bullet
     let bullet = null;
-    if(this.playerIndex === this.selectedPlayerIndex) this.sendShootEvent();
+    if (this.playerIndex === this.selectedPlayerIndex) this.sendShootEvent();
     if (this.isNodePooling) bullet = this.playerManager.createBullet();
     else bullet = instantiate(this.bulletPrefab);
 
@@ -339,19 +323,20 @@ export class PlayerPrefab extends Component {
     otherCollider: Collider2D,
     contact: IPhysics2DContact
   ) {
-
-
-    if (otherCollider.node.name === "Bullet" && this.playerIndex === this.selectedPlayerIndex) {
+    if (
+      otherCollider.node.name === "Bullet" &&
+      this.playerIndex === this.selectedPlayerIndex
+    ) {
       this.updateHealth(-10);
       this.sendUpdateHealth(-10);
-    } 
+    }
   }
 
   updateHealth(amount: number) {
     this.health += amount;
     console.log(`Health updated: ${this.health}`);
-    if(this.health <= 0){
-      console.log("Player", this.playerIndex,"is dead");
+    if (this.health <= 0) {
+      console.log("Player", this.playerIndex, "is dead");
       //this.node.destroy();
     } else {
       // --Waiting For Change--
@@ -359,8 +344,6 @@ export class PlayerPrefab extends Component {
       //this.node.setScale(this.health / 100, 1);
     }
   }
-
-
 
   // The function to handle the listener
   // Use "LOAD" to open the listener
@@ -409,27 +392,27 @@ export class PlayerPrefab extends Component {
       case KeyCode.KEY_W:
         this.dirY = 1;
         this.preDir = "UP";
-        this.animation.play(this.character+"_Run");
+        this.animation.play(this.character + "_Run");
         // console.log("up");
         break;
       case KeyCode.KEY_S:
         this.dirY = -1;
         this.preDir = "DOWN";
-        this.animation.play(this.character+"_Run");
+        this.animation.play(this.character + "_Run");
         // console.log("down");
         break;
       case KeyCode.KEY_A:
         this.dirX = -1;
         this.preDir = "LEFT";
         this.sendFaceDirection();
-        this.animation.play(this.character+"_Run");
+        this.animation.play(this.character + "_Run");
         // console.log("left");
         break;
       case KeyCode.KEY_D:
         this.dirX = 1;
         this.preDir = "RIGHT";
         this.sendFaceDirection();
-        this.animation.play(this.character+"_Run");
+        this.animation.play(this.character + "_Run");
         // console.log("right");
         break;
       case KeyCode.KEY_K:
@@ -459,8 +442,8 @@ export class PlayerPrefab extends Component {
         this.isShooting = false;
         break;
     }
-    if(this.dirX === 0 && this.dirY === 0) {
-        this.animation.play(this.character+"_Idle");
+    if (this.dirX === 0 && this.dirY === 0) {
+      this.animation.play(this.character + "_Idle");
     }
   }
 
@@ -511,29 +494,29 @@ export class PlayerPrefab extends Component {
 
   sendUpdateHealth(damage: number) {
     if (this.photonManager) {
-      this.photonManager.sendEvent(2, { // 假设 '2' 是更新血量的事件代码
+      this.photonManager.sendEvent(2, {
+        // 假设 '2' 是更新血量的事件代码
         PlayerIndex: this.playerIndex,
-        Damage: damage
+        Damage: damage,
       });
     }
   }
 
-
   sendFaceDirection() {
     const photonManager = find("Canvas").getComponent("PhotonManager");
-    if (this.photonManager ) {
+    if (this.photonManager) {
       this.photonManager.sendEvent(5, {
         PlayerIndex: this.playerIndex,
         face: this.node.scale.x,
       });
-
     }
-}
+  }
 
   //send Shoot Event
   sendShootEvent() {
     if (this.photonManager) {
-      this.photonManager.sendEvent(3, { // 假设 '3' 是射击的事件代码
+      this.photonManager.sendEvent(3, {
+        // 假设 '3' 是射击的事件代码
         PlayerIndex: this.playerIndex,
       });
       console.log("Send Shoot Event");

@@ -199,7 +199,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 496.8637532133676,
+    "_orthoHeight": 360,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -561,8 +561,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 533.5827040488432,
-      "height": 126
+      "width": 533.5624254298509,
+      "height": 125.99999999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -594,7 +594,7 @@
     "_string": "ROOM NAME",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 121.5625,
+    "_actualFontSize": 132.77777777777777,
     "_fontSize": 100,
     "_fontFamily": "Arial",
     "_lineHeight": 0,
@@ -1073,7 +1073,7 @@
     "_string": "START",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 72.9375,
+    "_actualFontSize": 79.66666666666666,
     "_fontSize": 60,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -1388,7 +1388,7 @@
     "_string": "MAP",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 72.9375,
+    "_actualFontSize": 79.66666666666666,
     "_fontSize": 60,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -2677,7 +2677,7 @@
     "_string": "",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 24.3125,
+    "_actualFontSize": 26.555555555555554,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,

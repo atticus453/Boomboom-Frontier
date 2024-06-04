@@ -23,76 +23,53 @@ import { PlayerPrefab } from "../PlayerPrefab";
 
 @ccclass("PhotonManager")
 export default class PhotonManager extends Component {
-  @property(String)
-  appId: string = "db787735-3afa-454d-804f-04814bf4b429"; // Photon Application ID
+  static appId: string = "db787735-3afa-454d-804f-04814bf4b429"; // Photon Application ID
 
-  @property(String)
-  appVersion: string = "1.0"; // Photon Application Version
+  public appVersion: string = "1.0"; // Photon Application Version
 
-  @property({ type: String })
-  region: string = "us"; // Photon Server Region
+  public region: string = "us"; // Photon Server Region
 
-  @property(EditBox)
-  roomNameInput: EditBox = null;
+  static loadBalancingClient: Photon.LoadBalancing.LoadBalancingClient = null;
 
-  @property(Button)
-  createRoomButton: Button = null;
-
-  @property(Button)
-  joinRoomButton: Button = null;
-
-  private loadBalancingClient: Photon.LoadBalancing.LoadBalancingClient = null;
-
-  static instance: PhotonManager;;
-
-  // private constructor() {
-  //   super();
-  //   // Prevent direct instantiation
-  // }
-
-  // public static get instance(): PhotonManager {
-  //   if (!PhotonManager._instance) {
-  //     const node = new Node("PhotonManager");
-  //     PhotonManager._instance = node.addComponent(PhotonManager);
-  //     find("Canvas").addChild(node); // 将 PhotonManager 节点添加到 Canvas
-  //   }
-  //   return PhotonManager._instance;
-  // }
+  static instance: PhotonManager;
 
   onLoad() {
-    PhotonManager.instance = this;
     this.initializePhoton();
-    console.log("PhotonManager loaded");
-    this.createRoomButton.node.on("click", this.onCreateRoomClicked, this);
-    this.joinRoomButton.node.on("click", this.onJoinRoomClicked, this);
+    PhotonManager.instance = this;
   }
 
   initializePhoton() {
-    this.loadBalancingClient = new Photon.LoadBalancing.LoadBalancingClient(
-      Photon.ConnectionProtocol.Wss,
-      this.appId,
-      this.appVersion
-    );
+    if (PhotonManager.loadBalancingClient === null) {
+      PhotonManager.loadBalancingClient =
+        new Photon.LoadBalancing.LoadBalancingClient(
+          Photon.ConnectionProtocol.Wss,
+          PhotonManager.appId,
+          this.appVersion
+        );
 
-    if (this.loadBalancingClient) {
-      console.log("Photon LoadBalancingClient initialized");
+      if (PhotonManager.loadBalancingClient) {
+        console.log("Photon LoadBalancingClient initialized");
+      }
+
+      // PhotonManager.loadBalancingClient.setLogger(this.logger);
+      PhotonManager.loadBalancingClient.onStateChange =
+        this.onStateChange.bind(this);
+      PhotonManager.loadBalancingClient.onEvent = this.onEvent.bind(this);
+      PhotonManager.loadBalancingClient.onError = this.onError.bind(this);
+      PhotonManager.loadBalancingClient.onRoomListUpdate =
+        this.onRoomListUpdate.bind(this);
+      PhotonManager.loadBalancingClient.onJoinRoom = this.onJoinRoom.bind(this);
+      PhotonManager.loadBalancingClient.onActorJoin =
+        this.onActorJoin.bind(this);
+      PhotonManager.loadBalancingClient.onActorLeave =
+        this.onActorLeave.bind(this);
+      this.connect();
     }
-
-    // this.loadBalancingClient.setLogger(this.logger);
-    this.loadBalancingClient.onStateChange = this.onStateChange.bind(this);
-    this.loadBalancingClient.onEvent = this.onEvent.bind(this);
-    this.loadBalancingClient.onError = this.onError.bind(this);
-    this.loadBalancingClient.onRoomListUpdate =
-      this.onRoomListUpdate.bind(this);
-    this.loadBalancingClient.onJoinRoom = this.onJoinRoom.bind(this);
-    this.loadBalancingClient.onActorJoin = this.onActorJoin.bind(this);
-    this.loadBalancingClient.onActorLeave = this.onActorLeave.bind(this);
-    this.connect();
   }
 
   connect() {
     try {
-      this.loadBalancingClient.connectToRegionMaster(this.region);
+      PhotonManager.loadBalancingClient.connectToRegionMaster(this.region);
       console.log("Photon connected to region:", this.region);
     } catch (error) {
       // this.logger.error("Error:", error);
@@ -100,50 +77,39 @@ export default class PhotonManager extends Component {
     }
   }
 
-  createRoom(roomName: string) {
+  createRoom(roomName: string): boolean {
     const options = {
       isVisible: true,
       isOpen: true,
       maxPlayers: 4,
     };
-    this.loadBalancingClient.createRoom(roomName, options);
+    const res = PhotonManager.loadBalancingClient.createRoom(roomName, options);
+    console.log("Room created:", res);
+    return res;
   }
 
-  onCreateRoomClicked() {
-    const roomName = this.roomNameInput.string;
-    if (roomName) {
-      this.createRoom(roomName);
-    } else {
-      console.log("Please enter a room name.");
-      // Optionally show this message on the UI
-    }
-  }
-
-  onJoinRoomClicked() {
-    const roomName = this.roomNameInput.string;
-    if (roomName) {
-      this.joinRoom(roomName);
-    } else {
-      console.log("Please enter a room name.");
-      // Optionally show this message on the UI
-    }
-  }
-
-  joinRoom(roomName: string) {
+  joinRoom(roomName: string): boolean {
     const joinOptions = {
       createIfNotExists: false, // Don't create room if it doesn't exist
       rejoin: false, // Don't rejoin after disconnect
     };
 
-    this.loadBalancingClient.joinRoom(roomName, joinOptions, undefined, {
-      onJoinRoom: () => {
-        console.log("Successfully joined room:", roomName);
-      },
-      onError: (errorCode, errorMessage) => {
-        console.log("Failed to join room:", errorCode, errorMessage);
-        // Implement UI feedback or alternative actions here
-      },
-    });
+    const res = PhotonManager.loadBalancingClient.joinRoom(
+      roomName,
+      joinOptions,
+      undefined,
+      {
+        onJoinRoom: () => {
+          console.log("Successfully joined room:", roomName);
+        },
+        onError: (errorCode, errorMessage) => {
+          console.log("Failed to join room:", errorCode, errorMessage);
+          // Implement UI feedback or alternative actions here
+        },
+      }
+    );
+
+    return res;
   }
 
   onStateChange(state: number) {
@@ -191,20 +157,23 @@ export default class PhotonManager extends Component {
   }
 
   // joinRoom(roomName: string) {
-  //     this.loadBalancingClient.joinRoom(roomName);
+  //     PhotonManager.loadBalancingClient.joinRoom(roomName);
   // }
 
   leaveRoom() {
-    this.loadBalancingClient.leaveRoom();
+    PhotonManager.loadBalancingClient.leaveRoom();
   }
 
   sendEvent(eventCode: number, data: any) {
     // Ensure the loadBalancingClient is initialized and connected before trying to send events
-    if (this.loadBalancingClient && this.loadBalancingClient.isJoinedToRoom()) {
+    if (
+      PhotonManager.loadBalancingClient &&
+      PhotonManager.loadBalancingClient.isJoinedToRoom()
+    ) {
       try {
         // Sending the event to all other players in the room
         // raiseEvent(eventCode: number, data: any, options: RaiseEventOptions)
-        this.loadBalancingClient.raiseEvent(eventCode, data, {
+        PhotonManager.loadBalancingClient.raiseEvent(eventCode, data, {
           // Targets.MasterClient can be used if you want to send data to only the master client
           // For this example, we'll broadcast to everyone including the sender
           target: Photon.LoadBalancing.Constants.ReceiverGroup.Others,
@@ -230,11 +199,9 @@ export default class PhotonManager extends Component {
       this.updatePlayerHealth(content);
     } else if (code === 3) {
       this.handleShootEvent(content);
-    } else if (code === 5){
+    } else if (code === 5) {
       this.updatePlayerFace(content);
     }
-
-  
   }
 
   updatePlayerPosition(content: any) {
@@ -244,10 +211,12 @@ export default class PhotonManager extends Component {
     );
     if (playerNode) {
       playerNode.setPosition(
-        new Vec3(content.x, content.y,playerNode.position.z)
+        new Vec3(content.x, content.y, playerNode.position.z)
       ); // 假设 z 坐标不变
       playerNode.getComponent(PlayerPrefab).angle = content.angle;
-      playerNode.getComponent(PlayerPrefab).gunNode.setRotationFromEuler(0, 0, content.angle);
+      playerNode
+        .getComponent(PlayerPrefab)
+        .gunNode.setRotationFromEuler(0, 0, content.angle);
       //playerNode.setScale(content.face ,1);
     } else {
       console.log("Player node not found for index: ", content.PlayerIndex);
@@ -259,8 +228,7 @@ export default class PhotonManager extends Component {
       `Canvas/map1/ZorderByY/Player${content.PlayerIndex}`
     );
     if (playerNode) {
-      playerNode.setScale(((content.face)*-1) ,1);
-  
+      playerNode.setScale(content.face * -1, 1);
     } else {
       console.log("Player node not found for index: ", content.PlayerIndex);
     }
@@ -268,9 +236,7 @@ export default class PhotonManager extends Component {
 
   updatePlayerHealth(content: any) {
     // 使用 content 中的 selectedIndex 来找到对应的玩家节点d
-    const playerManagerNode = find(
-      `Canvas/PlayerManager`
-    );
+    const playerManagerNode = find(`Canvas/PlayerManager`);
     if (playerManagerNode) {
       const playerManager = playerManagerNode.getComponent(PlayerManager);
       if (playerManager) {
@@ -280,14 +246,16 @@ export default class PhotonManager extends Component {
   }
 
   handleShootEvent(content: any) {
-    const playerManagerNode = find(
-      `Canvas/PlayerManager`
-    );
+    const playerManagerNode = find(`Canvas/PlayerManager`);
     if (playerManagerNode) {
       const playerManager = playerManagerNode.getComponent(PlayerManager);
       if (playerManager) {
         playerManager.handlePlayerShoot(content.PlayerIndex);
       }
     }
+  }
+
+  getLoadBalancingClient() {
+    return PhotonManager.loadBalancingClient;
   }
 }

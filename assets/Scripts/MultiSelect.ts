@@ -222,10 +222,12 @@ export class MultiSelect extends Component {
 
     // if room isnt exist, create room by photon
     // else join room
-    try {
+    // if (!PhotonManager.instance.joinRoom(roomName)) {
+    //   PhotonManager.instance.createRoom(roomName);
+    // }
+    if (userList[1] == user.uid) {
       PhotonManager.instance.createRoom(roomName);
-    } catch (error) {
-      console.log(error);
+    } else {
       PhotonManager.instance.joinRoom(roomName);
     }
 
