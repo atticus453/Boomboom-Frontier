@@ -24,12 +24,15 @@ import {
   ProgressBar,
   Game,
   AnimationComponent,
+  AudioSource,
+  AudioClip
 } from "cc";
 
 import GlobalManager from "./Manager/GlobalManager";
 import { PlayerManager } from "./Manager/PlayerManager";
 import PhotonManager from "./Manager/PhotonManager";
 import GameManager from "./Manager/GameManager";
+import { Setting } from "./Setting";
 
 const { ccclass, property } = _decorator;
 
@@ -46,6 +49,7 @@ export class PlayerPrefab extends Component {
 
   @property({ type: AnimationComponent })
   animation: AnimationComponent = null;
+
 
   @property(Prefab)
   public weapon_1: Prefab = null;
@@ -69,6 +73,12 @@ export class PlayerPrefab extends Component {
 
   @property
   public playerIndex: number;
+
+  @property(AudioClip)
+  public bulletAudio: AudioClip = null;
+
+  @property(AudioClip)
+  public deadAudio: AudioClip = null;
 
   // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
@@ -127,6 +137,7 @@ export class PlayerPrefab extends Component {
 
   start() {
     this.handleListener("LOAD");
+    this.getComponent(AudioSource).volume = Setting.BGMvolume * 2;
 
     if (this.playerIndex === this.selectedPlayerIndex) {
       this.node.getChildByName("SelfLabel").active = true;
@@ -274,6 +285,8 @@ export class PlayerPrefab extends Component {
     if (this.playerIndex === this.selectedPlayerIndex) this.sendShootEvent();
     if (this.isNodePooling) bullet = this.playerManager.createBullet();
     else bullet = instantiate(this.bulletPrefab);
+    this.getComponent(AudioSource).clip = this.bulletAudio;
+    this.getComponent(AudioSource).play();
 
     // Assign the bullet to the bullet layer
     bullet.parent = find(this.bulletLayerPath);
@@ -361,6 +374,8 @@ export class PlayerPrefab extends Component {
   handlePlayerDeath() {
     console.log("Player", this.playerIndex, "is dead");
     this.gunNode.destroy();
+    this.getComponent(AudioSource).clip = this.deadAudio;
+          this.getComponent(AudioSource).play();
     this.animation.play(this.character + "_Dead");
     this.scheduleOnce(() => {
       this.node.destroy();

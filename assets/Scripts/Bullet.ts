@@ -6,9 +6,11 @@ import {
   Collider2D,
   IPhysics2DContact,
   find,
+  AudioSource
 } from "cc";
 
 import { PlayerManager } from "./Manager/PlayerManager";
+import { Setting } from "./Setting";
 
 const { ccclass, property } = _decorator;
 
