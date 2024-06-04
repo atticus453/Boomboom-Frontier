@@ -1824,12 +1824,20 @@
       "mipfilter": "none"
     }
   },
+<<<<<<< HEAD
   "48a548e1-3927-436c-85de-5f8c92715609@6c48a": {
+=======
+  "b1598c65-5752-425d-976a-25610ead7d38@6c48a": {
+>>>>>>> origin/particle
     "texture": {
       "mipfilter": "none"
     }
   },
+<<<<<<< HEAD
   "772008fa-fb3a-46e4-bbdd-8c430fe5b259@6c48a": {
+=======
+  "e74eaed0-3b3c-41e4-8248-952c9f7e5882@6c48a": {
+>>>>>>> origin/particle
     "texture": {
       "mipfilter": "none"
     }
