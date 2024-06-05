@@ -289,7 +289,7 @@ export class PlayerPrefab extends Component {
     this.getComponent(AudioSource).play();
 
     // Assign the bullet to the bullet layer
-    bullet.parent = find(this.bulletLayerPath);
+    // bullet.parent = find(this.bulletLayerPath);
     let bulletBody = bullet.getComponent(RigidBody2D);
 
     let bulletPosX: number,
@@ -307,6 +307,7 @@ export class PlayerPrefab extends Component {
       bulletDir[0] * this.bulletSpeed,
       bulletDir[1] * this.bulletSpeed
     );
+    bullet.parent = find(this.bulletLayerPath);
   }
 
   handlePickItem() {

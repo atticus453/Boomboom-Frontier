@@ -41,7 +41,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 329.733,
+      "x": 275.733,
       "y": -241.581,
       "z": 0
     },
@@ -125,8 +125,8 @@
     "angle": 360,
     "angleVar": 360,
     "startSize": 3.369999885559082,
-    "startSizeVar": 50,
-    "endSize": 30.31999969482422,
+    "startSizeVar": 5,
+    "endSize": 20,
     "endSizeVar": 0,
     "startSpin": -47.369998931884766,
     "startSpinVar": 0,
@@ -171,14 +171,14 @@
       "__expectedType__": "cc.ParticleAsset"
     },
     "_spriteFrame": {
-      "__uuid__": "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941",
+      "__uuid__": "6293fcc8-3f02-44d8-a7dd-8919b25df8c0@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_totalParticles": 200,
     "_startColor": {
       "__type__": "cc.Color",
       "r": 202,
-      "g": 200,
+      "g": 86,
       "b": 86,
       "a": 163
     },
@@ -192,7 +192,7 @@
     "_endColor": {
       "__type__": "cc.Color",
       "r": 173,
-      "g": 161,
+      "g": 124,
       "b": 19,
       "a": 214
     },
@@ -203,7 +203,7 @@
       "b": 0,
       "a": 0
     },
-    "_positionType": 0,
+    "_positionType": 2,
     "_id": ""
   },
   {

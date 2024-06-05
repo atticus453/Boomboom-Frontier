@@ -54,8 +54,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
+      "x": 0.5,
+      "y": 0.5,
       "z": 1
     },
     "_mobility": 0,
@@ -123,7 +123,7 @@
     "life": 0.2,
     "lifeVar": 0.5,
     "angle": 360,
-    "angleVar": 360,
+    "angleVar": 0,
     "startSize": 0,
     "startSizeVar": 0,
     "endSize": 50,
@@ -155,9 +155,9 @@
     "radialAccel": -671.0499877929688,
     "radialAccelVar": 65.79000091552734,
     "rotationIsDir": false,
-    "startRadius": 10,
-    "startRadiusVar": 30,
-    "endRadius": 0,
+    "startRadius": 0,
+    "startRadiusVar": 100,
+    "endRadius": 100,
     "endRadiusVar": 0,
     "rotatePerS": 100,
     "rotatePerSVar": 100,
@@ -171,7 +171,7 @@
       "__expectedType__": "cc.ParticleAsset"
     },
     "_spriteFrame": {
-      "__uuid__": "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941",
+      "__uuid__": "e53c6a27-880e-406a-ba6f-8e333f70dba6@25b34",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_totalParticles": 200,

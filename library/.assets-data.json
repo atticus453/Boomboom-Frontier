@@ -1342,7 +1342,7 @@
     "url": "db://assets/Prefabs/Bullet.prefab",
     "value": {
       "depends": [
-        "db341962-c9da-41b7-8b8c-0fbd138ceb19@f9941",
+        "23be9392-bd52-4a22-8d66-ff2ac15a03ca@f9941",
         "224ec40a-8363-4af5-aea5-18c84724e6e9",
         "a5cb45fe-b443-450b-85ca-46af0dc75433"
       ],
@@ -1420,7 +1420,7 @@
     "value": {
       "depends": [
         "e17b4526-57a2-48d3-acc9-cf09f30aa138",
-        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941",
+        "6293fcc8-3f02-44d8-a7dd-8919b25df8c0@f9941",
         "234b5123-daa3-457a-a6e7-dba12502de1b"
       ],
       "dependScripts": [
@@ -1443,7 +1443,7 @@
     "value": {
       "depends": [
         "e17b4526-57a2-48d3-acc9-cf09f30aa138",
-        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941",
+        "e53c6a27-880e-406a-ba6f-8e333f70dba6@25b34",
         "234b5123-daa3-457a-a6e7-dba12502de1b"
       ],
       "dependScripts": [
@@ -1507,7 +1507,9 @@
         "e17b4526-57a2-48d3-acc9-cf09f30aa138",
         "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "0ec9f24f-535c-4dda-90b0-06fcd93a078a"
+      ]
     },
     "versionCode": 0
   },
@@ -1518,7 +1520,9 @@
         "e17b4526-57a2-48d3-acc9-cf09f30aa138",
         "b1598c65-5752-425d-976a-25610ead7d38@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "0ec9f24f-535c-4dda-90b0-06fcd93a078a"
+      ]
     },
     "versionCode": 0
   },
@@ -1636,7 +1640,7 @@
         "73e95c1a-4958-40dd-aea0-6a9fdf1b2bc1",
         "f3448ad2-31c6-4c8a-9f9d-0d4a8c146bde",
         "5dc29b95-0507-423d-8af3-797b82d3ec05",
-        "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
+        "13dd55e8-5532-4956-9ca1-2469acdefa4d",
         "1b0fc2d9-2efb-49de-866b-8aece9049ef8",
         "f23798c9-cdef-4441-bc02-fc6a96605196",
         "8b395fd7-d549-4f2d-9fe3-b560e627534d",
@@ -1924,7 +1928,8 @@
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
         "ebc65683-97fe-4824-b0b2-cd2d385462b4",
-        "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
+        "5d14f68b-d3a1-4e33-8f21-f486773bca00",
+        "224ec40a-8363-4af5-aea5-18c84724e6e9",
         "eec30637-0508-4758-b965-0111fc4ae26a@f9941",
         "f3793df2-7e9d-4d20-a9bb-3ff7570e9298@f9941",
         "5f4b6620-14fd-487c-8e5e-a35b627aaebb",
@@ -1944,6 +1949,7 @@
         "485e5726-6ec1-4cb5-8616-97b0814847ce",
         "86657e47-924a-4d55-a9af-d1066ae23072",
         "5c1808f3-2280-443f-a522-4e7758f33809",
+        "80f3e55b-3ce0-439e-a5c3-d53832f76c9e",
         "7fad07f1-2c61-4914-9cd7-ac62763b5b62",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
       ]
@@ -30701,6 +30707,64 @@
         "bd1591cd-3b79-42a1-88b6-54b62df957ee"
       ]
     },
+    "versionCode": 0
+  },
+  "23be9392-bd52-4a22-8d66-ff2ac15a03ca": {
+    "url": "db://assets/Image/bullet.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "23be9392-bd52-4a22-8d66-ff2ac15a03ca@6c48a": {
+    "url": "db://assets/Image/bullet.png@6c48a",
+    "value": {
+      "depends": [
+        "23be9392-bd52-4a22-8d66-ff2ac15a03ca"
+      ]
+    },
+    "versionCode": 0
+  },
+  "23be9392-bd52-4a22-8d66-ff2ac15a03ca@f9941": {
+    "url": "db://assets/Image/bullet.png@f9941",
+    "value": {
+      "depends": [
+        "23be9392-bd52-4a22-8d66-ff2ac15a03ca@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "83e455a7-4bfb-4486-85ff-9b6c6cf3bd1a": {
+    "url": "db://assets/Prefabs/Particle2D-005.prefab",
+    "value": {
+      "depends": [
+        "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+        "e53c6a27-880e-406a-ba6f-8e333f70dba6@25b34",
+        "234b5123-daa3-457a-a6e7-dba12502de1b"
+      ],
+      "dependScripts": [
+        "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "22401da9-07c8-44a8-b77d-c3edc947ef1b": {
+    "url": "db://assets/Prefabs/Particle2D-006.prefab",
+    "value": {
+      "depends": [
+        "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+        "e53c6a27-880e-406a-ba6f-8e333f70dba6@25b34",
+        "234b5123-daa3-457a-a6e7-dba12502de1b"
+      ],
+      "dependScripts": [
+        "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0ec9f24f-535c-4dda-90b0-06fcd93a078a": {
+    "url": "db://assets/Scripts/Particle.ts",
+    "value": {},
     "versionCode": 0
   }
 }

@@ -10,7 +10,7 @@
       "uuid": "8a83f63a-7dcf-44d1-9506-82f659a9be2e"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Image": {
-      "time": 1717493875623.7988,
+      "time": 1717496655446.1487,
       "uuid": "7db3d159-528d-4929-9b43-3e236ef4a49b"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Map": {
@@ -22,7 +22,7 @@
       "uuid": "25de3770-3720-4d02-882b-89f274118346"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs": {
-      "time": 1717493875624.6396,
+      "time": 1717507182449.5264,
       "uuid": "7b198bfb-549c-45d7-95dc-5dafa1bc45e7"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Resources": {
@@ -34,7 +34,7 @@
       "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts": {
-      "time": 1717493875626.4954,
+      "time": 1717582770885.3098,
       "uuid": "aa56c93b-3412-48f6-b7e7-04f207946720"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Animations/Knight": {
@@ -638,7 +638,7 @@
       "uuid": "d03edb98-d9e8-4d37-9e3c-1b3b87275552"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/Bullet.ts": {
-      "time": 1717495833220.9417,
+      "time": 1717594505507.8115,
       "uuid": "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/CameraFollow.ts": {
@@ -666,7 +666,7 @@
       "uuid": "fa71dd6d-2be8-44d1-8882-f714b4c152e4"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/PlayerPrefab.ts": {
-      "time": 1717493875626.6135,
+      "time": 1717589942903.2925,
       "uuid": "3a5613d4-a234-47e7-8f0c-dfb046555afe"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/Ranking.ts": {
@@ -682,7 +682,7 @@
       "uuid": "1911f4c1-566b-4ba6-8710-da802ab5eee3"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/ZorderByY.ts": {
-      "time": 1717493855551.916,
+      "time": 1717497177908.8416,
       "uuid": "7fad07f1-2c61-4914-9cd7-ac62763b5b62"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/firebase.d.ts": {
@@ -702,7 +702,7 @@
       "uuid": "c4860c91-7fe6-4120-8d54-a256798f642a"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/tree.ts": {
-      "time": 1717493855552.5288,
+      "time": 1717499967382.8997,
       "uuid": "80f3e55b-3ce0-439e-a5c3-d53832f76c9e"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/Manager/BGManager.ts": {
@@ -722,7 +722,7 @@
       "uuid": "485e5726-6ec1-4cb5-8616-97b0814847ce"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/Manager/PlayerManager.ts": {
-      "time": 1717493855547.4456,
+      "time": 1717593615417.1116,
       "uuid": "5c1808f3-2280-443f-a522-4e7758f33809"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/Manager/SelectPlayer.ts": {
@@ -1404,7 +1404,7 @@
       "uuid": "1fccba48-a386-4c0b-884f-a80faf68ea18"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/Bullet.prefab": {
-      "time": 1717493875624.1895,
+      "time": 1717496769102.0645,
       "uuid": "de2faacb-743f-4ddc-bff9-5111d3f1c91a"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/EffectSlider.prefab": {
@@ -1420,11 +1420,11 @@
       "uuid": "5ae2fc90-0a1a-4910-a41f-8a09188887d0"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/Particle1.prefab": {
-      "time": 1717493875624.2747,
+      "time": 1717518630485.662,
       "uuid": "5d14f68b-d3a1-4e33-8f21-f486773bca00"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/Particle2D-004.prefab": {
-      "time": 1717493875624.3967,
+      "time": 1717507952010.6528,
       "uuid": "13dd55e8-5532-4956-9ca1-2469acdefa4d"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/RankingScroll.prefab": {
@@ -1436,11 +1436,11 @@
       "uuid": "ef6b44eb-5649-4915-bc96-b0df9aaf2a9a"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/explode.prefab": {
-      "time": 1717493875624.5027,
+      "time": 1717595693192.149,
       "uuid": "224ec40a-8363-4af5-aea5-18c84724e6e9"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/explode1.prefab": {
-      "time": 1717493875624.6125,
+      "time": 1717584553942.2517,
       "uuid": "234b5123-daa3-457a-a6e7-dba12502de1b"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/healing.prefab": {
@@ -1468,7 +1468,7 @@
       "uuid": "9358b897-a199-479f-a24d-d84accfa49de"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/player.prefab": {
-      "time": 1717493855304.3022,
+      "time": 1717507959089.2197,
       "uuid": "ebc65683-97fe-4824-b0b2-cd2d385462b4"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/rankingItem.prefab": {
@@ -1524,7 +1524,7 @@
       "uuid": "493b4de0-50f1-4243-823e-c2a8c2c65773"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scenes/map1Scene.scene": {
-      "time": 1717495331636.714,
+      "time": 1717592075035.643,
       "uuid": "70774282-0f2c-4340-8714-aa5ba35f0da7"
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scenes/map2.scene": {
@@ -12509,6 +12509,34 @@
     },
     "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Map/map1source/Factions/Knights/Troops/Warrior/Yellow/Warrior_Yellow.png.meta": {
       "time": 1717493855244.347
+    },
+    "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Image/bullet.png.meta": {
+      "time": 1717496716567.6345
+    },
+    "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Image/bullet.png": {
+      "time": 1717496606422.4038,
+      "uuid": "23be9392-bd52-4a22-8d66-ff2ac15a03ca"
+    },
+    "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/Particle2D-005.prefab.meta": {
+      "time": 1717506865083.0593
+    },
+    "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/Particle2D-005.prefab": {
+      "time": 1717507926434.6533,
+      "uuid": "83e455a7-4bfb-4486-85ff-9b6c6cf3bd1a"
+    },
+    "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/Particle2D-006.prefab.meta": {
+      "time": 1717507182453.9634
+    },
+    "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Prefabs/Particle2D-006.prefab": {
+      "time": 1717507182453.0247,
+      "uuid": "22401da9-07c8-44a8-b77d-c3edc947ef1b"
+    },
+    "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/Particle.ts.meta": {
+      "time": 1717582770887.148
+    },
+    "/Users/chenyuling/Desktop/boom-new2/Boomboom-Frontier/assets/Scripts/Particle.ts": {
+      "time": 1717596762242.3848,
+      "uuid": "0ec9f24f-535c-4dda-90b0-06fcd93a078a"
     }
   },
   "missing": {}
