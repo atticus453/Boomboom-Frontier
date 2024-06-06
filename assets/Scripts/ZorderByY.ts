@@ -16,6 +16,7 @@ export class ZorderByY extends Component {
         let playerY: number = 0;
         let playerX: number = 0;
         this.node.children.forEach((child) => {
+            // if(this.getComponentInChildren.name == "Player"){
             if(this.getComponentInChildren.name == "Player"){
                 playerY = child.position.y;
                 playerX = child.position.x;

@@ -26,6 +26,8 @@ export class PlayerManager extends Component {
   @property(Prefab)
   bulletPrefab: Prefab;
 
+  @property(Prefab) explodePrefab: Prefab;
+
   @property([Node])
   spawnPoints: Node[] = [];
 
@@ -37,6 +39,7 @@ export class PlayerManager extends Component {
   private currentUserIndex: number = -1;
 
   private bulletPool: NodePool = null;
+  private particlePool: NodePool = null;
 
   static userNumber: number = 0;
 
@@ -45,6 +48,7 @@ export class PlayerManager extends Component {
     this.roomId = MultiRoom.roomID;
     this.spawnPlayers();
     this.initBulletPool();
+    this.initParticlePool();
     this.loadRoomUsers();
     this.currentUserUid = firebase.auth().currentUser.uid;
   }
@@ -132,6 +136,17 @@ export class PlayerManager extends Component {
       }
     }
   }
+  initParticlePool(){
+    if(this.PoolMode){
+      this.particlePool = new NodePool();
+
+      for (let i = 0; i < 100; i++) {
+        let explode = instantiate(this.explodePrefab);
+        this.particlePool.put(explode);
+      }
+    }
+  }
+
 
   createBullet(): Node {
     let bullet: Node = null;
@@ -142,10 +157,28 @@ export class PlayerManager extends Component {
     }
     return bullet;
   }
+  createParticle(x: number, y: number): Node {
+    console.log("createParticle");
+    let explode: Node = null;
+    if (this.particlePool.size() > 0) {
+      explode = this.particlePool.get();
+      console.log("getPos", explode.position.x, explode.position.y);
+    } else {
+      explode = instantiate(this.explodePrefab);
+    }
+    console.log("manager", x, y);
+    explode.setPosition(x, y);
+    return explode;
+  }
 
   recycleBullet(bullet: Node) {
     this.bulletPool.put(bullet);
   }
+
+  recycleParticle(explode: Node) {
+    this.particlePool.put(explode);
+  }
+
 
   updateHealth(playerIndex: number, damage: number) {
     const playerNode = this.players[playerIndex - 1]; // 假设playerIndex是从1开始的

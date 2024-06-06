@@ -125,13 +125,13 @@ export class PlayerPrefab extends Component {
     this.playerManager = find(this.playerManagerPath).getComponent(
       PlayerManager
     );
-
+    this.initHealthBarNode();
     this.photonManager = PhotonManager.instance;
     console.log(this.photonManager.getLoadBalancingClient());
     this.deathCount = 0;
     this.isNodePooling = this.playerManager.PoolMode;
     this.initGunNode();
-    this.initHealthBarNode();
+    // this.initHealthBarNode();
     this.selectedPlayerIndex = GlobalManager.instance.selectedPlayerIndex;
 
     // PlayerPrefab.itemBar = instantiate(this.itemPrefab);
@@ -233,7 +233,10 @@ export class PlayerPrefab extends Component {
   }
 
   updateHealthBar() {
-    const healthBar = this.healthBarNode.getComponent(ProgressBar);
+    let healthBar = null;
+    if(this.healthBarNode != null){
+      healthBar = this.healthBarNode.getComponent(ProgressBar);
+    }
     try {
       healthBar.progress = this.health / 100;
       console.log("Health Bar Updated");
@@ -257,6 +260,11 @@ export class PlayerPrefab extends Component {
 
   initHealthBarNode() {
     this.healthBarNode = this.node.getChildByName("HealthBar");
+    if(this.healthBarNode == null){
+      console.log("null");
+    }else{
+      console.log("find bar");
+    }
     // player position + offset
     //this.healthBarNode.setPosition(this.node.position.x, this.node.position.y);
   }

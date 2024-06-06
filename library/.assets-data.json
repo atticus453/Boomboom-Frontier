@@ -4288,6 +4288,7 @@
         "e53c6a27-880e-406a-ba6f-8e333f70dba6@a79c5",
         "ebc65683-97fe-4824-b0b2-cd2d385462b4",
         "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
+        "224ec40a-8363-4af5-aea5-18c84724e6e9",
         "eec30637-0508-4758-b965-0111fc4ae26a@f9941",
         "f3793df2-7e9d-4d20-a9bb-3ff7570e9298@f9941",
         "5f4b6620-14fd-487c-8e5e-a35b627aaebb",
@@ -4307,6 +4308,7 @@
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "485e5726-6ec1-4cb5-8616-97b0814847ce",
         "5c1808f3-2280-443f-a522-4e7758f33809",
+        "80f3e55b-3ce0-439e-a5c3-d53832f76c9e",
         "7fad07f1-2c61-4914-9cd7-ac62763b5b62"
       ]
     },
@@ -4869,7 +4871,7 @@
     "url": "db://assets/Prefabs/Bullet.prefab",
     "value": {
       "depends": [
-        "db341962-c9da-41b7-8b8c-0fbd138ceb19@f9941",
+        "463570f9-582c-4af4-9765-9b5e18ff27be@f9941",
         "224ec40a-8363-4af5-aea5-18c84724e6e9",
         "a5cb45fe-b443-450b-85ca-46af0dc75433"
       ],
@@ -46946,8 +46948,8 @@
     "value": {
       "depends": [
         "e17b4526-57a2-48d3-acc9-cf09f30aa138",
-        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941",
-        "234b5123-daa3-457a-a6e7-dba12502de1b"
+        "6293fcc8-3f02-44d8-a7dd-8919b25df8c0@f9941",
+        "224ec40a-8363-4af5-aea5-18c84724e6e9"
       ],
       "dependScripts": [
         "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
@@ -46956,7 +46958,7 @@
     "versionCode": 0
   },
   "13dd55e8-5532-4956-9ca1-2469acdefa4d": {
-    "url": "db://assets/Prefabs/Particle2D-004.prefab",
+    "url": "db://assets/Prefabs/Particle2.prefab",
     "value": {
       "depends": [
         "e17b4526-57a2-48d3-acc9-cf09f30aa138",
@@ -46983,7 +46985,9 @@
         "e17b4526-57a2-48d3-acc9-cf09f30aa138",
         "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "685870cd-22c8-4337-a508-2807e709d123"
+      ]
     },
     "versionCode": 0
   },
@@ -46994,7 +46998,9 @@
         "e17b4526-57a2-48d3-acc9-cf09f30aa138",
         "b1598c65-5752-425d-976a-25610ead7d38@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "685870cd-22c8-4337-a508-2807e709d123"
+      ]
     },
     "versionCode": 0
   },
@@ -47099,6 +47105,64 @@
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "1911f4c1-566b-4ba6-8710-da802ab5eee3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "685870cd-22c8-4337-a508-2807e709d123": {
+    "url": "db://assets/Scripts/Particle.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "463570f9-582c-4af4-9765-9b5e18ff27be": {
+    "url": "db://assets/Image/bullet.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "463570f9-582c-4af4-9765-9b5e18ff27be@6c48a": {
+    "url": "db://assets/Image/bullet.png@6c48a",
+    "value": {
+      "depends": [
+        "463570f9-582c-4af4-9765-9b5e18ff27be"
+      ]
+    },
+    "versionCode": 0
+  },
+  "463570f9-582c-4af4-9765-9b5e18ff27be@f9941": {
+    "url": "db://assets/Image/bullet.png@f9941",
+    "value": {
+      "depends": [
+        "463570f9-582c-4af4-9765-9b5e18ff27be@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "afefb782-fd0b-40a5-b4c3-af229866cdd8": {
+    "url": "db://assets/Prefabs/Particle3.prefab",
+    "value": {
+      "depends": [
+        "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941",
+        "234b5123-daa3-457a-a6e7-dba12502de1b"
+      ],
+      "dependScripts": [
+        "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d8c32477-339e-4818-ab6c-9b673e896712": {
+    "url": "db://assets/Prefabs/Particle4.prefab",
+    "value": {
+      "depends": [
+        "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+        "e53c6a27-880e-406a-ba6f-8e333f70dba6@25b34",
+        "234b5123-daa3-457a-a6e7-dba12502de1b"
+      ],
+      "dependScripts": [
+        "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
       ]
     },
     "versionCode": 0
