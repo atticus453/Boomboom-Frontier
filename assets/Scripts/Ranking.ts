@@ -40,7 +40,7 @@ export default class Ranking extends cc.Component {
     }
 
     onReturnClick(){
-        cc.director.loadScene("MultiSelect");
+        cc.director.loadScene("Menu");
     }
 
     // update (dt) {}

@@ -5,26 +5,17 @@
     "module": "ES2015",
     "strict": true,
     "types": [
-<<<<<<< HEAD
       "./temp/declarations/cc.custom-macro",
-      "./temp/declarations/cc",
-=======
-      "./temp/declarations/cc",
-      "./temp/declarations/cc.custom-macro",
->>>>>>> 31bee2a5c1693b9bc9a6e3c83494f93d81dbda2f
       "./temp/declarations/jsb",
+      "./temp/declarations/cc",
       "./temp/declarations/cc.env"
     ],
     "paths": {
       "db://internal/*": [
-        "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
+        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
-<<<<<<< HEAD
-        "/Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/*"
-=======
-        "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/*"
->>>>>>> 31bee2a5c1693b9bc9a6e3c83494f93d81dbda2f
+        "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\*"
       ]
     },
     "experimentalDecorators": true,
