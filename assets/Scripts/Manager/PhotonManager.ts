@@ -190,9 +190,8 @@ export default class PhotonManager extends Component {
   }
 
   onEvent(code: number, content: any, actorNr: number) {
-    //console.log("Event:", code, "Content:", content, "Actor:", actorNr);
+    console.log("Now code:" + code);
     if (code === 4) {
-      // 假设 '1' 是位置更新的事件代码
       this.updatePlayerPosition(content);
     } else if (code === 2) {
       // 处理血量更新事件
@@ -203,6 +202,8 @@ export default class PhotonManager extends Component {
       this.updatePlayerFace(content);
     } else if (code === 6) {
       this.playerDeadMessage(content);
+    } else if (code == 5) {
+      this.updatePlayerAnimation(content);
     }
   }
 
@@ -264,6 +265,23 @@ export default class PhotonManager extends Component {
       if (playerManager) {
         playerManager.handlePlayerShoot(content.PlayerIndex);
       }
+    }
+  }
+
+  updatePlayerAnimation(content: any) {
+    console.log("updatePlayerAnimation in Photon");
+    const playerNode = find(
+      `Canvas/map1/ZorderByY/Player${content.PlayerIndex}`
+    );
+    if (playerNode) {
+      console.log("Player node found");
+      const playerComponent = playerNode.getComponent(PlayerPrefab);
+      if (playerComponent) {
+        console.log("setAnimation in Photon");
+        playerComponent.setAnimation(content.animationName);
+      }
+    } else {
+      console.log("Player node not found for index: ", content.PlayerIndex);
     }
   }
 

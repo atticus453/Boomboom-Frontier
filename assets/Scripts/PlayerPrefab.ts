@@ -91,7 +91,6 @@ export class PlayerPrefab extends Component {
 
   static itemBar: Node = null;
 
-
   // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
   private playerManagerPath: string = "Canvas/PlayerManager";
@@ -157,9 +156,9 @@ export class PlayerPrefab extends Component {
       this.node.getChildByName("SelfLabel").active = true;
       console.log("Player", this.playerIndex, "is selected");
 
-    //   PlayerPrefab.itemBar = instantiate(this.itemPrefab);
-    //   PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
-    //   find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
+      //   PlayerPrefab.itemBar = instantiate(this.itemPrefab);
+      //   PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
+      //   find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
     } else {
       this.node.getChildByName("SelfLabel").active = false;
       console.log("Player", this.playerIndex, "is not selected");
@@ -188,7 +187,8 @@ export class PlayerPrefab extends Component {
         roomRef.remove()
             .then(() => {
                 console.log("Room removed successfully");
-                director.loadScene("winScene");
+                this.photonManager.getLoadBalancingClient().leaveRoom();
+      director.loadScene("winScene");
             })
             .catch((error) => {
                 console.error("Error removing room: ", error);
@@ -249,11 +249,12 @@ export class PlayerPrefab extends Component {
       }
     }
     this.updateHealthBar();
+    console.log(this.playerIndex, this.character);
   }
 
   updateHealthBar() {
     let healthBar = null;
-    if(this.healthBarNode != null){
+    if (this.healthBarNode != null) {
       healthBar = this.healthBarNode.getComponent(ProgressBar);
     }
     try {
@@ -279,9 +280,9 @@ export class PlayerPrefab extends Component {
 
   initHealthBarNode() {
     this.healthBarNode = this.node.getChildByName("HealthBar");
-    if(this.healthBarNode == null){
+    if (this.healthBarNode == null) {
       console.log("null");
-    }else{
+    } else {
       console.log("find bar");
     }
     // player position + offset
@@ -326,20 +327,19 @@ export class PlayerPrefab extends Component {
     // First create a bullet
     let bullet = null;
     if (this.playerIndex === this.selectedPlayerIndex) this.sendShootEvent();
-    if (this.isNodePooling){
+    if (this.isNodePooling) {
       bullet = this.playerManager.createBullet(this.playerIndex);
-    }
-    else{
-      if(this.playerIndex == 1){
+    } else {
+      if (this.playerIndex == 1) {
         bullet = instantiate(this.bulletPrefab);
-      }else if(this.playerIndex == 2){
+      } else if (this.playerIndex == 2) {
         bullet = instantiate(this.bulletPrefab2);
-      }else if(this.playerIndex == 3){
+      } else if (this.playerIndex == 3) {
         bullet = instantiate(this.bulletPrefab3);
-      }else if(this.playerIndex == 4){
+      } else if (this.playerIndex == 4) {
         bullet = instantiate(this.bulletPrefab4);
       }
-    } 
+    }
     this.getComponent(AudioSource).clip = this.bulletAudio;
     this.getComponent(AudioSource).play();
 
@@ -404,8 +404,7 @@ export class PlayerPrefab extends Component {
     contact: IPhysics2DContact
   ) {
     if (
-      otherCollider.node.name === "Bullet" 
-      &&
+      otherCollider.node.name === "Bullet" &&
       this.playerIndex === this.selectedPlayerIndex
     ) {
       this.updateHealth(-10);
@@ -457,6 +456,7 @@ export class PlayerPrefab extends Component {
     this.getComponent(AudioSource).play();
     this.animation.play(this.character + "_Dead");
     this.scheduleOnce(() => {
+      this.photonManager.getLoadBalancingClient().leaveRoom();
       this.node.destroy();
       director.loadScene("loseScene");
     }, 1);
@@ -519,31 +519,39 @@ export class PlayerPrefab extends Component {
       case KeyCode.KEY_W:
         this.dirY = 1;
         this.preDir = "UP";
-        if (this.playerIndex === this.selectedPlayerIndex)
+        if (this.playerIndex === this.selectedPlayerIndex) {
           this.animation.play(this.character + "_Run");
+          this.sendAnimation("_Run");
+        }
         // console.log("up");
         break;
       case KeyCode.KEY_S:
         this.dirY = -1;
         this.preDir = "DOWN";
-        if (this.playerIndex === this.selectedPlayerIndex)
+        if (this.playerIndex === this.selectedPlayerIndex) {
           this.animation.play(this.character + "_Run");
+          this.sendAnimation("_Run");
+        }
         // console.log("down");
         break;
       case KeyCode.KEY_A:
         this.dirX = -1;
         this.preDir = "LEFT";
         this.sendFaceDirection();
-        if (this.playerIndex === this.selectedPlayerIndex)
+        if (this.playerIndex === this.selectedPlayerIndex) {
           this.animation.play(this.character + "_Run");
+          this.sendAnimation("_Run");
+        }
         // console.log("left");
         break;
       case KeyCode.KEY_D:
         this.dirX = 1;
         this.preDir = "RIGHT";
         this.sendFaceDirection();
-        if (this.playerIndex === this.selectedPlayerIndex)
+        if (this.playerIndex === this.selectedPlayerIndex) {
           this.animation.play(this.character + "_Run");
+          this.sendAnimation("_Run");
+        }
         // console.log("right");
         break;
       case KeyCode.KEY_K:
@@ -579,6 +587,7 @@ export class PlayerPrefab extends Component {
       this.playerIndex === this.selectedPlayerIndex
     ) {
       this.animation.play(this.character + "_Idle");
+      this.sendAnimation("_Idle");
     }
   }
 
@@ -638,7 +647,6 @@ export class PlayerPrefab extends Component {
   }
 
   sendFaceDirection() {
-    const photonManager = find("Canvas").getComponent("PhotonManager");
     if (this.photonManager) {
       this.photonManager.sendEvent(3, {
         PlayerIndex: this.playerIndex,
@@ -647,14 +655,36 @@ export class PlayerPrefab extends Component {
     }
   }
 
+  sendAnimation(animationName: string) {
+    if (this.photonManager) {
+      this.photonManager.sendEvent(5, {
+        PlayerIndex: this.playerIndex,
+        animationName: animationName,
+      });
+    }
+  }
+
   //send Shoot Event
   sendShootEvent() {
     if (this.photonManager) {
       this.photonManager.sendEvent(1, {
-        // 假设 '1' 是射击的事件代码
         PlayerIndex: this.playerIndex,
       });
       console.log("Send Shoot Event");
     }
+  }
+
+  setSkin(skin: string) {
+    this.character = skin;
+  }
+
+  setAnimation(animationName: string) {
+    console.log(
+      "Animation Name: ",
+      animationName,
+      "Player Index: ",
+      this.playerIndex
+    );
+    this.animation.play(this.character + animationName);
   }
 }

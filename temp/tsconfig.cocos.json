@@ -7,11 +7,17 @@
     "types": [
 <<<<<<< HEAD
       "./temp/declarations/cc.custom-macro",
+<<<<<<< HEAD
       "./temp/declarations/jsb",
 =======
 >>>>>>> 31bee2a5c1693b9bc9a6e3c83494f93d81dbda2f
+=======
+      "./temp/declarations/cc",
+=======
+>>>>>>> 4090da5608e3962d34c222525bc495650e791989
       "./temp/declarations/cc",
       "./temp/declarations/cc.custom-macro",
+>>>>>>> 31bee2a5c1693b9bc9a6e3c83494f93d81dbda2f
       "./temp/declarations/jsb",
       "./temp/declarations/cc.env"
     ],
@@ -21,7 +27,11 @@
       ],
       "db://assets/*": [
 <<<<<<< HEAD
+<<<<<<< HEAD
         "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/*"
+=======
+        "/Users/zhuyixuan/Desktop/AppExp/FinalProj/Boomboom-Frontier/assets/*"
+>>>>>>> 4090da5608e3962d34c222525bc495650e791989
 =======
         "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/*"
 >>>>>>> 31bee2a5c1693b9bc9a6e3c83494f93d81dbda2f

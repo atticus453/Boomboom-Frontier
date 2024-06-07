@@ -107,7 +107,7 @@ export class PlayerManager extends Component {
       //player.name = `Player${index + 1}`;
       console.log("Now index is ", index);
       console.log("USER LENGTH IS ", userIds.length);
-      PlayerManager.userNumber = userIds.length-1;
+      PlayerManager.userNumber = userIds.length - 1;
 
       if (userId !== "dummy" && index < userIds.length) {
         try {
@@ -118,7 +118,7 @@ export class PlayerManager extends Component {
           if (userSnapshot.exists()) {
             const user = userSnapshot.val();
             controlComponent.enabled = true;
-            controlComponent.character = user.skin; // 假设 PlayerPrefab 有 setSkin 方法来设置皮肤
+            controlComponent.setSkin(user.skin); // 假设 PlayerPrefab 有 setSkin 方法来设置皮肤
             //controlComponent.playerIndex = index;
             console.log("Player is ins and index is ", index);
 
