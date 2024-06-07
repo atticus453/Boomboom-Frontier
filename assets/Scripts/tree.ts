@@ -11,7 +11,7 @@ export class tree extends Component {
         else boxCollider = this.getColliderWithTag(this.node, 1);
         if (collider) {
             // console.log("poly");
-            collider.on(Contact2DType.PRE_SOLVE, this.onPreSolve, this);
+            collider.on(Contact2DType.PRE_SOLVE, this.PolyonPreSolve, this);
         }
         if (boxCollider) {
             boxCollider.on(Contact2DType.PRE_SOLVE, this.BoxonPreSolve, this);
@@ -27,79 +27,27 @@ export class tree extends Component {
     BoxonPreSolve(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact) {
         // console.log(otherCollider.node.name);
         // let treeUpBound = selfCollider.node.position.y;
-        if(otherCollider.node.name != "Player" || otherCollider.tag != 1){
+        // if(otherCollider.node.name != "Player" || otherCollider.tag != 1){
+        //     contact.disabled = true;
+        // }
+        if(otherCollider.tag != 4){
             contact.disabled = true;
         }
-        // let treeUpBound = this.node.position.y - this.getComponent(UITransform).contentSize.height / 2 * 1/2 * this.node.scale.y + 10;
-        // let treeLowBound = this.node.position.y - this.getComponent(UITransform).contentSize.height / 2 * this.node.scale.y - 10;
-        // if(otherCollider.node.name == "Player"){
-            
-        //     let playerBound = otherCollider.node.position.y - otherCollider.getComponent(UITransform).contentSize.height / 2 * otherCollider.node.scale.y;
-        //     console.log(DirX, DirY);
-        //     console.log("box", playerBound, treeUpBound, treeLowBound);
-        //     if(DirY == 1){
-        //         if(playerBound > treeUpBound || playerBound < treeLowBound){
-        //             console.log("no bound");
-        //             contact.disabled = true;
-        //         }
-        //     }
-            
-            // else if(DirY == 0){
-            //     console.log("hori", Math.floor(playerBound), Math.floor(treeUpBound), Math.floor(treeLowBound));
-            //     // if(playerBound > treeUpBound || playerBound < treeLowBound){
-            //         contact.disabled = true;
-            // }
-                
-            
-            // else if(DirY == 1){
-            //     if(playerBound > treeUpBound || playerBound < treeLowBound){
-            //         contact.disabled = true;
-            //     }
-            // }
-            // else if(DirY == -1){
-            //     if(playerBound > treeUpBound){
-            //         contact.disabled = true;
-            //     }
-            // }
-            
-        // }
         
     }
-    onPreSolve(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact) {
+    PolyonPreSolve(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact) {
         // console.log(otherCollider.node.name);
         // console.log("slove");
         // let treeUpBound = selfCollider.node.position.y;
-        if(otherCollider.node.name == "Player"){
+        // if(otherCollider.node.name == "Player"){
+        //     contact.disabled = true;
+        // }
+        if(otherCollider.tag == 2 || otherCollider.tag == 4){
             contact.disabled = true;
         }
         let treeUpBound = this.node.position.y - this.getComponent(UITransform).contentSize.height / 2 * 2/3 * this.node.scale.y + 10;
         let treeLowBound = this.node.position.y - this.getComponent(UITransform).contentSize.height / 2 * this.node.scale.y - 10;
-        // if(otherCollider.node.name == "Player"){
-        //     let playerBound = otherCollider.node.position.y - otherCollider.getComponent(UITransform).contentSize.height / 2 * otherCollider.node.scale.y;
-        //     console.log(DirX, DirY);
-        //     if(playerBound > treeUpBound || playerBound < treeLowBound){
-        //         console.log("no bound");
-        //         contact.disabled = true;
-        //     }
-        //     else if(DirY == 0){
-        //         console.log("hori", Math.floor(playerBound), Math.floor(treeUpBound), Math.floor(treeLowBound));
-        //         // if(playerBound > treeUpBound || playerBound < treeLowBound){
-        //             contact.disabled = true;
-        //         // }
-                
-        //     }
-        //     else if(DirY == 1){
-        //         if(playerBound > treeUpBound || playerBound < treeLowBound){
-        //             contact.disabled = true;
-        //         }
-        //     }
-        //     else if(DirY == -1){
-        //         if(playerBound > treeUpBound){
-        //             contact.disabled = true;
-        //         }
-        //     }
-            
-        // }
+        
         
     }
     getColliderWithTag(node: Node, tag: number): PolygonCollider2D | null {
