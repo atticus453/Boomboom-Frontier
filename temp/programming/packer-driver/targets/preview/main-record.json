@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 151742027.967542,
+      "mTimestamp": 154463945.44891697,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1087,7 +1087,7 @@
     },
     "file:///Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Manager/PlayerManager.ts": {
       "mTimestamp": {
-        "mtime": 1717749174582.8252,
+        "mtime": 1717752619818.9124,
         "uuid": "5c1808f3-2280-443f-a522-4e7758f33809"
       },
       "chunkId": "c1c60baad4997f273446d1f3f0bfac0242dd8e8f",
@@ -1286,7 +1286,7 @@
     },
     "file:///Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/PlayerPrefab.ts": {
       "mTimestamp": {
-        "mtime": 1717750105759.262,
+        "mtime": 1717752830687.2573,
         "uuid": "3a5613d4-a234-47e7-8f0c-dfb046555afe"
       },
       "chunkId": "1976317a085141e7577c5d8b156f47856a572b79",
@@ -1383,6 +1383,20 @@
               "column": 35
             }
           }
+        },
+        {
+          "value": "./Manager/PlayerManager",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 27
+            },
+            "end": {
+              "line": 37,
+              "column": 52
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1447,6 +1461,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Setting.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Manager/PlayerManager.ts"
           },
           "messages": []
         }

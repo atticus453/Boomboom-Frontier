@@ -22,7 +22,7 @@
       "uuid": "25de3770-3720-4d02-882b-89f274118346"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs": {
-      "time": 1717747050414.3943,
+      "time": 1717750610470.8403,
       "uuid": "7b198bfb-549c-45d7-95dc-5dafa1bc45e7"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Resources": {
@@ -30,11 +30,11 @@
       "uuid": "1e33fc8c-f302-40e0-942d-0f1ab77735c0"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scenes": {
-      "time": 1717747050415.2273,
+      "time": 1717750610471.1228,
       "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts": {
-      "time": 1717747050417.4783,
+      "time": 1717750610472.0051,
       "uuid": "aa56c93b-3412-48f6-b7e7-04f207946720"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Animations/Knight": {
@@ -94,7 +94,7 @@
       "uuid": "6ffe0c1b-217c-46b4-ba6c-cbb8367302d5"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Manager": {
-      "time": 1717747050416.2693,
+      "time": 1717750610471.7686,
       "uuid": "6926002c-cae2-4cf6-956f-bc83dd595c1c"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Plugin": {
@@ -670,7 +670,7 @@
       "uuid": "fa71dd6d-2be8-44d1-8882-f714b4c152e4"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/PlayerPrefab.ts": {
-      "time": 1717750105759.262,
+      "time": 1717752830687.2573,
       "uuid": "3a5613d4-a234-47e7-8f0c-dfb046555afe"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Ranking.ts": {
@@ -726,7 +726,7 @@
       "uuid": "485e5726-6ec1-4cb5-8616-97b0814847ce"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Manager/PlayerManager.ts": {
-      "time": 1717749174582.8252,
+      "time": 1717752619818.9124,
       "uuid": "5c1808f3-2280-443f-a522-4e7758f33809"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Manager/SelectPlayer.ts": {
@@ -1427,7 +1427,7 @@
       "uuid": "5ae2fc90-0a1a-4910-a41f-8a09188887d0"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle1.prefab": {
-      "time": 1717749019668.847,
+      "time": 1717750610470.0325,
       "uuid": "5d14f68b-d3a1-4e33-8f21-f486773bca00"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/RankingScroll.prefab": {
@@ -1471,7 +1471,7 @@
       "uuid": "9358b897-a199-479f-a24d-d84accfa49de"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/player.prefab": {
-      "time": 1717750148088.1714,
+      "time": 1717750610471.0024,
       "uuid": "ebc65683-97fe-4824-b0b2-cd2d385462b4"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/rankingItem.prefab": {
@@ -1543,7 +1543,7 @@
       "uuid": "a9a351b0-603b-4132-9178-16999223045a"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scenes/map1Scene.scene": {
-      "time": 1717750117924.1206,
+      "time": 1717750610471.6414,
       "uuid": "70774282-0f2c-4340-8714-aa5ba35f0da7"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scenes/map2.scene": {
@@ -12563,14 +12563,14 @@
       "time": 1717713669813.9265
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle2.prefab": {
-      "time": 1717749030243.5996,
+      "time": 1717750610470.4175,
       "uuid": "13dd55e8-5532-4956-9ca1-2469acdefa4d"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle3.prefab.meta": {
       "time": 1717713669814.4382
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle3.prefab": {
-      "time": 1717749043152.0332,
+      "time": 1717750610470.7173,
       "uuid": "afefb782-fd0b-40a5-b4c3-af229866cdd8"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle4.prefab.meta": {

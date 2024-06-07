@@ -14,6 +14,7 @@ import { MultiRoom } from "../MultiRoom";
 import { MultiSelect } from "../MultiSelect";
 //import { PhotonManager } from './PhotonManager'; // 假设你有这样一个处理Photon事件的脚本
 const { ccclass, property } = _decorator;
+export let userIdList = [];
 
 @ccclass("PlayerManager")
 export class PlayerManager extends Component {
@@ -96,6 +97,8 @@ export class PlayerManager extends Component {
 
   async initializePlayers(users: { [key: string]: string }) {
     const userIds = Object.values(users); // 获取所有用户 ID
+    userIdList = userIds;
+    console.log("userids", userIds);
     for (let index = 1; index < userIds.length; index++) {
       const userId = userIds[index];
       const player = this.players[index - 1];

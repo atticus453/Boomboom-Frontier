@@ -34,6 +34,7 @@ import { PlayerManager } from "./Manager/PlayerManager";
 import PhotonManager from "./Manager/PhotonManager";
 import GameManager from "./Manager/GameManager";
 import { Setting } from "./Setting";
+import { userIdList } from "./Manager/PlayerManager";
 
 const { ccclass, property } = _decorator;
 
@@ -400,6 +401,7 @@ export class PlayerPrefab extends Component {
       if (this.health <= 0 && !this.isDead) {
         this.isDead = true;
         console.log("bullet tag", otherCollider.tag);
+        console.log("id", userIdList[otherCollider.tag - 4]);
         this.handlePlayerDeath();
       }
       this.sendUpdateHealth(-10);
