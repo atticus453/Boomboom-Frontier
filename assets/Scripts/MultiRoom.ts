@@ -333,6 +333,10 @@ export class MultiRoom extends Component {
   }
 
   onStartClick() {
-    director.loadScene("map1Scene");
+    this.startButton.node.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
+    this.startButton.node.getComponent(AudioSource).play();
+    this.scheduleOnce(() => {
+        director.loadScene("map1Scene");
+    }, 0.5);
   }
 }

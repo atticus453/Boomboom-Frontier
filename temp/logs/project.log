@@ -1,81 +1,36 @@
-2024-6-4 22:11:06 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
-2024-6-4 22:11:06 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-2024-6-4 22:11:06 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
-2024-6-4 22:11:07 - warn: C:\Users\USER\Desktop\final\Boomboom-Frontier\temp\profiles\packages\assets.json: Unexpected token < in JSON at position 885SyntaxError: C:\Users\USER\Desktop\final\Boomboom-Frontier\temp\profiles\packages\assets.json: Unexpected token < in JSON at position 885
-    at JSON.parse (<anonymous>)
-    at Object.readFileSync (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\jsonfile\index.js:63:17)
-    at Object.load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-profile\lib\browser\data.ccc:1:426)
-    at ProfileManager.load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-profile\lib\browser\index.js:1:1004)
-    at Object.ensureProfiles (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\profile\protected\browser\index.ccc:1:1541)
-    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\package\public\register.ccc:1:1682
-    at Generator.next (<anonymous>)
-    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\package\public\register.ccc:1:327
-    at new Promise (<anonymous>)
-    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\package\public\register.ccc:1:75
-2024-6-4 22:11:07 - warn: C:\Users\USER\Desktop\final\Boomboom-Frontier\temp\profiles\packages\hierarchy.json: Unexpected token < in JSON at position 1865SyntaxError: C:\Users\USER\Desktop\final\Boomboom-Frontier\temp\profiles\packages\hierarchy.json: Unexpected token < in JSON at position 1865
-    at JSON.parse (<anonymous>)
-    at Object.readFileSync (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\jsonfile\index.js:63:17)
-    at Object.load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-profile\lib\browser\data.ccc:1:426)
-    at ProfileManager.load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-profile\lib\browser\index.js:1:1004)
-    at Object.ensureProfiles (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\profile\protected\browser\index.ccc:1:1541)
-    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\package\public\register.ccc:1:1682
-    at Generator.next (<anonymous>)
-    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\package\public\register.ccc:1:327
-    at new Promise (<anonymous>)
-    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\package\public\register.ccc:1:75
-2024-6-4 22:11:07 - warn: C:\Users\USER\Desktop\final\Boomboom-Frontier\temp\profiles\packages\inspector.json: Unexpected token < in JSON at position 38225SyntaxError: C:\Users\USER\Desktop\final\Boomboom-Frontier\temp\profiles\packages\inspector.json: Unexpected token < in JSON at position 38225
-    at JSON.parse (<anonymous>)
-    at Object.readFileSync (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\jsonfile\index.js:63:17)
-    at Object.load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-profile\lib\browser\data.ccc:1:426)
-    at ProfileManager.load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-profile\lib\browser\index.js:1:1004)
-    at ensureProfiles (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\profile\protected\browser\index.ccc:1:1541)
-    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\profile\protected\browser\index.ccc:1:1959
-    at Generator.next (<anonymous>)
-    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\profile\protected\browser\index.ccc:1:327
-    at new Promise (<anonymous>)
-    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\profile\protected\browser\index.ccc:1:75
-2024-6-4 22:11:11 - log: Profile changed: builder (log.level: 4)
-2024-6-4 22:11:14 - error: The plug-in main process failed to load. Error: Cannot find module 'fs-extra'
+6-7-2024 19:08:47 - log: Load engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
+6-7-2024 19:08:47 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+6-7-2024 19:08:47 - log: Register native engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+6-7-2024 19:08:52 - error: The plug-in main process failed to load. Error: Cannot find module 'fs-extra'
 Require stack:
-- C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\psd2cocos\dist\main.js
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\package\dist\browser\package.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\package\dist\browser\index.js
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\package\index.js
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\startup\protected\browser\index.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\startup\protected\index.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\startup\index.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\init.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\index.js
+- /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/psd2cocos/dist/main.js
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/index.js
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/index.js
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/startup/protected/browser/index.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/startup/protected/index.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/startup/index.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/init.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/index.js
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/index.js
 - 
     at Module._resolveFilename (internal/modules/cjs/loader.js:887:15)
-    at n._resolveFilename (electron/js2c/browser_init.js:257:921)
-    at Function.Module._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js:8:24)
-    at Function._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:109:46)
+    at Function.n._resolveFilename (electron/js2c/browser_init.js:257:921)
+    at Function._resolveFilename (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/cc/preload.ts:109:46)
     at Module._load (internal/modules/cjs/loader.js:732:27)
     at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
-    at Function._load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:127:35)
+    at Function._load (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/cc/preload.ts:127:35)
     at Module.require (internal/modules/cjs/loader.js:959:19)
     at require (internal/modules/cjs/helpers.js:88:18)
-    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\psd2cocos\dist\main.js:9:36)
-2024-6-4 22:11:29 - error: [Assets] C:\Users\USER\Desktop\final\Boomboom-Frontier\library\.assets-info1.0.0.json: Unexpected token < in JSON at position 597564SyntaxError: C:\Users\USER\Desktop\final\Boomboom-Frontier\library\.assets-info1.0.0.json: Unexpected token < in JSON at position 597564
-    at JSON.parse (<anonymous>)
-    at readFileSync (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\jsonfile\index.js:63:17)
-    at InfoManager.setRecordJSON (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\asset-db\libs\info.ccc:29:64)
-    at AssetDB.start (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:221:32)
-    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:6975
-    at new Promise (<anonymous>)
-    at AssetDBManager._startDB (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:6606)
-    at AssetDBManager.startDB (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:4746)
-    at AssetDBManager._preStart (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:4387)
-    at AssetDBManager.start (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:2078)
-2024-6-4 22:12:08 - log: [Scene] meshopt wasm decoder initialized
-2024-6-4 22:12:08 - log: [Scene] [box2d]:box2d wasm lib loaded.
-2024-6-4 22:12:08 - log: [Scene] [bullet]:bullet wasm lib loaded.
-2024-6-4 22:12:09 - log: [Scene] [PHYSICS]: using builtin.
-2024-6-4 22:12:10 - log: [Scene] Cocos Creator v3.8.2
-2024-6-4 22:12:10 - info: [Scene] Forward render pipeline initialized.
-2024-6-4 22:12:10 - warn: [Scene] 
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/psd2cocos/dist/main.js:9:36)
+    at Module._compile (internal/modules/cjs/loader.js:1078:30)
+6-7-2024 19:08:54 - log: [Scene] meshopt wasm decoder initialized
+6-7-2024 19:08:54 - log: [Scene] [box2d]:box2d wasm lib loaded.
+6-7-2024 19:08:54 - log: [Scene] [bullet]:bullet wasm lib loaded.
+6-7-2024 19:08:54 - log: [Scene] [PHYSICS]: using builtin.
+6-7-2024 19:08:54 - log: [Scene] Cocos Creator v3.8.2
+6-7-2024 19:08:54 - info: [Scene] Forward render pipeline initialized.
+6-7-2024 19:08:55 - warn: [Scene] 
 Warning: This is a browser-targeted Firebase bundle but it appears it is being
 run in a Node environment.  If running in a Node environment, make sure you
 are using the bundle specified by the "main" field in package.json.
@@ -100,14 +55,14 @@ If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
 to false and "main" to true:
 https://github.com/rollup/rollup-plugin-node-resolve
 
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:1743:21
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:12:174
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:13:6
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
-    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
-    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:1743:21
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
     at Module._compile (internal/modules/cjs/loader.js:1078:30)
-2024-6-4 22:12:10 - warn: [Scene] 
+6-7-2024 19:08:55 - warn: [Scene] 
 It looks like you're using the development build of the Firebase JS SDK.
 When deploying Firebase apps to production, it is advisable to only import
 the individual SDK components you intend to use.
@@ -126,14 +81,14 @@ For the CDN builds, these are available in the following manner
 
 https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
 
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:25549:78
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:12:174
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:13:6
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
-    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
-    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:25549:78
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:12:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:13:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
     at Module._compile (internal/modules/cjs/loader.js:1078:30)
-2024-6-4 22:12:10 - warn: [Scene] 
+6-7-2024 19:08:55 - warn: [Scene] 
 Warning: This is a browser-targeted Firebase bundle but it appears it is being
 run in a Node environment.  If running in a Node environment, make sure you
 are using the bundle specified by the "main" field in package.json.
@@ -158,140 +113,81 @@ If using Rollup, use the rollup-plugin-node-resolve plugin and set "module"
 to false and "main" to true:
 https://github.com/rollup/rollup-plugin-node-resolve
 
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:26929:28
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:25552:174
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:25553:6
-    at C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
-    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
-    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\library\ec\ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:26929:28
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:25552:174
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:25553:6
+    at /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38192:6
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38193:3)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/library/ec/ec8c9eef-435c-46a2-a840-ba62d1234265.js:38202:3)
     at Module._compile (internal/modules/cjs/loader.js:1078:30)
-2024-6-4 22:12:11 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-2024-6-4 22:12:14 - warn: [Scene] C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js Error: Cannot find module 'fs-extra'
+6-7-2024 19:08:55 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+6-7-2024 19:08:55 - warn: [Scene] /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js Error: Cannot find module 'fs-extra'
 Require stack:
-- C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\public.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\index.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\index.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\init.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\main.js
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\web\preload.js
+- /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/protected/public.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/protected/index.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/index.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/init.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/index.js
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/main.js
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/web/preload.js
 - electron/js2c/renderer_init
     at Module._resolveFilename (internal/modules/cjs/loader.js:887:15)
-    at o._resolveFilename (electron/js2c/renderer_init.js:33:917)
-    at Function.Module._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js:8:24)
-    at Function._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:109:46)
+    at Function.o._resolveFilename (electron/js2c/renderer_init.js:33:917)
+    at Function._resolveFilename (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/cc/preload.ts:109:46)
     at Module._load (internal/modules/cjs/loader.js:732:27)
     at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
-    at Function._load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:127:35)
+    at Function._load (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/cc/preload.ts:127:35)
     at Module.require (internal/modules/cjs/loader.js:959:19)
     at require (internal/modules/cjs/helpers.js:88:18)
-    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js:4:20) {
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js:4:20)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js:146:3) {
   code: 'MODULE_NOT_FOUND',
   requireStack: [
-    'C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\extensions\\plugin-import-2x\\dist\\scene-walker.js',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\public.ccc',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\index.ccc',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\index.ccc',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\init.ccc',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\index.js',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\main.js',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\web\\preload.js',
+    '/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/protected/public.ccc',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/protected/index.ccc',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/index.ccc',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/init.ccc',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/index.js',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/main.js',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/web/preload.js',
     'electron/js2c/renderer_init'
   ]
-}Error: [Scene] C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js Error: Cannot find module 'fs-extra'
+}Error: [Scene] /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js Error: Cannot find module 'fs-extra'
 Require stack:
-- C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\public.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\protected\index.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\module\index.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\dist\init.ccc
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator\index.js
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\main.js
-- C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\preload\web\preload.js
+- /Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/protected/public.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/protected/index.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/index.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/init.ccc
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/index.js
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/main.js
+- /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/web/preload.js
 - electron/js2c/renderer_init
-    at Function._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:109:46)
     at Module._load (internal/modules/cjs/loader.js:732:27)
     at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
-    at Function._load (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\cc\preload.ts:127:35)
+    at Function._load (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/cc/preload.ts:127:35)
     at Module.require (internal/modules/cjs/loader.js:959:19)
     at require (internal/modules/cjs/helpers.js:88:18)
-    at Object.<anonymous> (C:\Users\USER\Desktop\final\Boomboom-Frontier\extensions\plugin-import-2x\dist\scene-walker.js:4:20) {
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js:4:20)
+    at Object.<anonymous> (/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js:146:3) {
   code: 'MODULE_NOT_FOUND',
   requireStack: [
-    'C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\extensions\\plugin-import-2x\\dist\\scene-walker.js',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\public.ccc',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\protected\\index.ccc',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\module\\index.ccc',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\dist\\init.ccc',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\node_modules\\@editor\\creator\\index.js',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\main.js',
-    'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\app.asar\\builtin\\scene\\dist\\script\\3d\\preload\\web\\preload.js',
+    '/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/extensions/plugin-import-2x/dist/scene-walker.js',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/protected/public.ccc',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/protected/index.ccc',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/module/index.ccc',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/init.ccc',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/index.js',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/main.js',
+    '/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/preload/web/preload.js',
     'electron/js2c/renderer_init'
   ]
 }
-    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:492)
-    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
-    at console.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)
-    at attach (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\plugin.ccc:1:2946)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)
+    at attach (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/plugin.ccc:1:2946)
     at Array.forEach (<anonymous>)
-    at PluginManager.init (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\plugin.ccc:1:1470)
-2024-6-4 22:14:23 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
-2024-6-4 22:17:22 - warn: [Scene] Missing class: 77399xbLolMyJKltviIT0E1Error: [Scene] Missing class: 77399xbLolMyJKltviIT0E1
-    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2381)
-    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:106979:34)
-    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46654:30)
-    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46608:29)
-    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46775:38)
-    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46636:40)
-    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46614:29)
-2024-6-4 22:17:22 - warn: [Scene] Missing class: 23d52oqORJOlKmCc5CzVTIXError: [Scene] Missing class: 23d52oqORJOlKmCc5CzVTIX
-    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2381)
-    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:106979:34)
-    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46654:30)
-    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46608:29)
-    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46775:38)
-    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46636:40)
-    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46614:29)
-2024-6-4 22:17:22 - warn: [Scene] Missing class: 9bf5a08x8FEOLdB36U2B7OkError: [Scene] Missing class: 9bf5a08x8FEOLdB36U2B7Ok
-    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2381)
-    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:106979:34)
-    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46654:30)
-    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46608:29)
-    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46775:38)
-    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46636:40)
-    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46614:29)
-2024-6-4 22:17:22 - error: [Scene] Script "77399xbLolMyJKltviIT0E1" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "77399c5b-2e89-4cc8-92a5-b6f8884f4135"
-Class ID: "77399xbLolMyJKltviIT0E1"
-Error: [Scene] Script "77399xbLolMyJKltviIT0E1" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "77399c5b-2e89-4cc8-92a5-b6f8884f4135"
-Class ID: "77399xbLolMyJKltviIT0E1"
-
-    at report (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1393)
-    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1606)
-2024-6-4 22:17:22 - error: [Scene] Script "23d52oqORJOlKmCc5CzVTIX" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "23d52a2a-3912-4e94-a982-7390b3553217"
-Class ID: "23d52oqORJOlKmCc5CzVTIX"
-Error: [Scene] Script "23d52oqORJOlKmCc5CzVTIX" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "23d52a2a-3912-4e94-a982-7390b3553217"
-Class ID: "23d52oqORJOlKmCc5CzVTIX"
-
-    at report (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1393)
-    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1606)
-2024-6-4 22:17:22 - error: [Scene] Script "9bf5a08x8FEOLdB36U2B7Ok" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "9bf5ad3c-c7c1-4438-b741-dfa53607b3a4"
-Class ID: "9bf5a08x8FEOLdB36U2B7Ok"
-Error: [Scene] Script "9bf5a08x8FEOLdB36U2B7Ok" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "9bf5ad3c-c7c1-4438-b741-dfa53607b3a4"
-Class ID: "9bf5a08x8FEOLdB36U2B7Ok"
-
-    at report (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1393)
-    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1606)
-2024-6-4 22:17:41 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
+    at PluginManager.init (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/plugin.ccc:1:1470)
