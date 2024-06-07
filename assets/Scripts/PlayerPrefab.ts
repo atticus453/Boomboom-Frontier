@@ -461,8 +461,11 @@ export class PlayerPrefab extends Component {
       }
     });
     this.gunNode.destroy();
+
     this.getComponent(AudioSource).clip = this.deadAudio;
+    this.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
     this.getComponent(AudioSource).play();
+    
     this.animation.play(this.character + "_Dead");
     this.scheduleOnce(() => {
       this.photonManager.getLoadBalancingClient().leaveRoom();
@@ -473,8 +476,11 @@ export class PlayerPrefab extends Component {
 
   handleSupportPlayerDeath() {
     this.gunNode.destroy();
+
     this.getComponent(AudioSource).clip = this.deadAudio;
+    this.getComponent(AudioSource).volume = Setting.EffectVolume * 2;
     this.getComponent(AudioSource).play();
+    
     this.animation.play(this.character + "_Dead");
     this.scheduleOnce(() => {
       this.node.destroy();
