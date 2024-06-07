@@ -223,11 +223,9 @@ export class PlayerPrefab extends Component {
             this.itemNode.active = false;
           }
           PlayerPrefab.itemBar
-            .getChildByPath("Weapon/WeaponBack")
-            .getComponent(Sprite).color = new Color(201, 197, 107, 255);
+            .getChildByPath("Weapon/filter").active = true;
           PlayerPrefab.itemBar
-            .getChildByPath("Item/ItemBack")
-            .getComponent(Sprite).color = new Color(255, 255, 255, 255);
+            .getChildByPath("Item/filter").active = false;
         } else {
           if (this.gunNode) this.gunNode.active = false;
           const item = PlayerPrefab.itemBar
@@ -240,11 +238,9 @@ export class PlayerPrefab extends Component {
           } else this.itemNode.active = false;
 
           PlayerPrefab.itemBar
-            .getChildByPath("Weapon/WeaponBack")
-            .getComponent(Sprite).color = new Color(255, 255, 255, 255);
+            .getChildByPath("Weapon/filter").active = false;
           PlayerPrefab.itemBar
-            .getChildByPath("Item/ItemBack")
-            .getComponent(Sprite).color = new Color(201, 197, 107, 255);
+            .getChildByPath("Item/filter").active = true;
         }
       }
     }
@@ -406,6 +402,7 @@ export class PlayerPrefab extends Component {
     if (
       otherCollider.node.name === "Bullet" &&
       this.playerIndex === this.selectedPlayerIndex
+      && otherCollider.tag !== this.selectedPlayerIndex
     ) {
       this.updateHealth(-10);
       if (this.health <= 0 && !this.isDead) {

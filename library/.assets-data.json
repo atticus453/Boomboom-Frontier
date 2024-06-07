@@ -1522,10 +1522,12 @@
     "url": "db://assets/Prefabs/ItemBar.prefab",
     "value": {
       "depends": [
-        "ab2a476f-f759-4e37-ace2-12ac869511ed@f9941",
+        "46e2870b-3700-40af-98f7-5032fc045b89@f9941",
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
-        "458a7a5c-933c-47b4-945e-48f97ebe517e@f9941",
-        "e629a9f7-6564-4dcd-8f77-e12b47e28c9b@f9941"
+        "e53c6a27-880e-406a-ba6f-8e333f70dba6@a79c5",
+        "650a8d1c-8449-489a-acf2-4273fe463e82@f9941",
+        "2b3cb424-6817-4e66-9db0-f8cf4f30e06c@f9941",
+        "b37a34fd-7950-43f3-8d03-5f0088842547@f9941"
       ],
       "dependScripts": []
     },
