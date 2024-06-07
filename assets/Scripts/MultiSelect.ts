@@ -18,7 +18,7 @@ import {
 } from "cc";
 import { MultiRoom } from "./MultiRoom";
 import { Setting } from "./Setting";
-import { Menu } from "./Menu";
+// import { Menu } from "./Menu";
 import PhotonManager from "./Manager/PhotonManager";
 const { ccclass, property } = _decorator;
 

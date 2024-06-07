@@ -129,6 +129,7 @@ export class Menu extends Component {
 
     update(deltaTime: number) {
         var user = firebase.auth().currentUser;
+        // console.log("user", user);
         this.isLoginSet.active = user ? true : false;
         this.isNotLoginSet.active = user ? false : true;
 

@@ -1824,20 +1824,22 @@
       "mipfilter": "none"
     }
   },
-<<<<<<< HEAD
   "48a548e1-3927-436c-85de-5f8c92715609@6c48a": {
-=======
-  "b1598c65-5752-425d-976a-25610ead7d38@6c48a": {
->>>>>>> origin/particle
     "texture": {
       "mipfilter": "none"
     }
   },
-<<<<<<< HEAD
   "772008fa-fb3a-46e4-bbdd-8c430fe5b259@6c48a": {
-=======
-  "e74eaed0-3b3c-41e4-8248-952c9f7e5882@6c48a": {
->>>>>>> origin/particle
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "6cb58f45-b4cc-4861-8409-72efb49ca0df@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "463570f9-582c-4af4-9765-9b5e18ff27be@6c48a": {
     "texture": {
       "mipfilter": "none"
     }

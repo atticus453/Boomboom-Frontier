@@ -1,6 +1,6 @@
 import { _decorator, Component, Node, Slider, Button, director, AudioSourceComponent, AudioSource } from 'cc';
 const { ccclass, property } = _decorator;
-import { Menu } from './Menu';
+// import { Menu } from './Menu';
 
 @ccclass('Setting')
 export class Setting extends Component {
@@ -33,6 +33,7 @@ export class Setting extends Component {
         BackButton.component = "Setting";
         BackButton.handler = "BackMenu";
         this.BackBtn.clickEvents.push(BackButton);
+        
     }
     onBGMSliderChanged(slider: Slider) {
         Setting.BGMvolume = slider.progress;

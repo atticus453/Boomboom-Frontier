@@ -34,6 +34,7 @@ import { PlayerManager } from "./Manager/PlayerManager";
 import PhotonManager from "./Manager/PhotonManager";
 import GameManager from "./Manager/GameManager";
 import { Setting } from "./Setting";
+import { userIdList } from "./Manager/PlayerManager";
 
 const { ccclass, property } = _decorator;
 
@@ -47,6 +48,13 @@ export class PlayerPrefab extends Component {
 
   @property(Prefab)
   public bulletPrefab: Prefab = null;
+
+  @property(Prefab)
+  bulletPrefab2: Prefab;
+  @property(Prefab)
+  bulletPrefab3: Prefab;
+  @property(Prefab)
+  bulletPrefab4: Prefab;
 
   @property({ type: AnimationComponent })
   animation: AnimationComponent = null;
@@ -80,6 +88,8 @@ export class PlayerPrefab extends Component {
   @property(AudioClip)
   public deadAudio: AudioClip = null;
 
+  static itemBar: Node = null;
+
   // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
   private playerManagerPath: string = "Canvas/PlayerManager";
@@ -98,8 +108,6 @@ export class PlayerPrefab extends Component {
   private bulletSpeed = 25;
   private fireRate = 0.2;
   private shootInterval = 0;
-
-  static itemBar: Node = null;
 
   // The properties of the player
   private preDir: string = "RIGHT";
@@ -124,14 +132,18 @@ export class PlayerPrefab extends Component {
     this.playerManager = find(this.playerManagerPath).getComponent(
       PlayerManager
     );
-
+    this.initHealthBarNode();
     this.photonManager = PhotonManager.instance;
     console.log(this.photonManager.getLoadBalancingClient());
     this.deathCount = 0;
     this.isNodePooling = this.playerManager.PoolMode;
     this.initGunNode();
-    this.initHealthBarNode();
+    // this.initHealthBarNode();
     this.selectedPlayerIndex = GlobalManager.instance.selectedPlayerIndex;
+
+    // PlayerPrefab.itemBar = instantiate(this.itemPrefab);
+    // PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
+    // find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
     //string to number
   }
 
@@ -143,9 +155,9 @@ export class PlayerPrefab extends Component {
       this.node.getChildByName("SelfLabel").active = true;
       console.log("Player", this.playerIndex, "is selected");
 
-      PlayerPrefab.itemBar = instantiate(this.itemPrefab);
-      PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
-      find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
+      //   PlayerPrefab.itemBar = instantiate(this.itemPrefab);
+      //   PlayerPrefab.itemBar.position = v3(304.476, -223.456, 0);
+      //   find("Canvas/Camera").addChild(PlayerPrefab.itemBar);
     } else {
       this.node.getChildByName("SelfLabel").active = false;
       console.log("Player", this.playerIndex, "is not selected");
@@ -230,7 +242,10 @@ export class PlayerPrefab extends Component {
   }
 
   updateHealthBar() {
-    const healthBar = this.healthBarNode.getComponent(ProgressBar);
+    let healthBar = null;
+    if (this.healthBarNode != null) {
+      healthBar = this.healthBarNode.getComponent(ProgressBar);
+    }
     try {
       healthBar.progress = this.health / 100;
       console.log("Health Bar Updated");
@@ -254,6 +269,11 @@ export class PlayerPrefab extends Component {
 
   initHealthBarNode() {
     this.healthBarNode = this.node.getChildByName("HealthBar");
+    if (this.healthBarNode == null) {
+      console.log("null");
+    } else {
+      console.log("find bar");
+    }
     // player position + offset
     //this.healthBarNode.setPosition(this.node.position.x, this.node.position.y);
   }
@@ -296,8 +316,19 @@ export class PlayerPrefab extends Component {
     // First create a bullet
     let bullet = null;
     if (this.playerIndex === this.selectedPlayerIndex) this.sendShootEvent();
-    if (this.isNodePooling) bullet = this.playerManager.createBullet();
-    else bullet = instantiate(this.bulletPrefab);
+    if (this.isNodePooling) {
+      bullet = this.playerManager.createBullet(this.playerIndex);
+    } else {
+      if (this.playerIndex == 1) {
+        bullet = instantiate(this.bulletPrefab);
+      } else if (this.playerIndex == 2) {
+        bullet = instantiate(this.bulletPrefab2);
+      } else if (this.playerIndex == 3) {
+        bullet = instantiate(this.bulletPrefab3);
+      } else if (this.playerIndex == 4) {
+        bullet = instantiate(this.bulletPrefab4);
+      }
+    }
     this.getComponent(AudioSource).clip = this.bulletAudio;
     this.getComponent(AudioSource).play();
 
@@ -316,6 +347,7 @@ export class PlayerPrefab extends Component {
     bulletPosY = this.node.position.y + bulletDir[1] * 35 - 40;
 
     bullet.setPosition(bulletPosX, bulletPosY);
+
     bulletBody.linearVelocity = v2(
       bulletDir[0] * this.bulletSpeed,
       bulletDir[1] * this.bulletSpeed
@@ -334,12 +366,14 @@ export class PlayerPrefab extends Component {
       .getComponent(Sprite).spriteFrame;
     if (item !== null) {
       if (item.name === "healing") {
+        console.log("healing");
         if (this.health + 50 > 100) {
           this.health = 100;
         } else {
           this.health += 50;
         }
       } else if (item.name === "speedUp") {
+        console.log("sppeedUp");
         this.playerSpeed = 15;
         this.scheduleOnce(() => {
           this.playerSpeed = 10;
@@ -365,6 +399,8 @@ export class PlayerPrefab extends Component {
       this.updateHealth(-10);
       if (this.health <= 0 && !this.isDead) {
         this.isDead = true;
+        console.log("bullet tag", otherCollider.tag);
+        console.log("id", userIdList[otherCollider.tag - 4]);
         this.handlePlayerDeath();
       }
       this.sendUpdateHealth(-10);
