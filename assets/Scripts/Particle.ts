@@ -31,7 +31,7 @@ export class Particle extends Component {
   collideY: number = 0;
 
   // @property(Prefab) explodePrefab: Prefab = null;
-  particleLayerPath: string = "Canvas/particlePool";
+  particleLayerPath: string = "Canvas/map1/ZorderByY/particlePool";
   
   timeCnt: number = 0;
   
@@ -53,6 +53,7 @@ export class Particle extends Component {
     this.isNodePooling = this.playerManager.PoolMode;
     //set name
     this.node.name = "explode";
+    console.log("load particle");
     
 
     //enable sensor

@@ -327,6 +327,10 @@ export class PlayerPrefab extends Component {
     bulletPosY = this.node.position.y + bulletDir[1] * 35 - 40;
 
     bullet.setPosition(bulletPosX, bulletPosY);
+    console.log("playerIndex", this.selectedPlayerIndex);
+    this.schedule(() => {bullet.tag = 5 + this.selectedPlayerIndex}, 0.1);
+    console.log("set tag", bullet.tag);
+
     bulletBody.linearVelocity = v2(
       bulletDir[0] * this.bulletSpeed,
       bulletDir[1] * this.bulletSpeed
@@ -372,7 +376,8 @@ export class PlayerPrefab extends Component {
     contact: IPhysics2DContact
   ) {
     if (
-      otherCollider.node.name === "Bullet" &&
+      otherCollider.node.name === "Bullet" 
+      &&
       this.playerIndex === this.selectedPlayerIndex
     ) {
       this.updateHealth(-10);

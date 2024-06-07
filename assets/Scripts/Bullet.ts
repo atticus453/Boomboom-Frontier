@@ -33,7 +33,7 @@ export class Bullet extends Component {
   collideY: number = 0;
 
   @property(Prefab) explodePrefab: Prefab = null;
-  particleLayerPath: string = "Canvas/particlePool";
+  particleLayerPath: string = "Canvas/map1/ZorderByY/particlePool";
   
 
   protected onLoad(): void {
@@ -126,14 +126,16 @@ export class Bullet extends Component {
       otherCollider.node.name === "Player2" ||
       otherCollider.node.name === "Player3" 
     ) {
-      
-      
+      console.log("tag");
+      console.log("tag", selfCollider.tag);
       this.isCollied = true;
+
       console.log("collide", contact.getWorldManifold().points);
     }
   }
   PreSolve(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact){
-    if(otherCollider.tag == 3){
+    // if(otherCollider.tag == 3){
+    if(otherCollider.tag >= 5){
       contact.disabled = true;
     }
   }
@@ -141,10 +143,14 @@ export class Bullet extends Component {
   handleExplode() {
     // First create a bullet
     // this.exploding = true;
-    this.scheduleOnce(() => {this.exploding = false}, 1);
+    console.log("handle explode")
+    // this.scheduleOnce(() => {
+    //   this.exploding = false
+    // }, 1);
     let bullet = null;
     let bulletPosX = this.node.position.x;
     let bulletPosY = this.node.position.y;
+    this.exploding = true;
     if (this.isNodePooling){
       bullet = this.playerManager.createParticle(this.collideX, this.collideY);
       console.log("parent", bullet.parent);

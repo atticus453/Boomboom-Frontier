@@ -92,9 +92,6 @@
         "__id__": 186
       },
       {
-        "__id__": 321
-      },
-      {
         "__id__": 323
       },
       {
@@ -6213,13 +6210,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 318
-      },
-      {
-        "__id__": 319
-      },
-      {
         "__id__": 320
+      },
+      {
+        "__id__": 321
+      },
+      {
+        "__id__": 322
       }
     ],
     "_prefab": null,
@@ -9351,15 +9348,18 @@
       },
       {
         "__id__": 309
+      },
+      {
+        "__id__": 316
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 316
+        "__id__": 318
       },
       {
-        "__id__": 317
+        "__id__": 319
       }
     ],
     "_prefab": null,
@@ -10240,7 +10240,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_group": 1,
@@ -11114,7 +11114,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_group": 1,
@@ -11830,6 +11830,73 @@
     "_id": "55W5HXDPFOw40w9jdSU+gE"
   },
   {
+    "__type__": "cc.Node",
+    "_name": "particlePool",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 281
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 317
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "cfUPYgpFdEcpNOO7jYaYDB"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 316
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": "40kktHjrtPbYuAhTCs0/4B"
+  },
+  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -11927,7 +11994,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 322
+        "__id__": 324
       }
     ],
     "_prefab": null,
@@ -11966,73 +12033,6 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 321
-    },
-    "_enabled": true,
-    "__prefab": null,
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 100,
-      "height": 100
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_id": "d9frTf1T1D5b4pj9KXSzru"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "particlePool",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "_parent": {
-      "__id__": 2
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 324
-      }
-    ],
-    "_prefab": null,
-    "_lpos": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_lrot": {
-      "__type__": "cc.Quat",
-      "x": 0,
-      "y": 0,
-      "z": 0,
-      "w": 1
-    },
-    "_lscale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_mobility": 0,
-    "_layer": 33554432,
-    "_euler": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_id": "cfUPYgpFdEcpNOO7jYaYDB"
-  },
-  {
-    "__type__": "cc.UITransform",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
       "__id__": 323
     },
     "_enabled": true,
@@ -12047,7 +12047,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": "40kktHjrtPbYuAhTCs0/4B"
+    "_id": "d9frTf1T1D5b4pj9KXSzru"
   },
   {
     "__type__": "cc.Node",

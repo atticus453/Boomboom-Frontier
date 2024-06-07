@@ -117,6 +117,7 @@ export class PlayerManager extends Component {
       } else {
         player.active = false;
         console.log("Player is not ins and index is ", index);
+        // console.log("userId", userId);
       }
     }
 
@@ -129,7 +130,7 @@ export class PlayerManager extends Component {
   initBulletPool() {
     if (this.PoolMode) {
       this.bulletPool = new NodePool();
-
+      console.log("initiate bullet pool");
       for (let i = 0; i < 100; i++) {
         let bullet = instantiate(this.bulletPrefab);
         this.bulletPool.put(bullet);
@@ -139,7 +140,7 @@ export class PlayerManager extends Component {
   initParticlePool(){
     if(this.PoolMode){
       this.particlePool = new NodePool();
-
+      console.log("initiate pool");
       for (let i = 0; i < 100; i++) {
         let explode = instantiate(this.explodePrefab);
         this.particlePool.put(explode);
@@ -162,9 +163,10 @@ export class PlayerManager extends Component {
     let explode: Node = null;
     if (this.particlePool.size() > 0) {
       explode = this.particlePool.get();
-      console.log("getPos", explode.position.x, explode.position.y);
+      console.log("have nodepool");
     } else {
       explode = instantiate(this.explodePrefab);
+      console.log("deon't have node pool");
     }
     console.log("manager", x, y);
     explode.setPosition(x, y);
