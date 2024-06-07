@@ -35,6 +35,7 @@ import PhotonManager from "./Manager/PhotonManager";
 import GameManager from "./Manager/GameManager";
 import { Setting } from "./Setting";
 import { userIdList } from "./Manager/PlayerManager";
+import { MultiRoom } from "./MultiRoom";
 
 const { ccclass, property } = _decorator;
 
@@ -181,7 +182,17 @@ export class PlayerPrefab extends Component {
     this.deathCount++;
     console.log("Death Count: " + this.deathCount);
     if (this.deathCount == PlayerManager.userNumber - 1) {
-      director.loadScene("winScene");
+        const roomID = MultiRoom.roomID;
+        const roomRef = firebase.database().ref("rooms/" + roomID);
+
+        roomRef.remove()
+            .then(() => {
+                console.log("Room removed successfully");
+                director.loadScene("winScene");
+            })
+            .catch((error) => {
+                console.error("Error removing room: ", error);
+            });
     }
   }
 
@@ -421,7 +432,7 @@ export class PlayerPrefab extends Component {
     }
   }
 
-  handlePlayerDeath() {
+  async handlePlayerDeath() {
     
     if (this.photonManager.getLoadBalancingClient().isJoinedToRoom()) {
       this.photonManager.sendEvent(6, {
@@ -430,6 +441,17 @@ export class PlayerPrefab extends Component {
       });
     }
     console.log("Player", this.playerIndex, "is dead");
+    const curUser = await firebase.auth().currentUser;
+    const userRef = firebase.database().ref("users/" + curUser.uid);
+    console.log("UserRef: ", userRef);
+    userRef.once("value", (snapshot) => {
+      if (snapshot.exists()) {
+        const user = snapshot.val();
+        user.death += 1;
+        userRef.update(user);
+        console.log("Death Count Updated!!");
+      }
+    });
     this.gunNode.destroy();
     this.getComponent(AudioSource).clip = this.deadAudio;
     this.getComponent(AudioSource).play();

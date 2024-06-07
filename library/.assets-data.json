@@ -47120,31 +47120,6 @@
     "value": {},
     "versionCode": 0
   },
-  "463570f9-582c-4af4-9765-9b5e18ff27be": {
-    "url": "db://assets/Image/bullet.png",
-    "value": {
-      "depends": []
-    },
-    "versionCode": 0
-  },
-  "463570f9-582c-4af4-9765-9b5e18ff27be@6c48a": {
-    "url": "db://assets/Image/bullet.png@6c48a",
-    "value": {
-      "depends": [
-        "463570f9-582c-4af4-9765-9b5e18ff27be"
-      ]
-    },
-    "versionCode": 0
-  },
-  "463570f9-582c-4af4-9765-9b5e18ff27be@f9941": {
-    "url": "db://assets/Image/bullet.png@f9941",
-    "value": {
-      "depends": [
-        "463570f9-582c-4af4-9765-9b5e18ff27be@6c48a"
-      ]
-    },
-    "versionCode": 0
-  },
   "afefb782-fd0b-40a5-b4c3-af229866cdd8": {
     "url": "db://assets/Prefabs/Particle3.prefab",
     "value": {
@@ -47169,6 +47144,31 @@
       ],
       "dependScripts": [
         "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "463570f9-582c-4af4-9765-9b5e18ff27be": {
+    "url": "db://assets/Image/bullet.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "463570f9-582c-4af4-9765-9b5e18ff27be@6c48a": {
+    "url": "db://assets/Image/bullet.png@6c48a",
+    "value": {
+      "depends": [
+        "463570f9-582c-4af4-9765-9b5e18ff27be"
+      ]
+    },
+    "versionCode": 0
+  },
+  "463570f9-582c-4af4-9765-9b5e18ff27be@f9941": {
+    "url": "db://assets/Image/bullet.png@f9941",
+    "value": {
+      "depends": [
+        "463570f9-582c-4af4-9765-9b5e18ff27be@6c48a"
       ]
     },
     "versionCode": 0
