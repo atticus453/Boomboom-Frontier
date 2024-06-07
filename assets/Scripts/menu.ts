@@ -21,6 +21,9 @@ export class Menu extends Component {
     @property(Button) 
     signUpBtn: Button = null;
 
+    @property(Button) 
+    leaderBoardBtn: Button = null;
+
     @property(Prefab)
     signInPrefab: Prefab = null;
 
@@ -43,6 +46,7 @@ export class Menu extends Component {
         this.logOutBtn.node.on(Node.EventType.MOUSE_UP, this.LogOut, this);
         this.signInBtn.node.on(Node.EventType.MOUSE_UP, this.onSignInClick, this);
         this.signUpBtn.node.on(Node.EventType.MOUSE_UP, this.onSignUpClick, this);
+        this.leaderBoardBtn.node.on(Node.EventType.MOUSE_UP, this.onleaderBoardClick, this);
     }
 
     onSetClick(){
@@ -60,6 +64,10 @@ export class Menu extends Component {
         firebase.auth().signOut().then(() => {
             // Menu.isLogin = true;
         });
+    }
+
+    onleaderBoardClick(){
+        director.loadScene("ScoreBoard");
     }
 
     onSignInClick(){

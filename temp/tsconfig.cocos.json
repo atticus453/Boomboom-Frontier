@@ -5,8 +5,8 @@
     "module": "ES2015",
     "strict": true,
     "types": [
-<<<<<<< HEAD
       "./temp/declarations/cc.custom-macro",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "./temp/declarations/jsb",
 =======
@@ -18,14 +18,18 @@
       "./temp/declarations/cc",
       "./temp/declarations/cc.custom-macro",
 >>>>>>> 31bee2a5c1693b9bc9a6e3c83494f93d81dbda2f
+=======
+>>>>>>> loserBoard
       "./temp/declarations/jsb",
+      "./temp/declarations/cc",
       "./temp/declarations/cc.env"
     ],
     "paths": {
       "db://internal/*": [
-        "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
+        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         "/Users/joan/Desktop/清大/軟體實驗設計/Boomboom-Frontier/assets/*"
@@ -35,6 +39,9 @@
 =======
         "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/*"
 >>>>>>> 31bee2a5c1693b9bc9a6e3c83494f93d81dbda2f
+=======
+        "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\*"
+>>>>>>> loserBoard
       ]
     },
     "experimentalDecorators": true,

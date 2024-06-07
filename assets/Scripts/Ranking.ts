@@ -21,6 +21,8 @@ export default class Ranking extends cc.Component {
                 return b.death - a.death;
             });
             for(var i = 0; i < usersDataArr.length; i++) {
+                if(this.item_prefab) break;
+
                 var optItem = cc.instantiate(this.item_prefab); //實例化一個預製體
                 var optItemSize = optItem.getChildByName("background").getComponent(cc.UITransform).contentSize;
                 cc.log(optItemSize.width);
@@ -40,7 +42,7 @@ export default class Ranking extends cc.Component {
     }
 
     onReturnClick(){
-        cc.director.loadScene("MultiSelect");
+        cc.director.loadScene("Menu");
     }
 
     // update (dt) {}
