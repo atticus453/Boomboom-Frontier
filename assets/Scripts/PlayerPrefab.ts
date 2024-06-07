@@ -394,7 +394,7 @@ export class PlayerPrefab extends Component {
     }
   }
 
-  onBeginContact(
+  async onBeginContact(
     selfCollider: Collider2D,
     otherCollider: Collider2D,
     contact: IPhysics2DContact
@@ -409,6 +409,18 @@ export class PlayerPrefab extends Component {
         this.isDead = true;
         console.log("bullet tag", otherCollider.tag);
         console.log("id", userIdList[otherCollider.tag - 4]);
+        const killRef = firebase.database().ref("users/" + userIdList[otherCollider.tag - 4] + "/kill");
+        const snapshot = await killRef.once('value');
+        if (snapshot.exists()) {
+          const killData = snapshot.val();
+          await killRef.set(killData + 1);
+          // const snapshot2 = await killRef.once('value');
+          // console.log("Death data:", snapshot2.val());
+          
+        } else {
+          console.log("No data available at the specified path.");
+          await killRef.set(1);
+        }
         this.handlePlayerDeath();
       }
       this.sendUpdateHealth(-10);
