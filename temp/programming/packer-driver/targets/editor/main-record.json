@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 36951.96939998865,
+      "mTimestamp": 24493.538800001144,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 7517991.989799976,
+      "mTimestamp": 40849.21210002899,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1310,7 +1310,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1717762735046,
+      "mTimestamp": 1717773979644,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1968,7 +1968,7 @@
     },
     "file:///C:/Users/USER/Desktop/final/Boomboom-Frontier/assets/Scripts/MultiRoom.ts": {
       "mTimestamp": {
-        "mtime": 1717767460403.0547,
+        "mtime": 1717773963345.7544,
         "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
       },
       "chunkId": "8f68b281b12cfcdbfce6611121c8db8820e4bf91",
@@ -2009,6 +2009,20 @@
               "column": 35
             }
           }
+        },
+        {
+          "value": "./Manager/PhotonManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 26
+            },
+            "end": {
+              "line": 17,
+              "column": 51
+            }
+          }
         }
       ],
       "type": "esm",
@@ -2045,6 +2059,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/USER/Desktop/final/Boomboom-Frontier/assets/Scripts/Setting.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/USER/Desktop/final/Boomboom-Frontier/assets/Scripts/Manager/PhotonManager.ts"
           },
           "messages": []
         }

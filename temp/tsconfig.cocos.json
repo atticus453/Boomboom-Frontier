@@ -6,16 +6,16 @@
     "strict": true,
     "types": [
       "./temp/declarations/cc.custom-macro",
-      "./temp/declarations/jsb",
       "./temp/declarations/cc",
+      "./temp/declarations/jsb",
       "./temp/declarations/cc.env"
     ],
     "paths": {
       "db://internal/*": [
-        "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
+        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
-        "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/*"
+        "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\*"
       ]
     },
     "experimentalDecorators": true,

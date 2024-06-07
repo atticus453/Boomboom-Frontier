@@ -14,6 +14,8 @@ import {
   AudioSource,
 } from "cc";
 import { Setting } from "./Setting";
+import PhotonManager from "./Manager/PhotonManager";
+
 const { ccclass, property } = _decorator;
 
 @ccclass("MultiRoom")
@@ -67,7 +69,10 @@ export class MultiRoom extends Component {
   @property(Prefab)
   settingPrefab: Prefab = null;
 
+  photonManager = null;
+
   onLoad() {
+    this.photonManager = PhotonManager.instance;
     this.settingButton.node.on(
       Node.EventType.MOUSE_UP,
       this.onSettingClick,
@@ -117,6 +122,8 @@ export class MultiRoom extends Component {
           Setting.EffectVolume * 2;
         this.returnButton.node.getComponent(AudioSource).play();
         this.scheduleOnce(() => {
+          this.photonManager.getLoadBalancingClient().leaveRoom();
+          console.log(this.photonManager.getLoadBalancingClient().isJoinedToRoom());
           director.loadScene("MultiSelect");
         }, 1);
       });
