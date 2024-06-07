@@ -22,7 +22,7 @@
       "uuid": "25de3770-3720-4d02-882b-89f274118346"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs": {
-      "time": 1717764308952.9946,
+      "time": 1717765981436.2202,
       "uuid": "7b198bfb-549c-45d7-95dc-5dafa1bc45e7"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Resources": {
@@ -666,7 +666,7 @@
       "uuid": "da8e3db9-9a4f-4e15-aadf-e2953001a0b5"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\MultiRoom.ts": {
-      "time": 1717764284071.6887,
+      "time": 1717767460403.0547,
       "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\MultiSelect.ts": {
@@ -686,7 +686,7 @@
       "uuid": "3a5613d4-a234-47e7-8f0c-dfb046555afe"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Ranking.ts": {
-      "time": 1717764707592.8003,
+      "time": 1717766098630.1306,
       "uuid": "a6217c36-0a5a-4e6d-b98e-be70605fd08c"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scripts\\Setting.ts": {
@@ -1493,10 +1493,6 @@
       "time": 1717762665406.079,
       "uuid": "ebc65683-97fe-4824-b0b2-cd2d385462b4"
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\rankingItem.prefab": {
-      "time": 1717762665406.079,
-      "uuid": "bc0967d0-a809-4ecc-abfd-13867267a5f4"
-    },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\RankingScroll.prefab": {
       "time": 1717764308952.9946,
       "uuid": "c9e31009-0d85-4626-a3ea-2d4ab6ff70a1"
@@ -1554,7 +1550,7 @@
       "uuid": "7651f7bc-8e6d-42e8-b513-f4a641220177"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MultiRoom.scene": {
-      "time": 1717762666523.4849,
+      "time": 1717767446749.4514,
       "uuid": "4f582775-4c22-4853-9900-f661cf1f2470"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\MultiSelect.scene": {
@@ -1562,7 +1558,7 @@
       "uuid": "d1e81e9d-ab3a-407d-931f-acb9135b2694"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\ScoreBoard.scene": {
-      "time": 1717764426089.3557,
+      "time": 1717766041673.9827,
       "uuid": "2911e213-bac8-4bff-ae53-1c723d10b778"
     },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Scenes\\SelectPlayer.scene": {
@@ -7894,9 +7890,6 @@
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\player.prefab.meta": {
       "time": 1717762665406.079
     },
-    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\rankingItem.prefab.meta": {
-      "time": 1717762665406.079
-    },
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\RankingScroll.prefab.meta": {
       "time": 1717762665396.01
     },
@@ -12586,7 +12579,20 @@
     "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Image\\cammy_blur.png": {
       "time": 1717764308951.8547,
       "uuid": "354c249e-5430-4583-80af-943c2b871659"
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\rankingItem.prefab.meta": {
+      "time": 1717765981452.7195
+    },
+    "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\rankingItem.prefab": {
+      "time": 1717765981450.7046,
+      "uuid": "9027905f-8f22-4442-afce-04646d932ab0"
     }
   },
-  "missing": {}
+  "missing": {
+    "bc0967d0-a809-4ecc-abfd-13867267a5f4": {
+      "path": "C:\\Users\\USER\\Desktop\\final\\Boomboom-Frontier\\assets\\Prefabs\\rankingItem.prefab",
+      "time": 1717762665406.079,
+      "removeTime": 1717765979807
+    }
+  }
 }

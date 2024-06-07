@@ -160,6 +160,19 @@ export class MultiRoom extends Component {
           console.log(e);
         }
       });
+
+      // reset user skin
+      let currentUser = firebase.auth().currentUser;
+      let currentUserRef = firebase.database().ref("users/" + currentUser.uid);
+      currentUserRef.once("value", (snapshot)=>{
+
+        let userSkin = snapshot.val().skin;
+        this.node
+          .getChildByName("playerPreview")
+          .getChildByName("player")
+          .getComponent(Animation)
+          .play(userSkin + "_Idle");
+      });
     } catch (error) {
       console.log(error);
     }

@@ -1713,14 +1713,7 @@
   },
   "bc0967d0-a809-4ecc-abfd-13867267a5f4": {
     "url": "db://assets/Prefabs/rankingItem.prefab",
-    "value": {
-      "depends": [
-        "7dfd35cd-328d-4d5c-83a7-9bf4398717fc@f9941",
-        "e8b82741-56d6-4eae-a718-d65fb98fc551@f9941",
-        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63"
-      ],
-      "dependScripts": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "c9e31009-0d85-4626-a3ea-2d4ab6ff70a1": {
@@ -2088,7 +2081,6 @@
       "depends": [
         "2911e213-bac8-4bff-ae53-1c723d10b778",
         "354c249e-5430-4583-80af-943c2b871659@f9941",
-        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
         "c9e31009-0d85-4626-a3ea-2d4ab6ff70a1",
         "7dfd35cd-328d-4d5c-83a7-9bf4398717fc@f9941",
         "28ad44da-8448-49c3-9ffc-8cdbbbc01b63",
@@ -2096,7 +2088,7 @@
         "dd354864-fa6f-4ca2-88d6-b8a135038158@f9941",
         "141d60c5-12c5-41f4-a6e5-d081dadedfd6@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "bc0967d0-a809-4ecc-abfd-13867267a5f4",
+        "9027905f-8f22-4442-afce-04646d932ab0",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "ab2dfc6f-bc35-40ac-96f3-d85479c4cacd"
@@ -30908,6 +30900,18 @@
       "depends": [
         "354c249e-5430-4583-80af-943c2b871659@6c48a"
       ]
+    },
+    "versionCode": 0
+  },
+  "9027905f-8f22-4442-afce-04646d932ab0": {
+    "url": "db://assets/Prefabs/rankingItem.prefab",
+    "value": {
+      "depends": [
+        "7dfd35cd-328d-4d5c-83a7-9bf4398717fc@f9941",
+        "e8b82741-56d6-4eae-a718-d65fb98fc551@f9941",
+        "28ad44da-8448-49c3-9ffc-8cdbbbc01b63"
+      ],
+      "dependScripts": []
     },
     "versionCode": 0
   }
