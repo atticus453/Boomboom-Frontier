@@ -80,7 +80,6 @@ export class PlayerPrefab extends Component {
   @property(AudioClip)
   public deadAudio: AudioClip = null;
 
-
   // The path of the important Node in the scene
   private photonManagerPath: string = "Canvas/PhotonManager";
   private playerManagerPath: string = "Canvas/PlayerManager";
@@ -169,6 +168,7 @@ export class PlayerPrefab extends Component {
     this.deathCount++;
     console.log("Death Count: " + this.deathCount);
     if (this.deathCount == PlayerManager.userNumber - 1) {
+      this.photonManager.getLoadBalancingClient().leaveRoom();
       director.loadScene("winScene");
     }
   }
@@ -226,6 +226,7 @@ export class PlayerPrefab extends Component {
       }
     }
     this.updateHealthBar();
+    console.log(this.playerIndex, this.character);
   }
 
   updateHealthBar() {
@@ -384,7 +385,6 @@ export class PlayerPrefab extends Component {
   }
 
   handlePlayerDeath() {
-    
     if (this.photonManager.getLoadBalancingClient().isJoinedToRoom()) {
       this.photonManager.sendEvent(6, {
         PlayerIndex: this.playerIndex,
@@ -397,6 +397,7 @@ export class PlayerPrefab extends Component {
     this.getComponent(AudioSource).play();
     this.animation.play(this.character + "_Dead");
     this.scheduleOnce(() => {
+      this.photonManager.getLoadBalancingClient().leaveRoom();
       this.node.destroy();
       director.loadScene("loseScene");
     }, 1);
@@ -459,31 +460,39 @@ export class PlayerPrefab extends Component {
       case KeyCode.KEY_W:
         this.dirY = 1;
         this.preDir = "UP";
-        if (this.playerIndex === this.selectedPlayerIndex)
+        if (this.playerIndex === this.selectedPlayerIndex) {
           this.animation.play(this.character + "_Run");
+          this.sendAnimation("_Run");
+        }
         // console.log("up");
         break;
       case KeyCode.KEY_S:
         this.dirY = -1;
         this.preDir = "DOWN";
-        if (this.playerIndex === this.selectedPlayerIndex)
+        if (this.playerIndex === this.selectedPlayerIndex) {
           this.animation.play(this.character + "_Run");
+          this.sendAnimation("_Run");
+        }
         // console.log("down");
         break;
       case KeyCode.KEY_A:
         this.dirX = -1;
         this.preDir = "LEFT";
         this.sendFaceDirection();
-        if (this.playerIndex === this.selectedPlayerIndex)
+        if (this.playerIndex === this.selectedPlayerIndex) {
           this.animation.play(this.character + "_Run");
+          this.sendAnimation("_Run");
+        }
         // console.log("left");
         break;
       case KeyCode.KEY_D:
         this.dirX = 1;
         this.preDir = "RIGHT";
         this.sendFaceDirection();
-        if (this.playerIndex === this.selectedPlayerIndex)
+        if (this.playerIndex === this.selectedPlayerIndex) {
           this.animation.play(this.character + "_Run");
+          this.sendAnimation("_Run");
+        }
         // console.log("right");
         break;
       case KeyCode.KEY_K:
@@ -519,6 +528,7 @@ export class PlayerPrefab extends Component {
       this.playerIndex === this.selectedPlayerIndex
     ) {
       this.animation.play(this.character + "_Idle");
+      this.sendAnimation("_Idle");
     }
   }
 
@@ -578,7 +588,6 @@ export class PlayerPrefab extends Component {
   }
 
   sendFaceDirection() {
-    const photonManager = find("Canvas").getComponent("PhotonManager");
     if (this.photonManager) {
       this.photonManager.sendEvent(3, {
         PlayerIndex: this.playerIndex,
@@ -587,14 +596,36 @@ export class PlayerPrefab extends Component {
     }
   }
 
+  sendAnimation(animationName: string) {
+    if (this.photonManager) {
+      this.photonManager.sendEvent(5, {
+        PlayerIndex: this.playerIndex,
+        animationName: animationName,
+      });
+    }
+  }
+
   //send Shoot Event
   sendShootEvent() {
     if (this.photonManager) {
       this.photonManager.sendEvent(1, {
-        // 假设 '1' 是射击的事件代码
         PlayerIndex: this.playerIndex,
       });
       console.log("Send Shoot Event");
     }
+  }
+
+  setSkin(skin: string) {
+    this.character = skin;
+  }
+
+  setAnimation(animationName: string) {
+    console.log(
+      "Animation Name: ",
+      animationName,
+      "Player Index: ",
+      this.playerIndex
+    );
+    this.animation.play(this.character + animationName);
   }
 }
