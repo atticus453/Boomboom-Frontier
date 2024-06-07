@@ -22,7 +22,7 @@
       "uuid": "25de3770-3720-4d02-882b-89f274118346"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs": {
-      "time": 1717713669815.6272,
+      "time": 1717747050414.3943,
       "uuid": "7b198bfb-549c-45d7-95dc-5dafa1bc45e7"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Resources": {
@@ -30,11 +30,11 @@
       "uuid": "1e33fc8c-f302-40e0-942d-0f1ab77735c0"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scenes": {
-      "time": 1717713669817.055,
+      "time": 1717747050415.2273,
       "uuid": "ca743c96-a0dc-4e62-b1c2-32027736592c"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts": {
-      "time": 1717713669819.721,
+      "time": 1717747050417.4783,
       "uuid": "aa56c93b-3412-48f6-b7e7-04f207946720"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Animations/Knight": {
@@ -94,7 +94,7 @@
       "uuid": "6ffe0c1b-217c-46b4-ba6c-cbb8367302d5"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Manager": {
-      "time": 1717713669818.137,
+      "time": 1717747050416.2693,
       "uuid": "6926002c-cae2-4cf6-956f-bc83dd595c1c"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Plugin": {
@@ -638,7 +638,7 @@
       "uuid": "d03edb98-d9e8-4d37-9e3c-1b3b87275552"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Bullet.ts": {
-      "time": 1717746115599.378,
+      "time": 1717747050416.1267,
       "uuid": "b49908bd-42df-4121-bf78-3c2b51c6e9f2"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/CameraFollow.ts": {
@@ -662,7 +662,7 @@
       "uuid": "47837149-e547-4500-8f1c-895cdb0fb1df"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/MultiSelect.ts": {
-      "time": 1717736175697.1113,
+      "time": 1717747050416.65,
       "uuid": "1d782875-d5d9-447d-8b42-6c785c4e3b29"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Player.ts": {
@@ -670,7 +670,7 @@
       "uuid": "fa71dd6d-2be8-44d1-8882-f714b4c152e4"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/PlayerPrefab.ts": {
-      "time": 1717746603686.8462,
+      "time": 1717750105759.262,
       "uuid": "3a5613d4-a234-47e7-8f0c-dfb046555afe"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Ranking.ts": {
@@ -678,7 +678,7 @@
       "uuid": "a6217c36-0a5a-4e6d-b98e-be70605fd08c"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Setting.ts": {
-      "time": 1717736435961.455,
+      "time": 1717747050417.3843,
       "uuid": "1911f4c1-566b-4ba6-8710-da802ab5eee3"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/WinScene.ts": {
@@ -694,7 +694,7 @@
       "uuid": "6e33bf17-db7f-4cb8-8136-8c79799a4155"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/menu.ts": {
-      "time": 1717741211596.5938,
+      "time": 1717747050417.5945,
       "uuid": "da8e3db9-9a4f-4e15-aadf-e2953001a0b5"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/signIn.ts": {
@@ -726,7 +726,7 @@
       "uuid": "485e5726-6ec1-4cb5-8616-97b0814847ce"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Manager/PlayerManager.ts": {
-      "time": 1717743341140.6218,
+      "time": 1717749174582.8252,
       "uuid": "5c1808f3-2280-443f-a522-4e7758f33809"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Manager/SelectPlayer.ts": {
@@ -1411,7 +1411,7 @@
       "uuid": "1fccba48-a386-4c0b-884f-a80faf68ea18"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Bullet.prefab": {
-      "time": 1717745703589.311,
+      "time": 1717747050413.421,
       "uuid": "de2faacb-743f-4ddc-bff9-5111d3f1c91a"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/EffectSlider.prefab": {
@@ -1427,7 +1427,7 @@
       "uuid": "5ae2fc90-0a1a-4910-a41f-8a09188887d0"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle1.prefab": {
-      "time": 1717745717750.3093,
+      "time": 1717749019668.847,
       "uuid": "5d14f68b-d3a1-4e33-8f21-f486773bca00"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/RankingScroll.prefab": {
@@ -1439,7 +1439,7 @@
       "uuid": "ef6b44eb-5649-4915-bc96-b0df9aaf2a9a"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/explode.prefab": {
-      "time": 1717744158633.7524,
+      "time": 1717747050414.5122,
       "uuid": "224ec40a-8363-4af5-aea5-18c84724e6e9"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/explode1.prefab": {
@@ -1471,7 +1471,7 @@
       "uuid": "9358b897-a199-479f-a24d-d84accfa49de"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/player.prefab": {
-      "time": 1717713669815.8616,
+      "time": 1717750148088.1714,
       "uuid": "ebc65683-97fe-4824-b0b2-cd2d385462b4"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/rankingItem.prefab": {
@@ -1515,7 +1515,7 @@
       "uuid": "7651f7bc-8e6d-42e8-b513-f4a641220177"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scenes/MultiRoom.scene": {
-      "time": 1717741038267.2703,
+      "time": 1717747050414.848,
       "uuid": "4f582775-4c22-4853-9900-f661cf1f2470"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scenes/MultiSelect.scene": {
@@ -1531,7 +1531,7 @@
       "uuid": "1535bc81-7719-444a-be67-2c0014e4261f"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scenes/Setting.scene": {
-      "time": 1717742160094.8347,
+      "time": 1717747050415.1345,
       "uuid": "493b4de0-50f1-4243-823e-c2a8c2c65773"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scenes/login.scene": {
@@ -1543,7 +1543,7 @@
       "uuid": "a9a351b0-603b-4132-9178-16999223045a"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scenes/map1Scene.scene": {
-      "time": 1717744636051.737,
+      "time": 1717750117924.1206,
       "uuid": "70774282-0f2c-4340-8714-aa5ba35f0da7"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scenes/map2.scene": {
@@ -12549,7 +12549,7 @@
       "time": 1717713669818.9556
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Scripts/Particle.ts": {
-      "time": 1717744692593.9875,
+      "time": 1717747050416.851,
       "uuid": "685870cd-22c8-4337-a508-2807e709d123"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Image/bullet.png.meta": {
@@ -12563,21 +12563,21 @@
       "time": 1717713669813.9265
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle2.prefab": {
-      "time": 1717746151948.174,
+      "time": 1717749030243.5996,
       "uuid": "13dd55e8-5532-4956-9ca1-2469acdefa4d"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle3.prefab.meta": {
       "time": 1717713669814.4382
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle3.prefab": {
-      "time": 1717745737734.4067,
+      "time": 1717749043152.0332,
       "uuid": "afefb782-fd0b-40a5-b4c3-af229866cdd8"
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle4.prefab.meta": {
       "time": 1717713669814.793
     },
     "/Users/chenyuling/Desktop/boom-final/Boomboom-final/assets/Prefabs/Particle4.prefab": {
-      "time": 1717746129400.2107,
+      "time": 1717747050414.3118,
       "uuid": "d8c32477-339e-4818-ab6c-9b673e896712"
     }
   },

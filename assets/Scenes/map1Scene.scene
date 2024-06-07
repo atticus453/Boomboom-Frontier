@@ -938,13 +938,25 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "PoolMode": true,
+    "PoolMode": false,
     "playerPrefab": {
       "__uuid__": "ebc65683-97fe-4824-b0b2-cd2d385462b4",
       "__expectedType__": "cc.Prefab"
     },
     "bulletPrefab": {
       "__uuid__": "de2faacb-743f-4ddc-bff9-5111d3f1c91a",
+      "__expectedType__": "cc.Prefab"
+    },
+    "bulletPrefab2": {
+      "__uuid__": "5d14f68b-d3a1-4e33-8f21-f486773bca00",
+      "__expectedType__": "cc.Prefab"
+    },
+    "bulletPrefab3": {
+      "__uuid__": "13dd55e8-5532-4956-9ca1-2469acdefa4d",
+      "__expectedType__": "cc.Prefab"
+    },
+    "bulletPrefab4": {
+      "__uuid__": "afefb782-fd0b-40a5-b4c3-af229866cdd8",
       "__expectedType__": "cc.Prefab"
     },
     "explodePrefab": {

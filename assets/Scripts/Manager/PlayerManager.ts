@@ -26,6 +26,14 @@ export class PlayerManager extends Component {
   @property(Prefab)
   bulletPrefab: Prefab;
 
+  @property(Prefab)
+  bulletPrefab2: Prefab;
+  @property(Prefab)
+  bulletPrefab3: Prefab;
+  @property(Prefab)
+  bulletPrefab4: Prefab;
+  
+
   @property(Prefab) explodePrefab: Prefab;
 
   @property([Node])
@@ -40,6 +48,9 @@ export class PlayerManager extends Component {
 
   private bulletPool: NodePool = null;
   private particlePool: NodePool = null;
+  private bulletPool2: NodePool = null;
+  private bulletPool3: NodePool = null;
+  private bulletPool4: NodePool = null;
 
   static userNumber: number = 0;
 
@@ -48,6 +59,7 @@ export class PlayerManager extends Component {
     this.roomId = MultiRoom.roomID;
     this.spawnPlayers();
     this.initBulletPool();
+    console.log("init bullet pool");
     this.initParticlePool();
     this.loadRoomUsers();
     this.currentUserUid = firebase.auth().currentUser.uid;
@@ -135,6 +147,22 @@ export class PlayerManager extends Component {
         let bullet = instantiate(this.bulletPrefab);
         this.bulletPool.put(bullet);
       }
+
+      this.bulletPool2 = new NodePool();
+      for (let i = 0; i < 100; i++) {
+        let bullet2 = instantiate(this.bulletPrefab2);
+        this.bulletPool2.put(bullet2);
+      }
+      this.bulletPool3 = new NodePool();
+      for (let i = 0; i < 100; i++) {
+        let bullet3 = instantiate(this.bulletPrefab3);
+        this.bulletPool3.put(bullet3);
+      }
+      this.bulletPool4 = new NodePool();
+      for (let i = 0; i < 100; i++) {
+        let bullet4 = instantiate(this.bulletPrefab4);
+        this.bulletPool4.put(bullet4);
+      }
     }
   }
   initParticlePool(){
@@ -149,13 +177,37 @@ export class PlayerManager extends Component {
   }
 
 
-  createBullet(): Node {
+  createBullet(index: number = 1): Node {
     let bullet: Node = null;
-    if (this.bulletPool.size() > 0) {
-      bullet = this.bulletPool.get();
-    } else {
-      bullet = instantiate(this.bulletPrefab);
+    // if (this.bulletPool.size() > 0) {
+    //   bullet = this.bulletPool.get();
+    // } else {
+    //   bullet = instantiate(this.bulletPrefab);
+    // }
+    let targetPool: NodePool = null;
+    let targetPrefab: Prefab = null;
+    if(index == 1){
+      targetPool = this.bulletPool;
+      targetPrefab = this.bulletPrefab;
+    }else if(index == 2){
+      targetPool = this.bulletPool2;
+      targetPrefab = this.bulletPrefab2;
+    }else if(index == 3){
+      targetPool = this.bulletPool3;
+      targetPrefab = this.bulletPrefab3;
+      
+    }else if(index == 4){
+      targetPool = this.bulletPool4;
+      targetPrefab = this.bulletPrefab4;
     }
+    if (targetPool.size() > 0) {
+      bullet = targetPool.get();
+      console.log("get bullet");
+    } else {
+      bullet = instantiate(targetPrefab);
+    }
+
+
     return bullet;
   }
   createParticle(x: number, y: number): Node {
@@ -173,7 +225,22 @@ export class PlayerManager extends Component {
     return explode;
   }
 
-  recycleBullet(bullet: Node) {
+  recycleBullet(bullet: Node, index: number = 1) {
+    let targetPool: NodePool = null;
+    let targetPrefab: Prefab = null;
+    if(index == 1){
+      targetPool = this.bulletPool;
+      targetPrefab = this.bulletPrefab;
+    }else if(index == 2){
+      targetPool = this.bulletPool2;
+      targetPrefab = this.bulletPrefab2;
+    }else if(index == 3){
+      targetPool = this.bulletPool3;
+      targetPrefab = this.bulletPrefab3;
+    }else if(index == 4){
+      targetPool = this.bulletPool4;
+      targetPrefab = this.bulletPrefab4;
+    }
     this.bulletPool.put(bullet);
   }
 
