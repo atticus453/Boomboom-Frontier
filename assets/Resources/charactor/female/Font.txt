@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+DigitalDisco
+=======
+DigitalDisco
+>>>>>>> faill
+https://www.dafont.com/digital-disco.font

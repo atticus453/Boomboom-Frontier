@@ -7,7 +7,7 @@ temp/
 local/
 build/
 profiles/
-native
+native/
 #//////////////////////////
 # NPM
 #//////////////////////////
@@ -21,4 +21,7 @@ node_modules/
 #//////////////////////////
 # WebStorm
 #//////////////////////////
-.idea/
+.idea/.DS_Store
+assets/Map/map1source/Factions/Knights/Troops/.DS_Store
+assets/Map/map1source/Factions/Knights/Troops/Archer/.DS_Store
+assets/Map/map1source/Factions/Knights/Troops/Archer/Archer + Bow/.DS_Store

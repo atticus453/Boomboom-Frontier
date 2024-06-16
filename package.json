@@ -2,6 +2,20 @@
   "name": "Mario",
   "uuid": "3ad2d884-d632-4434-867f-0b8a24aeeb3a",
   "creator": {
-    "version": "3.8.2"
+    "version": "3.8.2",
+    "registry": {
+      "remote": {}
+    },
+    "dependencies": {
+      "localization-editor": "1.0.1",
+      "plugin-import-2x": "1.1.10"
+    }
+  },
+  "dependencies": {
+    "firebase": "^10.12.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.13"
   }
 }
